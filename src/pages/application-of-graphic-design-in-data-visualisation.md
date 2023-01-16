@@ -1,4 +1,3 @@
-
 ---
 title: Application of graphic design in data visualisation
 id: 6
