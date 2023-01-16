@@ -2,8 +2,6 @@
     import Header from '$lib/components/Header.svelte'
     import Footer from '$lib/components/Footer.svelte'
     import '$lib/styles/style.css'
-
-    export const prerender = true
 </script>
 
 <Header/>

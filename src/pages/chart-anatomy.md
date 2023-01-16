@@ -24,5 +24,3 @@ From the annotations on the chart above, you can see how the building blocks of 
 - the axis labels and the horizontal grid lines provide structure for the whole of the chart
 
 This is just an example of a chart layout, and many composition and alignment variations can be used. But aligning elements and making sure there is some visual structure to a chart helps readers read and interpret it.
-
-More on the design of elements of a chart anatomy can be found in the [Design of chart elements](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8.md) module.
