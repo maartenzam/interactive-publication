@@ -12,17 +12,17 @@
   nextTitle={data.nextTitle}
 />
 <div class="tag-container">
-  <Tag tagType={'t1'} tag={data.t1} />
-  <Tag tagType={'m1'} tag={data.m1} />
+  <Tag tagType={'t1'} tag={data.t1} root={true}/>
+  <Tag tagType={'m1'} tag={data.m1} root={true}/>
   {#if data.t2 && data.m2}
     {#if data.t1 != data.t2}
-    <Tag tagType={'t2'} tag={data.t2} />
+    <Tag tagType={'t2'} tag={data.t2} root={true}/>
     {/if}
-    <Tag tagType={'m2'} tag={data.m2} />
+    <Tag tagType={'m2'} tag={data.m2} root={true}/>
   {/if}
   {#if data.metatags}
     {#each data.metatags as tag}
-      <Tag tagType={'meta'} {tag} />
+      <Tag tagType={'meta'} {tag} root={true}/>
     {/each}
   {/if}
 </div>
