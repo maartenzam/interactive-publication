@@ -1,8 +1,3 @@
----
-title: Arrangement and reading direction
-id: 3
----
-
 In languages that are read from left to right, readers usually start looking at a page in the top left corner, and they will end reading, looking and scanning in the the bottom right corner.
 
 ![Illustration of the reading order, [Maplestrip](https://commons.wikimedia.org/wiki/File:Comic_reading_order.png), CC0](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/Comic_reading_order.png)

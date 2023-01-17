@@ -6,6 +6,6 @@
 <h1>Data visualisation knowledge base</h1>
 
 {#each pages as page }
-    <p><a href={`/${page.slug}`}>{page.title}</a></p>
+    <p><a href={`/${page.slug}`}>{page.id + '. ' + page.title}</a></p>
 {/each}
 </main>

@@ -1,0 +1,3 @@
+If you read the Grid and Arrangement pages LINK, you already know that you can give more prominence to some elements in publication or in a visualisation, simply by putting it in the top left corner of the design. This is an example of creating visual hierarchy: telling the reader what to look at first, what to look at after that, and what to look at in the end.
+
+But there are many other ways of creating visual hierarchy. This module show what design variables you can use to create visual hierarchy and how you can create meaningful visual hierarchy in data visualisation design.

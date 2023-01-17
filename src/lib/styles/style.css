@@ -8,8 +8,9 @@ body {
 
 main {
   padding: 1rem;
-  margin: 2rem auto;
+  margin: auto;
   max-width: 50rem;
+  margin-bottom: 60px;
 }
 
 h1 {
@@ -17,10 +18,32 @@ h1 {
     font-weight: 700;
 }
 
-p {
-    margin-bottom: 1rem;
+p, li {
+    line-height: 1.5rem;
 }
 
 img {
     width: 100%;
+}
+
+a {
+  color: #004494;
+}
+
+p:has(img) + p {
+  font-style: italic;
+  text-align: center;
+  margin-top: -10px;
+  line-height: 1rem;
+}
+
+blockquote p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+aside {
+  background-color: #eeeeee;
+  padding: 1.2rem;
+  border-radius: 4px;
 }

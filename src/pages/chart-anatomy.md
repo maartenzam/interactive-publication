@@ -1,8 +1,3 @@
----
-title: Chart anatomy
-id: 4
----
-
 Visualisations come in many forms and tastes. But many visualisations share a lot of common building blocks. Laying them out using the topics discussed earlier in this module can help the design of your visualisation.
 
 For this, we need a good understanding of the buildings blocks, or the anatomy, of a data visualisation. Consider the line chart below.

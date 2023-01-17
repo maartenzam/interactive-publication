@@ -1,8 +1,3 @@
----
-title: The Grid
-id: 2
----
-
 Arranging elements on a page is what many people think about when they hear the term “graphic design”.  And it is true: arrangement and layout of elements are one of the most basic elements of graphic design.
 
 Almost all graphic designers use a very simple tool to guide how they arrange elements on a page: the grid. By dividing a page into a simple grid of rows and colums, and by aligning the elements of the design to the borders of the resulting cells, a designer creates a document that is easy to read, and in which the reader is guided in a natural flow along the page. No wonder that all design and publishing tools, even basic ones, have an option to turn on the grid and let elements “snap” to the grid lines.

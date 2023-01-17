@@ -1,8 +1,3 @@
----
-title: Application of graphic design in data visualisation
-id: 6
----
-
 The design concepts of the grid and reading sequence have clear implications for the design of data visualisations. Here are some ground rules.
 
 - Whenever you are using a layout or design tool to lay out elements, turn on the “**Show the grid**” option to position and size your elements. This applies both to positioning and sizing charts in a publication, as to positioning and sizing the building blocks of a visualisation. Turning on the “Snap to grid” option makes using the grid much easier.
