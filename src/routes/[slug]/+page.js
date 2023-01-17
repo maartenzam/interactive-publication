@@ -11,7 +11,7 @@ export async function load({ params }){
   const m1 = currentPage.m1
   const t2 = currentPage.t2 ? currentPage.t2 : null
   const m2 = currentPage.m2 ? currentPage.m2 : null
-  const metatags = currentPage.Metatags ? currentPage.Metatags.split(", ") : []
+  const metatags = currentPage.metatags ? currentPage.metatags.split(", ") : []
   
   const previousPage = pages.find(d => d.id == id - 1)
   const nextPage = pages.find(d => d.id == id + 1)

@@ -14,7 +14,7 @@
 <style>
     .page-navigation-container {
         position: relative;
-        height: 46px;
+        height: 72px;
     }
 	.left {
 		left: 0px;
@@ -30,5 +30,7 @@
 		line-height: 1.25rem;
 		font-weight: 700;
 		padding: 1rem;
+        min-width: 160px;
+        text-align: center;
 	}
 </style>
