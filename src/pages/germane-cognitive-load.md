@@ -1,0 +1,11 @@
+**Germane cognitive load** is the effort your audience needs to put in to give the new information a place in the mental model they have. When you introduce a data set about the gross domestic product and the productivity of countries, a seasoned economist will have a much easier job to understand the data and the patterns in it than students taking their first economy lesson in secondary school: the germane load is different for both groups.
+
+In the same way, using less common chart types can introduce germane load. You might be familiar with scatterplots and how to read them, but your audience might not. If you are not at home in the world of stocks and the stock exchange, you probably need a [guide to candlestick charts](https://www.youtube.com/watch?v=f7O30X2YOG4&ab_channel=TheDataVizCat), sit down and spend some time with the chart below before you can understand it, while a seasoned stock trader will immediately spot the days at which she should have sold or bought stock.
+
+![Source: [datavizcatalogue.com/methods/candlestick_chart.html](https://datavizcatalogue.com/methods/candlestick_chart.html)](Reducing%20the%20cognitive%20load%2070a9cb0c4c8c4f45b66f63a749d9f40e/datavizcatalogue-candlestick.svg)
+
+Source: [datavizcatalogue.com/methods/candlestick_chart.html](https://datavizcatalogue.com/methods/candlestick_chart.html)
+
+So, understanding your audience is important in data visualisation because it determines what chart types you should use, how complex the data can be to show to your audience, and what language (jargon versus simple terms) you should use.
+
+But it is not only the familiarity of your audience with the topic. Other factors play a role too: is your audience actively searching for the information you are presenting to them, or have they just stumbled accross your data visualisation on social media, for example? Do you expect your audience to have the time to sit down and study your visualisation a little bit, or do you expect them to only spend a few seconds with it? The design of your chart and the associated cognitive load should reflect these elements in the germane load.
