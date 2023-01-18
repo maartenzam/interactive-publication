@@ -1,6 +1,8 @@
 Bitmap graphics encode images as a two dimensional grid of square pixels, each storing a colour value.
 
-![An enlarged view on a bitmap image, showing the RGB values stored in 3 pixels. Source: [Gringer](https://commons.wikimedia.org/wiki/File:Rgb-raster-image.svg), CC0](File%20formats,%20dimensions%20and%20units%20d1757276a4214716bd793dd0f19ac95c/942px-Rgb-raster-image.svg.png)
+<p class='center'>
+<img src='File%20formats,%20dimensions%20and%20units%20d1757276a4214716bd793dd0f19ac95c/942px-Rgb-raster-image.svg.png' alt='An enlarged view on a bitmap image, showing the RGB values stored in 3 pixels. Source: [Gringer](https://commons.wikimedia.org/wiki/File:Rgb-raster-image.svg), CC0' class='max-600' />
+</p>
 
 An enlarged view on a bitmap image, showing the RGB values stored in 3 pixels. Source: [Gringer](https://commons.wikimedia.org/wiki/File:Rgb-raster-image.svg), CC0
 

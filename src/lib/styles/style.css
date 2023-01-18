@@ -50,7 +50,7 @@ span.internal-link a {
 
 span.internal-link:before {content: '🔗 ';}
 
-p:has(img) + p {
+p:has(img) + p, p:has(svg) + p {
   font-style: italic;
   text-align: center;
   margin-top: -10px;
@@ -68,4 +68,18 @@ aside, pre {
   padding: 1.2rem;
   border-radius: 4px;
   margin-bottom: 3rem;
+}
+
+.center {
+  text-align: center;
+}
+
+img.max-600 {
+  max-width: 600px;
+  margin: auto;
+}
+
+img.max-400 {
+  max-width: 400px;
+  margin: auto;
 }

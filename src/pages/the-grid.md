@@ -30,7 +30,9 @@ In our todays digital world, it is hard to find any publication that is not usin
 
 Source: [promopress.es](http://www.promopress.es/en/diseno-grafico-101580304/page-design-1120802-000-0001.html)
 
-![A poster showing how the grid is used for its layout. Source: [GearedBull](https://commons.wikimedia.org/wiki/File:Grid2aib.svg), public domain](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/grid-fade.gif)
+<p class="center">
+<img src="Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/grid-fade.gif" class="max-600" alt="A poster showing how the grid is used for its layout. Source: [GearedBull](https://commons.wikimedia.org/wiki/File:Grid2aib.svg), public domain"/>
+</p>
 
 A poster showing how the grid is used for its layout. Source: [GearedBull](https://commons.wikimedia.org/wiki/File:Grid2aib.svg), public domain
 
@@ -44,17 +46,33 @@ Responsive grids are a common design pattern in modern web design. Source: [code
 
 The grid in a design is usually invisible, otherwise you get a “boxy” design.
 
-![vermont-without-grid@2x.png](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/vermont-without-grid2x.png)
+<p class="center">
+<img src="Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/vermont-without-grid2x.png" class="max-600"/>
+</p>
 
-![Grid2aib.svg.png](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/Grid2aib.svg.png)
+<p class="center">
+<img src="Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/Grid2aib.svg.png" class="max-600"/>
+</p>
+
+Source: [GearedBull](https://commons.wikimedia.org/wiki/File:Grid2aib.svg), public domain 
 
 This is the reason why you usually don’t want a frame around your visualisation when you embed it in a publication.
 
-![chart-with-border@2x.png](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/chart-with-border2x.png)
+<p class="center">
+<img src="Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/chart-with-border2x.png" class="max-600"/>
+</p>
+
+Source: Maarten Lambrechts, CC-BY-SA 4.0
 
 A visualisation without a border blends in better into your publication:
 
-![chart-without-border@2x.png](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/chart-without-border2x.png)
+<p class="center">
+<img src="Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/chart-without-border2x.png" class="max-600"/>
+</p>
+
+
+
+Source: Maarten Lambrechts, CC-BY-SA 4.0
 
 The same applies to the frame around the plotting area of a visualisation (see the “Anatomy of a chart” section further below).
 

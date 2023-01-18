@@ -12,31 +12,41 @@ Source: Maarten Lambrechts, CC BY 4.0
 
 Notice that the y axis of this chart does not have an axis line. Many data visualisation tools draw axis lines by default. But in many cases, these axis lines do not serve any real purpose, and they can be left out without any problem. This is especially true for bar charts, from which axis lines can be removed without any consequences.
 
-![A comparison of a bar chart with and without axis line. Source: Maarten Lambrechts, CC BY 4.0](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/bars-axis-line.gif)
+<p class='center'>
+<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/bars-axis-line.gif' alt='A comparison of a bar chart with and without axis line. Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />
+</p>
 
 A comparison of a bar chart with and without axis line. Source: Maarten Lambrechts, CC BY 4.0
 
 Axis labels, however, are indispensable to interpret the data on a visualisation. Without axis labels, a visualisation is meaningless.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/bars-no-labels2x-100.jpg)
+<p class='center'>
+<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/bars-no-labels2x-100.jpg' alt='Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />
+</p>
 
 Source: Maarten Lambrechts, CC BY 4.0
 
 The only exception to this are visualisations where enough data points are labelled so that axis labels are not needed.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/bars-data-labels2x-100.jpg)
+<p class='center'>
+<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/bars-data-labels2x-100.jpg' alt='Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />
+</p>
 
 Source: Maarten Lambrechts, CC BY 4.0
 
 Another example of a chart type that doesn’t require axis labels, is a slope chart.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/slopechart2x.png)
+<p class='center'>
+<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/slopechart2x.png' alt='Source: Maarten Lambrechts, CC BY 4.0' class='max-400' />
+</p>
 
 Source: Maarten Lambrechts, CC BY 4.0
 
 Many visualisation tools put the y axis on the left of charts. This creates space for labels on the right side of the chart. But on line charts showing time series data, the most interesting values on the chart are usually the most recent data. So when no labelling is applied, it makes sense to move the y axis to the right of the chart.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/axis-right2x.png)
+<p class='center'>
+<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/axis-right2x.png' alt='Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />
+</p>
 
 Source: Maarten Lambrechts, CC BY 4.0
 
@@ -70,7 +80,9 @@ Source: Maarten Lambrechts, CC BY 4.0
 
 A solution to this problem is a technique called direct labelling: integrating the names of elements and categories in the chart and positioning their labels next to the elements. This removes the drawbacks separate legends suffer from.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/eu272x.png)
+<p class='center'>
+<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/eu272x.png' alt='Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />
+</p>
 
 Source: Maarten Lambrechts, CC BY 4.0
 

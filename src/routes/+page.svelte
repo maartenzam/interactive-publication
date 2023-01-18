@@ -2,7 +2,7 @@
     import pages from '$lib/data/pages.js'
     import Tag from '$lib/components/Tag.svelte';
 
-    const done = 23
+    const done = 27
 </script>
 
 <main>

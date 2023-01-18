@@ -60,7 +60,9 @@ The use of shadows in data visualisation is rather limited, and mostly used in u
 
 The layering of the text, on top of the graphic, is reinforced by a subtle shadow. Source: [The near future of global poverty](https://datatopics.worldbank.org/sdgatlas/goal-1-no-poverty/), Sustainable Development Goals Atlas 2020, The Worldbank
 
-![The map legend in the top right corner uses a heavy shadow, and appears to be quite elevated in comparison to the map. Notice that the white circle symbols also have a little shadow. Source: [Russia’s military is again on the move, adding pressure on Ukraine as invasion fears grow](https://www.washingtonpost.com/world/2022/01/20/russia-ukraine-military-satellite/), Washington Post](Visual%20hierarchy%2032d60a2016ea4334ae0d7e2395559439/map-legend-shadow-wapo.jpeg)
+<p class="center">
+<img src="Visual%20hierarchy%2032d60a2016ea4334ae0d7e2395559439/map-legend-shadow-wapo.jpeg" alt="The map legend in the top right corner uses a heavy shadow, and appears to be quite elevated in comparison to the map. Notice that the white circle symbols also have a little shadow. Source: [Russia’s military is again on the move, adding pressure on Ukraine as invasion fears grow](https://www.washingtonpost.com/world/2022/01/20/russia-ukraine-military-satellite/), Washington Post" class="max-600">
+</p>
 
 The map legend in the top right corner uses a heavy shadow, and appears to be quite elevated in comparison to the map. Notice that the white circle symbols also have a little shadow. Source: [Russia’s military is again on the move, adding pressure on Ukraine as invasion fears grow](https://www.washingtonpost.com/world/2022/01/20/russia-ukraine-military-satellite/), Washington Post
 
