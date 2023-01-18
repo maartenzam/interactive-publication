@@ -76,10 +76,18 @@ aside, pre {
 
 img.max-600 {
   max-width: 600px;
-  margin: auto;
 }
 
 img.max-400 {
   max-width: 400px;
-  margin: auto;
+}
+
+img.max-50 {
+  max-width: 50px;
+}
+
+.coloured-span {
+  padding: 3px;
+  border-radius: 2px;
+  color: white;
 }
