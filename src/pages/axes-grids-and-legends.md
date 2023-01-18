@@ -1,6 +1,6 @@
 To give the reader some guides to interpret the data and read data values in a chart, you can provide axes, grids and legends.
 
-### Axes
+## Axes
 
 Axes let readers assess the position and/or size of data marks. If a chart uses cartesian coordinates, the x axis is the horizontal axis and the y axis is the vertical axis.
 
@@ -48,13 +48,13 @@ As a rule of thumb, numerical and date axes should at least have 2 labels and up
 - the length of the labels: too many long labels will cause labels to overlap. See the [Numbers and number formatting](Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3.md) module for techniques to shorten long time and numerical labels
 - the resolution you want the reader to distinguish values at: if for example on a line chart with yearly values it is really important to see which value corresponds to which year, you could decide to label every year and draw a grid line for each of the years
 
-### Grid
+## Grid
 
 In order to improve the legibility of the data values, you can choose to attach a grid line to each of the axis labels. But remember that grid lines, and all other elements of axes, are there to support the reading of the data. So they shouldn’t compete for attention with the graphical elements representing the data.
 
 It is good practice to give all supporting elements on a chart a grey colour. **The grid lines especially need to be muted**, as they run across the whole visualisation and often overlap with the data elements. A (light) grey colour, some opacity, a small stroke width and dashing the grid lines are all techniques to mute the chart grid.
 
-### Legends
+## Legends
 
 Another suboptimal behaviour in chart tools defaults, is the creation of separate legends to identify colours on a chart.
 

@@ -1,4 +1,4 @@
-Raster graphics are made of pixels. But pixels on themselves have no physical size: a pixel is just a reference to a row and a column, with the associated colour of the cell in the raster. Pixels only get a size when they are displayed on screen or on paper.
+All <span class="internal-link">[raster images](raster-images)</span> are made out of pixels. But pixels on themselves have no physical size: a pixel is just a reference to a row and a column, with the associated colour of the cell in the raster. Pixels only get a size when they are displayed on screen or on paper.
 
 For digital displays, the factors at play are the resolution, size and pixel density. The **resolution** of a display is the number of rows and columns of pixels a screen can display. For example, a 1080p display has a resolution of 1.920 x 1.080 pixels, while a 4K display doubles that in each direction (3.840 x 2.160 pixels).
 

@@ -1,6 +1,6 @@
-But let’s start with the canvas charts are built on top of: the chart background. Usually the chart background is white, which makes it easy to guarantee that all elements of a chart have enough contrast with the background to be read easily, even the smaller elements and elements in muted colours like grey.
+The chart canvas is the basis on which charts are built on top of: the chart background. Usually the chart background is white, which makes it easy to guarantee that all elements of a chart have enough contrast with the background to be read easily, even the smaller elements and elements in muted colours like grey.
 
-If you use a non-white background, make sure to check the contrast between the background and the lighter elements on your chart (see the [Colour: the basics](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de.md) module for some tools you can use for that).
+If you use a non-white background, make sure to check the contrast between the background and the lighter elements on your chart (see <span class="internal-link">[Colour contrast](colour-contrast)</span>).
 
 When embedding a visualisation in a publication, it doesn’t need a frame around it: this creates a “boxy” design. Charts without a border blend in better.
 

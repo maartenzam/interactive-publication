@@ -12,7 +12,7 @@ Bitmap images have clear advantages: they are ubiquitous in the online world, mo
 
 They are also easily compressed. When an image contains large areas of the same or similar colours, compression algorithms can pack that information into a smaller file. Compression can be lossless, so that the original image can be reproduced, or compression can be lossy, in which the original image cannot be fully reconstructed from the compressed file.
 
-### Bitmap file formats
+## Bitmap file formats
 
 PNG images make use of lossless compression. PNG stands for Portable Network Graphics, as the file format was developed for transferring images over the internet. PNG files are able to encode transparency.
 

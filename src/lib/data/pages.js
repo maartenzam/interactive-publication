@@ -31,7 +31,7 @@ const pages = [
         "t1": "Design principles",
         "m2": "Visual Hierarchy",
         "t2": "Design principles",
-        "metatags": "Arrangement",
+        "metatags": "",
         "links": "",
         "undefined": ""
     },
@@ -89,9 +89,9 @@ const pages = [
         "title": "Visual hierarchy: x & y positioning",
         "m1": "Visual hierarchy",
         "t1": "Design principles",
-        "m2": "",
-        "t2": "",
-        "metatags": "Arrangement",
+        "m2": "Arrangement and reading direction",
+        "t2": "Design principles",
+        "metatags": "",
         "links": "",
         "undefined": ""
     },
@@ -103,7 +103,7 @@ const pages = [
         "t1": "Design principles",
         "m2": "",
         "t2": "",
-        "metatags": "Arrangement, Chart layers",
+        "metatags": "Chart layers",
         "links": "",
         "undefined": ""
     },
@@ -145,6 +145,18 @@ const pages = [
     },
     {
         "id": 13,
+        "slug": "design-of-chart-elements-introduction",
+        "title": "Design of chart elements: introduction",
+        "m1": "Chart elements",
+        "t1": "Design principles",
+        "m2": "",
+        "t2": "",
+        "metatags": "Introduction, Chart anatomy",
+        "links": "",
+        "undefined": ""
+    },
+    {
+        "id": 14,
         "slug": "chart-canvas",
         "title": "Chart canvas",
         "m1": "Chart elements",
@@ -156,7 +168,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 14,
+        "id": 15,
         "slug": "axes-grids-and-legends",
         "title": "Axes, grids and legends",
         "m1": "Chart elements",
@@ -168,7 +180,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 15,
+        "id": 16,
         "slug": "chart-junk-and-data-ink-origins",
         "title": "Chart junk and data ink: origins",
         "m1": "Chart junk",
@@ -180,7 +192,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 16,
+        "id": 17,
         "slug": "chart-junk-and-data-ink-minimalistic-vs-rich-design",
         "title": "Chart junk and data ink: minimalistic vs rich design",
         "m1": "Chart junk",
@@ -192,7 +204,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 17,
+        "id": 18,
         "slug": "chart-junk-and-data-ink-counter-movement",
         "title": "Chart junk and data ink: counter movement",
         "m1": "Chart junk",
@@ -204,7 +216,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 18,
+        "id": 19,
         "slug": "bitmap-images",
         "title": "Bitmap images",
         "m1": "Graphic file formats",
@@ -216,7 +228,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 19,
+        "id": 20,
         "slug": "vector-images",
         "title": "Vector images",
         "m1": "Graphic file formats",
@@ -228,7 +240,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 20,
+        "id": 21,
         "slug": "bitmap-versus-vector-images",
         "title": "Bitmap versus vector images",
         "m1": "Graphic file formats",
@@ -240,7 +252,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 21,
+        "id": 22,
         "slug": "graphic-file-formats-units",
         "title": "Graphic file formats: units",
         "m1": "Graphic file formats",
@@ -252,7 +264,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 22,
+        "id": 23,
         "slug": "file-formats-guidelines",
         "title": "File formats: guidelines",
         "m1": "Graphic file formats",
@@ -264,7 +276,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 23,
+        "id": 24,
         "slug": "natural-aspect-ratios",
         "title": "Natural aspect ratios",
         "m1": "Size and aspect ratio",
@@ -276,7 +288,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 24,
+        "id": 25,
         "slug": "line-chart-aspect-ratios",
         "title": "Line chart aspect ratios",
         "m1": "Size and aspect ratio",
@@ -288,7 +300,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 25,
+        "id": 26,
         "slug": "scaling-charts",
         "title": "Scaling charts",
         "m1": "Size and aspect ratio",
@@ -300,7 +312,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 26,
+        "id": 27,
         "slug": "what-is-colour",
         "title": "What is colour?",
         "m1": "Colour",
@@ -312,7 +324,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 27,
+        "id": 28,
         "slug": "describing-colours-rgb",
         "title": "Describing colours: RGB",
         "m1": "Colour",
@@ -324,7 +336,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 28,
+        "id": 29,
         "slug": "describing-colours-hsl",
         "title": "Describing colours: HSL",
         "m1": "Colour",
@@ -336,7 +348,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 29,
+        "id": 30,
         "slug": "describing-colours-cmyk",
         "title": "Describing colours: CMYK",
         "m1": "Colour",
@@ -348,7 +360,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 30,
+        "id": 31,
         "slug": "relationship-between-rgb-hsl-and-cmyk",
         "title": "Relationship between RGB, HSL and CMYK",
         "m1": "Colour",
@@ -360,7 +372,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 31,
+        "id": 32,
         "slug": "colour-harmonies",
         "title": "Colour harmonies",
         "m1": "Colour",
@@ -372,7 +384,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 32,
+        "id": 33,
         "slug": "contrast",
         "title": "Contrast",
         "m1": "Colour",
@@ -384,7 +396,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 33,
+        "id": 34,
         "slug": "figureground",
         "title": "Figure-ground",
         "m1": "Colour",
@@ -396,7 +408,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 34,
+        "id": 35,
         "slug": "colour-connotations",
         "title": "Colour connotations",
         "m1": "Colour",
@@ -408,7 +420,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 35,
+        "id": 36,
         "slug": "colour-for-categories",
         "title": "Colour for categories",
         "m1": "Colour",
@@ -420,7 +432,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 36,
+        "id": 37,
         "slug": "colour-for-numerical-data",
         "title": "Colour for numerical data",
         "m1": "Colour",
@@ -432,7 +444,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 37,
+        "id": 38,
         "slug": "endrainbow",
         "title": "EndRainbow",
         "m1": "Colour",
@@ -444,7 +456,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 38,
+        "id": 39,
         "slug": "perceptual-uniformity",
         "title": "Perceptual uniformity",
         "m1": "Colour",
@@ -456,7 +468,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 39,
+        "id": 40,
         "slug": "colour-scales",
         "title": "Colour scales",
         "m1": "Colour",
@@ -468,7 +480,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 40,
+        "id": 41,
         "slug": "colour-guidelines",
         "title": "Colour: guidelines",
         "m1": "Colour",
@@ -480,7 +492,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 41,
+        "id": 42,
         "slug": "colour-tools",
         "title": "Colour: Tools",
         "m1": "Colour",
@@ -492,7 +504,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 42,
+        "id": 43,
         "slug": "number-rounding",
         "title": "Number rounding",
         "m1": "Numbers",
@@ -504,7 +516,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 43,
+        "id": 44,
         "slug": "number-formatting",
         "title": "Number formatting",
         "m1": "Numbers",
@@ -516,7 +528,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 44,
+        "id": 45,
         "slug": "date-formatting",
         "title": "Date formatting",
         "m1": "Dates",
@@ -528,7 +540,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 45,
+        "id": 46,
         "slug": "serif-vs-sans-serif",
         "title": "Serif vs Sans serif",
         "m1": "Typography",
@@ -540,7 +552,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 46,
+        "id": 47,
         "slug": "font-connotations",
         "title": "Font connotations",
         "m1": "Typography",
@@ -552,7 +564,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 47,
+        "id": 48,
         "slug": "fonttypefaces",
         "title": "Font/typefaces",
         "m1": "Typography",
@@ -564,7 +576,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 48,
+        "id": 49,
         "slug": "condensed-fonts",
         "title": "Condensed fonts",
         "m1": "Typography",
@@ -576,7 +588,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 49,
+        "id": 50,
         "slug": "small-fonts",
         "title": "Small fonts",
         "m1": "Typography",
@@ -588,7 +600,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 50,
+        "id": 51,
         "slug": "fonts-for-numbers",
         "title": "Fonts for numbers",
         "m1": "Typography",
@@ -600,7 +612,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 51,
+        "id": 52,
         "slug": "other-design-variables",
         "title": "Other design variables",
         "m1": "Typography",
@@ -612,7 +624,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 52,
+        "id": 53,
         "slug": "typography-in-accessibility",
         "title": "Typography in accessibility",
         "m1": "Typography",
@@ -624,7 +636,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 53,
+        "id": 54,
         "slug": "colour-in-accessibility",
         "title": "Colour in accessibility",
         "m1": "Colour",
@@ -636,7 +648,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 54,
+        "id": 55,
         "slug": "text-on-images",
         "title": "Text on images",
         "m1": "Graphic file formats",
@@ -648,7 +660,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 55,
+        "id": 56,
         "slug": "testing-accessibility",
         "title": "Testing accessibility",
         "m1": "Testing",
@@ -660,7 +672,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 56,
+        "id": 57,
         "slug": "scannability",
         "title": "Scannability",
         "m1": "Tables",
@@ -672,7 +684,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 57,
+        "id": 58,
         "slug": "clutter",
         "title": "Clutter",
         "m1": "Tables",
@@ -684,7 +696,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 58,
+        "id": 59,
         "slug": "integrating-visualisations",
         "title": "Integrating visualisations",
         "m1": "Tables",
@@ -696,7 +708,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 59,
+        "id": 60,
         "slug": "interactive-tables",
         "title": "Interactive tables",
         "m1": "Tables",
@@ -708,7 +720,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 60,
+        "id": 61,
         "slug": "storytelling-and-data-visualisation",
         "title": "Storytelling and data visualisation",
         "m1": "Storytelling",
@@ -720,7 +732,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 61,
+        "id": 62,
         "slug": "can-a-chart-tell-a-story",
         "title": "Can a chart tell a story?",
         "m1": "Storytelling",
@@ -732,7 +744,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 62,
+        "id": 63,
         "slug": "when-data-equals-people",
         "title": "When data equals people",
         "m1": "Storytelling",
@@ -744,7 +756,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 63,
+        "id": 64,
         "slug": "when-data-relates-to-people",
         "title": "When data relates to people",
         "m1": "Storytelling",
@@ -756,7 +768,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 64,
+        "id": 65,
         "slug": "when-data-needs-to-made-relatable-to-people",
         "title": "When data needs to made relatable to people",
         "m1": "Storytelling",
@@ -768,7 +780,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 65,
+        "id": 66,
         "slug": "data-communication",
         "title": "Data communication",
         "m1": "Cognitive load",
@@ -780,7 +792,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 66,
+        "id": 67,
         "slug": "cognitive-load-introduction",
         "title": "Cognitive load introduction",
         "m1": "Cognitive load",
@@ -792,7 +804,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 67,
+        "id": 68,
         "slug": "intrinsic-load",
         "title": "Intrinsic load",
         "m1": "Cognitive load",
@@ -804,7 +816,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 68,
+        "id": 69,
         "slug": "extraneous-load",
         "title": "Extraneous load",
         "m1": "Cognitive load",
@@ -816,7 +828,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 69,
+        "id": 70,
         "slug": "germane-load",
         "title": "Germane load",
         "m1": "Cognitive load",
@@ -828,7 +840,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 70,
+        "id": 71,
         "slug": "cognitive-load-and-data-storytelling",
         "title": "Cognitive load and data storytelling",
         "m1": "Cognitive load",
@@ -840,7 +852,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 71,
+        "id": 72,
         "slug": "cognitive-load-concepts-for-storytelling",
         "title": "Cognitive load concepts for storytelling",
         "m1": "Cognitive load",
@@ -852,7 +864,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 72,
+        "id": 73,
         "slug": "the-importance-of-chart-titles",
         "title": "The importance of chart titles",
         "m1": "Chart titles",
@@ -864,7 +876,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 73,
+        "id": 74,
         "slug": "guidelines-for-visualisation-titles",
         "title": "Guidelines for visualisation titles",
         "m1": "Chart titles",
@@ -876,7 +888,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 74,
+        "id": 75,
         "slug": "more-guidelines-for-visualisation-titles",
         "title": "More guidelines for visualisation titles",
         "m1": "Chart titles",
@@ -888,7 +900,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 75,
+        "id": 76,
         "slug": "visual-annotations-introduction",
         "title": "Visual annotations introduction",
         "m1": "Visual annotations",
@@ -900,7 +912,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 76,
+        "id": 77,
         "slug": "visual-annotations-highlights",
         "title": "Visual annotations: highlights",
         "m1": "Visual annotations",
@@ -912,7 +924,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 77,
+        "id": 78,
         "slug": "visual-annotations-aggregation-and-distribution",
         "title": "Visual annotations: aggregation and distribution",
         "m1": "Visual annotations",
@@ -924,7 +936,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 78,
+        "id": 79,
         "slug": "visual-annotations-icons-and-images",
         "title": "Visual annotations: icons and images",
         "m1": "Visual annotations",
@@ -936,7 +948,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 79,
+        "id": 80,
         "slug": "text-annotations-introduction",
         "title": "Text annotations introduction",
         "m1": "Text annotations",
@@ -948,7 +960,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 80,
+        "id": 81,
         "slug": "text-annotation-anatomy",
         "title": "Text annotation anatomy",
         "m1": "Text annotations",
@@ -960,7 +972,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 81,
+        "id": 82,
         "slug": "text-annotations-stories",
         "title": "Text annotations stories",
         "m1": "Text annotations",
@@ -972,7 +984,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 82,
+        "id": 83,
         "slug": "labels-and-axis-annotations",
         "title": "Labels and axis annotations",
         "m1": "Text annotations",
@@ -984,7 +996,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 83,
+        "id": 84,
         "slug": "responsive-annotations",
         "title": "Responsive annotations",
         "m1": "Text annotations",
@@ -996,7 +1008,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 84,
+        "id": 85,
         "slug": "choosing-a-chart-type-for-your-story",
         "title": "Choosing a chart type for your story",
         "m1": "Choosing charts",
@@ -1008,7 +1020,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 85,
+        "id": 86,
         "slug": "data-types",
         "title": "Data types",
         "m1": "Choosing charts",
@@ -1020,7 +1032,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 86,
+        "id": 87,
         "slug": "message",
         "title": "Message",
         "m1": "Choosing charts",
@@ -1032,7 +1044,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 87,
+        "id": 88,
         "slug": "visual-vocabulary",
         "title": "Visual vocabulary",
         "m1": "Choosing charts",
@@ -1044,7 +1056,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 88,
+        "id": 89,
         "slug": "data-size",
         "title": "Data size",
         "m1": "Choosing charts",
@@ -1056,7 +1068,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 89,
+        "id": 90,
         "slug": "audience",
         "title": "Audience",
         "m1": "Choosing charts",
@@ -1068,7 +1080,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 90,
+        "id": 91,
         "slug": "media",
         "title": "Media",
         "m1": "Choosing charts",
@@ -1080,7 +1092,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 91,
+        "id": 92,
         "slug": "how-to-introduce-less-common-chart-types",
         "title": "How to introduce less common chart types",
         "m1": "Less common chart types",
@@ -1092,7 +1104,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 92,
+        "id": 93,
         "slug": "the-above-chart",
         "title": "The above chart",
         "m1": "Less common chart types",
@@ -1104,7 +1116,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 93,
+        "id": 94,
         "slug": "scatter-plots",
         "title": "Scatter plots",
         "m1": "Less common chart types",
@@ -1116,7 +1128,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 94,
+        "id": 95,
         "slug": "logarithmic-scales",
         "title": "Logarithmic scales",
         "m1": "Less common chart types",
@@ -1128,7 +1140,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 95,
+        "id": 96,
         "slug": "more-uncommon-charts",
         "title": "More uncommon charts",
         "m1": "Less common chart types",
@@ -1140,7 +1152,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 96,
+        "id": 97,
         "slug": "narrative-visualisation-genres-introduction",
         "title": "Narrative visualisation genres introduction",
         "m1": "Narrative visualisation genres",
@@ -1152,7 +1164,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 97,
+        "id": 98,
         "slug": "magazine-style-narrative-visualisation",
         "title": "Magazine style narrative visualisation",
         "m1": "Narrative visualisation genres",
@@ -1164,7 +1176,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 98,
+        "id": 99,
         "slug": "annotated-chart-narrative-visualisation",
         "title": "Annotated chart narrative visualisation",
         "m1": "Narrative visualisation genres, Text annotations",
@@ -1176,7 +1188,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 99,
+        "id": 100,
         "slug": "partitioned-poster-narrative-visualisation",
         "title": "Partitioned poster narrative visualisation",
         "m1": "Narrative visualisation genres",
@@ -1188,7 +1200,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 100,
+        "id": 101,
         "slug": "flow-chart-narrative-visualisation",
         "title": "Flow chart narrative visualisation",
         "m1": "Narrative visualisation genres",
@@ -1200,7 +1212,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 101,
+        "id": 102,
         "slug": "comic-strip-narrative-visualisation",
         "title": "Comic strip narrative visualisation",
         "m1": "Narrative visualisation genres",
@@ -1212,7 +1224,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 102,
+        "id": 103,
         "slug": "slide-show-narrative-visualisation",
         "title": "Slide show narrative visualisation",
         "m1": "Narrative visualisation genres",
@@ -1224,7 +1236,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 103,
+        "id": 104,
         "slug": "film-video-and-animation",
         "title": "Film, video and animation",
         "m1": "Narrative visualisation genres",
@@ -1236,7 +1248,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 104,
+        "id": 105,
         "slug": "interactive-story-structures-introduction",
         "title": "Interactive story structures introduction",
         "m1": "Interactive story structures",
@@ -1248,7 +1260,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 105,
+        "id": 106,
         "slug": "martini-glass-structure",
         "title": "Martini glass structure",
         "m1": "Interactive story structures",
@@ -1260,7 +1272,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 106,
+        "id": 107,
         "slug": "interactive-slide-show-structure",
         "title": "Interactive slide show structure",
         "m1": "Interactive story structures",
@@ -1272,7 +1284,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 107,
+        "id": 108,
         "slug": "drilldown-story-structure",
         "title": "Drill-down story structure",
         "m1": "Interactive story structures",
@@ -1284,7 +1296,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 108,
+        "id": 109,
         "slug": "data-story-patterns-introduction",
         "title": "Data story patterns introduction",
         "m1": "Data story patterns",
@@ -1296,7 +1308,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 109,
+        "id": 110,
         "slug": "evolution-over-time",
         "title": "Evolution over time",
         "m1": "Data story patterns",
@@ -1308,7 +1320,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 110,
+        "id": 111,
         "slug": "intersections",
         "title": "Intersections",
         "m1": "Data story patterns",
@@ -1320,7 +1332,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 111,
+        "id": 112,
         "slug": "correlations",
         "title": "Correlations",
         "m1": "Data story patterns",
@@ -1332,7 +1344,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 112,
+        "id": 113,
         "slug": "outliers",
         "title": "Outliers",
         "m1": "Data story patterns",
@@ -1344,7 +1356,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 113,
+        "id": 114,
         "slug": "components",
         "title": "Components",
         "m1": "Data story patterns",
@@ -1356,7 +1368,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 114,
+        "id": 115,
         "slug": "data-view-patterns-introduction",
         "title": "Data view patterns introduction",
         "m1": "Data view patterns",
@@ -1368,7 +1380,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 115,
+        "id": 116,
         "slug": "contrasting-views",
         "title": "Contrasting views",
         "m1": "Data view patterns",
@@ -1380,7 +1392,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 116,
+        "id": 117,
         "slug": "zooming-in",
         "title": "Zooming in",
         "m1": "Data view patterns",
@@ -1392,7 +1404,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 117,
+        "id": 118,
         "slug": "zooming-out",
         "title": "Zooming out",
         "m1": "Data view patterns",
@@ -1404,7 +1416,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 118,
+        "id": 119,
         "slug": "context-switch",
         "title": "Context switch",
         "m1": "Data view patterns",
@@ -1416,7 +1428,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 119,
+        "id": 120,
         "slug": "small-multiples",
         "title": "Small multiples",
         "m1": "Data view patterns",
@@ -1428,7 +1440,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 120,
+        "id": 121,
         "slug": "break-conventions",
         "title": "Break conventions",
         "m1": "Data view patterns",
@@ -1440,7 +1452,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 121,
+        "id": 122,
         "slug": "questions-and-answers",
         "title": "Questions and answers",
         "m1": "Narrative pattern",
@@ -1452,7 +1464,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 122,
+        "id": 123,
         "slug": "repetition",
         "title": "Repetition",
         "m1": "Narrative pattern",
@@ -1464,7 +1476,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 123,
+        "id": 124,
         "slug": "building-it-up",
         "title": "Building it up",
         "m1": "Narrative pattern",
@@ -1476,7 +1488,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 124,
+        "id": 125,
         "slug": "gradual-visual-reveal",
         "title": "Gradual visual reveal",
         "m1": "Narrative pattern",
@@ -1488,7 +1500,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 125,
+        "id": 126,
         "slug": "concretising",
         "title": "Concretising",
         "m1": "Engagement pattern",
@@ -1500,7 +1512,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 126,
+        "id": 127,
         "slug": "you-draw-it",
         "title": "You draw it",
         "m1": "Engagement pattern",
@@ -1512,7 +1524,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 127,
+        "id": 128,
         "slug": "show-the-humans-behind-the-dots",
         "title": "Show the humans behind the dots",
         "m1": "Engagement pattern",
@@ -1524,7 +1536,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 128,
+        "id": 129,
         "slug": "the-inverted-pyramid",
         "title": "The inverted pyramid",
         "m1": "Journalistic techniques",
@@ -1536,7 +1548,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 129,
+        "id": 130,
         "slug": "informationseeking-mantra",
         "title": "Information-seeking mantra",
         "m1": "Journalistic techniques",
@@ -1548,7 +1560,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 130,
+        "id": 131,
         "slug": "anthropographics",
         "title": "Anthropographics",
         "m1": "Journalistic techniques",
@@ -1560,7 +1572,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 131,
+        "id": 132,
         "slug": "put-in-real-people",
         "title": "Put in real people",
         "m1": "Journalistic techniques",
@@ -1572,7 +1584,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 132,
+        "id": 133,
         "slug": "putting-the-you-in-the-headline",
         "title": "Putting the \"you\" in the headline",
         "m1": "Journalistic techniques",
@@ -1584,7 +1596,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 133,
+        "id": 134,
         "slug": "cliffhangers",
         "title": "Cliffhangers",
         "m1": "Journalistic techniques",
@@ -1596,7 +1608,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 134,
+        "id": 135,
         "slug": "data-comics",
         "title": "Data comics",
         "m1": "Combining with other media",
@@ -1608,7 +1620,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 135,
+        "id": 136,
         "slug": "drawings-and-illustrations",
         "title": "Drawings and illustrations",
         "m1": "Combining with other media",
@@ -1620,7 +1632,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 136,
+        "id": 137,
         "slug": "layout",
         "title": "Layout",
         "m1": "Combining with other media",
@@ -1632,7 +1644,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 137,
+        "id": 138,
         "slug": "photoviz",
         "title": "Photoviz",
         "m1": "Combining with other media",
@@ -1644,7 +1656,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 138,
+        "id": 139,
         "slug": "sound",
         "title": "Sound",
         "m1": "Combining with other media",
@@ -1656,7 +1668,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 139,
+        "id": 140,
         "slug": "video",
         "title": "Video",
         "m1": "Combining with other media",
@@ -1668,7 +1680,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 140,
+        "id": 141,
         "slug": "scrollytelling-introduction",
         "title": "Scrollytelling introduction",
         "m1": "Scrollytelling",
@@ -1680,7 +1692,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 141,
+        "id": 142,
         "slug": "graphic-sequence",
         "title": "Graphic sequence",
         "m1": "Scrollytelling",
@@ -1692,7 +1704,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 142,
+        "id": 143,
         "slug": "animated-transition",
         "title": "Animated transition",
         "m1": "Scrollytelling",
@@ -1704,7 +1716,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 143,
+        "id": 144,
         "slug": "pan-and-zoom",
         "title": "Pan and zoom",
         "m1": "Scrollytelling",
@@ -1716,7 +1728,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 144,
+        "id": 145,
         "slug": "moviescroller",
         "title": "Moviescroller",
         "m1": "Scrollytelling",
@@ -1728,7 +1740,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 145,
+        "id": 146,
         "slug": "showandplay",
         "title": "Show-and-Play",
         "m1": "Scrollytelling",
@@ -1740,7 +1752,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 146,
+        "id": 147,
         "slug": "scrollytelling-design-variations",
         "title": "Scrollytelling design variations",
         "m1": "Scrollytelling",
@@ -1752,7 +1764,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 147,
+        "id": 148,
         "slug": "building-scrollytelling-articles",
         "title": "Building scrollytelling articles",
         "m1": "Scrollytelling",
@@ -1764,7 +1776,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 148,
+        "id": 149,
         "slug": "pitfalls-in-data-3-stories",
         "title": "Pitfalls in data: 3 stories",
         "m1": "Pitfalls in metadata",
@@ -1776,7 +1788,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 149,
+        "id": 150,
         "slug": "what-metadata-should-contain",
         "title": "What metadata should contain",
         "m1": "Pitfalls in metadata",
@@ -1788,7 +1800,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 150,
+        "id": 151,
         "slug": "the-mean-versus-the-median",
         "title": "The mean versus the median",
         "m1": "Pitfalls in statistics",
@@ -1800,7 +1812,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 151,
+        "id": 152,
         "slug": "distributions",
         "title": "Distributions",
         "m1": "Pitfalls in statistics",
@@ -1812,7 +1824,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 152,
+        "id": 153,
         "slug": "correlations",
         "title": "Correlations",
         "m1": "Pitfalls in statistics",
@@ -1824,7 +1836,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 153,
+        "id": 154,
         "slug": "percentages-versus-percentage-points",
         "title": "Percentages versus percentage points",
         "m1": "Pitfalls in statistics",
@@ -1836,7 +1848,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 154,
+        "id": 155,
         "slug": "normalising-data",
         "title": "Normalising data",
         "m1": "Pitfalls in statistics",
@@ -1848,7 +1860,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 155,
+        "id": 156,
         "slug": "correlation-is-not-causation",
         "title": "Correlation is not causation",
         "m1": "Pitfalls in statistics",
@@ -1860,7 +1872,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 156,
+        "id": 157,
         "slug": "ecological-fallacy",
         "title": "Ecological fallacy",
         "m1": "Pitfalls in statistics",
@@ -1872,7 +1884,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 157,
+        "id": 158,
         "slug": "small-sample-size-effect",
         "title": "Small sample size effect",
         "m1": "Pitfalls in statistics",
@@ -1884,7 +1896,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 158,
+        "id": 159,
         "slug": "comparing-apples-to-oranges",
         "title": "Comparing apples to oranges",
         "m1": "Pitfalls in statistics",
@@ -1896,7 +1908,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 159,
+        "id": 160,
         "slug": "absolute-and-relative-probabilities",
         "title": "Absolute and relative probabilities",
         "m1": "Pitfalls in statistics",
@@ -1908,7 +1920,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 160,
+        "id": 161,
         "slug": "file-encoding",
         "title": "File encoding",
         "m1": "Pitfalls in data",
@@ -1920,7 +1932,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 161,
+        "id": 162,
         "slug": "missing-values",
         "title": "Missing values",
         "m1": "Pitfalls in data",
@@ -1932,7 +1944,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 162,
+        "id": 163,
         "slug": "duplicates-aggregates-and-totals",
         "title": "Duplicates, aggregates and totals",
         "m1": "Pitfalls in data",
@@ -1944,7 +1956,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 163,
+        "id": 164,
         "slug": "unstandardised-data",
         "title": "Unstandardised data",
         "m1": "Pitfalls in data",
@@ -1956,7 +1968,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 164,
+        "id": 165,
         "slug": "data-type-mismatches",
         "title": "Data type mismatches",
         "m1": "Pitfalls in data",
@@ -1968,7 +1980,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 165,
+        "id": 166,
         "slug": "dates",
         "title": "Dates",
         "m1": "Pitfalls in data",
@@ -1980,7 +1992,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 166,
+        "id": 167,
         "slug": "outliers",
         "title": "Outliers",
         "m1": "Pitfalls in data",
@@ -1992,7 +2004,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 167,
+        "id": 168,
         "slug": "ambiguity-in-data",
         "title": "Ambiguity in data",
         "m1": "Pitfalls in data",
@@ -2004,7 +2016,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 168,
+        "id": 169,
         "slug": "clean-spreadsheets",
         "title": "Clean spreadsheets",
         "m1": "Pitfalls in data",
@@ -2016,7 +2028,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 169,
+        "id": 170,
         "slug": "breaking-scales",
         "title": "Breaking scales",
         "m1": "Pitfalls in dataviz: scales and proportions",
@@ -2028,7 +2040,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 170,
+        "id": 171,
         "slug": "scales-in-line-charts",
         "title": "Scales in line charts",
         "m1": "Pitfalls in dataviz: scales and proportions",
@@ -2040,7 +2052,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 171,
+        "id": 172,
         "slug": "width-to-height-ratio",
         "title": "Width to height ratio",
         "m1": "Pitfalls in dataviz: scales and proportions",
@@ -2052,7 +2064,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 172,
+        "id": 173,
         "slug": "respecting-proportions",
         "title": "Respecting proportions",
         "m1": "Pitfalls in dataviz: scales and proportions",
@@ -2064,7 +2076,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 173,
+        "id": 174,
         "slug": "preserve-scales-for-comparisons",
         "title": "Preserve scales for comparisons",
         "m1": "Pitfalls in dataviz: scales and proportions",
@@ -2076,7 +2088,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 174,
+        "id": 175,
         "slug": "go-beyond-the-defaults",
         "title": "Go beyond the defaults",
         "m1": "Pitfalls in dataviz: colours",
@@ -2088,7 +2100,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 175,
+        "id": 176,
         "slug": "accesible-colours",
         "title": "Accesible colours",
         "m1": "Pitfalls in dataviz: colours",
@@ -2100,7 +2112,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 176,
+        "id": 177,
         "slug": "colour-on-colour",
         "title": "Colour on colour",
         "m1": "Pitfalls in dataviz: colours",
@@ -2112,7 +2124,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 177,
+        "id": 178,
         "slug": "endrainbow",
         "title": "#EndRainbow",
         "m1": "Pitfalls in dataviz: colours",
@@ -2124,7 +2136,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 178,
+        "id": 179,
         "slug": "perceptual-uniformity",
         "title": "Perceptual uniformity",
         "m1": "Pitfalls in dataviz: colours",
@@ -2136,7 +2148,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 179,
+        "id": 180,
         "slug": "save-the-pies-for-dessert",
         "title": "Save the pies for dessert",
         "m1": "Pitfalls in dataviz: chart types",
@@ -2148,7 +2160,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 180,
+        "id": 181,
         "slug": "line-charts-double-y-axes",
         "title": "Line charts: double y axes",
         "m1": "Pitfalls in dataviz: chart types",
@@ -2160,7 +2172,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 181,
+        "id": 182,
         "slug": "line-charts-line-interpolations",
         "title": "Line charts: line interpolations",
         "m1": "Pitfalls in dataviz: chart types",
@@ -2172,7 +2184,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 182,
+        "id": 183,
         "slug": "line-charts-perception-of-differences-between-lines",
         "title": "Line charts: perception of differences between lines",
         "m1": "Pitfalls in dataviz: chart types",
@@ -2184,7 +2196,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 183,
+        "id": 184,
         "slug": "stacked-charts",
         "title": "Stacked charts",
         "m1": "Pitfalls in dataviz: chart types",
@@ -2196,7 +2208,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 184,
+        "id": 185,
         "slug": "map-projections",
         "title": "Map projections",
         "m1": "Pitfalls in cartography",
@@ -2208,7 +2220,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 185,
+        "id": 186,
         "slug": "normalising-data-for-mapping",
         "title": "Normalising data for mapping",
         "m1": "Pitfalls in cartography",
@@ -2220,7 +2232,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 186,
+        "id": 187,
         "slug": "choropleth-classification-methods",
         "title": "Choropleth classification methods",
         "m1": "Pitfalls in cartography",
@@ -2232,7 +2244,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 187,
+        "id": 188,
         "slug": "disputed-territories",
         "title": "Disputed territories",
         "m1": "Pitfalls in cartography",
@@ -2244,7 +2256,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 188,
+        "id": 189,
         "slug": "data-acquisition",
         "title": "Data acquisition",
         "m1": "Ethics in data visualisation",
@@ -2256,7 +2268,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 189,
+        "id": 190,
         "slug": "data-quantification",
         "title": "Data quantification",
         "m1": "Ethics in data visualisation",
@@ -2268,7 +2280,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 190,
+        "id": 191,
         "slug": "data-transformation",
         "title": "Data transformation",
         "m1": "Ethics in data visualisation",
@@ -2280,7 +2292,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 191,
+        "id": 192,
         "slug": "data-aggregation",
         "title": "Data aggregation",
         "m1": "Ethics in data visualisation",
@@ -2292,7 +2304,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 192,
+        "id": 193,
         "slug": "anonymisation",
         "title": "Anonymisation",
         "m1": "Ethics in data visualisation",
@@ -2304,7 +2316,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 193,
+        "id": 194,
         "slug": "visual-representation",
         "title": "Visual representation",
         "m1": "Ethics in data visualisation",
@@ -2316,7 +2328,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 194,
+        "id": 195,
         "slug": "representing-people",
         "title": "Representing people",
         "m1": "Ethics in data visualisation",
@@ -2328,7 +2340,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 195,
+        "id": 196,
         "slug": "csv-files",
         "title": "CSV files",
         "m1": "Data file formats",
@@ -2340,7 +2352,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 196,
+        "id": 197,
         "slug": "excel-files",
         "title": "Excel files",
         "m1": "Data file formats",
@@ -2352,7 +2364,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 197,
+        "id": 198,
         "slug": "pdf-files",
         "title": "PDF files",
         "m1": "Data file formats",
@@ -2364,7 +2376,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 198,
+        "id": 199,
         "slug": "xml-files",
         "title": "XML files",
         "m1": "Data file formats",
@@ -2376,7 +2388,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 199,
+        "id": 200,
         "slug": "json-files",
         "title": "JSON files",
         "m1": "Data file formats",
@@ -2388,7 +2400,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 200,
+        "id": 201,
         "slug": "databases",
         "title": "Databases",
         "m1": "Data file formats",
@@ -2400,7 +2412,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 201,
+        "id": 202,
         "slug": "apis",
         "title": "API's",
         "m1": "Data file formats",
@@ -2412,7 +2424,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 202,
+        "id": 203,
         "slug": "wide-versus-long-data",
         "title": "Wide versus long data",
         "m1": "Data structures",
@@ -2424,7 +2436,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 203,
+        "id": 204,
         "slug": "transposing-data",
         "title": "Transposing data",
         "m1": "Data structures",
@@ -2436,7 +2448,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 204,
+        "id": 205,
         "slug": "vector-data",
         "title": "Vector data",
         "m1": "Geographical data",
@@ -2448,7 +2460,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 205,
+        "id": 206,
         "slug": "raster-data",
         "title": "Raster data",
         "m1": "Geographical data",
@@ -2460,7 +2472,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 206,
+        "id": 207,
         "slug": "metadata",
         "title": "Metadata",
         "m1": "Cleaning data",
@@ -2472,7 +2484,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 207,
+        "id": 208,
         "slug": "inspecting-data-data-profiling",
         "title": "Inspecting data: data profiling",
         "m1": "Cleaning data",
@@ -2484,7 +2496,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 208,
+        "id": 209,
         "slug": "standardising-data",
         "title": "Standardising data",
         "m1": "Cleaning data",
@@ -2496,7 +2508,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 209,
+        "id": 210,
         "slug": "data-type-matching",
         "title": "Data type matching",
         "m1": "Cleaning data",
@@ -2508,7 +2520,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 210,
+        "id": 211,
         "slug": "dates",
         "title": "Dates",
         "m1": "Cleaning data",
@@ -2520,7 +2532,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 211,
+        "id": 212,
         "slug": "dropping-columns",
         "title": "Dropping columns",
         "m1": "Cleaning data",
@@ -2532,7 +2544,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 212,
+        "id": 213,
         "slug": "missing-values-and-outliers",
         "title": "Missing values and outliers",
         "m1": "Cleaning data",
@@ -2544,7 +2556,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 213,
+        "id": 214,
         "slug": "tabula",
         "title": "Tabula",
         "m1": "Tools for working with data",
@@ -2556,7 +2568,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 214,
+        "id": 215,
         "slug": "microsoft-excel",
         "title": "Microsoft Excel",
         "m1": "Tools for working with data",
@@ -2568,7 +2580,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 215,
+        "id": 216,
         "slug": "google-sheets",
         "title": "Google Sheets",
         "m1": "Tools for working with data",
@@ -2580,7 +2592,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 216,
+        "id": 217,
         "slug": "open-refine",
         "title": "Open Refine",
         "m1": "Tools for working with data",
@@ -2592,7 +2604,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 217,
+        "id": 218,
         "slug": "cleaning-data-in-excel",
         "title": "Cleaning data in Excel",
         "m1": "Tools for working with data",
@@ -2604,7 +2616,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 218,
+        "id": 219,
         "slug": "bitmap-images",
         "title": "Bitmap images",
         "m1": "Graphic file formats",
@@ -2616,7 +2628,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 219,
+        "id": 220,
         "slug": "bitmap-file-formats",
         "title": "Bitmap file formats",
         "m1": "Graphic file formats",
@@ -2628,7 +2640,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 220,
+        "id": 221,
         "slug": "vector-images",
         "title": "Vector images",
         "m1": "Graphic file formats",
@@ -2640,7 +2652,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 221,
+        "id": 222,
         "slug": "vector-versus-bitmap-images",
         "title": "Vector versus bitmap images",
         "m1": "Graphic file formats",
@@ -2652,7 +2664,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 222,
+        "id": 223,
         "slug": "units",
         "title": "Units",
         "m1": "Graphic file formats",
@@ -2664,7 +2676,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 223,
+        "id": 224,
         "slug": "graphic-file-formats-guidelines",
         "title": "Graphic file formats guidelines",
         "m1": "Graphic file formats",
@@ -2676,7 +2688,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 224,
+        "id": 225,
         "slug": "html-and-img",
         "title": "HTML and <img>",
         "m1": "Online graphics",
@@ -2688,7 +2700,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 225,
+        "id": 226,
         "slug": "accessibility",
         "title": "Accessibility",
         "m1": "Online graphics",
@@ -2700,7 +2712,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 226,
+        "id": 227,
         "slug": "svg-and-its-elements",
         "title": "SVG and its elements",
         "m1": "Online graphics",
@@ -2712,7 +2724,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 227,
+        "id": 228,
         "slug": "geometric-shape-svg-elements",
         "title": "Geometric shape SVG elements",
         "m1": "Online graphics",
@@ -2724,7 +2736,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 228,
+        "id": 229,
         "slug": "more-advantages-of-svg",
         "title": "More advantages of SVG",
         "m1": "Online graphics",
@@ -2736,7 +2748,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 229,
+        "id": 230,
         "slug": "styling-and-css",
         "title": "Styling and CSS",
         "m1": "Online graphics",
@@ -2748,7 +2760,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 230,
+        "id": 231,
         "slug": "dynamic-svg",
         "title": "Dynamic SVG",
         "m1": "Online graphics",
@@ -2760,7 +2772,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 231,
+        "id": 232,
         "slug": "accessing-data-of-a-dynamically-generated-visualisation",
         "title": "Accessing data of a dynamically generated visualisation",
         "m1": "Online graphics",
@@ -2772,7 +2784,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 232,
+        "id": 233,
         "slug": "canvas",
         "title": "Canvas",
         "m1": "Online graphics",
@@ -2784,7 +2796,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 233,
+        "id": 234,
         "slug": "rawgraphs",
         "title": "RAWGraphs",
         "m1": "Online graphics: tools",
@@ -2796,7 +2808,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 234,
+        "id": 235,
         "slug": "datawrapper",
         "title": "Datawrapper",
         "m1": "Online graphics: tools",
@@ -2808,7 +2820,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 235,
+        "id": 236,
         "slug": "flourish",
         "title": "Flourish",
         "m1": "Online graphics: tools",
@@ -2820,7 +2832,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 236,
+        "id": 237,
         "slug": "svg-crowbar",
         "title": "SVG Crowbar",
         "m1": "Online graphics: tools",
@@ -2832,7 +2844,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 237,
+        "id": 238,
         "slug": "chrome-developer-tools-capture-node-screenshot",
         "title": "Chrome Developer Tools Capture node screenshot",
         "m1": "Online graphics: tools",
@@ -2844,7 +2856,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 238,
+        "id": 239,
         "slug": "tracing-charts",
         "title": "Tracing charts",
         "m1": "Reproducing and reusing visualisations",
@@ -2856,7 +2868,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 239,
+        "id": 240,
         "slug": "templates-and-themes",
         "title": "Templates and themes",
         "m1": "Reproducing and reusing visualisations",
@@ -2868,7 +2880,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 240,
+        "id": 241,
         "slug": "theming-charts",
         "title": "Theming charts",
         "m1": "Reproducing and reusing visualisations",
@@ -2880,7 +2892,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 241,
+        "id": 242,
         "slug": "visualisation-layers",
         "title": "Visualisation layers",
         "m1": "Data visualisation design tricks",
@@ -2892,7 +2904,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 242,
+        "id": 243,
         "slug": "the-margin-convention",
         "title": "The margin convention",
         "m1": "Data visualisation design tricks",
@@ -2904,7 +2916,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 243,
+        "id": 244,
         "slug": "fonts",
         "title": "Fonts",
         "m1": "Data visualisation design tricks",
@@ -2916,7 +2928,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 244,
+        "id": 245,
         "slug": "direct-labelling",
         "title": "Direct labelling",
         "m1": "Data visualisation design tricks",
@@ -2928,7 +2940,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 245,
+        "id": 246,
         "slug": "text-halos",
         "title": "Text halos",
         "m1": "Data visualisation design tricks",
@@ -2940,7 +2952,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 246,
+        "id": 247,
         "slug": "colour-rgb-versus-hsl",
         "title": "Colour: RGB versus HSL",
         "m1": "Data visualisation design tricks",
@@ -2952,7 +2964,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 247,
+        "id": 248,
         "slug": "apps-versus-libraries",
         "title": "Apps versus libraries",
         "m1": "Data visualisation tools",
@@ -2964,7 +2976,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 248,
+        "id": 249,
         "slug": "explanatory-versus-exploratory-data-visualisation",
         "title": "Explanatory versus exploratory data visualisation",
         "m1": "Data visualisation tools",
@@ -2976,7 +2988,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 249,
+        "id": 250,
         "slug": "microsoft-excel",
         "title": "Microsoft Excel",
         "m1": "Data visualisation tools",
@@ -2988,7 +3000,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 250,
+        "id": 251,
         "slug": "google-sheets",
         "title": "Google Sheets",
         "m1": "Data visualisation tools",
@@ -3000,7 +3012,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 251,
+        "id": 252,
         "slug": "adobe-illustrator",
         "title": "Adobe Illustrator",
         "m1": "Data visualisation tools",
@@ -3012,7 +3024,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 252,
+        "id": 253,
         "slug": "datylon",
         "title": "Datylon",
         "m1": "Data visualisation tools",
@@ -3024,7 +3036,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 253,
+        "id": 254,
         "slug": "business-intelligence-tools",
         "title": "Business intelligence tools",
         "m1": "Data visualisation tools",
@@ -3036,7 +3048,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 254,
+        "id": 255,
         "slug": "rawgraphs",
         "title": "RAWGraphs",
         "m1": "Data visualisation tools",
@@ -3048,7 +3060,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 255,
+        "id": 256,
         "slug": "datawrapper",
         "title": "Datawrapper",
         "m1": "Data visualisation tools",
@@ -3060,7 +3072,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 256,
+        "id": 257,
         "slug": "flourish",
         "title": "Flourish",
         "m1": "Data visualisation tools",
@@ -3072,7 +3084,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 257,
+        "id": 258,
         "slug": "highcharts",
         "title": "Highcharts",
         "m1": "Data visualisation tools",
@@ -3084,7 +3096,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 258,
+        "id": 259,
         "slug": "ggplot2",
         "title": "ggplot2",
         "m1": "Data visualisation tools",
@@ -3096,7 +3108,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 259,
+        "id": 260,
         "slug": "python-visualisation-packages",
         "title": "Python visualisation packages",
         "m1": "Data visualisation tools",
@@ -3108,7 +3120,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 260,
+        "id": 261,
         "slug": "plotly",
         "title": "Plotly",
         "m1": "Data visualisation tools",
@@ -3120,7 +3132,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 261,
+        "id": 262,
         "slug": "d3js",
         "title": "D3.js",
         "m1": "Data visualisation tools",
@@ -3132,7 +3144,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 262,
+        "id": 263,
         "slug": "vega",
         "title": "Vega",
         "m1": "Data visualisation tools",
@@ -3144,7 +3156,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 263,
+        "id": 264,
         "slug": "observable-plot",
         "title": "Observable Plot",
         "m1": "Data visualisation tools",
@@ -3156,7 +3168,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 264,
+        "id": 265,
         "slug": "qgis",
         "title": "QGIS",
         "m1": "Data visualisation tools",
@@ -3168,7 +3180,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 265,
+        "id": 266,
         "slug": "leaflet",
         "title": "Leaflet",
         "m1": "Data visualisation tools",
@@ -3180,7 +3192,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 266,
+        "id": 267,
         "slug": "the-chartmaker-directory",
         "title": "The Chartmaker Directory",
         "m1": "Data visualisation tools",
@@ -3192,7 +3204,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 267,
+        "id": 268,
         "slug": "vertical-versus-horizontal-bars",
         "title": "Vertical versus horizontal bars",
         "m1": "A deep dive into bar charts",
@@ -3204,7 +3216,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 268,
+        "id": 269,
         "slug": "starting-bars-at-zero",
         "title": "Starting bars at zero",
         "m1": "A deep dive into bar charts",
@@ -3216,7 +3228,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 269,
+        "id": 270,
         "slug": "grids-versus-data-labels",
         "title": "Grids versus data labels",
         "m1": "A deep dive into bar charts",
@@ -3228,7 +3240,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 270,
+        "id": 271,
         "slug": "label-placement",
         "title": "Label placement",
         "m1": "A deep dive into bar charts",
@@ -3240,7 +3252,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 271,
+        "id": 272,
         "slug": "bar-size-and-spacing",
         "title": "Bar size and spacing",
         "m1": "A deep dive into bar charts",
@@ -3252,7 +3264,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 272,
+        "id": 273,
         "slug": "sorting-bars",
         "title": "Sorting bars",
         "m1": "A deep dive into bar charts",
@@ -3264,7 +3276,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 273,
+        "id": 274,
         "slug": "grouped-bars",
         "title": "Grouped bars",
         "m1": "A deep dive into bar charts",
@@ -3276,7 +3288,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 274,
+        "id": 275,
         "slug": "stacked-bars",
         "title": "Stacked bars",
         "m1": "A deep dive into bar charts",
@@ -3288,7 +3300,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 275,
+        "id": 276,
         "slug": "more-creative-bar-charts",
         "title": "More creative bar charts",
         "m1": "A deep dive into bar charts",
@@ -3300,7 +3312,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 276,
+        "id": 277,
         "slug": "guidelines-for-pie-charts",
         "title": "Guidelines for pie charts",
         "m1": "A deep dive into pie charts",
@@ -3312,7 +3324,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 277,
+        "id": 278,
         "slug": "alternatives-to-pie-charts",
         "title": "Alternatives to pie charts",
         "m1": "A deep dive into pie charts",
@@ -3324,7 +3336,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 278,
+        "id": 279,
         "slug": "start-at-zero",
         "title": "Start at zero?",
         "m1": "A deep dive into line charts",
@@ -3336,7 +3348,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 279,
+        "id": 280,
         "slug": "line-interpolations",
         "title": "Line interpolations",
         "m1": "A deep dive into line charts",
@@ -3348,7 +3360,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 280,
+        "id": 281,
         "slug": "smoothing",
         "title": "Smoothing",
         "m1": "A deep dive into line charts",
@@ -3360,7 +3372,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 281,
+        "id": 282,
         "slug": "number-of-series",
         "title": "Number of series",
         "m1": "A deep dive into line charts",
@@ -3372,7 +3384,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 282,
+        "id": 283,
         "slug": "labels-and-marks",
         "title": "Labels and marks",
         "m1": "A deep dive into line charts",
@@ -3384,7 +3396,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 283,
+        "id": 284,
         "slug": "width-to-height-ratio",
         "title": "Width to height ratio",
         "m1": "A deep dive into line charts",
@@ -3396,7 +3408,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 284,
+        "id": 285,
         "slug": "logarithmic-y-axes",
         "title": "Logarithmic y axes",
         "m1": "A deep dive into line charts",
@@ -3408,7 +3420,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 285,
+        "id": 286,
         "slug": "correlation-is-not-causation",
         "title": "Correlation is not causation",
         "m1": "A deep dive into scatter plots",
@@ -3420,7 +3432,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 286,
+        "id": 287,
         "slug": "explaining-scatter-plots",
         "title": "Explaining scatter plots",
         "m1": "A deep dive into scatter plots",
@@ -3432,7 +3444,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 287,
+        "id": 288,
         "slug": "trend-lines",
         "title": "Trend lines",
         "m1": "A deep dive into scatter plots",
@@ -3444,7 +3456,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 288,
+        "id": 289,
         "slug": "median-quadrants",
         "title": "Median quadrants",
         "m1": "A deep dive into scatter plots",
@@ -3456,7 +3468,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 289,
+        "id": 290,
         "slug": "handling-overlap",
         "title": "Handling overlap",
         "m1": "A deep dive into scatter plots",
@@ -3468,7 +3480,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 290,
+        "id": 291,
         "slug": "labelling",
         "title": "Labelling",
         "m1": "A deep dive into scatter plots",
@@ -3480,7 +3492,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 291,
+        "id": 292,
         "slug": "calendar-heatmap",
         "title": "Calendar heatmap",
         "m1": "Visualising time series",
@@ -3492,7 +3504,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 292,
+        "id": 293,
         "slug": "cycle-plots",
         "title": "Cycle plots",
         "m1": "Visualising time series",
@@ -3504,7 +3516,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 293,
+        "id": 294,
         "slug": "area-charts-and-streamgraphs",
         "title": "Area charts and streamgraphs",
         "m1": "Visualising time series",
@@ -3516,7 +3528,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 294,
+        "id": 295,
         "slug": "connected-scatter-plots",
         "title": "Connected scatter plots",
         "m1": "Visualising time series",
@@ -3528,7 +3540,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 295,
+        "id": 296,
         "slug": "differences-in-time-series",
         "title": "Differences in time series",
         "m1": "Visualising time series",
@@ -3540,7 +3552,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 296,
+        "id": 297,
         "slug": "box-plots",
         "title": "Box plots",
         "m1": "Visualising distributions",
@@ -3552,7 +3564,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 297,
+        "id": 298,
         "slug": "univariate-scatter-plots-and-strip-plots",
         "title": "Univariate scatter plots and strip plots",
         "m1": "Visualising distributions",
@@ -3564,7 +3576,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 298,
+        "id": 299,
         "slug": "beeswarm-plots",
         "title": "Beeswarm plots",
         "m1": "Visualising distributions",
@@ -3576,7 +3588,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 299,
+        "id": 300,
         "slug": "histograms",
         "title": "Histograms",
         "m1": "Visualising distributions",
@@ -3588,7 +3600,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 300,
+        "id": 301,
         "slug": "density-violin-and-raincloud-plots",
         "title": "Density, violin and raincloud plots",
         "m1": "Visualising distributions",
@@ -3600,7 +3612,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 301,
+        "id": 302,
         "slug": "graphs-nodes-and-edges",
         "title": "Graphs, nodes and edges",
         "m1": "Visualising hierarchies and networks",
@@ -3612,7 +3624,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 302,
+        "id": 303,
         "slug": "hierarchies",
         "title": "Hierarchies",
         "m1": "Visualising hierarchies and networks",
@@ -3624,7 +3636,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 303,
+        "id": 304,
         "slug": "hierarchies-with-numbers",
         "title": "Hierarchies with numbers",
         "m1": "Visualising hierarchies and networks",
@@ -3636,7 +3648,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 304,
+        "id": 305,
         "slug": "networks",
         "title": "Networks",
         "m1": "Visualising hierarchies and networks",
@@ -3648,7 +3660,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 305,
+        "id": 306,
         "slug": "sankey-and-alluvial-diagrams",
         "title": "Sankey and alluvial diagrams",
         "m1": "Visualising hierarchies and networks",
@@ -3660,7 +3672,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 306,
+        "id": 307,
         "slug": "error-bars-and-the-cone-of-uncertainty",
         "title": "Error bars and the cone of uncertainty",
         "m1": "Visualising uncertainty",
@@ -3672,7 +3684,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 307,
+        "id": 308,
         "slug": "more-intuitive-visualisation-of-uncertainty",
         "title": "More intuitive visualisation of uncertainty",
         "m1": "Visualising uncertainty",
@@ -3684,7 +3696,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 308,
+        "id": 309,
         "slug": "frequencies",
         "title": "Frequencies",
         "m1": "Visualising uncertainty",
@@ -3696,7 +3708,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 309,
+        "id": 310,
         "slug": "hypothetical-outcome-plots",
         "title": "Hypothetical outcome plots",
         "m1": "Visualising uncertainty",
@@ -3708,7 +3720,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 310,
+        "id": 311,
         "slug": "data-dense-scatter-plots",
         "title": "Data dense scatter plots",
         "m1": "High data density visualisations",
@@ -3720,7 +3732,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 311,
+        "id": 312,
         "slug": "binned-scatter-plots",
         "title": "Binned scatter plots",
         "m1": "High data density visualisations",
@@ -3732,7 +3744,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 312,
+        "id": 313,
         "slug": "data-dense-time-series",
         "title": "Data dense time series",
         "m1": "High data density visualisations",
@@ -3744,7 +3756,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 313,
+        "id": 314,
         "slug": "multiple-dimensions",
         "title": "Multiple dimensions",
         "m1": "High data density visualisations",
@@ -3756,7 +3768,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 314,
+        "id": 315,
         "slug": "visualising-with-text-stemandleaf-plots",
         "title": "Visualising with text: stem-and-leaf plots",
         "m1": "Visualising text",
@@ -3768,7 +3780,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 315,
+        "id": 316,
         "slug": "visualising-with-text-scattered-labels",
         "title": "Visualising with text: scattered labels",
         "m1": "Visualising text",
@@ -3780,7 +3792,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 316,
+        "id": 317,
         "slug": "visualising-with-text-stacked-words",
         "title": "Visualising with text: stacked words",
         "m1": "Visualising text",
@@ -3792,7 +3804,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 317,
+        "id": 318,
         "slug": "visualising-with-text-visual-text-properties",
         "title": "Visualising with text: visual text properties",
         "m1": "Visualising text",
@@ -3804,7 +3816,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 318,
+        "id": 319,
         "slug": "visualisation-of-text-word-clouds",
         "title": "Visualisation of text: word clouds",
         "m1": "Visualising text",
@@ -3816,7 +3828,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 319,
+        "id": 320,
         "slug": "visualisation-of-text-page-thumbnails",
         "title": "Visualisation of text: page thumbnails",
         "m1": "Visualising text",
@@ -3828,7 +3840,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 320,
+        "id": 321,
         "slug": "choropleth-maps",
         "title": "Choropleth maps",
         "m1": "Maps",
@@ -3840,7 +3852,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 321,
+        "id": 322,
         "slug": "scaled-symbol-maps",
         "title": "Scaled symbol maps",
         "m1": "Maps",
@@ -3852,7 +3864,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 322,
+        "id": 323,
         "slug": "cartograms",
         "title": "Cartograms",
         "m1": "Maps",
@@ -3864,7 +3876,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 323,
+        "id": 324,
         "slug": "hexbin-maps",
         "title": "Hexbin maps",
         "m1": "Maps",
@@ -3876,7 +3888,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 324,
+        "id": 325,
         "slug": "dot-maps",
         "title": "Dot maps",
         "m1": "Maps",
@@ -3888,7 +3900,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 325,
+        "id": 326,
         "slug": "flow-maps",
         "title": "Flow maps",
         "m1": "Maps",
@@ -3900,7 +3912,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 326,
+        "id": 327,
         "slug": "visual-vocabulary",
         "title": "Visual Vocabulary",
         "m1": "Data visualisation galleries",
@@ -3912,7 +3924,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 327,
+        "id": 328,
         "slug": "dataviz-project",
         "title": "Dataviz Project",
         "m1": "Data visualisation galleries",
@@ -3924,7 +3936,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 328,
+        "id": 329,
         "slug": "data-to-viz",
         "title": "Data to Viz",
         "m1": "Data visualisation galleries",
@@ -3936,7 +3948,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 329,
+        "id": 330,
         "slug": "dataviz-catalogue",
         "title": "Dataviz Catalogue",
         "m1": "Data visualisation galleries",
@@ -3948,7 +3960,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 330,
+        "id": 331,
         "slug": "map-of-firsts",
         "title": "Map of Firsts",
         "m1": "Data visualisation galleries",
@@ -3960,7 +3972,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 331,
+        "id": 332,
         "slug": "dataviz-inspiration",
         "title": "Dataviz Inspiration",
         "m1": "Data visualisation galleries",
@@ -3972,7 +3984,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 332,
+        "id": 333,
         "slug": "xenographics",
         "title": "Xenographics",
         "m1": "Data visualisation galleries",
@@ -3984,7 +3996,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 333,
+        "id": 334,
         "slug": "one-chart-at-a-time",
         "title": "One chart at a time",
         "m1": "Data visualisation galleries",
@@ -3996,7 +4008,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 334,
+        "id": 335,
         "slug": "rawgraphs-demo",
         "title": "RAWgraphs demo",
         "m1": "RAWgraphs demop",
@@ -4008,7 +4020,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 335,
+        "id": 336,
         "slug": "what-is-accessibility",
         "title": "What is accessibility?",
         "m1": "a11?",
@@ -4020,7 +4032,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 336,
+        "id": 337,
         "slug": "web-accessbility",
         "title": "Web accessbility",
         "m1": "a11?",
@@ -4032,7 +4044,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 337,
+        "id": 338,
         "slug": "accessibility-standards",
         "title": "Accessibility standards",
         "m1": "a11?",
@@ -4044,7 +4056,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 338,
+        "id": 339,
         "slug": "accessibility-laws",
         "title": "Accessibility laws",
         "m1": "a11?",
@@ -4056,7 +4068,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 339,
+        "id": 340,
         "slug": "data-visualisation-is-accessibility",
         "title": "Data visualisation is accessibility",
         "m1": "Accessibility and data visualisation",
@@ -4068,7 +4080,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 340,
+        "id": 341,
         "slug": "accessibility-of-data-visualisation",
         "title": "Accessibility of data visualisation",
         "m1": "Accessibility and data visualisation",
@@ -4080,7 +4092,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 341,
+        "id": 342,
         "slug": "pourcaf-principles-perceivable",
         "title": "POUR-CAF principles: Perceivable",
         "m1": "Accessibility and data visualisation",
@@ -4092,7 +4104,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 342,
+        "id": 343,
         "slug": "pourcaf-principles-operable",
         "title": "POUR-CAF principles: Operable",
         "m1": "Accessibility and data visualisation",
@@ -4104,7 +4116,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 343,
+        "id": 344,
         "slug": "pourcaf-principles-understandable",
         "title": "POUR-CAF principles: Understandable",
         "m1": "Accessibility and data visualisation",
@@ -4116,7 +4128,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 344,
+        "id": 345,
         "slug": "pourcaf-principles-robust",
         "title": "POUR-CAF principles: Robust",
         "m1": "Accessibility and data visualisation",
@@ -4128,7 +4140,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 345,
+        "id": 346,
         "slug": "pourcaf-principles-compromising",
         "title": "POUR-CAF principles: Compromising",
         "m1": "Accessibility and data visualisation",
@@ -4140,7 +4152,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 346,
+        "id": 347,
         "slug": "pourcaf-principles-assistive",
         "title": "POUR-CAF principles: Assistive",
         "m1": "Accessibility and data visualisation",
@@ -4152,7 +4164,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 347,
+        "id": 348,
         "slug": "pourcaf-principles-flexible",
         "title": "POUR-CAF principles: Flexible",
         "m1": "Accessibility and data visualisation",
@@ -4164,7 +4176,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 348,
+        "id": 349,
         "slug": "accessible-colour-palettes",
         "title": "Accessible colour palettes",
         "m1": "Colours, colour blindness and data visualisation",
@@ -4176,7 +4188,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 349,
+        "id": 350,
         "slug": "contrast",
         "title": "Contrast",
         "m1": "Colours, colour blindness and data visualisation",
@@ -4188,7 +4200,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 350,
+        "id": 351,
         "slug": "double-encoding",
         "title": "Double encoding",
         "m1": "Colours, colour blindness and data visualisation",
@@ -4200,7 +4212,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 351,
+        "id": 352,
         "slug": "dark-mode",
         "title": "Dark mode",
         "m1": "Colours, colour blindness and data visualisation",
@@ -4212,7 +4224,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 352,
+        "id": 353,
         "slug": "chart-titles",
         "title": "Chart titles",
         "m1": "Making data visualisations understandable",
@@ -4224,7 +4236,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 353,
+        "id": 354,
         "slug": "guiding-text",
         "title": "Guiding text",
         "m1": "Making data visualisations understandable",
@@ -4236,7 +4248,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 354,
+        "id": 355,
         "slug": "alt-text",
         "title": "Alt text",
         "m1": "Making data visualisations understandable",
@@ -4248,7 +4260,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 355,
+        "id": 356,
         "slug": "understandable-chart-design",
         "title": "Understandable chart design",
         "m1": "Making data visualisations understandable",
@@ -4260,7 +4272,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 356,
+        "id": 357,
         "slug": "browsers-and-servers",
         "title": "Browsers and servers",
         "m1": "HTML 101",
@@ -4272,7 +4284,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 357,
+        "id": 358,
         "slug": "html-elements",
         "title": "HTML elements",
         "m1": "HTML 101",
@@ -4284,7 +4296,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 358,
+        "id": 359,
         "slug": "anchors",
         "title": "Anchors",
         "m1": "HTML 101",
@@ -4296,7 +4308,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 359,
+        "id": 360,
         "slug": "buttons-and-inputs",
         "title": "Buttons and inputs",
         "m1": "HTML 101",
@@ -4308,7 +4320,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 360,
+        "id": 361,
         "slug": "lists",
         "title": "Lists",
         "m1": "HTML 101",
@@ -4320,7 +4332,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 361,
+        "id": 362,
         "slug": "divs",
         "title": "Divs",
         "m1": "HTML 101",
@@ -4332,7 +4344,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 362,
+        "id": 363,
         "slug": "tables",
         "title": "Tables",
         "m1": "HTML 101",
@@ -4344,7 +4356,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 363,
+        "id": 364,
         "slug": "multimedia",
         "title": "Multimedia",
         "m1": "HTML 101",
@@ -4356,7 +4368,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 364,
+        "id": 365,
         "slug": "images",
         "title": "Images",
         "m1": "HTML 101",
@@ -4368,7 +4380,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 365,
+        "id": 366,
         "slug": "css",
         "title": "CSS",
         "m1": "HTML 101",
@@ -4380,7 +4392,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 366,
+        "id": 367,
         "slug": "summary-of-html-elements",
         "title": "Summary of HTML elements",
         "m1": "HTML 101",
@@ -4392,7 +4404,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 367,
+        "id": 368,
         "slug": "using-a-screen-reader",
         "title": "Using a screen reader",
         "m1": "Accessible HTML",
@@ -4404,7 +4416,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 368,
+        "id": 369,
         "slug": "semantic-html",
         "title": "Semantic HTML",
         "m1": "Accessible HTML",
@@ -4416,7 +4428,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 369,
+        "id": 370,
         "slug": "accessible-images",
         "title": "Accessible images",
         "m1": "Accessible HTML",
@@ -4428,7 +4440,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 370,
+        "id": 371,
         "slug": "accessible-tables",
         "title": "Accessible tables",
         "m1": "Accessible HTML",
@@ -4440,7 +4452,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 371,
+        "id": 372,
         "slug": "accessible-svg-and-aria",
         "title": "Accessible SVG and ARIA",
         "m1": "Accessible HTML",
@@ -4452,7 +4464,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 372,
+        "id": 373,
         "slug": "making-svg-content-fully-accessible",
         "title": "Making SVG content fully accessible",
         "m1": "Accessible HTML",
@@ -4464,7 +4476,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 373,
+        "id": 374,
         "slug": "accessibility-inspectors-and-audits",
         "title": "Accessibility inspectors and audits",
         "m1": "Accessible HTML",
@@ -4476,7 +4488,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 374,
+        "id": 375,
         "slug": "responsive-data-visualisation-introduction",
         "title": "Responsive data visualisation introduction",
         "m1": "Responsiveness and data visualisation for small screens",
@@ -4488,7 +4500,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 375,
+        "id": 376,
         "slug": "scaling-visualisations",
         "title": "Scaling visualisations",
         "m1": "Responsiveness and data visualisation for small screens",
@@ -4500,7 +4512,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 376,
+        "id": 377,
         "slug": "changing-chart-orientation",
         "title": "Changing chart orientation",
         "m1": "Responsiveness and data visualisation for small screens",
@@ -4512,7 +4524,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 377,
+        "id": 378,
         "slug": "fluid-layout",
         "title": "Fluid layout",
         "m1": "Responsiveness and data visualisation for small screens",
@@ -4524,7 +4536,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 378,
+        "id": 379,
         "slug": "changing-level-of-detail",
         "title": "Changing level of detail",
         "m1": "Responsiveness and data visualisation for small screens",
@@ -4536,7 +4548,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 379,
+        "id": 380,
         "slug": "changing-data-density",
         "title": "Changing data density",
         "m1": "Responsiveness and data visualisation for small screens",
@@ -4548,7 +4560,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 380,
+        "id": 381,
         "slug": "adapting-annotations-axes-and-legends",
         "title": "Adapting annotations, axes and legends",
         "m1": "Responsiveness and data visualisation for small screens",
@@ -4560,7 +4572,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 381,
+        "id": 382,
         "slug": "annotated-zooms",
         "title": "Annotated zooms",
         "m1": "Responsiveness and data visualisation for small screens",
@@ -4572,7 +4584,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 382,
+        "id": 383,
         "slug": "animation-and-streaming-data",
         "title": "Animation and streaming data",
         "m1": "Responsiveness and data visualisation for small screens",
@@ -4584,7 +4596,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 383,
+        "id": 384,
         "slug": "changing-visual-encoding",
         "title": "Changing visual encoding",
         "m1": "Responsiveness and data visualisation for small screens",
@@ -4596,7 +4608,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 384,
+        "id": 385,
         "slug": "interactivity-in-html",
         "title": "Interactivity in HTML",
         "m1": "Accessible interactivity",
@@ -4608,7 +4620,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 385,
+        "id": 386,
         "slug": "accessible-interactive-data-visualisation",
         "title": "Accessible interactive data visualisation",
         "m1": "Accessible interactivity",
@@ -4620,7 +4632,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 386,
+        "id": 387,
         "slug": "mobile-interaction",
         "title": "Mobile interaction",
         "m1": "Accessible interactivity",
@@ -4632,7 +4644,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 387,
+        "id": 388,
         "slug": "accessibility-in-datawrapper",
         "title": "Accessibility in Datawrapper",
         "m1": "Accessibility in data visualisation: tools",
@@ -4644,7 +4656,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 388,
+        "id": 389,
         "slug": "accessible-visualisations-with-ai2thml",
         "title": "Accessible visualisations with ai2thml",
         "m1": "Accessibility in data visualisation: tools",
@@ -4656,7 +4668,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 389,
+        "id": 390,
         "slug": "accessibility-in-highcharts",
         "title": "Accessibility in Highcharts",
         "m1": "Accessibility in data visualisation: tools",
@@ -4668,7 +4680,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 390,
+        "id": 391,
         "slug": "braille-displays",
         "title": "Braille displays",
         "m1": "Braille, data sonification and data physicalisation",
@@ -4680,7 +4692,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 391,
+        "id": 392,
         "slug": "tactile-graphics",
         "title": "Tactile graphics",
         "m1": "Braille, data sonification and data physicalisation",
@@ -4692,7 +4704,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 392,
+        "id": 393,
         "slug": "data-sonification",
         "title": "Data sonification",
         "m1": "Braille, data sonification and data physicalisation",
@@ -4704,7 +4716,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 393,
+        "id": 394,
         "slug": "data-physicalisation",
         "title": "Data physicalisation",
         "m1": "Braille, data sonification and data physicalisation",
@@ -4716,7 +4728,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 394,
+        "id": 395,
         "slug": "start-small",
         "title": "Start small",
         "m1": "Implementing accessible data visualisation",
@@ -4728,7 +4740,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 395,
+        "id": 396,
         "slug": "learn-the-technicalities",
         "title": "Learn the technicalities",
         "m1": "Implementing accessible data visualisation",
@@ -4740,7 +4752,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 396,
+        "id": 397,
         "slug": "test-your-accessibility",
         "title": "Test your accessibility",
         "m1": "Implementing accessible data visualisation",
@@ -4752,7 +4764,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 397,
+        "id": 398,
         "slug": "accessibility-is-teamwork",
         "title": "Accessibility is teamwork",
         "m1": "Implementing accessible data visualisation",
@@ -4764,7 +4776,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 398,
+        "id": 399,
         "slug": "intro-to-chartability",
         "title": "Intro to Chartability",
         "m1": "Chartability: a framework for auditing accessibility",
@@ -4776,7 +4788,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 399,
+        "id": 400,
         "slug": "fast-pass-accessibility-audit-with-chartability",
         "title": "Fast pass accessibility audit with Chartability",
         "m1": "Chartability: a framework for auditing accessibility",
@@ -4788,7 +4800,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 400,
+        "id": 401,
         "slug": "intermediate-accessibility-audit-with-chartability",
         "title": "Intermediate accessibility audit with Chartability",
         "m1": "Chartability: a framework for auditing accessibility",
@@ -4800,7 +4812,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 401,
+        "id": 402,
         "slug": "from-data-to-visualisation",
         "title": "From data to visualisation",
         "m1": "Introduction and origins of the Grammar of Graphics",
@@ -4812,7 +4824,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 402,
+        "id": 403,
         "slug": "describing-visualisations",
         "title": "Describing visualisations",
         "m1": "Introduction and origins of the Grammar of Graphics",
@@ -4824,7 +4836,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 403,
+        "id": 404,
         "slug": "foundation-of-the-grammar-of-graphics",
         "title": "Foundation of the Grammar of Graphics",
         "m1": "Introduction and origins of the Grammar of Graphics",
@@ -4836,7 +4848,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 404,
+        "id": 405,
         "slug": "why-you-should-use-the-grammar-of-graphics",
         "title": "Why you should use the Grammar of Graphics",
         "m1": "Introduction and origins of the Grammar of Graphics",
@@ -4848,7 +4860,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 405,
+        "id": 406,
         "slug": "implementations-of-the-grammar-of-graphics",
         "title": "Implementations of the Grammar of Graphics",
         "m1": "Introduction and origins of the Grammar of Graphics",
@@ -4860,7 +4872,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 406,
+        "id": 407,
         "slug": "overview-of-gog-building-blocks",
         "title": "Overview of GoG building blocks",
         "m1": "Building blocks of the Grammar of Graphics",
@@ -4872,7 +4884,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 407,
+        "id": 408,
         "slug": "gog-building-blocks-data",
         "title": "GoG building blocks: data",
         "m1": "Building blocks of the Grammar of Graphics",
@@ -4884,7 +4896,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 408,
+        "id": 409,
         "slug": "gog-building-blocks-geometric-objects",
         "title": "GoG building blocks: geometric objects",
         "m1": "Building blocks of the Grammar of Graphics",
@@ -4896,7 +4908,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 409,
+        "id": 410,
         "slug": "gog-building-blocks-aesthetics",
         "title": "GoG building blocks: aesthetics",
         "m1": "Building blocks of the Grammar of Graphics",
@@ -4908,7 +4920,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 410,
+        "id": 411,
         "slug": "gog-building-blocks-transformations",
         "title": "GoG building blocks: transformations",
         "m1": "Building blocks of the Grammar of Graphics",
@@ -4920,7 +4932,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 411,
+        "id": 412,
         "slug": "gog-building-blocks-scales-and-guides",
         "title": "GoG building blocks: scales and guides",
         "m1": "Building blocks of the Grammar of Graphics",
@@ -4932,7 +4944,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 412,
+        "id": 413,
         "slug": "intro-to-tidy-data",
         "title": "Intro to tidy data",
         "m1": "Tidy data",
@@ -4944,7 +4956,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 413,
+        "id": 414,
         "slug": "variables-observations-and-values",
         "title": "Variables, observations and values",
         "m1": "Tidy data",
@@ -4956,7 +4968,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 414,
+        "id": 415,
         "slug": "advantages-of-tidy-data",
         "title": "Advantages of tidy data",
         "m1": "Tidy data",
@@ -4968,7 +4980,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 415,
+        "id": 416,
         "slug": "tidying-data",
         "title": "Tidying data",
         "m1": "Tidy data",
@@ -4980,7 +4992,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 416,
+        "id": 417,
         "slug": "more-resources-on-tidy-data",
         "title": "More resources on tidy data",
         "m1": "Tidy data",
@@ -4992,7 +5004,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 417,
+        "id": 418,
         "slug": "point-geometries",
         "title": "Point geometries",
         "m1": "Geometric objects in detail",
@@ -5004,7 +5016,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 418,
+        "id": 419,
         "slug": "text-geomietries",
         "title": "Text geomietries",
         "m1": "Geometric objects in detail",
@@ -5016,7 +5028,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 419,
+        "id": 420,
         "slug": "1dimensional-geometries",
         "title": "1-dimensional geometries",
         "m1": "Geometric objects in detail",
@@ -5028,7 +5040,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 420,
+        "id": 421,
         "slug": "2dimensional-geometries",
         "title": "2-dimensional geometries",
         "m1": "Geometric objects in detail",
@@ -5040,7 +5052,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 421,
+        "id": 422,
         "slug": "summarising-geometries",
         "title": "Summarising geometries",
         "m1": "Geometric objects in detail",
@@ -5052,7 +5064,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 422,
+        "id": 423,
         "slug": "introduction-to-aesthetics",
         "title": "Introduction to aesthetics",
         "m1": "Aesthetics in detail",
@@ -5064,7 +5076,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 423,
+        "id": 424,
         "slug": "aesthetics-terminology",
         "title": "Aesthetics terminology",
         "m1": "Aesthetics in detail",
@@ -5076,7 +5088,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 424,
+        "id": 425,
         "slug": "more-aesthetics",
         "title": "More aesthetics",
         "m1": "Aesthetics in detail",
@@ -5088,7 +5100,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 425,
+        "id": 426,
         "slug": "geometries-and-aesthetics",
         "title": "Geometries and aesthetics",
         "m1": "Aesthetics in detail",
@@ -5100,7 +5112,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 426,
+        "id": 427,
         "slug": "scales",
         "title": "Scales",
         "m1": "Scales, guides, facets and theming",
@@ -5112,7 +5124,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 427,
+        "id": 428,
         "slug": "scale-types",
         "title": "Scale types",
         "m1": "Scales, guides, facets and theming",
@@ -5124,7 +5136,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 428,
+        "id": 429,
         "slug": "scale-configuration",
         "title": "Scale configuration",
         "m1": "Scales, guides, facets and theming",
@@ -5136,7 +5148,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 429,
+        "id": 430,
         "slug": "guides",
         "title": "Guides",
         "m1": "Scales, guides, facets and theming",
@@ -5148,7 +5160,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 430,
+        "id": 431,
         "slug": "facets",
         "title": "Facets",
         "m1": "Scales, guides, facets and theming",
@@ -5160,7 +5172,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 431,
+        "id": 432,
         "slug": "theming",
         "title": "Theming",
         "m1": "Scales, guides, facets and theming",
@@ -5172,7 +5184,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 432,
+        "id": 433,
         "slug": "chart-types-and-the-grammar-of-graphics-introduction",
         "title": "Chart types and the Grammar of Graphics introduction",
         "m1": "Chart types and the Grammar of Graphics",
@@ -5184,7 +5196,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 433,
+        "id": 434,
         "slug": "layering-geometries",
         "title": "Layering geometries",
         "m1": "Chart types and the Grammar of Graphics",
@@ -5196,7 +5208,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 434,
+        "id": 435,
         "slug": "limits-of-the-grammar-of-graphics-and-its-implementations",
         "title": "Limits of the Grammar of Graphics and its implementations",
         "m1": "Chart types and the Grammar of Graphics",
@@ -5208,7 +5220,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 435,
+        "id": 436,
         "slug": "grammar-of-graphics-in-practice-tableau",
         "title": "Grammar of Graphics in practice: Tableau",
         "m1": "Grammar of Graphics in practice",
@@ -5220,7 +5232,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 436,
+        "id": 437,
         "slug": "grammar-of-graphics-in-practice-vegalite",
         "title": "Grammar of Graphics in practice: Vega-Lite",
         "m1": "Grammar of Graphics in practice",
@@ -5232,7 +5244,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 437,
+        "id": 438,
         "slug": "grammar-of-graphics-in-practice-ggplot2",
         "title": "Grammar of Graphics in practice: ggplot2",
         "m1": "Grammar of Graphics in practice",
@@ -5244,7 +5256,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 438,
+        "id": 439,
         "slug": "grammar-of-graphics-in-practice-observable-plot",
         "title": "Grammar of Graphics in practice: Observable Plot",
         "m1": "Grammar of Graphics in practice",
@@ -5256,7 +5268,7 @@ const pages = [
         "undefined": ""
     },
     {
-        "id": 439,
+        "id": 440,
         "slug": "grammar-of-graphics-in-practice-tableau",
         "title": "Grammar of Graphics in practice: Tableau",
         "m1": "Grammar of Graphics in practice",

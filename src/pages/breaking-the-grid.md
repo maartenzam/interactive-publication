@@ -1,5 +1,5 @@
 
-Because the grid creates a regular pattern, with clean alignments and layout, any element that is not aligned to the grid of a publication, creates tension and dynamism. When breaking the grid is used well, it creates more interesting and engaging designs.
+Because the grid creates a regular pattern (see <span class="internal-link">[The grid](the-grid)</span>), with clean alignments and layout, any element that is not aligned to the grid of a publication, creates tension and dynamism. When breaking the grid is used well, it creates more interesting and engaging designs.
 
 ![The title is breaking the grid, and connects the left and right part of the design. Source: [Andre Ribeiro](https://andreribeiro.co/)](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/squarespace-breaking-grid.png)
 

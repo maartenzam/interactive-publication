@@ -1,12 +1,12 @@
 Picking the right dimensions for your visualisations is not easy. Here are some basic rules you can follow to pick dimensions and file formats.
 
-### Vector graphics if you can
+## Vector graphics if you can
 
-The first and most important rule is to use vector graphics when you can. They are resolution independent and can be converted to raster graphics when needed (converting from raster to vector graphics is much harder). Many data visualisation tools export vector graphics, for which SVG is the most common file format.
+The first and most important rule is to use <span class="internal-link">[vector graphics](vector-images)</span> when you can. They are resolution independent and can be converted to raster graphics when needed (converting from raster to vector graphics is much harder). Many data visualisation tools export vector graphics, for which SVG is the most common file format.
 
-### Raster graphics if you must
+## Raster graphics if you must
 
-Sometimes vector graphics are not an option, and you need to work with raster images. Here are some guidelines for that situation.
+Sometimes vector graphics are not an option, and you need to work with <span class="internal-link">[raster images](raster-images)</span>. Here are some guidelines for that situation.
 
 Print publications are often printed on 300 dpi. The needed resolution for your raster graphics depends on the physical size of printed graphic (in centimeters), but the best option is to use a pixel count that is as high as possible. Ask your printer what dimensions (in pixels) the graphic should have, or **try a few proof prints** to make sure the resolution works for the print.
 

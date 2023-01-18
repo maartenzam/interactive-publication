@@ -1,4 +1,6 @@
-But there is more than just positioning elements in the xy space. Although paper and screen publications are by nature two dimensional displays, techniques exist to simulate depth and a third dimension in the z direction.
+To create visual hierarchy, there is more than just <span class="internal-link">[positioning elements in the xy space](visual-hierarchy-x-y-positioning)</span>. Although paper and screen publications are by nature two dimensional displays, techniques exist to simulate depth and a third dimension in the z direction.
+
+## Layering
 
 The first technique is layering. Many visual design software (like GIMP, Adobe Photoshop and Illustrator) use the metaphor of layers for the management of different elements of a design. The main idea is that elements live in layers, and when a layer is placed on top of another layer in the interface, the elements of that layer will be drawn on top of the elements in the underlying layers.
 
@@ -12,21 +14,21 @@ The layers metaphor is also used in geographical information systems, software u
 
 Illustration of the the layers of a map. Source: [Raphael H. M. Periera](https://www.urbandemographics.org/post/figures-map-layers-r/)
 
-Not all data visualisation tools give you control over how the elements of the chart anatomy and data points are stacked on top of each other. But some basic rules are
+Not all data visualisation tools give you control over how the elements of the chart anatomy and data points are stacked on top of each other. Below are some basic rules.
 
-- all **text should live on top of all other layers**. You don’t want text to be covered by other elements, and become illegible.
+All **text should live on top of all other layers**. You don’t want text to be covered by other elements, and become illegible.
 
 ![Notice how the text of the title and subtitle are positioned on top of the lines breaking out or their frames in this Financial Times chart. Source: [twitter.com/jburnmurdoch/status/1478340575053197313](https://twitter.com/jburnmurdoch/status/1478340575053197313)](Visual%20hierarchy%2032d60a2016ea4334ae0d7e2395559439/FIQez-BXoAAqXxg.jpg)
 
 Notice how the text of the title and subtitle are positioned on top of the lines breaking out or their frames in this Financial Times chart. Source: [twitter.com/jburnmurdoch/status/1478340575053197313](https://twitter.com/jburnmurdoch/status/1478340575053197313)
 
-- Data marks (points, circles, bars, lines, ...) should live on top of supporting elements, like grid lines. In some cases, grid lines can be drawn over marks like bars, to create “invisible” gridlines.
+Data marks (points, circles, bars, lines, ...) **should live on top of supporting elements**, like grid lines. In some cases, grid lines can be drawn over marks like bars, to create “invisible” gridlines.
 
 ![Source: [The Guardian](https://www.theguardian.com/business/2017/sep/13/house-prices-uk-housing-affordability-london-birmingham-glasgow-leeds)](Visual%20hierarchy%2032d60a2016ea4334ae0d7e2395559439/invisible-gridlines.png)
 
 Source: [The Guardian](https://www.theguardian.com/business/2017/sep/13/house-prices-uk-housing-affordability-london-birmingham-glasgow-leeds)
 
-- If data marks can overlap each other, make sure that smaller elements are drawn on top of bigger ones (in most cases this can be done by sorting the data before visualising it). Otherwise there is a risk of smaller marks being totally covered by bigger ones and becoming totally hidden.
+If data marks can overlap each other, make sure that **smaller elements are drawn on top of bigger ones** (in most cases this can be done by sorting the data before visualising it). Otherwise there is a risk of smaller marks being totally covered by bigger ones and becoming totally hidden.
 
 ![When bigger marks are drawn on top of smaller ones, smaller marks can become hidden. Source: [Maarten Lambrechts](https://svelte.dev/repl/503ed1c58470471db65e8841084e4c51?version=3.46.4), CC BY 4.0](Visual%20hierarchy%2032d60a2016ea4334ae0d7e2395559439/biggest-on-top.png)
 
@@ -36,7 +38,9 @@ When bigger marks are drawn on top of smaller ones, smaller marks can become hid
 
 Drawing smaller marks on top of the bigger ones ensures all marks are visible. Source: [Maarten Lambrechts](https://svelte.dev/repl/503ed1c58470471db65e8841084e4c51?version=3.46.4), CC BY 4.0
 
-- When chart elements overlap, giving covering elements a little bit of **transparency** can make underlying elements not disappear but shine through.
+When chart elements overlap, giving covering elements a little bit of **transparency** can make underlying elements not disappear but shine through.
+
+## Shadows
 
 Another technique to create the illusion of depth is to use shadows. Even very subtle shadows give the impression of depth and separate elements in a design from each other.
 
@@ -59,6 +63,8 @@ The layering of the text, on top of the graphic, is reinforced by a subtle shado
 ![The map legend in the top right corner uses a heavy shadow, and appears to be quite elevated in comparison to the map. Notice that the white circle symbols also have a little shadow. Source: [Russia’s military is again on the move, adding pressure on Ukraine as invasion fears grow](https://www.washingtonpost.com/world/2022/01/20/russia-ukraine-military-satellite/), Washington Post](Visual%20hierarchy%2032d60a2016ea4334ae0d7e2395559439/map-legend-shadow-wapo.jpeg)
 
 The map legend in the top right corner uses a heavy shadow, and appears to be quite elevated in comparison to the map. Notice that the white circle symbols also have a little shadow. Source: [Russia’s military is again on the move, adding pressure on Ukraine as invasion fears grow](https://www.washingtonpost.com/world/2022/01/20/russia-ukraine-military-satellite/), Washington Post
+
+## Halos
 
 A related technique to using shadows is very common in situations where text is displayed on dark backgrounds: **adding halo** to text. Again, this is a technique very common in mapmaking, because maps often have to display text labels on backgrounds with varying colours.
 

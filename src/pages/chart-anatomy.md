@@ -1,4 +1,4 @@
-Visualisations come in many forms and tastes. But many visualisations share a lot of common building blocks. Laying them out using the topics discussed earlier in this module can help the design of your visualisation.
+Visualisations come in many forms and tastes, but many visualisations share a lot of common building blocks. Laying them out properly can help the design of your visualisation.
 
 For this, we need a good understanding of the buildings blocks, or the anatomy, of a data visualisation. Consider the line chart below.
 
@@ -11,6 +11,8 @@ This chart is composed out of many building blocks: there are multiple text elem
 The schema below illustrates the anatomy of a classical data visualisation using the example chart. It establishes a terminology to identify and describe the elements of a chart.
 
 ![Chart-annotations@2x.png](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/Chart-annotations2x.png)
+
+Source: Maarten Lambrechts, CC BY 4.0
 
 From the annotations on the chart above, you can see how the building blocks of the chart are aligned and how the chart is composed:
 

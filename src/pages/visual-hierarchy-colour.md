@@ -1,4 +1,4 @@
-Colour is another strong design mechanism to create visual hierarchy. Like text sizing, colour can signal to the reader what the most important elemenst are in a data visualisation. 
+Colour is strong design mechanism to create visual hierarchy. Like the <span class="internal-link">[size of elements](visual-hierarchy-sizing)</span>, the colour of elements can signal to the reader what the most important ones are in a data visualisation. 
 
 In visual hierarchy, colour can be used to let the reader know what elements in a design are related and belong together. A common pattern is to use
 
