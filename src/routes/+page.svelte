@@ -1,5 +1,5 @@
 <script>
-    import pages from '$lib/data/pages.js'
+    import pages from '$lib/data/pages.json'
     import Tag from '$lib/components/Tag.svelte';
 
     const done = 27
