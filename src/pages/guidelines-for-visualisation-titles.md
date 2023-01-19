@@ -39,7 +39,7 @@ This is a valid concern. Descriptive chart titles only make sense in explanatory
 
 For exploratory data visualisations (which are interactive by nature), it makes more sense to add a title that invites the user to start interacting with the chart and its user interface. Media and other organisations have experienced that titles like “Explore how crime varies by type”  can work well for these kind of interactive data visualisations.
 
-If you can manage to address people directly, by putting “you” or “your” in the title, for example with a title like “See how your area compares to the national average”, this can work even more as a trigger for people to start exploring. You can find examples of this technique in the [Putting the “you” in the headline](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e.md) in the [Journalistic techniques for data storytelling](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e.md) module.
+If you can manage to address people directly, by putting “you” or “your” in the title, for example with a title like “See how your area compares to the national average”, this can work even more as a trigger for people to start exploring. You can find examples of this technique in the <span class='internal-link'>[Putting the “you” in the headline](putting-the-you-in-the-headline)</span> page.
 
 ## More guidelines
 

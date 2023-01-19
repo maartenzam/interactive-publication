@@ -1,4 +1,4 @@
-All <span class="internal-link">[raster images](raster-images)</span> are made out of pixels. But pixels on themselves have no physical size: a pixel is just a reference to a row and a column, with the associated colour of the cell in the raster. Pixels only get a size when they are displayed on screen or on paper.
+All <span class="internal-link">[bitmap images](bitmap-images)</span> are made out of pixels. But pixels on themselves have no physical size: a pixel is just a reference to a row and a column, with the associated colour of the cell in the raster. Pixels only get a size when they are displayed on screen or on paper.
 
 For digital displays, the factors at play are the resolution, size and pixel density. The **resolution** of a display is the number of rows and columns of pixels a screen can display. For example, a 1080p display has a resolution of 1.920 x 1.080 pixels, while a 4K display doubles that in each direction (3.840 x 2.160 pixels).
 
@@ -10,7 +10,7 @@ The **pixel density** of a display follows from its resolution and its size, and
 
 So, referring to the dpi of a raster graphic to describe its image quality or resolution, is not meaningful. A high quality raster images should have enough pixels so that when printed in the desired dpi, image quality is assured.
 
-Take into account that printers need much more dpi compared to what displays need in pixel density (pixels per inch) because printers only have a limited set of ink colours to mix (see [Colour: the basics](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de.md)). For each pixel on a digital display, printers need to mix dots of different colours in much finer detail to obtain the same colours, as is shown in the image below:
+Take into account that printers need much more dpi compared to what displays need in pixel density (pixels per inch) because printers only have a limited set of ink colours to mix (see the page about <span class='internal-link'>[CMYK](describing-colours-cmyk)</span>). For each pixel on a digital display, printers need to mix dots of different colours in much finer detail to obtain the same colours, as is shown in the image below:
 
 <p class='center'>
 <img src='File%20formats,%20dimensions%20and%20units%20d1757276a4214716bd793dd0f19ac95c/DPI_and_PPI.png' alt='Source: [Wapcaplet](https://commons.wikimedia.org/wiki/File:DPI_and_PPI.png), CC BY-SA 3.0' class='max-600' />

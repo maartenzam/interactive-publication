@@ -1,8 +1,8 @@
-Apart from the concepts and guidelines regarding typography in the [Typography and the design of text elements](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814.md), the use of tyopography can be optimised for people suffering from visual impairments or dyslexia.
+Typography can be optimised for people suffering from visual impairments or dyslexia.
 
 A first basic rule is to avoid any unusual or artistic font, like handwritten fonts. They are not designed for legibility and can easily generate reading difficulties.
 
-Fonts should also have more than one character case, so avoid uppercase only fonts for example. Uppercase text is harder to read than normal cased text, and text decoration like italics also reduce legibility.
+Fonts should also have more than one character case, so avoid uppercase only fonts, for example. Uppercase text is harder to read than normal cased text, and text decoration like italics also reduce legibility.
 
 Some fonts (especially sans serif ones) use basically indistinguishable characters for the number 1, normal cased l and capital I. They do this for stylistical reasons, but this obviously creates a lower legibility. Using a font that has distinctively different characters for these characters is advised.
 

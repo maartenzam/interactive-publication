@@ -16,7 +16,7 @@ This technique is especially handy for chart types many people are not very fami
 
 Source: [Learning poverty: children's education in crisis](https://datatopics.worldbank.org/sdgatlas/goal-4-quality-education/), Sustainable Development Goals Atlas 2020 
 
-This chart is part of a scrollytelling module (see <span class='internal-link'>[scrollytelling](scrollytelling)</span>), and before the chart takes the state above, it is preceded with the states below.
+This chart is part of a <span class='internal-link'>[scrollytelling](tag/scrollytelling)</span> module, and before the chart takes the state above, it is preceded with the states below.
 
 First the y axis is explicitly labelled and explained, showing the numbers for the whole world, and only 2 colors are used.
 

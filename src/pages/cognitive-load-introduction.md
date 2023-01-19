@@ -19,6 +19,6 @@ From this definition you can see how important cognitive load is in education. T
 
 Cognitive load is broken down into three types, and all are relevant for data visualisation:
 
-- the <span class='internal-link'>[intrinsic load](intrinsic-load)</span>
-- the <span class='internal-link'>[extraneous load](extranuous-load)</span>
-- the <span class='internal-link'>[germane load](germane-load)</span>
+- the <span class='internal-link'>[intrinsic load](intrinsic-cognitive-load)</span>
+- the <span class='internal-link'>[extraneous load](extraneous-cognitive-load)</span>
+- the <span class='internal-link'>[germane load](germane-cognitive-load)</span>

@@ -34,7 +34,7 @@ Only after this step, the final chart is revealed.
 
 Source: [The US lags far behind its peers on “inclusive” economic growth](https://www.vox.com/the-big-idea/2017/2/3/14491964/growth-inequality-comparative-us-europe), vox.com
 
-So, to lower the cognitive load of this unfamiliar chart type, the chart authors **reveal the complexity of the chart in small chunks**, which is much easier to digest (see the [section about chunking](Reducing%20the%20cognitive%20load%2070a9cb0c4c8c4f45b66f63a749d9f40e.md) in the [Reducing the cognitive load](Reducing%20the%20cognitive%20load%2070a9cb0c4c8c4f45b66f63a749d9f40e.md) module. On top of that, they use very **clear annotations** to indicate what lines and directions means on the chart.
+So, to lower the cognitive load of this unfamiliar chart type, the chart authors **reveal the complexity of the chart in small chunks**, which is much easier to digest (see the <span class='internal-link'>[cognitive load concepts for storytelling](cognitive-load-concepts-for-storytelling)</span> page) . On top of that, they use very **clear annotations** to indicate what lines and directions means on the chart.
 
 Here is another weird looking chart you are probably not familiar with:
 

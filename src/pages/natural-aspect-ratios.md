@@ -14,7 +14,7 @@ Another example of an inherent aspect ratio is the high layout of slope charts. 
 
 Source: Maarten Lambrechts, CC BY 4.0
 
-And of course, a pie chart is a circle and will occupy a more or less square space in a grid based design (see [Grid and arrangement](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770.md)).
+And of course, a pie chart is a circle and will occupy a more or less square space in a grid based design (see the page about <span class='internal-link'>[the grid](the-grid)</span>.
 
 <p class='center'>
 <img src='Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/pie-numbers-1002x.png' alt='Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />

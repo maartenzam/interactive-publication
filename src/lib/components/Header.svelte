@@ -3,9 +3,9 @@
 
   <nav>
     <ul>
-      <li>
+      <!--li>
         <a href="/about">About</a>
-      </li>
+      </li-->
     </ul>
   </nav>
 </header>

@@ -3,12 +3,13 @@
 	export let previousTitle;
 	export let nextSlug;
 	export let nextTitle;
+	export let nextID;
 </script>
 
 <div class="page-navigation-container">
 	{#if previousSlug}<a href={previousSlug} class="left button">&lt;&lt; {previousTitle}</a
 		>{/if}
-	{#if nextSlug}<a href={nextSlug} class="right button">{nextTitle} >></a>{/if}
+	{#if nextSlug && nextID}<a href={nextSlug} class="right button">{nextTitle} >></a>{/if}
     </div>
 
 <style>

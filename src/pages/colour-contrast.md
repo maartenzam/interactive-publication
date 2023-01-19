@@ -1,4 +1,4 @@
-Combining colours is important in data visualisation for being able to distinguish between different categories or groups of things in a visualisation. More on this in the [Colour: use in data visualisation](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7.md) module.
+Combining colours is important in data visualisation for being able to distinguish between different categories or groups of things in a visualisation. More on this in the <span class='internal-link'>[colour for categories](colour-for-categories)</span> page.
 
 But combining colours is important for another reason too: combining foreground colours with elements in the background. This is especially important for the colour of text: when the colour of text is not different enough from the background it is displayed on, it will be hard or sometimes impossible to read. The difference between the text and background colour is called contrast.
 <p>

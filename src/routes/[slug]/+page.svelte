@@ -10,6 +10,7 @@
   previousTitle={data.previousTitle}
   nextSlug={data.next}
   nextTitle={data.nextTitle}
+  nextID={data.nextID}
 />
 <div class="tag-container">
   <Tag tagType={'t1'} tag={data.t1} root={true}/>
@@ -38,6 +39,7 @@
 	previousTitle={data.previousTitle}
 	nextSlug={data.next}
 	nextTitle={data.nextTitle}
+  nextID={data.nextID}
 />
 
 <style>

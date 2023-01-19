@@ -23,4 +23,4 @@ If the numbers would be encoded in the length of bars, or in the surface area of
 
 - Colour for numerical data: <span class='internal-link'>[#EndRainbow](colour-for-numerical-data-endrainbow)</span>
 - Colour for numerical data: <span class='internal-link'>[perceptual uniformity](colour-for-numerical-data-perceptual-uniformity)</span>
-- Colour for numerical data: <span class='internal-link'>[colour scales](colour-for-numerical-colour-scales)</span>
+- Colour for numerical data: <span class='internal-link'>[colour scales](colour-for-numerical-data-colour-scales)</span>

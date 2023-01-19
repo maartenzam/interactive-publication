@@ -1,5 +1,7 @@
 import pages from '$lib/data/pages.json'
 
+const done = 132
+
 export async function load({ params }){
   const post = await import(`../../pages/${params.slug}.md`)
   const content = post.default
@@ -19,6 +21,7 @@ export async function load({ params }){
   const next = id < pages.length ? nextPage.slug : null
   const previousTitle = id > 1 ? previousPage.title : null
   const nextTitle = id < pages.length ? nextPage.title : null
+  const nextID = id < done -1 ? nextPage.id : null
 
   return {
     content,
@@ -32,6 +35,7 @@ export async function load({ params }){
     previous,
     previousTitle,
     next,
-    nextTitle
+    nextTitle,
+    nextID
   }
 }

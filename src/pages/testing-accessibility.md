@@ -6,7 +6,7 @@ Easy technical testing of the accessibility of an (online) data visualisation in
 
 - zooming in the browser, up to 200% (View → Zoom in from the menu bar). This is a common technique used by people with visual impairments to make text readable for them. Things to watch for when zoomed in are overlapping text, hidden overflowing text and unexpected horizontal scrolling
 - check if the text on a visualisation is selectable. When it is not, the text on the visualisation is probably not accessible to screen readers
-- checking for contrast issues and daltonism related problems. The [Colour: the basics](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de.md) and [Colour: use in data visualisation](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7.md) modules include tests and simulators to evaluate colours and contrast.
+- checking for <span class='internal-link'>[colour contrast](colour-contrast)</span> issues and daltonism related problems. The <span class='internal-link'>[colour in accessibility](colour-in-accessibility)</span> page includes tests and simulators to evaluate colours and contrast.
 - Browsers like Firefox and Chrome have built in tools to identify accessibility issues.
 
 ![Lighthouse is a tool built into the Chrome browser to evaluate various aspects of a web page, including its accessility. Access it through View > Developer > Developer Tools and selecting the Lighthouse tab. Source: [developers.google.com/web/tools/lighthouse](https://developers.google.com/web/tools/lighthouse)](Accessibility%207a31e0024d4d4023ba9ec30ba05cf2f3/chrome-lighthouse.png)

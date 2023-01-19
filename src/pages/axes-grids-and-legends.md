@@ -55,7 +55,7 @@ In the same way, some chart types, like heatmaps, benefit from moving the x axis
 As a rule of thumb, numerical and date axes should at least have 2 labels and up to 8 at most. More than 8 labels will create busy axes. The **number of labels** should depend on
 
 - the available space: small charts should have less axis labels than charts with big dimensions
-- the length of the labels: too many long labels will cause labels to overlap. See the [Numbers and number formatting](Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3.md) module for techniques to shorten long time and numerical labels
+- the length of the labels: too many long labels will cause labels to overlap. See the <span class='internal-link'>[number formatting](number-formatting)</span> and <span class='internal-link'>[date formatting](date-formatting)</span> pages for techniques to shorten long time and numerical labels
 - the resolution you want the reader to distinguish values at: if for example on a line chart with yearly values it is really important to see which value corresponds to which year, you could decide to label every year and draw a grid line for each of the years
 
 ## Grid

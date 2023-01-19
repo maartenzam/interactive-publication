@@ -1,14 +1,14 @@
 Fonts come in two kinds: serif fonts and sans serif fonts. Serif fonts have a small stroke attached to the end of larger strokes of letters. Check the characters in the following popular serif fonts taken from Google Fonts.
 
-![Popular serif fonts on [Google Fonts](fonts.google.com)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/serif.png)
+![Popular serif fonts on [Google Fonts](https://fonts.google.com)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/serif.png)
 
-Popular serif fonts on [Google Fonts](fonts.google.com)
+Popular serif fonts on [Google Fonts](https://fonts.google.com)
 
 Sans serif fonts on the other hand lack these strokes at the end of larger strokes. Compare the serif fonts above to the sans serif ones below.
 
 ![Popular sans serif fonts on [Google Fonts](fonts.google.com)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/sans-serif.png)
 
-Popular sans serif fonts on [Google Fonts](fonts.google.com)
+Popular sans serif fonts on [Google Fonts](https://fonts.google.com)
 
 Traditionally, serif fonts were used for body text, as serif fonts were considered to be more legible. But research has struggled to confirm this, and if serif fonts would have a legibility advantage over sans serif fonts, it will be small one. There is probably more variation in legibility among serif and sans serifs than there is between them.
 

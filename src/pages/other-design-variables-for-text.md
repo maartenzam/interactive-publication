@@ -30,4 +30,4 @@ The names of the ecoregions (”Mato Grosso Plateau”, “Andes”, “Gran Cha
 
 This technique of increasing the letter spacing can be used to label bigger areas in a visualisation, like the quadrants of a scatter plot, or the areas in a stacked area chart.
 
-The formatting of numbers and dates is part of the design of text elements, but this is covered in the separate [Numbers and number formatting](Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3.md) module.
+The formatting of numbers and dates is part of the design of text elements, but this is covered by the <span class='internal-link'>[number formatting](number-formatting)</span> <span class='internal-link'>[date formatting](date-formatting)</span> pages.

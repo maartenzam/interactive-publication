@@ -8,7 +8,6 @@ import sveltePreprocess from 'svelte-preprocess';
 const config = {
 	kit: {
 		adapter: adapter(),
-		//prerender:{default:true},
 	},
 
 	extensions: ['.svelte', '.md'],

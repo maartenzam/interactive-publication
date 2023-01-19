@@ -102,7 +102,7 @@ Source: [ColorBrewer](https://colorbrewer2.org/#type=qualitative&scheme=Set1&n=5
 General guidelines for categorical colours palettes are:
 
 - don’t use too many categories with different colours in your visualisation. Seven is a good maximum.
-- avoid sequential colour palettes (see <span class='internal-link'>[Colour for numerical data](colour-for-numerical-data)</span>) for categorical data, because that suggests numerical data
+- avoid sequential colour palettes (see <span class='internal-link'>[Colour for numerical data](colour-for-numerical-data-introduction)</span>) for categorical data, because that suggests numerical data
 - avoid overly saturated and very bright colours. Try to use colours with similar saturation and lightness
 - you can use <span class='internal-link'>[colour harmonies](colour-harmonies)</span> to pick colours
 - perform colour blindness tests on your picked colours
