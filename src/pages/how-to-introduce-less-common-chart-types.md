@@ -1,0 +1,5 @@
+Most people know how to read a bar chart and a line chart. But sometimes the data or the message requires a less common and more unfamiliar chart, that people first need to figure out how to read.
+
+Reading a new chart has a high cognitive load, because the complexity of the data and the visualisation can be high (= intrinsic load, see <span class='internal-link'>[the pages on cognitive load](tag/cognitive-load)</span>) and the unfamiliarity of the audience means that the germane load is high. As a result, users need to wrestle through a high total cognitive load in order to understand the chart and recognise and retain the message.
+
+So, as a chart author, you need help your readers by lowering the intrinsic load (this means simplifying a a chart, by showing less data for example) and also by lowering the extraneous load, by making the way the data is presented as optimal as possible.
