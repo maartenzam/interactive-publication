@@ -1,0 +1,5 @@
+The different scrollytelling techniques still leave a lot of room for design variations. Here are the most common ones:
+
+- the graphic can take up the **full browser window**, or only a **part of it**. When the graphic uses the full browser window, the text scrolls over it. When the graphic is using only a part of the screen, and when it is positioned to the side, the text can scroll next to the graphic.
+- in some cases the **scrolling direction can be flipped**, and advancing the scroll will cause a horizontal advancement of the story. Example: [How Nationalism in China has Dethroned Nike, Adidas](https://www.bloomberg.com/graphics/2022-china-nationalistic-online-shoppers/), by Bloomberg.
+- In most cases one text block is tied to one specific state of the graphic, so a single text block explains one specific view of the graphic and there is a **one-on-one relation between the text and the graphic**. Sometimes multiple blocks of text are tied to a single state of the graphic (**many-to-one**), or a block of text can be tied to multiple states of the graphic (**one-to-many**).

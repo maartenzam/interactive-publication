@@ -1,0 +1,5 @@
+Producing articles that make use of scrollytelling techniques is costly: not only does the storyline need to be sketched out in detail, the graphics for each step need to be designed, and code for running the animations needs to be written. On top of that, a framework needs to be in place that can detect the users’ scroll position and trigger the update of the graphics in the scroller.
+
+A popular javascript library for scrollytelling is [Scrollama](https://github.com/russellgoldenberg/scrollama). Integrations of Scrollama exist for popular front end frameworks like [React](https://github.com/jsonkao/react-scrollama) and [Vue](https://github.com/vgshenoy/vue-scrollama).
+
+The options for non-coders are limited. Data visualisation tool Flourish offers [a low coding scrollytelling option in its paying plans](https://help.flourish.studio/article/21-controlling-stories-with-scrollytelling). Webflow has a “[A beginner’s guid to scrollytelling](https://webflow.com/blog/scrollytelling-guide)” that highlights some techniques and provides links to how to implement them in their own web publishing tool.
