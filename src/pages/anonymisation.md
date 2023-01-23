@@ -1,0 +1,5 @@
+Data sets can contain personal information, like names, home address, telephone numbers, health status and criminal records. This is privacy sensitive data, and unless good reasons exist to reveal this kind information (for example it might be of public interest to know that an elected official has a criminal record), this data should not be made public.
+
+Anonymisation is the process of removing personally identifying information from a data set in order to make it impossible to identify the individuals represented in the data and to protect their privacy. It should be taken into account that combining datasets from multiple sources sometimes makes cross referencing possible, so that data can be de-anonymised. For example, it can be possible to identify people in an anonymised medical records data set when combined with a database of medical prescriptions.
+
+Sometimes anonymisation requires aggregating personal data to geographical entities (like neighbourhoods or municipalities) or to demographic groups (for example aggregate data into groups based on age and gender). This limits the options for analysis and visualisation, but ensures anonymity.

@@ -2,7 +2,7 @@
     import pages from '$lib/data/pages.json'
     import Tag from '$lib/components/Tag.svelte';
 
-    const done = 132
+    const done = 179
 </script>
 
 <main>

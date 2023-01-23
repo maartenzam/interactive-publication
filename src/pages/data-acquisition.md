@@ -1,0 +1,5 @@
+As discussed on the <span class='internal-link'>[pages on metadata](tag/pitfalls-in-metadata)</span> pages, you should ensure that the data you use in a visualisation is fit for the purpose you have in mind, and that you can draw valid conclusions from it. For this, you need to know who produced the data, and with what intent. You should understand what is contained in the data, and what not, how the data was collected and processed, and what the accuracy of the data is.
+
+In some cases, data should not be used at all. This is the case when data was obtained in illegal ways, or when the intent of the institution the data is sourced from is to mislead and to misinform. This can be subtle, like in the case of PR firms collecting biased survey results to promote companies and their activities and services.
+
+A practical guideline for ethical data visualisation is to always include the source of the data used. Ideally the source mentioned is a link, so the source of the data is transparent and readers can find the data easily.

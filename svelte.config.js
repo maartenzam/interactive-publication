@@ -1,6 +1,6 @@
 //import adapter from '@sveltejs/adapter-auto';
-import adapter from '@sveltejs/adapter-netlify';
-//import adapter from '@sveltejs/adapter-static';
+//import adapter from '@sveltejs/adapter-netlify';
+import adapter from '@sveltejs/adapter-static';
 import { mdsvex } from 'mdsvex'
 import sveltePreprocess from 'svelte-preprocess';
 
@@ -8,6 +8,7 @@ import sveltePreprocess from 'svelte-preprocess';
 const config = {
 	kit: {
 		adapter: adapter(),
+		//paths: {base: '/vis/op'}
 	},
 
 	extensions: ['.svelte', '.md'],

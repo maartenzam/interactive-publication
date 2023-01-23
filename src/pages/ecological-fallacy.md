@@ -1,0 +1,11 @@
+There is another issue with the chocolate versus Nobel prizes chart. Notice how the data used are country averages:
+
+![Source: [Chocolate Consumption, Cognitive Function and Nobel Laureates](https://www.biostat.jhsph.edu/courses/bio621/misc/Chocolate%20consumption%20cognitive%20function%20and%20nobel%20laurates%20(NEJM).pdf), The New England Journal of Medecine](More%20pitfalls%20in%20statistics%20980beb010f984cd49c83ec8dab6dae6e/chocolate_countries_large.jpg)
+
+Source: [Chocolate Consumption, Cognitive Function and Nobel Laureates](https://www.biostat.jhsph.edu/courses/bio621/misc/Chocolate%20consumption%20cognitive%20function%20and%20nobel%20laurates%20(NEJM).pdf), The New England Journal of Medecine
+
+If you were to conclude from the chart that eating more chocolate makes you smarter and raises your chances of winning a Nobel prize,  you ignore the fact that the data shown on the chart are average values. It may very well be that the people winning the Nobel prizes eat very little or even no chocolate at all, and that the higher chocolate consumption of the other people in the country make up for the Nobel laureates low chocolate consumption. In that case, you should stop eating chocolate to increase your chances on winning a Nobel!
+
+Making a claim at the individual level based on averages for a whole group of people is called an **ecological fallacy**.
+
+A classical example of the ecological fallacy was detected in a study looking at the association between the literacy rate and the proportion of foreign born population in all the states of the US. The data showed a positive correlation: states with higher share of foreign born people had higher literacy rates. But concluding from this that people born outside of the US were more literate would mean an ecological fallacy: looking at the individual level, the data showed that immigrants actually had a lower literacy than native citizens. The explanation for this paradox is that immigrants tended to settle in states with higher literacy rates.

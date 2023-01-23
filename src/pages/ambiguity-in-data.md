@@ -1,0 +1,7 @@
+A lot of software programs use some kind of restrictions for the names of the columns in your data table. For example, column names can be limited to a certain number of characters, or they are not allowed to contain spaces. This leads to cryptic and ambiguous column names, like “max_dur_hr”. You might expect that this column will contain the maximum duration of something, expressed in hours. But unless this is described somewhere in more detail, you can never be sure. 
+
+And even column names that seem simple and clear can be misleading. Does the column name “origin” mean the country where someone is travelling from? Or is it the country of residence? Or can it be the airport where they left from? 
+
+Don’t just assume what the data in your table might mean, but look for the metadata and check your assumptions (see the pages on <span class='internal-link'>[metadata](tag/pitfalls-in-metadata)</span>).
+
+And then there are of course the units the data values are expressed in. These should also be part of the metadata, but an additional column in the data specifying the units will never hurt, and is even required for datasets that contain multiple units (like absolute values and relative numbers expressed in percentages).
