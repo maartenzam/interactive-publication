@@ -1,0 +1,13 @@
+Inspecting the data should be your next step. Check wether your data is in either <span class='internal-link'>[wide or long format](wide-versus-long-data)</span>. Then you can check the number of rows and columns of the data: are they consistent with what you were expecting from the data?
+
+To get an idea of the content of each column, you can create a **summary of each column**. For text columns this means checking the unique values in a column (and counting the number of times each value occurs), for numerical columns this means getting an idea about the mean (or median) values in a column, and about the variability in the numbers. For data/time columns this means checking the range of the date or time values in the column.
+
+Special attention should go to data columns that had their **data entered manually**. Values in these columns are prone to typos, and different names for the same thing can be present (like “Netherlands”, “The Netherlands”, “NL” and “Holland”). Values like this should be **standardised**, so that only one value is used to represent each category in the data.
+
+In this step, you should also check for **blanks** in your data. These missing data values can show up as empty cells in your data, but they can also be codified in different ways, like with certain text strings (like “NA” or “null”) or with special numerical values (like 0, -1 or 9999). Make sure that you know how missing values are encoded, that you are able to find them, and that you understand why these values are missing.
+
+You also need to make sure that the software you use to work with the data has recognised the data columns correctly. Are numbers correctly interpreted as numbers? And are dates recognised as dates, and not stored as text? 
+
+In this phase, it can be helpful to use data visualisation as a tool to “profile” your data. For text values, you can make bar charts to show how frequent each of the values are, and for numerical columns you can make histograms to get an idea of the distribution of the numbers in these columns. This is a good way to spot **outliers** in the data. Outliers can also be spotted by simply sorting the data on the numerical columns.
+
+**Duplicate rows** in your data (rows containing the exact same values for all columns) are also suspicious. The same is true for a column containing unique id numbers that still occur more than once. So check that unique id’s are indeed unique, and when they are not or when you find duplicate rows in your data, you should investigate why this is the case before proceeding.

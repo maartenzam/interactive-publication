@@ -1,0 +1,5 @@
+Because elements in an SVG graphic on a web page are just part of the HTML, the text in SVG is accessible (see <span class='internal-link'>[SVG elements: text](svg-elements-text)</span>). But there are more advantages.
+
+Like any other element in HTML, **interaction behaviour** can be defined for elements in an SVG. The browser can “listen” to events like the user hovering over an element with the cursor, or the user clicking or double clicking an element. When the event happens, the browser is instructed to update the page. A common technique in data visualisation is to show a tooltip when the user hovers over the graphical elements in a chart, and hide it when the user stops hovering over the element.
+
+The attributes of SVG elements are **animatable**. With CSS or JavaScript, you can define what attributes should be animated, what the duration of the animation should be, and what should happen when the animation ends. In this way, the position of the elements in an SVG data visualisation can be animated, their opacity can be animated to fade them in and out, and elements can be made to shrink or grow.

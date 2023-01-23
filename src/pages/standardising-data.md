@@ -1,0 +1,5 @@
+Standardising data is needed when your <span class='internal-link'>[data is unstandardised](unstandardised-data)</span>. Standardising can be done by performing search and replace operations. For example, you can decide to search for all occurrences of “Netherlands”, “NL” and “Holland” and replace all of them with “The Netherlands”.
+
+If the data is not too big, you can make edits to the data manually. When the data is too big for manual edits, you can make use of clustering algorithms to detect possible unstandardised data, and correct it (see <span class='internal-link'>[Cleaning data: tools](cleaning-data-tools)</span> for a video demonstrating this clustering technique).
+
+A hard to detect but common issue with unstandardised text columns, are spaces (and other invisible characters) at the start and end of strings. These are called trailing and leading spaces, and if you suspect they might be present in your data, you should run a script or use a formula to remove them. In many tools, removing trailing and leading spaces is called “trimming”.

@@ -26,7 +26,7 @@ To describe a color in RGB, 3 numbers are needed, representing the quantity of r
 
 In html documents, scalable vector graphics LINK and css styling LINK, colours are described as follows:
 
-- rgb(0, 0, 0) contains no red, no green and no blue, resulting in <span class='coloured-span' style='background-color: #ffffff'>pure black</span>
+- rgb(0, 0, 0) contains no red, no green and no blue, resulting in <span class='coloured-span' style='background-color: #000000'>pure black</span>
 - <span class='coloured-span' style='background-color: #ff0000'>rgb(255,0,0)</span> is pure red, <span class='coloured-span' style='background-color: #00ff00; color: black'>rgb(0,255,0)</span> is pure green and <span class='coloured-span' style='background-color: #0000ff'>rgb(0,0,255)</span> is pure blue
 - rgb(255, 255, 255) is full red, full green and full blue, resulting in pure white
 - equal amounts of each of the primary colors result in shades of grey: <span class='coloured-span' style='background-color: #404040'>
@@ -34,7 +34,7 @@ rgb(64,64,64)</span>, <span class='coloured-span' style='background-color: #8080
 
 RGB colors in 8 bits are also notated with [hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal) numbers. In the hexadecimal numeral system, the decimal numbers (0 - 9) are extended with the letters A to F to represent the numbers 10 to 15. In this notation 0 is notated as 00, and 255 is represented by FF. So
 
-- pure black, rgb(0,0,0), becomes <span class='coloured-span' style='background-color: #ffffff'>000000</span>
+- pure black, rgb(0,0,0), becomes <span class='coloured-span' style='background-color: #000000'>000000</span>
 - <span class='coloured-span' style='background-color: #ff0000'>FF0000</span> is pure red, <span class='coloured-span' style='background-color: #00ff00; color: black'>00FF00</span> is pure green and <span class='coloured-span' style='background-color: #0000ff'>0000FF</span> is pure blue
 - FFFFFF is pure white
 - <span class='coloured-span' style='background-color: #333333'>333333</span>, <span class='coloured-span' style='background-color: #aaaaaa'>AAAAAA</span> and <span class='coloured-span' style='background-color: #f2f2f2; color: black'>F2F2F2</span> are shades of gray

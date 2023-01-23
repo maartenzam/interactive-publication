@@ -1,0 +1,3 @@
+Paying, desktop apps
+
+Business intelligence tools (or BI tools) are tools to manage, analyse and visualise business data. In visualisation they are mainly used to create reports and dashboards. Some popular BI tools are [Tableau](https://www.tableau.com/) (which has a free version, [Tableau Public](https://public.tableau.com/en-us/s/)), [Microsoft Power BI](https://powerbi.microsoft.com/) and [Qlik](https://www.qlik.com/us/), but many more exist.

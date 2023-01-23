@@ -1,6 +1,6 @@
 import pages from '$lib/data/pages.json'
 
-const done = 179
+const done = 236
 
 export async function load({ params }){
   const post = await import(`../../pages/${params.slug}.md`)

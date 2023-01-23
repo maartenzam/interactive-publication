@@ -1,0 +1,5 @@
+Geographical raster data can be thought of as a table of pixels, which each represent a square area on the globe. In fact, a geographical raster data file is the same as a regular <span class='internal-link'>[bitmap image file](bitmap-images)</span> (like JPG and PNG files), with the only difference being that geographical raster data contains spatial information that connects the data to a particular location.
+
+JPG and PNG files can be turned into geographical raster data be describing its location on the globe in a so called world file. But a much more common file format for geographical rasters are TIFF files, which can have their spatial information embedded in the file itself. In that case they are referred to as GeoTIFF’s.
+
+The GeoPackage is a relatively new open file format that can store both vector and raster data, with a `.gpkg` extension.
