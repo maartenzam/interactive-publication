@@ -1,0 +1,5 @@
+The assistive principle states that a data visualisation or interface should be intelligent and multi-sensory in a way that reduces the cognitive and functional labor a user needs to put in in order to understand or use it.
+
+This means that a data visualisation should have an appropriate level of data density. Measures to lower the data density of a visualisation are aggregating data to a higher level and dividing a chart into a series of smaller charts. However, when lowering the data density of a visualisation, the signal in the data should be retained.
+
+The output of a screen reader reading a page can sometimes be quite repetitive and time consuming. For example, reading the content of all cells in a table can take a considerable amount of time. So, large blocks of repeated content should be skippable and the number of interactions or time required to perform a single task should be limited. There should not be an access gap for someone's time investment in a data experience solely based on interaction and navigation means.

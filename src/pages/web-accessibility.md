@@ -1,0 +1,13 @@
+The move from analog publications, like printed books, magazines and newspapers, to **digital** ones created big opportunities for accessibility, especially for people with visual impairments. Reading from a screen allows users to adjust settings like the contrast and font sizes, and allows readers to zoom in into documents.
+
+The move to digital also meant the advent of **screen readers**: a form of assistive technology that renders text as speech (or braille output), which can help people with visual impairments, illiterate people and people with learning disabilities.
+
+But the move from analog to digital meant more than just going from printed text to text on screens. Personal computers and their operating systems are inherently **interactive**: as a user, you navigate the file system, open, edit, close and move documents, perform searches, install and remove applications, … Designing a graphical user interface for all these actions, and the real world hardware to interact with it were big challenges on their own. Making these interfaces accessible is a continuous and ongoing battle.
+
+The **World Wide Web** added to the possibilities for accessibility. Hypertext Markup Language (HTML), the language web pages are written in, was designed with accessibility in mind. HTML contains many features that can help people using assistive technology, like screen readers, to navigate, read and interact with the content of web pages.
+
+But the move to online and digital also posed **new challenges** for accessibility. Some of these are related to technology. For example, online content that requires loading tens or even hundreds of megabytes is not very accessible, especially not in areas were mobile connections are the main access to the web and which might be slow and expensive.
+
+Another challenge is the use of a computer mouse to operate a computer. People with physical impairments might not be able to use a mouse, the mouse can be malfunctioning, or people might not possess a computer mouse at all. So alternative ways of interacting with an operating system and the web need to be provided for an accessible experience. **Keyboard interaction** is an important part of that: one principle of accessible interaction is that everything that can be performed by using a computer mouse should also be possible using the keys on a keyboard only.
+
+Since Apple introduced its first iPhone, smartphones have become ubiquitous world wide. This is yet another challenge for the accessibility of web pages: they should look and function well on small screens in portrait mode, and the interactivity needs to be operable with touch gestures.

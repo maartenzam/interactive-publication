@@ -1,0 +1,1 @@
+The flexible principle says that the styling and presentation of information should be configurable and that the design should respect the user settings of the operating systems, browsers and other applications used to access it.

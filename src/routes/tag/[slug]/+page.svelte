@@ -2,7 +2,7 @@
     import Tag from '$lib/components/Tag.svelte';
     export let data
 
-    const done = 300
+    const done = 366
 </script>
 
 <h1>{data.tag}</h1>

@@ -1,0 +1,7 @@
+Respecting the compromising principle means that alternative ways of navigating and consuming the information is possible without affecting the content and meaning. This includes consuming the information with assistive technologies like screen readers, and with specific user settings.
+
+A simple measure to provide an alternative way of consuming the information in a visualisation for users, is to provide the **data in the form of a table**. Tables in web pages can more easily be navigated by screen readers than visualisations. Providing a downloadable table, preferably a <span class='internal-link'>[CSV file](csv-files)</span>, also increases the possibilities for users to transform the data into an experience that best fits their needs.
+
+When visualisations are embedded in a bigger narrative, when a visualisation is animated, or when a visualisation is the result of interacting with controls like filters and drill down functionality, it can be hard for viewers to understand where they situate themselves in the overarching context. Breadcrumbs and the possibility to navigate the history (with “go back” and “go forward” buttons) can overcome these problems.
+
+Similarly, interactive dashboards should have “Undo” and “Redo” buttons, so that interactions are forgivable.

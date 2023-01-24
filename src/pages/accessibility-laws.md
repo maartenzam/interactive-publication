@@ -1,0 +1,7 @@
+In 2016, the EU passed the **[Web Accessibility Directive](https://digital-strategy.ec.europa.eu/en/policies/web-accessibility-directive-standards-and-harmonisation)**, which requires **all public sector websites and mobile applications** in EU Member States to implement, enforce and maintain a **uniform set of accessibility standards**. These standards are based on the WCAG with conformity level AA.
+
+By September 2018, Member States needed to transpose the directive into national law, and by September 2020 all public sector websites should be complying to the requirements of the directive. All member states have assigned bodies to periodically monitor the accessibility of public sector websites, report on this to the European Commission every three years, and enforce compliance and guarantee effective handling of user feedback.
+
+Three years after the Web Accessibility Directive, the **European Accessibility Act** was passed in 2019. Its goal is to assure **accessibility of goods and services in the private sector**. Its reach extends beyond websites and apps, and also includes requirements for computer operating systems, smartphones, TV equipment, banking services, ATMs and more. With regards to websites and mobile applications, the EAA has the same accessibility requirements as the Web Accessibility Directive.
+
+Member states had to implement the European Accessibility Act into national law by June 2022 and businesses have until June 2025 to comply to the new laws.
