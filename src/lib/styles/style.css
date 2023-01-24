@@ -18,7 +18,7 @@ h1 {
     font-weight: 700;
 }
 
-p, li, aside {
+p, li, aside, label {
     line-height: 1.5rem;
 }
 
