@@ -18,4 +18,4 @@ Overlapping dots with a white outline. Source: adapted from [Allison Horst](http
 
 Overlapping dots with both opacity and a white outline. Source: adapted from [Allison Horst](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)
 
-When the number of data points to show is so high that when using the techniques mentioned above, the scatter plot is still too crowded, the size of the dots can be reduced. When even this does not solve the issue, you could look into binning your scatter plot to create <span class='internal-link'>[high data density scatter plots](high-data-density-scatter-plots)</span>.
+When the number of data points to show is so high that when using the techniques mentioned above, the scatter plot is still too crowded, the size of the dots can be reduced. When even this does not solve the issue, you could look into binning your scatter plot to create <span class='internal-link'>[high data density scatter plots](data-dense-scatter-plots)</span>.

@@ -1,4 +1,4 @@
-Some specific chart types allow you to plot a lot more dimensions in your data than the already impressive 5 dimensions you can pack into a <span class='internal-link'>[bubble chart](bubble-chart)</span>.
+Some specific chart types allow you to plot a lot more dimensions in your data than the already impressive 5 dimensions you can pack into a <span class='internal-link'>[bubble chart](data-dense-scatter-plots)
 
 **Parallel coordinate plots** allow you to visualise ten or even more dimensions in your data, and can plot tens or even hundreds of records at once. For each dimension in your data, an axis is created, and all axes are aligned next to each other. Then, for each record in the data, a line is drawn that connects the values for that record for each dimension.
 

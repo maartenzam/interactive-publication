@@ -1,6 +1,6 @@
 In order to be understood, a data visualisation and its components need to be perceived by the viewer. Assuming that some people in your audience might suffer from visual impairments, or might even lack sight completely, this means that the information contained in a visualisation needs to be presented in a way that other senses can perceive it.
 
-In practice this means a visualisation and its message should be accessible to screen readers, so that they can be read out loud. How this can be accomplished technically, and how data visualisations should be summarised in a textual way is covered by <span class='internal-link'>[Accessible-HTML](accessible-html)</span> and <span class='internal-link'>[Alt text](alt-text)</span>.
+In practice this means a visualisation and its message should be accessible to screen readers, so that they can be read out loud. How this can be accomplished technically, and how data visualisations should be summarised in a textual way is covered by <span class='internal-link'>[Alt text](alt-text)</span>.
 
 For people with other visual impairments than blindness, the perceptibility of a data visualisation can be improved by optimising its design. Accessible data visualisation design includes:
 

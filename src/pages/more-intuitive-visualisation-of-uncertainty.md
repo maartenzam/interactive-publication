@@ -1,6 +1,6 @@
 To move away from the abstract and hard to understand error bars, confidence intervals and cones of uncertainty, and towards more intuitive and easier to understand depictions of uncertainty, research suggest to show underlying probability distributions.
 
-Density plots and violin plots (see the [Visualising distributions](Visualising%20distributions%2024ffe2f7bda24dc6b496de328dc7df6a.md) module) show how probable a value is: where the plot is the widest, probabilities are the highest. This allows viewers to asses the variability in the data, the mean and wether the distribution is normal, skewed, bimodal or has any other shape.
+<p><span class='internal-link'><a href='density-violin-and-raincloud-plots'>Density plots and violin plots</a></span> show how probable a value is: where the plot is the widest, probabilities are the highest. This allows viewers to asses the variability in the data, the mean and wether the distribution is normal, skewed, bimodal or has any other shape.</p>
 
 ![An example of a density plot of forecasted night time low temperatures. Source:  [The Science of Visual Data Communication: What Works](https://www.psychologicalscience.org/publications/visual-data-communication.html)](Visualising%20uncertainty%208aa5c9e663864767aaa41986a5a6f96c/density-plot.png)
 

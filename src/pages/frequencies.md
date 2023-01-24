@@ -10,7 +10,7 @@ An icon array showing the difference in the probability of having a stroke or he
 
 Important for effective icon arrays is that they should visualise the denominator (the total number of icons or symbols) and the numerator (the highlighted icons or symbols) proportionally accurate. Arranging the icons or symbols in a grid makes them easy to count.
 
-The second frequency based chart type that is very effective for communicating probabilities, are **quantile dot plots**. In a sense, they are the icon array version of density plots (see the [Visualising distributions](Visualising%20distributions%2024ffe2f7bda24dc6b496de328dc7df6a.md) module): the curve of the density plot is replaced by stacked icons in such a way that the stacks follow the curve of the density plot as much as possible.
+The second frequency based chart type that is very effective for communicating probabilities, are **quantile dot plots**. In a sense, they are the icon array version of <span class='internal-link'>[density plots](density-violin-and-raincloud-plots)</span>: the curve of the density plot is replaced by stacked icons in such a way that the stacks follow the curve of the density plot as much as possible.
 
 ![On top: a density plot. At the bottom: a quantile dot plot. Source:  [The Science of Visual Data Communication: What Works](https://www.psychologicalscience.org/publications/visual-data-communication.html)](Visualising%20uncertainty%208aa5c9e663864767aaa41986a5a6f96c/density-plot-vs-quantile-dot-plot.png)
 

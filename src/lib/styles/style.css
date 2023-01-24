@@ -22,6 +22,17 @@ p, li, aside, label {
     line-height: 1.5rem;
 }
 
+pre[class*="language-" ],
+code[class*="language-"] {
+  overflow-x: auto !important;
+  white-space: pre-wrap !important;
+  white-space: -moz-pre-wrap !important;
+  white-space: -pre-wrap !important;
+  white-space: -o-pre-wrap !important;
+  word-wrap: break-word !important;
+}
+
+
 img {
     width: 100%;
 }
@@ -64,8 +75,12 @@ blockquote p {
 }
 
 code {
-  font-size: 1.2rem;
-
+  font-size: 1rem;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: #e3e3e3;
+  color: #DB6B66;
+  border-radius: 2px;
 }
 
 aside, pre {
@@ -77,6 +92,10 @@ aside, pre {
 
 .center {
   text-align: center;
+}
+
+.left {
+  text-align: left;
 }
 
 img.max-600 {

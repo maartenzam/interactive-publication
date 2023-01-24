@@ -69,6 +69,10 @@ This is were **CSS** (Cascading Style Sheet) comes in. CSS is the language used 
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
+<aside>
+🔗 <a href='https://officepublicationseu.github.io/accessible-html-dataviz/svg-css.html'>See the `svg-css.html` page live in your browser</a>, or <a href='https://github.com/officepublicationseu/accessible-html-dataviz/blob/master/svg-css.html'>inspects its HTML</a>.
+</aside>
+
 CSS can be written directly in an HTML file, as above, but usually it is loaded from a separate CSS file.
 
 ![Source: Maarten Lambrechts, CC BY SA 4.0](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/css-request2x.png)
