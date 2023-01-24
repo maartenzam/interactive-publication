@@ -1,0 +1,3 @@
+ne Chart at a Time is a series of videos created by book author, podcaster and visualisation specialist Jon Schwabish. For the video series, he asked more than 50 people from the world of data visualisation to discuss a specific chart type by describing it and give some examples of the chart type.
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/gFFj22kjlZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
