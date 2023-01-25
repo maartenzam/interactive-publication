@@ -38,4 +38,4 @@ Another example of a data dense chart type are horizon charts. They can be used 
 
 Source: [Frédérik Ruys](https://www.vizualism.nl/winnaar-infographicjaarprijs-2009/) for Financieele Dagblad
 
-More on horizon charts can be found on the <span class='internal-link'>[How to introduce less common chart types](how-to-introduce-less-common-chart-types)</span> and the High data density visualisations LINK pages. They can be produced with the [RAWGraphs](https://rawgraphs.io/learning/how-to-make-a-horizon-graph/) visualisation tool.
+More on horizon charts can be found on <span class='internal-link'>[How to introduce less common chart types](how-to-introduce-less-common-chart-types)</span> and [Data dense time series](data-dense-time-series). They can be produced with the [RAWGraphs](https://rawgraphs.io/learning/how-to-make-a-horizon-graph/) visualisation tool.

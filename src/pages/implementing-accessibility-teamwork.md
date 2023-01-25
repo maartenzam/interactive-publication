@@ -1,0 +1,5 @@
+Accessibility of data visualisation is a big beast to tame, touching upon many fields and expertise. It is also still a young field, in which much research is still needed. So if you want to invest in visualisation accessibility, you can start small (see the first section of this module).
+
+You can develop some expertise and implement some accessibility practices yourself. But for more complex techniques and higher level accessibility, it might be worth bringing **external people** in , experts in the field. Accessibility is teamwork, and when the needed knowledge and skills are not present, they can be hired from outside.
+
+Accessibility needs to be planned for, and shouldn’t be an afterthought. As is the case with many things, it takes an order of magnitude more time and resources to fix accessibility afterwards instead of thinking about it **well in advance** and implement measures from the start. 

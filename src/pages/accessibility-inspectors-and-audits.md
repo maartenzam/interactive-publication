@@ -69,6 +69,6 @@ When Lighthouse has finished its accessibility audit, together with the score of
 
 Fully automatic testing of accessibility is currently not possible. So in order to really evaluate the accessibility of a web page, testing with real users is needed.
 
-The least you should do is test the keyboard navigation of the page, run it through a screen reader, test the contrast ratio of text and other elements on the page and perform colour blind simulation tests. See <span class='internal-link'>LINK</span> for a structured way of testing the accessibility of web pages and data visualisations.
+The least you should do is test the keyboard navigation of the page, run it through a screen reader, test the contrast ratio of text and other elements on the page and perform colour blind simulation tests. See <span class='internal-link'>[Intro to Chartability](intro-to-chartability)</span> for a structured way of testing the accessibility of web pages and data visualisations.
 
 But of course, testing pages with real visual impaired people, using the technology of their own choice, is the best way of testing the accessibility. This will surface accessibility issues otherwise missed.

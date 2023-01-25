@@ -16,7 +16,7 @@ WCAG 2.0 (and also the current recommended version 2.1) has three levels of conf
     - The page should have a clear title, and should have a language assigned to it
 - **AA**: acceptable conformance. On top of all level A requirements, level AA has the following requirements:
     - Live videos have captions
-    - The contrast ratio between text and the background should at least be 4,5:1 (see LINK)
+    - The <span class='internal-link'>[contrast ratio](colour-contrast)</span> between text and the background should at least be 4,5:1
     - Text should be resizable to 200% without losing content or functionality
     - Images of text should not be used
     - Keyboard focus is always clearly visible

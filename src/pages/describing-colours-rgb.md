@@ -24,7 +24,7 @@ RGB pixels arranged on a color wheel. [László Németh, CC0](https://commons.wi
 
 To describe a color in RGB, 3 numbers are needed, representing the quantity of red, green and blue in the color. In most cases the quantity of each color is encoded in 8 bits, which means that each color is represented by a number between 0 to 255. This results in a palette with 256 x 256 x 256 = 16.777.216 different colours!
 
-In html documents, scalable vector graphics LINK and css styling LINK, colours are described as follows:
+In HTML documents, scalable <span class='internal-link'>[vector graphics](vector-images)</span> and <span class='internal-link'>[css styling](styling-and-css)</span>, colours are described as follows:
 
 - rgb(0, 0, 0) contains no red, no green and no blue, resulting in <span class='coloured-span' style='background-color: #000000'>pure black</span>
 - <span class='coloured-span' style='background-color: #ff0000'>rgb(255,0,0)</span> is pure red, <span class='coloured-span' style='background-color: #00ff00; color: black'>rgb(0,255,0)</span> is pure green and <span class='coloured-span' style='background-color: #0000ff'>rgb(0,0,255)</span> is pure blue

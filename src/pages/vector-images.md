@@ -9,7 +9,7 @@ Compared to raster graphics, vector graphics are more precise (the location of v
 
 For editing vector images, you need vector editing software, like Adobe Illustrator or Inkscape. Vector image file formats include WMF, EPS, PDF and AI files.
 
-On the web the vector image standard is SVG (Scalable Vector Graphics) LINK. The content of SVG files is human readable, and SVG files can be opened and edited with any text editor.
+On the web the <span class='internal-link'>[vector image](vector-images)</span> standard is SVG (Scalable Vector Graphics). The content of SVG files is human readable, and SVG files can be opened and edited with any text editor.
 
 ```html
 <svg width="400" height="400">

@@ -16,4 +16,4 @@ And this is the version on smaller screens:
 
 Source: [blog.datawrapper.de](https://blog.datawrapper.de/better-more-responsive-annotations-in-datawrapper-data-visualizations/)
 
-More on the responsive annotations can be found on the adapting annotations, axes and legends LINK page.
+More on the responsive annotations can be found on <span class='internal-link'>[Responsiveness: adapting annotations, axes and legends](responsiveness-adapting-annotations-axes-and-legends)</span>.

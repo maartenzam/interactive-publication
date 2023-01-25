@@ -76,6 +76,6 @@ The long data format reflects how data is stored in databases. It is a format th
 
 ### (Un)pivoting
 
-Because the first two tables in this section contain the exact same data, they can be transformed into one another. The process of going from long data to wide data is called “pivotting” a table. You choose which one of the two dimensions (Country or Year) goes in the rows and which of them goes in the columns, and Excel (or any other spreadsheet or data analysis tool) will take care of putting the values in the right cells of the wide table. Pivotting a table in Excel is demonstrated in the [Working with data: cleaning data in practice]() LINK video.
+Because the first two tables in this section contain the exact same data, they can be transformed into one another. The process of going from long data to wide data is called “pivotting” a table. You choose which one of the two dimensions (Country or Year) goes in the rows and which of them goes in the columns, and Excel (or any other spreadsheet or data analysis tool) will take care of putting the values in the right cells of the wide table. Pivotting a table in Excel is demonstrated in the Working with data: cleaning data in practice T7 LINK video.
 
 Unpivoting data (going from wide to long format) is also possible but is less common and not straight forward in Excel.

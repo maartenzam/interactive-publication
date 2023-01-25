@@ -16,12 +16,15 @@
     .page-navigation-container {
         position: relative;
         height: 72px;
+		margin-bottom: 30px;
     }
 	.left {
 		left: 0px;
+		max-width: 20rem;
 	}
 	.right {
 		right: 0px;
+		max-width: 20rem;
 	}
 	.button {
         position: absolute;
