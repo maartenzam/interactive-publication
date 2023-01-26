@@ -1,4 +1,4 @@
-A scatter plot is a relatively simple chart type, and <span class='internal-link'>[describing it](describing-charts)</span> is not a very difficult task. But would it be possible to come up with a good description of a <span class='internal-link'>[raincloud plot](density-violin-and-raincloud-plots)</span>, for example? How would a description for this chart look like?
+A scatter plot is a relatively simple chart type, and <span class='internal-link'>[describing it](describing-visualisations)</span> is not a very difficult task. But would it be possible to come up with a good description of a <span class='internal-link'>[raincloud plot](density-violin-and-raincloud-plots)</span>, for example? How would a description for this chart look like?
 
 ![A raincloud plot shows distributions by combining a density plot with a dot plot. See more about rain cloud plots and other charts for visualising distributions in the ‣ module of the Deep dive into chart types training. Source: Maarten Lambrechts, CC BY SA 4.0](Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/penguin-rainclouds.png)
 

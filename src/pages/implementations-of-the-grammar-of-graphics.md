@@ -23,7 +23,7 @@ ggplot2 integrates nicely with a set of related R packages to work with data in 
 
 ## Vega-Lite
 
-[Vega](https://vega.github.io/vega/) was designed as a language to store and exchange descriptions of visualisations. These descriptions are called specifications, and are using the JavaScript Object Notation (JSON, see the [section on JSON](https://www.notion.so/Working-with-data-files-formats-and-structures-00bcaa829f4b4d57a99302b5bc507269) in the [Working with data: files, formats and structures](https://www.notion.so/Working-with-data-files-formats-and-structures-00bcaa829f4b4d57a99302b5bc507269) module of the Dataviz in practice training).
+[Vega](https://vega.github.io/vega/) was designed as a language to store and exchange descriptions of visualisations. These descriptions are called specifications, and are using the <span class='internal-link'>[JavaScript Object Notation (JSON)](json-files)</span>.
 
 JSON is a widely used file format for exchanging data, and as a result, Vega has been adopted by many software programmes to store specifications of charts internally. Vega is also used to exchange chart specifications between different software programmes.
 
@@ -47,7 +47,7 @@ Vega has a smaller sister called [**Vega-Lite**](https://vega.github.io/vega-lit
 Source: [vega.github.io/vega-lite/examples](https://vega.github.io/vega-lite/examples/point_2d.html)
 
 <aside>
-🔗 A full introduction to Vega-Lite can be found in <span class='internal-link'><a href='grammar-of-graphics-in-vega-lite'>Grammar of graphics in practice: Vega-Lite</a></span>.
+🔗 A full introduction to Vega-Lite can be found in <span class='internal-link'><a href='grammar-of-graphics-in-practice-vegalite'>Grammar of graphics in practice: Vega-Lite</a></span>.
 
 </aside>
 
@@ -60,7 +60,7 @@ Source: [vega.github.io/vega-lite/examples](https://vega.github.io/vega-lite/exa
 A scatter plot of male (orange) and female (blue) athlete heights and weights made with Observable Plot. Source: [observablehq.com/@observablehq/plot](https://observablehq.com/@observablehq/plot)
 
 <aside>
-🔗 A full introduction to Observable and Observable Plot can be found in <span class='internal-link'><a href='grammar-of-graphics-in-observable-plot'>Grammar of graphics in practice: Observable Plot</a></span>
+🔗 A full introduction to Observable and Observable Plot can be found in <span class='internal-link'><a href='grammar-of-graphics-in-practice-observable-plot'>Grammar of graphics in practice: Observable Plot</a></span>
 
 </aside>
 
