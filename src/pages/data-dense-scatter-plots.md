@@ -28,6 +28,6 @@ The bubble chart uses 5 dimensions in the country level data:
 4. Region (colour)
 5. Year (frames in the animation). Click the play button in the bottom left corner to start the animation, or use the slider next to it to navigate through time)
 
-<iframe src='http://www.gapminder.org/tools/?embedded=true#$ui$chart$decorations$enabled:false;;;&chart-type=bubbles&url=v1' width='100%' height='700px' style='border: none;'></iframe>
+<iframe src='https://www.gapminder.org/tools/?embedded=true#$ui$chart$decorations$enabled:false;;;&chart-type=bubbles&url=v1' width='100%' height='700px' style='border: none;'></iframe>
 
 Source: [gapminder.org/tools](https://www.gapminder.org/tools)

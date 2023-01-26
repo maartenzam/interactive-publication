@@ -1,6 +1,6 @@
 A common pattern in online data visualisation is revealing details about an item in the visualisation when it is hovered by the mouse, or touched on touch enabled screens. A **tooltip** is shown that identifies the data point, reveals the exact data values and sometimes also some additional information about the selected data point.
 
-<iframe src='http://datawrapper.dwcdn.net/lsM4n/3/' width='100%' height='600px' style='border: none;'></iframe>
+<iframe src='https://datawrapper.dwcdn.net/lsM4n/3/' width='100%' height='600px' style='border: none;'></iframe>
 
 Use your mouse to reveal the tooltips in this scatter plot. Source: [academy.datawrapper.de](https://academy.datawrapper.de/article/148-examples-of-datawrapper-scatter-plots)
 
