@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 500,
+  "data": {
+    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRpzJYEJv9hkwx3ZLaimdpZmrHK_hyPGXlAho_BaM2p_qsWRygvorbif1KvyPP_k0mt6j04vIL0ANUT/pub?gid=43247911&single=true&output=csv",
+    "format": {"type": "csv"}
+  },
+  "mark": {
+    "type": "circle",
+    "strokeWidth": 1,
+    "stroke": "black",
+    "opacity": 1,
+    "tooltip": {"content": "data"}
+  },
+  "encoding": {
+    "x": {
+      "field": "income",
+      "type": "quantitative",
+      "scale": {"type": "log", "domain": [500, 120000]},
+      "axis": {"tickCount": 3}
+    },
+    "y": {
+      "field": "lifeexp",
+      "type": "quantitative",
+      "scale": {"zero": false},
+      "axis": {"tickCount": 4}
+    },
+    "fill": {
+      "field": "continent",
+      "title": "Continent",
+      "legend": {"orient": "top"}
+    },
+    "size": {
+      "field": "population",
+      "type": "quantitative",
+      "title": "Population",
+      "scale": {"range": [0, 10000]},
+      "legend": {
+        "values": [10000000, 100000000, 500000000, 1000000000],
+        "orient": "top"
+      }
+    }
+  },
+  "config": {}
+}
