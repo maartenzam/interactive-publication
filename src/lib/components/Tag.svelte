@@ -2,6 +2,7 @@
 	export let tagType;
 	export let tag;
     export let root;
+	import { base } from '$app/paths';
 
 	const slugify = (str) =>
 		str
@@ -12,7 +13,7 @@
 			.replace(/^-+|-+$/g, '');
 </script>
 
-<a class={'tag ' + tagType} href={root ? 'tag/' + slugify(tag) : slugify(tag)}>
+<a class={'tag ' + tagType} href={root ? `${base}/tag/${slugify(tag)}` : slugify(tag)}>
 	{tag}
 </a>
 

@@ -8,7 +8,8 @@ import sveltePreprocess from 'svelte-preprocess';
 const config = {
 	kit: {
 		adapter: adapter(),
-		//paths: {base: '/vis/op'}
+		// Set the base path where the app will live here (starting but not ending with a '/')
+		paths: {base: ''}
 	},
 
 	extensions: ['.svelte', '.md'],

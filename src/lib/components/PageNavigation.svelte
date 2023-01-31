@@ -1,4 +1,6 @@
 <script>
+	import { base } from '$app/paths';
+
 	export let previousSlug;
 	export let previousTitle;
 	export let nextSlug;
@@ -7,9 +9,9 @@
 </script>
 
 <div class="page-navigation-container">
-	{#if previousSlug}<a href={previousSlug} class="left button">&lt;&lt; {previousTitle}</a
+	{#if previousSlug}<a href={base + '/' + previousSlug} class="left button">&lt;&lt; {previousTitle}</a
 		>{/if}
-	{#if nextSlug && nextID}<a href={nextSlug} class="right button">{nextTitle} >></a>{/if}
+	{#if nextSlug && nextID}<a href={base + '/' + nextSlug} class="right button">{nextTitle} >></a>{/if}
     </div>
 
 <style>

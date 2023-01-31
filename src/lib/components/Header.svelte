@@ -1,5 +1,9 @@
+<script>
+  import { base } from '$app/paths';
+</script>
+
 <header>
-  <a href="/">Home</a>
+  <a href="{base}/">Home</a>
 
   <nav>
     <ul>

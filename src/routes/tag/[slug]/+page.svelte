@@ -1,7 +1,7 @@
 <script>
     import Tag from '$lib/components/Tag.svelte';
     export let data
-
+    import { base } from '$app/paths';
     const done = 399
 </script>
 
@@ -9,7 +9,7 @@
 {#each data.tagPages as page}
 <h2 class={page.id < done ? "done" : "todo"}>
     {#if page.id < done}
-    <a href={`/${page.slug}`}>{page.id + '. ' + page.title}</a>
+    <a href={`${base}/${page.slug}`}>{page.id + '. ' + page.title}</a>
     {:else}
     {page.id + '. ' + page.title}
     {/if}</h2>
