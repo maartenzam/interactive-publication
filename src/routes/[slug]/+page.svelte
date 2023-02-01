@@ -1,6 +1,7 @@
 <script>
 	import Tag from '$lib/components/Tag.svelte';
 	import PageNavigation from '$lib/components/PageNavigation.svelte';
+  import { base } from '$app/paths';
 	export let data;
 </script>
 
@@ -33,6 +34,13 @@
 		<svelte:component this={data.content} />
 	</div>
 </article>
+
+{#if data.incomingLinks.lenght > 0}
+<h2>This page is linked to from</h2>
+{#each data.incomingLinks as incomingLink}
+  <p><span class="internal-link"><a href={`${base}/${incomingLink.fromSlug}`}>{incomingLink.fromTitle}</a></span></p>
+{/each}
+{/if}
 
 <PageNavigation
 	previousSlug={data.previous}

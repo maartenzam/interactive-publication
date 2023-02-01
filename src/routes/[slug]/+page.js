@@ -1,4 +1,5 @@
 import pages from '$lib/data/pages.json'
+import internalLinks from '$lib/data/internal_links.json'
 
 const done = 399
 
@@ -23,6 +24,10 @@ export async function load({ params }){
   const nextTitle = id < pages.length ? nextPage.title : null
   const nextID = id < done -1 ? nextPage.id : null
 
+  const incomingLinks = internalLinks.filter(d => d.to == params.slug).map(d => {
+    return {fromSlug: d.from, fromTitle: pages.find(p => p.slug == d.from).title}
+  })
+
   return {
     content,
     title,
@@ -36,6 +41,7 @@ export async function load({ params }){
     previousTitle,
     next,
     nextTitle,
-    nextID
+    nextID,
+    incomingLinks
   }
 }
