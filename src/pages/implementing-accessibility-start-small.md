@@ -4,7 +4,7 @@ The first is to ensure enough <span class='internal-link'>[colour contrast](colo
 
 Use <span class='internal-link'>[colour blind safe colour palettes](accessible-colour-palettes)</span>colour blind safe colour palettes. Avoid red-green-orange-brown palettes, and make sure to test your colours in a colour blindness simulator. When the colours in a visualisation are carrying meaning and information, consider adding an additional data encoding, so that you are not relying on colour alone to make the visualisation work.
 
-Add a <span class='internal-link'>[good title](chart-titles)</span> to your visualisation that summarises the charts main point. Reenforce the message in the design of your visualisation with things like highlighting and annotations to make it as easy as possible for your audience to understand why you are showing them the visualisation.
+Add an <span class='internal-link'>[understadable title](understandable-chart-titles)</span> to your visualisation that summarises the charts main point. Reenforce the message in the design of your visualisation with things like highlighting and annotations to make it as easy as possible for your audience to understand why you are showing them the visualisation.
 
 When a visualisation is published online, make sure to add an <span class='internal-link'>[alternative text](alt-text)</span>. Describe the chart type and the kind of data it is showing. If the visualisation is using axes, add their titles also to the alt text, and make sure to also add the main point of the visualisation. The use of the alt text is very widespread, and its use not only benefits people using assistive technology like screen readers. It also helps the search engine optimisation of your web pages and visualisations.
 
