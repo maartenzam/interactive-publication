@@ -1,20 +1,5 @@
 import pages from '$lib/data/pages.json'
-
-const slugify = str => {
-  if(str){
-    return str
-    .toLowerCase()
-    .trim()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/[\s_-]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-  }
-  else {
-    return ''
-  }
-}
-
-const deslugify = str => str.charAt(0).toUpperCase() + str.slice(1).replaceAll('-', ' ');
+import { slugify, deslugify } from '$lib/utils/slugs.js'
 
 export async function load({ params }){
   let tagPages = pages.filter(d => 

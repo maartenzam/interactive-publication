@@ -7,6 +7,7 @@
     forceCenter,
     forceCollide
   } from "d3-force";
+  import { slugify } from '$lib/utils/slugs.js'
 
   export let data;
   export let activePageData;
@@ -79,6 +80,7 @@
       />
     {/if}
     {#if point.depth || point.depth == 0}
+    <a href={point.depth == 3 ? point.id : 'tag/' + slugify(point.id)}>
     <circle
       class="node"
       r={point.depth == 0
@@ -98,6 +100,7 @@
     >
       <title>{point.id}</title></circle
     >
+  </a>
     {/if}
   {/each}
 </svg>

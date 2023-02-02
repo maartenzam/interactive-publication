@@ -3,14 +3,9 @@
 	export let tag;
     export let root;
 	import { base } from '$app/paths';
+	import {slugify } from '$lib/utils/slugs.js'
 
-	const slugify = (str) =>
-		str
-			.toLowerCase()
-			.trim()
-			.replace(/[^\w\s-]/g, '')
-			.replace(/[\s_-]+/g, '-')
-			.replace(/^-+|-+$/g, '');
+
 </script>
 
 <a class={'tag ' + tagType} href={root ? `${base}/tag/${slugify(tag)}` : slugify(tag)}>
