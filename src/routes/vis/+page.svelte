@@ -6,5 +6,5 @@
 
 <main>
 	<h1>Visualisation</h1>
-	<ForceGraph data={calculateGraph(pages, 3, true)} />
+	<ForceGraph data={calculateGraph(pages, 2, true)} />
 </main>
