@@ -14,7 +14,6 @@
 <style>
     .menu-container {
         width: 100%;
-        /*min-width: 300px;*/
         background-color: #F5F5F5;
     }
     ul {

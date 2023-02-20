@@ -1,8 +1,12 @@
 <script>
     import Tag from '$lib/components/Tag.svelte';
-    export let data
     import { base } from '$app/paths';
-    import Breadcrumbs from '../../../lib/components/Breadcrumbs.svelte';
+    import { location } from '$lib/stores/stores.js'
+
+    export let data
+
+    $: location.set(data.crumbs)
+
     const done = 399
 </script>
 

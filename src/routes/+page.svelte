@@ -2,6 +2,9 @@
 	import pages from '$lib/data/pages.json';
 	import Tag from '$lib/components/Tag.svelte';
 	import { base } from '$app/paths';
+	import { location } from '$lib/stores/stores.js'
+
+	$: location.set({})
 
 	const done = 399;
 </script>

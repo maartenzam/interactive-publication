@@ -2,6 +2,7 @@
 	import { slide } from 'svelte/transition';
 	import MiddleMenuItem from './MiddleMenuItem.svelte';
 	import { location } from '$lib/stores/stores.js'
+	import { deslugify } from '$lib/utils/slugs.js'
 	
 	export let training;
 

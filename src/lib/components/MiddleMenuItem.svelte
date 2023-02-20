@@ -4,6 +4,7 @@
     export let topicColor;
 	import { location } from '$lib/stores/stores.js'
 	import { deslugify } from '$lib/utils/slugs.js'
+	import { base } from '$app/paths';
 
 	$: isOpen = module.id == $location.m1;
 	const toggle = () => (isOpen = !isOpen);
@@ -42,7 +43,7 @@
 			<li class="page-link"
 				style:background-color={page.id == $location.slug ? topicColor : '#f5f5f5'}
 			><a
-				href={page.id}
+				href={base + '/' + page.id}
 				style:color={page.id == $location.slug ? 'white': topicColor}
 				>{deslugify(page.id)} <svg
 				style="tran"
