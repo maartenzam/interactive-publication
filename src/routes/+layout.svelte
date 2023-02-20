@@ -1,64 +1,76 @@
 <script>
-    import Header from '$lib/components/Header.svelte'
-    import AccordionMenu from '../lib/components/AccordionMenu.svelte';
-    import Footer from '$lib/components/Footer.svelte'
-    import '$lib/styles/style.css'
-    import '$lib/styles/code-highlighting.css'
+	import Header from '$lib/components/Header.svelte';
+	import AccordionMenu from '../lib/components/AccordionMenu.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
+	import '$lib/styles/style.css';
+	import '$lib/styles/code-highlighting.css';
 
-    let sidebarOpen = true
-    const toggleSidebar = function (){
-        sidebarOpen = !sidebarOpen
-    }
+	let sidebarOpen = true;
+	const toggleSidebar = function () {
+		sidebarOpen = !sidebarOpen;
+	};
 </script>
 
-<Header/>
-<div class={sidebarOpen ? "sidebar-toggle open" : "sidebar-toggle closed"}><button on:click={() => toggleSidebar()}>TOPICS {sidebarOpen ? '<<' : '>>'}</button></div>
-<div class={sidebarOpen ? "sidebar open" : "sidebar closed"}><AccordionMenu></AccordionMenu></div>
-<div class={sidebarOpen ? "content open" : "content closed"}>
-  <slot />
+<Header />
+<Breadcrumbs />
+
+<div class={sidebarOpen ? 'sidebar-toggle open' : 'sidebar-toggle closed'}>
+	<button on:click={() => toggleSidebar()}>TOPICS {sidebarOpen ? '<<' : '>>'}</button>
 </div>
 
-<Footer/>
+<div class="container">
+<div class={sidebarOpen ? 'sidebar open' : 'sidebar closed'}><AccordionMenu /></div>
+<div class={sidebarOpen ? 'content open' : 'content closed'}>
+	<slot />
+</div>
+</div>
+
+<Footer />
 
 <style>
-  .sidebar-toggle.open {
-    width: 25%;
+  .container {
+    display: flex;
   }
-  .sidebar-toggle.closed {
-    width: 100px;
-  }
-  .sidebar-toggle {
-    transition: width 1s;
-  }
-  .sidebar-toggle button {
+	.sidebar-toggle.open {
+    /** Todo: set the width properly**/
+		width: 23%;
+	}
+	.sidebar-toggle.closed {
+		width: 100px;
+	}
+	.sidebar-toggle {
+		transition: width 1s;
+	}
+	.sidebar-toggle button {
+		width: 100%;
+		border-radius: 0px;
+		border: none;
+		text-align: right;
+		padding: 0.5rem;
+    background-color: #f5f5f5;
+	}
+	.sidebar {
+		position: relative;
+		width: 30%;
+		transition: left 1s;
+    background-color: #f5f5f5;
+	}
+	.sidebar.open {
+		left: 0;
+		display: block;
+	}
+	.sidebar.closed {
+		left: -30%;
+	}
+	.content {
     width: 100%;
-    border-radius: 0px;
-    border: none;
-    text-align: right;
-  }
-  .sidebar {
-    position: relative;
-    width: 25%;
-    transition: width 1s, left 1s;
-    /*overflow-x: hidden;*/
-  }
-  .content {
     transition: margin-left 1s;
-  }
-  .sidebar.open {
-    /*width: 25%;*/
-    left: 0;
-    display: block;
-  }
-  .sidebar.closed {
-    /*width: 25%;*/
-    position: absolute;
-    left: -25%;
-  }
+	}
   .content.open {
-    margin-left: 25%;
+    margin-left: 0%;
   }
   .content.closed {
-    margin-left: 0%;
+    margin-left: -30%;
   }
 </style>

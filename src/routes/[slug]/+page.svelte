@@ -1,12 +1,12 @@
 <script>
-  import Breadcrumbs from '$lib/components/Breadcrumbs.svelte'
 	import Tag from '$lib/components/Tag.svelte';
 	import PageNavigation from '$lib/components/PageNavigation.svelte';
 	import { base } from '$app/paths';
+	import { location } from '$lib/stores/stores.js'
 	export let data;
-</script>
 
-<Breadcrumbs {data}></Breadcrumbs>
+	$: location.set({type: 'page', title: data.title, slug: data.slug, t1: data.t1, m1: data.m1, t2: data.t2, m2: data.m2})
+</script>
 
 <main>
 	<PageNavigation
@@ -49,13 +49,13 @@
 	{/each}
 {/if}
 
-<PageNavigation
+<!--PageNavigation
 	previousSlug={data.previous}
 	previousTitle={data.previousTitle}
 	nextSlug={data.next}
 	nextTitle={data.nextTitle}
 	nextID={data.nextID}
-/>
+/-->
 
 <style>
 	.tag-container {

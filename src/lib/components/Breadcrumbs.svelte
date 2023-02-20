@@ -1,21 +1,25 @@
 <script>
     import { base } from '$app/paths';
     import {slugify } from '$lib/utils/slugs.js'
-    export let data
+	import { location } from '$lib/stores/stores.js'
 </script>
 
 <nav class="breadcrumbs">
 	<ol>
 		<li class="crumb"><a href="{base}/">Home</a> ></li>
-		<li class="crumb"><a  href={'tag/' + slugify(data.t1)}>{data.t1}</a> ></li>
-		<li class="crumb"><a  href={'tag/' + slugify(data.m1)}>{data.m1}</a> ></li>
-		<li class="crumb">{data.title}</li>
+		<li class="crumb"><a  href={'tag/' + slugify($location.t1)}>{$location.t1}</a> ></li>
+		<li class="crumb"><a  href={'tag/' + slugify($location.m1)}>{$location.m1}</a> ></li>
+		<li class="crumb">{$location.title}</li>
+		{#if $location.t2 && $location.m2}
+			<li class="crumb">&lt; <a  href={'tag/' + slugify($location.m2)}>{$location.m2}</a> ></li>
+			<li class="crumb">&lt; <a  href={'tag/' + slugify($location.t2)}>{$location.t2}</a></li>
+			<li class="crumb">&lt; <a href="{base}/">Home</a></li>
+		{/if}
 	</ol>
 </nav>
 
 <style>
     	nav.breadcrumbs {
-		width: 100%;
 		background-color: #f5f5f5;
 		border-bottom: 1px solid #cecdcd;
 		padding: 0.5rem 1rem;

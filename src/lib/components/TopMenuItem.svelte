@@ -1,9 +1,11 @@
 <script>
 	import { slide } from 'svelte/transition';
 	import MiddleMenuItem from './MiddleMenuItem.svelte';
+	import { location } from '$lib/stores/stores.js'
+	
 	export let training;
 
-	let isOpen = false;
+	$: isOpen = training.id == $location.t1;
 	const toggle = () => (isOpen = !isOpen);
 
 	const topicColors = {

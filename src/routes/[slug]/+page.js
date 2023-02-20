@@ -1,6 +1,7 @@
 import pages from '$lib/data/pages.json'
 import internalLinks from '$lib/data/internal_links.json'
 
+
 const done = 399
 
 export async function load({ params }){
@@ -10,6 +11,7 @@ export async function load({ params }){
   const currentPage = pages.find(d => d.slug == params.slug)
   const id = currentPage.id
   const title = currentPage.title
+  const slug = currentPage.slug
   const t1 = currentPage.t1
   const m1 = currentPage.m1
   const t2 = currentPage.t2 ? currentPage.t2 : null
@@ -32,6 +34,7 @@ export async function load({ params }){
     content,
     title,
     id,
+    slug,
     t1,
     m1,
     t2,
