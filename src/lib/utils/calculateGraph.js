@@ -1,11 +1,11 @@
-export default	function calculateGraph(pagesData, depth, root) {
-		let trainingNodes = [
-			...new Set(pagesData.map((d) => d.t1).concat(pagesData.map((d) => d.t2)))
-		].filter((d) => d);
-		let moduleNodes = [
-			...new Set(pagesData.map((d) => d.m1).concat(pagesData.map((d) => d.m2)))
-		].filter((d) => d);
-
+export default	function calculateGraph(pagesData, depth, root, secondaryModules) {
+		let trainingNodes = secondaryModules
+			? [...new Set(pagesData.map((d) => d.t1).concat(pagesData.map((d) => d.t2)))].filter((d) => d)
+			: [...new Set(pagesData.map((d) => d.t1))].filter((d) => d);
+		let moduleNodes = secondaryModules
+			//? [...new Set(pagesData.map((d) => d.m1).concat(pagesData.map((d) => d.m2)))].filter((d) => d)
+			? [...new Set(pagesData.map((d) => d.m1))].filter((d) => d)
+			: [...new Set(pagesData.map((d) => d.m1))].filter((d) => d)
 		let pageNodes = pagesData.map((d) => d.slug);
 
 		let nodes = trainingNodes
@@ -48,7 +48,7 @@ export default	function calculateGraph(pagesData, depth, root) {
                 obj.depth = 1;
                 edges.push(obj);
 
-                if (d.m2) {
+                if (d.m2 && secondaryModules && d.t2 == "Design principles") {
 			    	let obj2 = {};
 			    	obj2.source = d.m2;
 			    	obj2.target = d.t2;
@@ -66,7 +66,7 @@ export default	function calculateGraph(pagesData, depth, root) {
 			    objTitle.depth = 2;
 			    edges.push(objTitle);
 
-                if(d.m2){
+                if(d.m2 && secondaryModules && d.t2 == "Design principles"){
                     let objTitle2 = {};
 			    	objTitle2.source = d.slug;
 			    	objTitle2.target = d.m2;
