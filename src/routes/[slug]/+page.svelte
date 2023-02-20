@@ -1,45 +1,52 @@
 <script>
+  import Breadcrumbs from '$lib/components/Breadcrumbs.svelte'
 	import Tag from '$lib/components/Tag.svelte';
 	import PageNavigation from '$lib/components/PageNavigation.svelte';
-  import { base } from '$app/paths';
+	import { base } from '$app/paths';
 	export let data;
 </script>
 
-<article>
-  <PageNavigation
-  previousSlug={data.previous}
-  previousTitle={data.previousTitle}
-  nextSlug={data.next}
-  nextTitle={data.nextTitle}
-  nextID={data.nextID}
-/>
-<div class="tag-container">
-  <Tag tagType={'t1'} tag={data.t1} root={true}/>
-  <Tag tagType={'m1'} tag={data.m1} root={true}/>
-  {#if data.t2 && data.m2}
-    {#if data.t1 != data.t2}
-    <Tag tagType={'t2'} tag={data.t2} root={true}/>
-    {/if}
-    <Tag tagType={'m2'} tag={data.m2} root={true}/>
-  {/if}
-  {#if data.metatags}
-    {#each data.metatags as tag}
-      <Tag tagType={'meta'} {tag} root={true}/>
-    {/each}
-  {/if}
-</div>
+<Breadcrumbs {data}></Breadcrumbs>
+
+<main>
+	<PageNavigation
+		previousSlug={data.previous}
+		previousTitle={data.previousTitle}
+		nextSlug={data.next}
+		nextTitle={data.nextTitle}
+		nextID={data.nextID}
+	/>
+	<div class="tag-container">
+		<Tag tagType={'t1'} tag={data.t1} root={true} />
+		<Tag tagType={'m1'} tag={data.m1} root={true} />
+		{#if data.t2 && data.m2}
+			{#if data.t1 != data.t2}
+				<Tag tagType={'t2'} tag={data.t2} root={true} />
+			{/if}
+			<Tag tagType={'m2'} tag={data.m2} root={true} />
+		{/if}
+		{#if data.metatags}
+			{#each data.metatags as tag}
+				<Tag tagType={'meta'} {tag} root={true} />
+			{/each}
+		{/if}
+	</div>
 	<h1>{data.title}</h1>
 
 	<div class="content">
 		<svelte:component this={data.content} />
 	</div>
-</article>
+</main>
 
 {#if data.incomingLinks.lenght > 0}
-<h2>This page is linked to from</h2>
-{#each data.incomingLinks as incomingLink}
-  <p><span class="internal-link"><a href={`${base}/${incomingLink.fromSlug}`}>{incomingLink.fromTitle}</a></span></p>
-{/each}
+	<h2>This page is linked to from</h2>
+	{#each data.incomingLinks as incomingLink}
+		<p>
+			<span class="internal-link"
+				><a href={`${base}/${incomingLink.fromSlug}`}>{incomingLink.fromTitle}</a></span
+			>
+		</p>
+	{/each}
 {/if}
 
 <PageNavigation
@@ -47,7 +54,7 @@
 	previousTitle={data.previousTitle}
 	nextSlug={data.next}
 	nextTitle={data.nextTitle}
-  nextID={data.nextID}
+	nextID={data.nextID}
 />
 
 <style>

@@ -2,9 +2,13 @@
     import Tag from '$lib/components/Tag.svelte';
     export let data
     import { base } from '$app/paths';
+    import Breadcrumbs from '../../../lib/components/Breadcrumbs.svelte';
     const done = 399
 </script>
 
+<!--Breadcrumbs {data}></Breadcrumbs-->
+
+<main>
 <h1>{data.tag}</h1>
 {#each data.tagPages as page}
 <h2 class={page.id < done ? "done" : "todo"}>
@@ -34,6 +38,7 @@
     {/if}
   </div>
 {/each}
+</main>
 
 <style>
     h2 a {

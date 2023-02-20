@@ -3,7 +3,7 @@
 </script>
 
 <header>
-  <a href="{base}/">Home</a>
+  <a href="{base}/" class="title">Data Visualisation Academy</a>
 
   <nav>
     <ul>
@@ -17,7 +17,8 @@
 <style>
     header {
       padding: 1rem;
-      background: #FFD617;
+      background: #004494;
+      color: white;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -34,5 +35,8 @@
     a {
       text-decoration: none;
       color: inherit;
+    }
+    a.title {
+      font-weight: bold;
     }
     </style>
