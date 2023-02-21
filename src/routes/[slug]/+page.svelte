@@ -71,7 +71,7 @@
 		text-align: center;
 		margin: 3rem 0rem;
 	}
-	.tag-container {
+	/*.tag-container {
 		margin-bottom: 1rem;
-	}
+	}*/
 </style>
