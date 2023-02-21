@@ -2,14 +2,22 @@
 	import Tag from '$lib/components/Tag.svelte';
 	import PageNavigation from '$lib/components/PageNavigation.svelte';
 	import { base } from '$app/paths';
-	import { location } from '$lib/stores/stores.js'
+	import { location } from '$lib/stores/stores.js';
 	export let data;
 
-	$: location.set({type: 'page', title: data.title, slug: data.slug, t1: data.t1, m1: data.m1, t2: data.t2, m2: data.m2})
+	$: location.set({
+		type: 'page',
+		title: data.title,
+		slug: data.slug,
+		t1: data.t1,
+		m1: data.m1,
+		t2: data.t2,
+		m2: data.m2
+	});
 </script>
 
 <main>
-	<div class="tag-container">
+	<!--div class="tag-container">
 		<Tag tagType={'t1'} tag={data.t1} root={true} />
 		<Tag tagType={'m1'} tag={data.m1} root={true} />
 		{#if data.t2 && data.m2}
@@ -23,20 +31,28 @@
 				<Tag tagType={'meta'} {tag} root={true} />
 			{/each}
 		{/if}
-	</div>
+	</div-->
 	<h1>{data.title}</h1>
 
 	<PageNavigation
-	previousSlug={data.previous}
-	previousTitle={data.previousTitle}
-	nextSlug={data.next}
-	nextTitle={data.nextTitle}
-	nextID={data.nextID}
-/>
+		previousSlug={data.previous}
+		previousTitle={data.previousTitle}
+		nextSlug={data.next}
+		nextTitle={data.nextTitle}
+		nextID={data.nextID}
+	/>
 
 	<div class="content">
 		<svelte:component this={data.content} />
 	</div>
+
+	<PageNavigation
+		previousSlug={data.previous}
+		previousTitle={data.previousTitle}
+		nextSlug={data.next}
+		nextTitle={data.nextTitle}
+		nextID={data.nextID}
+	/>
 </main>
 
 {#if data.incomingLinks.lenght > 0}
@@ -53,6 +69,7 @@
 <style>
 	h1 {
 		text-align: center;
+		margin: 3rem 0rem;
 	}
 	.tag-container {
 		margin-bottom: 1rem;
