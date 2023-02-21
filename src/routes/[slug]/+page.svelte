@@ -9,13 +9,6 @@
 </script>
 
 <main>
-	<PageNavigation
-		previousSlug={data.previous}
-		previousTitle={data.previousTitle}
-		nextSlug={data.next}
-		nextTitle={data.nextTitle}
-		nextID={data.nextID}
-	/>
 	<div class="tag-container">
 		<Tag tagType={'t1'} tag={data.t1} root={true} />
 		<Tag tagType={'m1'} tag={data.m1} root={true} />
@@ -33,6 +26,14 @@
 	</div>
 	<h1>{data.title}</h1>
 
+	<PageNavigation
+	previousSlug={data.previous}
+	previousTitle={data.previousTitle}
+	nextSlug={data.next}
+	nextTitle={data.nextTitle}
+	nextID={data.nextID}
+/>
+
 	<div class="content">
 		<svelte:component this={data.content} />
 	</div>
@@ -49,15 +50,10 @@
 	{/each}
 {/if}
 
-<!--PageNavigation
-	previousSlug={data.previous}
-	previousTitle={data.previousTitle}
-	nextSlug={data.next}
-	nextTitle={data.nextTitle}
-	nextID={data.nextID}
-/-->
-
 <style>
+	h1 {
+		text-align: center;
+	}
 	.tag-container {
 		margin-bottom: 1rem;
 	}

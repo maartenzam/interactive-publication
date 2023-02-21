@@ -1,10 +1,11 @@
 <script>
 	import { slide } from 'svelte/transition';
-	export let module;
-    export let topicColor;
 	import { location } from '$lib/stores/stores.js'
 	import { deslugify } from '$lib/utils/slugs.js'
 	import { base } from '$app/paths';
+
+	export let module;
+    export let topicColor;
 
 	$: isOpen = module.id == $location.m1;
 	const toggle = () => (isOpen = !isOpen);
