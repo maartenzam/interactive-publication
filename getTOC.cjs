@@ -21,6 +21,7 @@ parser.parse(spreadsheetId, 'toc').then((items) => {
     }
     console.log('pages.json saved')
   })
+  
   let toc = [...new Set(items.map(d => d.t1))]
     .map(d => {return {id: d, children: getModules(items, d)}})
   fs.writeFile('src/lib/data/toc.json', JSON.stringify(toc), err => {
