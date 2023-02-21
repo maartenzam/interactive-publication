@@ -8,7 +8,8 @@
 
 <nav class="breadcrumbs">
 	<ol>
-		{#if !$location.t1}
+		{#if $location}
+		{#if $location.type == 'home'}
 		<li class="crumb">Home</li>
 		{/if}
 		
@@ -39,6 +40,7 @@
 			<li class="crumb">&lt; <a href={`${base}/tag/` + slugify($location.m2)} style:border-bottom={`2px solid ${topicColors[$location.t2]}`}>{$location.m2}</a> ></li>
 			<li class="crumb">&lt; <a href={`${base}/tag/` + slugify($location.t2)} style:border-bottom={`2px solid ${topicColors[$location.t2]}`}>{$location.t2}</a></li>
 			<li class="crumb">&lt; <a href="{base}/">Home</a></li>
+		{/if}
 		{/if}
 	</ol>
 </nav>

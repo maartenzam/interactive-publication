@@ -4,7 +4,7 @@
 	import { base } from '$app/paths';
 	import { location } from '$lib/stores/stores.js'
 
-	$: location.set({})
+	$location = {type: 'home'}
 
 	const done = 399;
 </script>

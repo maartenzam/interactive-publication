@@ -1,4 +1,3 @@
-import { writable, derived } from 'svelte/store';
-import toc from '$lib/data/toc.json'
+import { writable } from 'svelte/store';
 
-export const location = writable({});
+export const location = writable({type: 'home'});
