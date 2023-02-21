@@ -55,7 +55,8 @@
 	/>
 </main>
 
-{#if data.incomingLinks.lenght > 0}
+<!--
+{#if data.incomingLinks.length > 0}
 	<h2>This page is linked to from</h2>
 	{#each data.incomingLinks as incomingLink}
 		<p>
@@ -65,6 +66,7 @@
 		</p>
 	{/each}
 {/if}
+-->
 
 <style>
 	h1 {

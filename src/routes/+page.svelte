@@ -6,7 +6,7 @@
 
 	$location = {type: 'home'}
 
-	const done = 399;
+	const done = 397;
 </script>
 
 <main>

@@ -1,8 +1,7 @@
 import pages from '$lib/data/pages.json'
-import internalLinks from '$lib/data/internal_links.json'
+//import internalLinks from '$lib/data/internal_links.json'
 
-
-const done = 399
+const done = 397
 
 export async function load({ params }){
   const post = await import(`../../pages/${params.slug}.md`)
@@ -24,11 +23,11 @@ export async function load({ params }){
   const next = id < pages.length ? nextPage.slug : null
   const previousTitle = id > 1 ? previousPage.title : null
   const nextTitle = id < pages.length ? nextPage.title : null
-  const nextID = id < done -1 ? nextPage.id : null
+  const nextID = id < done ? nextPage.id : null
 
-  const incomingLinks = internalLinks.filter(d => d.to == params.slug).map(d => {
+  /*const incomingLinks = internalLinks.filter(d => d.to == params.slug).map(d => {
     return {fromSlug: d.from, fromTitle: pages.find(p => p.slug == d.from).title}
-  })
+  })*/
 
   return {
     content,
@@ -45,6 +44,6 @@ export async function load({ params }){
     next,
     nextTitle,
     nextID,
-    incomingLinks
+    //incomingLinks
   }
 }

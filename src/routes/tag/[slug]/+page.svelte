@@ -5,9 +5,9 @@
 
     export let data
 
-    $: location.set(data.crumbs)
+    //$: location.set(data.crumbs)
 
-    const done = 399
+    const done = 397
 </script>
 
 <main>
