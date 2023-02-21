@@ -7,7 +7,8 @@ const spreadsheetId = '1hP54K7fcr5643k-VlTKBpRx8wU1Mom9I7gNuKhWGtbE'
 const parser = new PublicGoogleSheetsParser(spreadsheetId)
 
 function getPages(pages, module){
-  return pages.filter(d => d.m1 == module).map(d => { return {id: d.slug}})
+  //return pages.filter(d => (d.m1 == module || d.m2 == module)).map(d => { return {id: d.slug}})
+  return pages.filter(d => (d.m1 == module)).map(d => { return {id: d.slug}})
 }
 
 function getModules(pages, training){
@@ -24,6 +25,7 @@ parser.parse(spreadsheetId, 'toc').then((items) => {
   
   let toc = [...new Set(items.map(d => d.t1))]
     .map(d => {return {id: d, children: getModules(items, d)}})
+
   fs.writeFile('src/lib/data/toc.json', JSON.stringify(toc), err => {
     if (err) {
       console.error(err);

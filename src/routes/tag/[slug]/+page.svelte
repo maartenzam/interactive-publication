@@ -10,8 +10,6 @@
     const done = 399
 </script>
 
-<!--Breadcrumbs {data}></Breadcrumbs-->
-
 <main>
 <h1>{data.tag}</h1>
 {#each data.tagPages as page}
