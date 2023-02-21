@@ -4,8 +4,6 @@
 	import { location } from '$lib/stores/stores.js';
 	import { topicColors } from '$lib/styles/colors.js'
 
-	$: console.log($location)
-
 </script>
 
 <nav class="breadcrumbs">
