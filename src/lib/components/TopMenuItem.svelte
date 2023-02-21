@@ -2,23 +2,12 @@
 	import { slide } from 'svelte/transition';
 	import MiddleMenuItem from './MiddleMenuItem.svelte';
 	import { location } from '$lib/stores/stores.js'
-	import { deslugify } from '$lib/utils/slugs.js'
+	import { topicColors } from '$lib/styles/colors.js'
 	
 	export let training;
 
 	$: isOpen = training.id == $location.t1;
 	const toggle = () => (isOpen = !isOpen);
-
-	const topicColors = {
-        'Design principles': '#C73938',
-        'Data storytelling': '#316DB0',
-        'Pitfalls': '#661188',
-        'Dataviz in practice': '#53793F',
-        'Chart types': '#D96694',
-        'Accessibility': '#707070',
-        'Grammar of Graphics': '#E49A3E'
-
-    }
 </script>
 
 <li class="training" on:click={toggle} on:keydown={toggle} aria-expanded={isOpen} style:background-color={topicColors[training.id]}>
