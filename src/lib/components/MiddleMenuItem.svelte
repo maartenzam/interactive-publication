@@ -69,12 +69,14 @@
 	li {
 		list-style-type: none;
 		cursor: pointer;
+		transition: background-color 0.5s;
 	}
 	li.module {
-        padding: 0.3rem 0.3rem 0.3rem 1.4rem;
+        padding: 0.3rem 0.3rem 0.3rem 1.6rem;
 	}
     li.page-link {
-        padding: 0.3rem 0.3rem 0.3rem 2rem;
+        padding: 0.3rem 0.3rem 0.3rem 2.2rem;
+		font-size: 0.9rem;
     }
 	li.page-link a {
 		text-decoration: none;

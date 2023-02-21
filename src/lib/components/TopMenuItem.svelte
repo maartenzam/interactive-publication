@@ -50,7 +50,4 @@
 	svg {
 		transition: transform 0.2s ease-in;
 	}
-	svg {
-		transform: rotate(0.25turn);
-	}
 </style>
