@@ -1,16 +1,13 @@
 <script>
   import { base } from '$app/paths';
+  import SearchBar from '$lib/components/SearchBar.svelte'
 </script>
 
 <header>
   <a href="{base}/" class="title">Data Visualisation Academy</a>
 
   <nav>
-    <ul>
-      <li>
-        <a href="/vis">Visualisation</a>
-      </li>
-    </ul>
+    <div class="search-bar"><SearchBar></SearchBar></div>
   </nav>
 </header>
 
@@ -25,11 +22,9 @@
       box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
     }
     
-    ul {
-      margin: 0;
-      list-style-type: none;
-      display: flex;
-      gap: 1rem;
+    .search-bar {
+      width: 20rem;
+      margin-right: 1rem;
     }
     
     a {
