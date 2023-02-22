@@ -5,6 +5,7 @@
 
 	export let module;
     export let topicColor;
+	export let sidebarOpen
 
 	$: isOpen = module.title == $location.m1;
 	const toggle = () => (isOpen = !isOpen);
@@ -34,6 +35,7 @@
 			><a
 				href={base + '/' + page.slug}
 				style:color={page.slug == $location.slug ? 'white': topicColor}
+				on:click={() => sidebarOpen = false}
 				>{page.title} <svg
 				style="tran"
 				width="20"

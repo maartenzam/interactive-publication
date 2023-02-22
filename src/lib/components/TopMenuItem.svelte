@@ -5,6 +5,7 @@
 	import { topicColors } from '$lib/styles/colors.js'
 	
 	export let training;
+	export let sidebarOpen
 
 	$: isOpen = training.title == $location.t1;
 	const toggle = () => (isOpen = !isOpen);
@@ -29,7 +30,7 @@
 {#if isOpen}
 	<ul transition:slide={{ duration: 300 }}>
 		{#each training.children as module}
-		<MiddleMenuItem {module} topicColor={topicColors[training.title]}></MiddleMenuItem>
+		<MiddleMenuItem {module} topicColor={topicColors[training.title]} bind:sidebarOpen></MiddleMenuItem>
 		{/each}
 	</ul>
 {/if}

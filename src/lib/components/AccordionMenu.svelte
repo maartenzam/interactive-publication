@@ -1,12 +1,14 @@
 <script>
     import toc from '$lib/data/toc.json'
     import TopMenuItem from './TopMenuItem.svelte';
+
+    export let sidebarOpen
 </script>
 
 <div class="menu-container">
     <ul>
     {#each toc as training}
-        <TopMenuItem {training}></TopMenuItem>
+        <TopMenuItem {training} bind:sidebarOpen></TopMenuItem>
     {/each}
 </ul>
 </div>

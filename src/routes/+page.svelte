@@ -1,22 +1,23 @@
 <script>
 	import { base } from '$app/paths';
-	import { location } from '$lib/stores/stores.js'
+	import { location, isMobile } from '$lib/stores/stores.js'
+	import AccordionMenu from '../lib/components/AccordionMenu.svelte';
 
 	$location = {type: 'home'}
-
-	const done = 397;
 </script>
 
 	<div class="intro">
 		<h1>Data Visualisation Academy</h1>
 		<p>Intro: what is the Data Visualisaition Academy? Almost 400 pages, 3 ways to navigate, ...</p>
 	</div>
-	<div class="navigation-blocks">
+	<div class="navigation-blocks" style:flex-direction={$isMobile ? 'column' : 'row'}>
 		<div class="block topics">
 			<h2>Topics</h2>
-			<p>Explore the topics and subtopics of the Data Visualisation Academy through the table of content in the sidebar.
+			<p>Explore the topics and subtopics of the Data Visualisation Academy through the table of content.
 			</p>
-			<p>Here are some suggested topics to get started:</p>
+			{#if $isMobile}
+			<p><AccordionMenu></AccordionMenu></p>
+			{/if}
 		</div>
 		<div class="block search">
 			<h2>Search</h2>
@@ -45,12 +46,12 @@
 		width: 100%;
 		display: flex;
 		max-width: 80rem;
-		flex-wrap: wrap;
+		align-items: center;
 	}
 	.block {
 		flex: 1;
 		padding: 1rem;
-		min-width: 250px;
+		max-width: 50rem;
 	}
 	.block h2 {
 		text-align: center;
