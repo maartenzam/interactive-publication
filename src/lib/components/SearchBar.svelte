@@ -17,7 +17,9 @@
 			possibleResults.title.toLowerCase().startsWith(searchInput.toLowerCase())
 		);
 		results = resultsStartWith.concat(resultsIncludes)//.sort();
+        results = [...new Set(results)]
 	};
+
 </script>
 
 <div class="search-container">
