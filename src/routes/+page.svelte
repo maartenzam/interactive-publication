@@ -1,6 +1,4 @@
 <script>
-	import pages from '$lib/data/pages.json';
-	//import Tag from '$lib/components/Tag.svelte';
 	import { base } from '$app/paths';
 	import { location } from '$lib/stores/stores.js'
 
@@ -9,45 +7,63 @@
 	const done = 397;
 </script>
 
-<main>
-	<h1>Data visualisation knowledge base</h1>
+	<div class="intro">
+		<h1>Data Visualisation Academy</h1>
+		<p>Intro: what is the Data Visualisaition Academy? Almost 400 pages, 3 ways to navigate, ...</p>
+	</div>
+	<div class="navigation-blocks">
+		<div class="block topics">
+			<h2>Topics</h2>
+			<p>Explore the topics and subtopics of the Data Visualisation Academy through the table of content in the sidebar.
+			</p>
+			<p>Here are some suggested topics to get started:</p>
+		</div>
+		<div class="block search">
+			<h2>Search</h2>
+			<p>Find the data visualisation topic you are looking for by using the powerful search bar below.</p>
+		</div>
+		<div class="block chain">
+			<h2>Page chain</h2>
+			<p>Use the Academy as a course, and navigate through its complete content by following the chain of pages.
+			</p>
+			<p>Here are the starting pages for the main topics:</p>
+		</div>
+	</div>
+	<div class="knowledge-graph">
+		<h2>Knowledge graph</h2>
+	</div>
 
-	{#each pages as page}
-		<h2 class={page.id < done ? 'done' : 'todo'}>
-			{#if page.id < done}
-				<a href={`${base}/${page.slug}`}>{page.id + '. ' + page.title}</a>
-			{:else}
-				{page.id + '. ' + page.title}
-			{/if}
-		</h2>
-		<!--div class="tag-container">
-			<Tag tagType={'t1'} tag={page.t1} root={true} />
-			<Tag tagType={'m1'} tag={page.m1} root={true} />
-
-			{#if page.t2}
-				{#if page.t1 != page.t2}
-					<Tag tagType={'t2'} tag={page.t2} root={true} />
-				{/if}
-			{/if}
-
-			{#if page.m2}
-				<Tag tagType={'m2'} tag={page.m2} root={true} />
-			{/if}
-
-			{#if page.metatags}
-				{#each page.metatags.split(', ') as tag}
-					<Tag tagType={'meta'} {tag} root={true} />
-				{/each}
-			{/if}
-		</div-->
-	{/each}
-</main>
 
 <style>
-	h2 a {
+	.intro {
+		text-align: center;
+		max-width: 50rem;
+		margin: auto;
+	}
+	.navigation-blocks {
+		margin: auto;
+		width: 100%;
+		display: flex;
+		max-width: 80rem;
+		flex-wrap: wrap;
+	}
+	.block {
+		flex: 1;
+		padding: 1rem;
+		min-width: 250px;
+	}
+	.block h2 {
+		text-align: center;
+	}
+	.knowledge-graph {
+		text-align: center;
+		max-width: 100rem;
+		margin: auto;
+	}
+	/*h2 a {
 		text-decoration: none;
 	}
 	h2.todo {
 		opacity: 0.3;
-	}
+	}*/
 </style>

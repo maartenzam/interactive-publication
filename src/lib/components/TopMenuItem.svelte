@@ -6,7 +6,6 @@
 	
 	export let training;
 
-	$: console.log($location)
 	$: isOpen = training.title == $location.t1;
 	const toggle = () => (isOpen = !isOpen);
 </script>
