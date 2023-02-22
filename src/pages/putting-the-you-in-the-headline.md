@@ -50,7 +50,7 @@ Interesting to note here is that on desktop screens, users can zoom out to see t
 
 On mobile screens, the interactivity of the map is limited to just searching for a county. Source: [The Best and Worst Places to Grow Up: How Your Area Compares](https://www.nytimes.com/interactive/2015/05/03/upshot/the-best-and-worst-places-to-grow-up-how-your-area-compares.html), nytimes.com
 
-So on mobile phones, the article is clearly violating the <span class='internal-link'>[information-seeking mantra](informationseeking-mantra)</span>, as one of the authors of the article, Gregor Aisch, explained himself during a conference talk.
+So on mobile phones, the article is clearly violating the <span class='internal-link'>[information-seeking mantra](information-seeking-mantra)</span>, as one of the authors of the article, Gregor Aisch, explained himself during a conference talk.
 
 ![Source: [Data Visualizations and the News](https://vimeo.com/182590214), Gregor Aisch at [Information+ Conference 2016](https://informationplusconference.com/2016/)](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/aisch-mantra.png)
 

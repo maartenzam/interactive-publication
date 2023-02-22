@@ -36,11 +36,13 @@ Source: Maarten Lambrechts, CC BY 4.0
 
 Bigger charts also offer more space for annotations. When the annotations are important for the message the chart is trying to communicate, they can not simply be left out of smaller versions of the chart. One solution is to move them out of the chart, to a separate space below the chart for example.
 
-[Annotations can be integrated into a visualisation when its dimensions allow it. Source: [Datawrapper](https://blog.datawrapper.de/better-more-responsive-annotations-in-datawrapper-data-visualizations/)](https://datawrapper.dwcdn.net/iUPVd/5/)
+<iframe src='https://datawrapper.dwcdn.net/iUPVd/5/' width='100%' height='450px' style='border: none;'></iframe>
 
 Annotations can be integrated into a visualisation when its dimensions allow it. Source: [Datawrapper](https://blog.datawrapper.de/better-more-responsive-annotations-in-datawrapper-data-visualizations/)
 
-[When space is limited, the annotations can be listed below the visualisation. Source: [Datawrapper](https://blog.datawrapper.de/better-more-responsive-annotations-in-datawrapper-data-visualizations/)](https://datawrapper.dwcdn.net/iUPVd/5/)
+<p class="center">
+<iframe src='https://datawrapper.dwcdn.net/iUPVd/5/' width='300px' height='550px' style='border: none;'></iframe>
+</p>
 
 When space is limited, the annotations can be listed below the visualisation. Source: [Datawrapper](https://blog.datawrapper.de/better-more-responsive-annotations-in-datawrapper-data-visualizations/)
 

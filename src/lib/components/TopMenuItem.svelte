@@ -6,12 +6,13 @@
 	
 	export let training;
 
-	$: isOpen = training.id == $location.t1;
+	$: console.log($location)
+	$: isOpen = training.title == $location.t1;
 	const toggle = () => (isOpen = !isOpen);
 </script>
 
-<li class="training" on:click={toggle} on:keydown={toggle} aria-expanded={isOpen} style:background-color={topicColors[training.id]}>
-	{training.id} <svg
+<li class="training" on:click={toggle} on:keydown={toggle} aria-expanded={isOpen} style:background-color={topicColors[training.title]}>
+	{training.title} <svg
 	style="tran"
 	width="20"
 	height="20"
@@ -29,7 +30,7 @@
 {#if isOpen}
 	<ul transition:slide={{ duration: 300 }}>
 		{#each training.children as module}
-		<MiddleMenuItem {module} topicColor={topicColors[training.id]}></MiddleMenuItem>
+		<MiddleMenuItem {module} topicColor={topicColors[training.title]}></MiddleMenuItem>
 		{/each}
 	</ul>
 {/if}

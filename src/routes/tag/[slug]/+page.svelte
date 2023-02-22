@@ -1,17 +1,17 @@
 <script>
-    import Tag from '$lib/components/Tag.svelte';
+    //import Tag from '$lib/components/Tag.svelte';
     import { base } from '$app/paths';
     import { location } from '$lib/stores/stores.js'
 
     export let data
 
-    //$: location.set(data.crumbs)
+    $: location.set(data.crumbs)
 
     const done = 397
 </script>
 
 <main>
-<h1>{data.tag}</h1>
+<h1>{data.title}</h1>
 {#each data.tagPages as page}
 <h2 class={page.id < done ? "done" : "todo"}>
     {#if page.id < done}
@@ -19,7 +19,7 @@
     {:else}
     {page.id + '. ' + page.title}
     {/if}</h2>
-<div class="tag-container">
+<!--div class="tag-container">
     <Tag tagType={'t1'} tag={page.t1} root={false}/>
     <Tag tagType={'m1'} tag={page.m1} root={false}/>
 
@@ -38,7 +38,7 @@
         <Tag tagType={'meta'} {tag} root={false}/>
       {/each}
     {/if}
-  </div>
+  </div-->
 {/each}
 </main>
 

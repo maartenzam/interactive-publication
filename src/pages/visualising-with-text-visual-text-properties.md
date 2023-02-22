@@ -24,7 +24,7 @@ Source: [@geokaramanis](https://twitter.com/geokaramanis/status/1365295603975135
 
 In the visualisation above, the font size is determined by the number of characters in each sector name (names with less characters have a larger font size to make them fit). An extended version of this chart could map the font size of the sectors to the share of each sector in the total economy.
 
-Below is another example of a “text <span class='internal-link'>[stem-and-leaf plot](visualising-with-text-stemandleaf-plots)</span>”, showing data about sectors in the Standard & Poor’s index. This time, additional data is encoded in the colours and the casing of the sector codes. Sectors with negative values have white text on a coloured background, while sectors with positive values have the colours applied to the text itself. Lower case text means low volatility, upper case means high volatility.
+Below is another example of a “text <span class='internal-link'>[stem-and-leaf plot](visualising-with-text-stem-and-leaf-plots)</span>”, showing data about sectors in the Standard & Poor’s index. This time, additional data is encoded in the colours and the casing of the sector codes. Sectors with negative values have white text on a coloured background, while sectors with positive values have the colours applied to the text itself. Lower case text means low volatility, upper case means high volatility.
 
 ![Source: [Visualizing with Text](https://richardbrath.wordpress.com/books-and-chapters-by-richard-brath/visualizing-with-text-book-companion-web-site/#:~:text=Visualizing%20with%20Text%20is%20a,simple%20labels%20through%20to%20documents.), by Richard Brath](Visualising%20text%2073ea05fcce1b4ee5939cd29821ddd468/another-stem-leaf-brath.png)
 

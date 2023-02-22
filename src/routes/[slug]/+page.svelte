@@ -1,5 +1,5 @@
 <script>
-	import Tag from '$lib/components/Tag.svelte';
+	//import Tag from '$lib/components/Tag.svelte';
 	import PageNavigation from '$lib/components/PageNavigation.svelte';
 	import { base } from '$app/paths';
 	import { location } from '$lib/stores/stores.js';

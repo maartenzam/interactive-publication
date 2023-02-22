@@ -6,7 +6,7 @@ What is possible, though, is trying to get a good understanding of what colours 
 
 Technically, colour is what our brains perceive when light of different wave lengths hits our retina, and the signal is sent through the optic nerve.
 
-For a more practical and data visualisation focused approach to colour, you could say that colours are the proportions of different tints of ink that we print on paper, or the proportions of different kind of light that we let screens emit to represent data marks on a visualisation. The way to **describe** the proportions of “pure” colours needed to produce a certain color is what the <span class='internal-link'>[describing colours](tag/describing-colours)</span> pages are about.
+For a more practical and data visualisation focused approach to colour, you could say that colours are the proportions of different tints of ink that we print on paper, or the proportions of different kind of light that we let screens emit to represent data marks on a visualisation. The way to **describe** the proportions of “pure” colours needed to produce a certain color is what the <span class='internal-link'>[describing colours](describing-colours-introduction)</span> pages are about.
 
 The second part of this module is about combining colours. Some color combinations feel much more harmonious than others, and you’ll learn why that is the case. Luckily many tools exist to help you pick these <span class='internal-link'>[colour harmonies](colour-harmonies)</span>.
 

@@ -14,6 +14,6 @@ Use the <span class="internal-link">[break the grid](breaking-the-grid)</span> t
 
 Charts with a cartesian coordinate system, with an X and a Y axis, have a natural grid built into it. It shouldn’t be too visibly present (or should even be invisible), but you can use it to align chart elements like annotations.
 
-Alignment and the grid are very important in table design. This is the topic of the <span class="internal-link">[Table design](tag/tables)</span> pages.
+Alignment and the grid are very important in table design. This is the topic of the <span class="internal-link">[Table design](tag/table-design)</span> pages.
 
 When laying out pages or when publications contain multiple visualisations, you need to consider the **reading sequence**, running from top-left to bottom-right.

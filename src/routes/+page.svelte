@@ -1,6 +1,6 @@
 <script>
 	import pages from '$lib/data/pages.json';
-	import Tag from '$lib/components/Tag.svelte';
+	//import Tag from '$lib/components/Tag.svelte';
 	import { base } from '$app/paths';
 	import { location } from '$lib/stores/stores.js'
 
@@ -20,7 +20,7 @@
 				{page.id + '. ' + page.title}
 			{/if}
 		</h2>
-		<div class="tag-container">
+		<!--div class="tag-container">
 			<Tag tagType={'t1'} tag={page.t1} root={true} />
 			<Tag tagType={'m1'} tag={page.m1} root={true} />
 
@@ -39,7 +39,7 @@
 					<Tag tagType={'meta'} {tag} root={true} />
 				{/each}
 			{/if}
-		</div>
+		</div-->
 	{/each}
 </main>
 

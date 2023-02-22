@@ -3,7 +3,6 @@
 	import { topicColors } from '$lib/styles/colors.js';
 	import { location } from '$lib/stores/stores.js';
 	import toc from '$lib/data/toc.json'
-	//import { deslugify } from '$lib/utils/slugs.js'
 
 	export let previousSlug;
 	export let previousTitle;
@@ -14,7 +13,7 @@
 	let w;
 	$: margin = w * 0.1
 
-	$: modulePages = toc.find(d => d.id == $location.t1).children.find(d => d.id == $location.m1).children
+	$: modulePages = toc.find(d => d.title == $location.t1).children.find(d => d.title == $location.m1).children
 	//$: modulePages2 = $location.t2 && $location.m2 ? toc.find(d => d.id == $location.t2).children.find(d => d.id == $location.m2).children : null
 
 	//$: currentPageIndex = modulePages2 ? modulePages2.map(d => d.id).indexOf($location.slug) : null
@@ -53,10 +52,10 @@
 				<circle
 					cx={margin + i * (w - 2*margin) / (modulePages.length - 1)}
 					cy={25}
-					r={page.id == $location.slug ? 8 : 6}
-					stroke={page.id == $location.slug ? 'white' : topicColors[$location.t1]}
+					r={page.slug == $location.slug ? 8 : 6}
+					stroke={page.slug == $location.slug ? 'white' : topicColors[$location.t1]}
 					stroke-width={2}
-					fill={page.id == $location.slug ? topicColors[$location.t1] : 'white'}
+					fill={page.slug == $location.slug ? topicColors[$location.t1] : 'white'}
 				/>
 			{/each}
 		</svg>

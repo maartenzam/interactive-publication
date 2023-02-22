@@ -11,5 +11,5 @@ All three tools share the Grammar of Graphics philosophy, but their practical im
 This <span class='internal-link'>[Geometric objects in detail](tag/geometric-objects-in-detail)</span> pages give an overview of the geometries available in the 3 tools, without going too much into detail about how the geometries can be used in each tool. This is discussed in:
 
 - <span class='internal-link'><a href='grammar-of-graphics-in-practice-ggplot2'>Grammar of Graphics in practice: ggplot2</a></span>
-- <span class='internal-link'><a href='grammar-of-graphics-in-practice-vegalite'>Grammar of Graphics in practice: Vega-Lite</a></span>
+- <span class='internal-link'><a href='grammar-of-graphics-in-practice-vega-lite'>Grammar of Graphics in practice: Vega-Lite</a></span>
 - <span class='internal-link'><a href='grammar-of-graphics-in-practice-observable-plot'>Grammar of Graphics in practice: Observable Plot</a></span>

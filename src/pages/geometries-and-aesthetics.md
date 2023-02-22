@@ -54,7 +54,7 @@ The same plot as above, but with the `population` variable mapped to the `rotati
 
 ## 1-dimensional geometries
 
-1-dimensional geometries are straight lines, curved lines or lines following a path connecting multiple data points. Different kinds of 1-dimensional lines require different aesthetics to be generated, see <span class='internal-link'><a href='1dimensional-geometries'>1-dimensional geometries</a></span> for an overview of the required aesthetics for the different kinds of line geometries.
+1-dimensional geometries are straight lines, curved lines or lines following a path connecting multiple data points. Different kinds of 1-dimensional lines require different aesthetics to be generated, see <span class='internal-link'><a href='1-dimensional-geometries'>1-dimensional geometries</a></span> for an overview of the required aesthetics for the different kinds of line geometries.
 
 Apart from the required position aesthetics, line geometries can also have the following aesthetics:
 
@@ -75,7 +75,7 @@ Remember that for multi-series line charts, an aesthetic needs to be provided th
 
 ## 2-dimensional geometries
 
-Apart from the aesthetics required to shape and position 2-dimensional geometries (see <span class='internal-link'><a href='2dimensional-geometries'>2-dimensional geometries</a></span>), the other aesthetics of these geometries are very similar to the ones of point geometries. This makes sense since 0-dimensional geometries use 2-dimensional objects, like circles, to represent dimensionless points.
+Apart from the aesthetics required to shape and position 2-dimensional geometries (see <span class='internal-link'><a href='2-dimensional-geometries'>2-dimensional geometries</a></span>), the other aesthetics of these geometries are very similar to the ones of point geometries. This makes sense since 0-dimensional geometries use 2-dimensional objects, like circles, to represent dimensionless points.
 
 So 2-dimensional geometries (rectangles and areas) share the following aesthetics with 0-dimensional ones:
 

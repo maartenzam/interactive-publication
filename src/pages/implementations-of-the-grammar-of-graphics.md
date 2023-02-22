@@ -47,7 +47,7 @@ Vega has a smaller sister called [**Vega-Lite**](https://vega.github.io/vega-lit
 Source: [vega.github.io/vega-lite/examples](https://vega.github.io/vega-lite/examples/point_2d.html)
 
 <aside>
-🔗 A full introduction to Vega-Lite can be found in <span class='internal-link'><a href='grammar-of-graphics-in-practice-vegalite'>Grammar of graphics in practice: Vega-Lite</a></span>.
+🔗 A full introduction to Vega-Lite can be found in <span class='internal-link'><a href='grammar-of-graphics-in-practice-vega-lite'>Grammar of graphics in practice: Vega-Lite</a></span>.
 
 </aside>
 

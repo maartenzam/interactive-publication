@@ -37,4 +37,4 @@ Having redundancy in pictograms and text labels is always a good idea: icons and
 
 This visualisation makes use of both numbers and icons for the x axis labels. Source: [‘The pandemic is gaining momentum’: Africa prepares for surge in infections](https://www.ft.com/content/1b3274ce-de3b-411d-8544-a024e64c3542), ft.com
 
-A special case of using pictograms is the use of icons to represent people. This is a broad topic, that is covered by the pages on <span class='internal-link'>[anthropographics](tag/anthropographics)</span>.
+A special case of using pictograms is the use of icons to represent people. This is a broad topic, that is covered by the page on <span class='internal-link'>[anthropographics](anthropographics)</span>.

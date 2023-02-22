@@ -25,4 +25,4 @@ Based on an analysis of the properties of the scrollers in a a collection scroll
 - Scrollytelling technique: <span class='internal-link'>[animated transition](scrollytelling-animated-transition)</span>
 - Scrollytelling technique: <span class='internal-link'>[pan and zoom](scrollytelling-pan-and-zoom)</span>
 - Scrollytelling technique: <span class='internal-link'>[moviescroller](scrollytelling-moviescroller)</span>
-- Scrollytelling technique: <span class='internal-link'>[show-and-play](scrollytelling-showandplay)</span>
+- Scrollytelling technique: <span class='internal-link'>[show-and-play](scrollytelling-show-and-play)</span>

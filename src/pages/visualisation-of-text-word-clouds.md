@@ -24,7 +24,7 @@ And after grouping, with horizontal text only:
 
 Source: [An Evaluation of Semantically Grouped Word Cloud Designs](https://vimeo.com/364568578)
 
-Instead of a word cloud, a <span class='internal-link'>[stem-and-leaf plot](visualising-with-text-stemandleaf-plots)</span> can be used to show how many times words occur together in corpus. The example below shows the co-occurrence of adjectives with the characters in Grimm’s fairy tales.
+Instead of a word cloud, a <span class='internal-link'>[stem-and-leaf plot](visualising-with-text-stem-and-leaf-plots)</span> can be used to show how many times words occur together in corpus. The example below shows the co-occurrence of adjectives with the characters in Grimm’s fairy tales.
 
 ![Source: [Visualizing with Text](https://richardbrath.wordpress.com/books-and-chapters-by-richard-brath/visualizing-with-text-book-companion-web-site/#:~:text=Visualizing%20with%20Text%20is%20a,simple%20labels%20through%20to%20documents.), by Richard Brath](Visualising%20text%2073ea05fcce1b4ee5939cd29821ddd468/grimm-occurence-stem-leaf-brath.png)
 

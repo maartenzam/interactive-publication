@@ -20,6 +20,6 @@ Source: [Henry Wang](https://twitter.com/henrywangnl/status/1259396196713537536)
 
 More about the theming in each of the 3 implementations of the Grammar of Graphics can be found in their respective introduction pages:
 
-- <span class='internal-link'><a href='grammar-of-graphics-in-practice-vegalite'>Grammar of Graphics in practice: Vega-Lite</a></span>
+- <span class='internal-link'><a href='grammar-of-graphics-in-practice-vega-lite'>Grammar of Graphics in practice: Vega-Lite</a></span>
 - <span class='internal-link'><a href='grammar-of-graphics-in-practice-observable-plot'>Grammar of Graphics in practice: Observable Plot</a></span>
 - <span class='internal-link'><a href='grammar-of-graphics-in-practice-ggplot2'>Grammar of Graphics in practice: ggplot2</a></span>

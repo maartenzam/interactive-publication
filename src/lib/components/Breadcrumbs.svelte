@@ -1,9 +1,10 @@
 <script>
 	import { base } from '$app/paths';
-	import { deslugify, slugify } from '$lib/utils/slugs.js';
+	import { slugify } from '$lib/utils/slugs.js';
 	import { location } from '$lib/stores/stores.js';
 	import { topicColors } from '$lib/styles/colors.js'
 
+	$: console.log($location)
 </script>
 
 <nav class="breadcrumbs">
@@ -16,10 +17,10 @@
 		{#if $location.t1}
 			<li class="crumb"><a href="{base}/">Home</a> ></li>
 			{#if !$location.m1}
-				<li class="crumb end" style:color={topicColors[$location.t1]}>{deslugify($location.t1)}</li>
+				<li class="crumb end" style:color={topicColors[$location.t1]}>{$location.t1}</li>
 			{/if}
 			{#if $location.m1}
-				<li class="crumb"><a href={`${base}/tag/` + slugify($location.t1)} style:border-bottom={`2px solid ${topicColors[$location.t1]}`}>{deslugify($location.t1)}</a> ></li>
+				<li class="crumb"><a href={`${base}/tag/` + slugify($location.t1)} style:border-bottom={`2px solid ${topicColors[$location.t1]}`}>{$location.t1}</a> ></li>
 			{/if}
 		{/if}
 
@@ -37,7 +38,7 @@
 		{/if}
 
 		{#if $location.t2 && $location.m2}
-			<li class="crumb">&lt; <a href={`${base}/tag/` + slugify($location.m2)} style:border-bottom={`2px solid ${topicColors[$location.t2]}`}>{$location.m2}</a> ></li>
+			<li class="crumb">&lt; <a href={`${base}/tag/` + slugify($location.m2)} style:border-bottom={`2px solid ${topicColors[$location.t2]}`}>{$location.m2}</a></li>
 			<li class="crumb">&lt; <a href={`${base}/tag/` + slugify($location.t2)} style:border-bottom={`2px solid ${topicColors[$location.t2]}`}>{$location.t2}</a></li>
 			<li class="crumb">&lt; <a href="{base}/">Home</a></li>
 		{/if}

@@ -1,29 +1,17 @@
 <script>
 	import { slide } from 'svelte/transition';
 	import { location } from '$lib/stores/stores.js'
-	import { deslugify } from '$lib/utils/slugs.js'
 	import { base } from '$app/paths';
 
 	export let module;
     export let topicColor;
 
-	$: isOpen = module.id == $location.m1;
+	$: isOpen = module.title == $location.m1;
 	const toggle = () => (isOpen = !isOpen);
-
-	const topicColors = {
-        'Design principles': '#C73938',
-        'Data storytelling': '#316DB0',
-        'Pitfalls': '#661188',
-        'Dataviz in practice': '#53793F',
-        'Chart types': '#D96694',
-        'Accessibility': '#707070',
-        'Grammar of Graphics': '#E49A3E'
-
-    }
 </script>
 
 <li class="module" on:click={toggle} on:keydown={toggle} aria-expanded={isOpen} style:color={isOpen ? 'white' : topicColor} style:background-color={isOpen ? topicColor : '#f5f5f5'}>
-	{module.id} <svg
+	{module.title} <svg
 	style="tran"
 	width="20"
 	height="20"
@@ -42,11 +30,11 @@
 	<ul transition:slide={{ duration: 300 }}>
 		{#each module.children as page}
 			<li class="page-link"
-				style:background-color={page.id == $location.slug ? topicColor : '#f5f5f5'}
+				style:background-color={page.slug == $location.slug ? topicColor : '#f5f5f5'}
 			><a
-				href={base + '/' + page.id}
-				style:color={page.id == $location.slug ? 'white': topicColor}
-				>{deslugify(page.id)} <svg
+				href={base + '/' + page.slug}
+				style:color={page.slug == $location.slug ? 'white': topicColor}
+				>{page.title} <svg
 				style="tran"
 				width="20"
 				height="20"
@@ -57,7 +45,7 @@
 				viewBox="0 0 24 24"
 				style:float={'right'}
 				style:transform={'rotate(0turn)'}
-				stroke={page.id == $location.slug ? 'white' : topicColor}><path d="M9 5l7 7-7 7" /></svg
+				stroke={page.slug == $location.slug ? 'white' : topicColor}><path d="M9 5l7 7-7 7" /></svg
 			></a></li>
 		{/each}
 	</ul>
