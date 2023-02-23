@@ -6,7 +6,6 @@ export async function load({ params }){
   // Find the title of the current slug in the TOC tree data, set title and breadcrumbs
   let title
   let crumbs
-  console.log(params)
 
   if(toc.find(d => d.slug == params.slug)) {
     title = toc.find(d => d.slug == params.slug).title
