@@ -1,8 +1,9 @@
 <script>
-	import { base } from '$app/paths';
 	import { location, isMobile } from '$lib/stores/stores.js'
-	import AccordionMenu from '../lib/components/AccordionMenu.svelte';
-	import SearchBar from '../lib/components/SearchBar.svelte';
+	import AccordionMenu from '$lib/components/AccordionMenu.svelte';
+	import SearchBar from '$lib/components/SearchBar.svelte';
+	import HighlightedTopics from '$lib/components/HighlightedTopics.svelte';
+	import StartingLinks from '$lib/components/StartingLinks.svelte';
 
 	$location = {type: 'home'}
 </script>
@@ -19,6 +20,8 @@
 			{#if $isMobile}
 			<p><AccordionMenu></AccordionMenu></p>
 			{/if}
+			<p>Here are some suggested topics to get started:</p>
+			<HighlightedTopics></HighlightedTopics>
 		</div>
 		<div class="block search">
 			<h2>Search</h2>
@@ -30,6 +33,7 @@
 			<p>Use the Academy as a course, and navigate through its complete content by following the chain of pages.
 			</p>
 			<p>Here are the starting pages for the main topics:</p>
+			<StartingLinks></StartingLinks>
 		</div>
 	</div>
 	<div class="knowledge-graph">
@@ -48,7 +52,6 @@
 		width: 100%;
 		display: flex;
 		max-width: 80rem;
-		align-items: center;
 	}
 	.block {
 		flex: 1;

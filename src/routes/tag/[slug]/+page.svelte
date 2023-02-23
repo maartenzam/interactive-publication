@@ -13,8 +13,8 @@
 <main>
 <h1>{data.title}</h1>
 {#each data.tagPages as page}
-<h2 class={page.id < done ? "done" : "todo"}>
-    {#if page.id < done}
+<h2 class={page.id <= done ? "done" : "todo"}>
+    {#if page.id <= done}
     <a href={`${base}/${page.slug}`}>{page.id + '. ' + page.title}</a>
     {:else}
     {page.id + '. ' + page.title}
