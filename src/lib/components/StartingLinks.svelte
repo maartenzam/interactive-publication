@@ -17,16 +17,17 @@
 <ul>
 	{#each startingLinks as link}
 		<li>
-			<div class="tag" style:background-color={topicColors[link.t1]}
-				><a href={`${base}/tag/${slugify(link.t1)}`}>{link.t1}</a>
-        </div>
-		<div class="link-container">
-            <a
+			<div class="tag" style:background-color={topicColors[link.t1]}>
+                <!--a href={`${base}/tag/${slugify(link.t1)}`}>{link.t1}</a-->
+                {link.t1}
+            </div>
+		    <div class="link-container">
+                <a
                 class="internal-link"
                 href={`${base}/${slugify(link.title)}`}
                 style:color={topicColors[link.t1]}
                 >{link.title}</a>
-        </div>
+            </div>
 		</li>
 	{/each}
 </ul>
@@ -46,6 +47,7 @@
 		display: inline-block;
         text-transform: uppercase;
         font-size: 0.9rem;
+        color: white;
 	}
 	.tag a {
 		text-decoration: none;

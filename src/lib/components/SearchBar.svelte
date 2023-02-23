@@ -11,17 +11,20 @@
 	const onBlur = () => (isFocused = false);
 
 	const typeahead = () => {
+		if (searchInput == '') {
+			results = [];
+		} else {
 			let resultsIncludes = possibleResults.filter((possibleResults) =>
-			possibleResults.title.toLowerCase().includes(searchInput.toLowerCase())
-		);
+				possibleResults.title.toLowerCase().includes(searchInput.toLowerCase())
+			);
 
-		let resultsStartWith = possibleResults.filter((possibleResults) =>
-			possibleResults.title.toLowerCase().startsWith(searchInput.toLowerCase())
-		);
-		results = resultsStartWith.concat(resultsIncludes); //.sort();
-		results = [...new Set(results)];
+			let resultsStartWith = possibleResults.filter((possibleResults) =>
+				possibleResults.title.toLowerCase().startsWith(searchInput.toLowerCase())
+			);
+			results = resultsStartWith.concat(resultsIncludes); //.sort();
+			results = [...new Set(results)];
+		}
 	};
-
 </script>
 
 <div class="search-container">
@@ -35,11 +38,14 @@
 		on:focus={onFocus}
 		on:blur={onBlur}
 	/>
-		<ul class="typeahead-results-list" style:border={results.length > 0 ? '1px solid #707070' : 'none'}>
-			{#each results as result}
-				<SearchResult {result} bind:searchInput bind:results/>
-			{/each}
-		</ul>
+	<ul
+		class="typeahead-results-list"
+		style:border={results.length > 0 ? '1px solid #707070' : 'none'}
+	>
+		{#each results as result}
+			<SearchResult {result} bind:searchInput bind:results />
+		{/each}
+	</ul>
 </div>
 
 <style>
