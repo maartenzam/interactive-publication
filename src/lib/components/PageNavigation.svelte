@@ -1,7 +1,7 @@
 <script>
 	import { base } from '$app/paths';
 	import { topicColors } from '$lib/styles/colors.js';
-	import { location } from '$lib/stores/stores.js';
+	import { location, isMobile } from '$lib/stores/stores.js';
 	import toc from '$lib/data/toc.json'
 
 	export let previousSlug;
@@ -29,11 +29,13 @@
 		<a
 			href={base + '/' + previousSlug}
 			class="left button"
+			style:left={$isMobile ? '0px' : '-30px'}
 			style:color={topicColors[$location.t1]}>← {previousTitle}</a
 		>{/if}
 	{#if nextSlug && nextID}<a
 			href={base + '/' + nextSlug}
 			class="right button"
+			style:right={$isMobile ? '0px' : '-30px'}
 			style:color={topicColors[$location.t1]}>{nextTitle} →</a
 		>{/if}
 	</div>
@@ -122,13 +124,11 @@
 		padding: 0.3rem;
 	}
 	.left {
-		left: -30px;
 		bottom: 0px;
 		max-width: 20rem;
 		text-align: left;
 	}
 	.right {
-		right: -30px;
 		bottom: 0px;
 		max-width: 20rem;
 		text-align: right;

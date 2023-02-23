@@ -12,7 +12,7 @@
 		<h1>Data Visualisation Academy</h1>
 		<p>Intro: what is the Data Visualisaition Academy? Almost 400 pages, 3 ways to navigate, ...</p>
 	</div>
-	<div class="navigation-blocks" style:flex-direction={$isMobile ? 'column' : 'row'}>
+	<div class="navigation-blocks" style:flex-direction={$isMobile ? 'column' : 'row'} style:align-items={$isMobile ? 'center' : 'normal'}>
 		<div class="block topics">
 			<h2>Topics</h2>
 			<p>Explore the topics and subtopics of the Data Visualisation Academy through the table of content.

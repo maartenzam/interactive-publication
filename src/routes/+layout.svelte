@@ -11,13 +11,12 @@
 	const toggleSidebar = function () {
 		sidebarOpen = !sidebarOpen;
 	};
-
 </script>
 
 <Header />
 <Breadcrumbs />
 
-{#if $location.type != 'home'}
+{#if !($isMobile && $location.type == 'home')}
 <div class={sidebarOpen ? 'sidebar-toggle open' : 'sidebar-toggle closed'}>
 	<button on:click={() => toggleSidebar()}>TOPICS {sidebarOpen ? '<<' : '>>'}</button>
 </div>
@@ -37,7 +36,9 @@
 	<div class={sidebarOpen ? 'content mobile open' : 'content mobile closed'}>
 		<slot />
 	</div>
+	{#if $location.type != 'home'}
 	<div class={sidebarOpen ? 'sidebar mobile open' : 'sidebar mobile closed'}><AccordionMenu bind:sidebarOpen/></div>
+	{/if}
 </div>
 {/if}
 
@@ -80,7 +81,13 @@
 		display: block;
 	}
 	.sidebar.closed {
+		left: -30%;
+	}
+	.sidebar.mobile.closed {
 		left: -100%;
+	}
+	.sidebar.mobile.open {
+		left: 0%;
 	}
 	.content {
 		width: 100%;

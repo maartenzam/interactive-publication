@@ -1,18 +1,22 @@
 <script>
   import { base } from '$app/paths';
+  import { isMobile } from '$lib/stores/stores.js'
   import SearchBar from '$lib/components/SearchBar.svelte'
 </script>
 
 <header>
-  <a href="{base}/" class="title">Data Visualisation Academy</a>
+  {#if !$isMobile}
+    <a href="{base}/" class="title">Data Visualisation Academy</a>
+  {/if}
 
-  <nav>
-    <div class="search-bar"><SearchBar></SearchBar></div>
+  <nav style:width={$isMobile ? '100%' : 'auto'}>
+    <div class="search-bar" style:width={$isMobile ? '100%' : '20rem'}><SearchBar></SearchBar></div>
   </nav>
 </header>
 
 <style>
     header {
+      height: 50px;
       padding: 1rem;
       background: #004494;
       color: white;
@@ -20,11 +24,6 @@
       flex-wrap: wrap;
       justify-content: space-between;
       box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
-    }
-    
-    .search-bar {
-      width: 20rem;
-      margin-right: 1rem;
     }
     
     a {
