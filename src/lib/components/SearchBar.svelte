@@ -11,7 +11,7 @@
 	const onBlur = () => (isFocused = false);
 
 	const typeahead = () => {
-		let resultsIncludes = possibleResults.filter((possibleResults) =>
+			let resultsIncludes = possibleResults.filter((possibleResults) =>
 			possibleResults.title.toLowerCase().includes(searchInput.toLowerCase())
 		);
 
@@ -21,6 +21,7 @@
 		results = resultsStartWith.concat(resultsIncludes); //.sort();
 		results = [...new Set(results)];
 	};
+
 </script>
 
 <div class="search-container">
@@ -34,14 +35,11 @@
 		on:focus={onFocus}
 		on:blur={onBlur}
 	/>
-	<!--{#if isFocused === true && searchInput.length > 0}-->
-	{#if true}
-		<ul class="typeahead-results-list">
+		<ul class="typeahead-results-list" style:border={results.length > 0 ? '1px solid #707070' : 'none'}>
 			{#each results as result}
-				<SearchResult {result} bind:searchInput />
+				<SearchResult {result} bind:searchInput bind:results/>
 			{/each}
 		</ul>
-	{/if}
 </div>
 
 <style>

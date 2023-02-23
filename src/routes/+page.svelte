@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import { location, isMobile } from '$lib/stores/stores.js'
 	import AccordionMenu from '../lib/components/AccordionMenu.svelte';
+	import SearchBar from '../lib/components/SearchBar.svelte';
 
 	$location = {type: 'home'}
 </script>
@@ -22,6 +23,7 @@
 		<div class="block search">
 			<h2>Search</h2>
 			<p>Find the data visualisation topic you are looking for by using the powerful search bar below.</p>
+			<p><SearchBar></SearchBar></p>
 		</div>
 		<div class="block chain">
 			<h2>Page chain</h2>
