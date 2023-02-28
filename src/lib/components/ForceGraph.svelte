@@ -3,30 +3,50 @@
 	import { forceSimulation, forceLink, forceManyBody, forceCenter, forceCollide } from 'd3-force';
 	import { slugify } from '$lib/utils/slugs.js';
 	import { linkVertical, linkHorizontal } from 'd3-shape'
+	import calculateGraph from '$lib/utils/calculateGraph.js'
+	import { topicColors } from '$lib/styles/colors.js'
 
-	export let data;
+	export let pagesData;
 	export let activePageData;
 	export let chargeStrength;
 	export let labelLevel;
 	export let nodeScaling;
+	export let depth;
+	export let root;
+	export let secondaryModules
+	export let height;
 	//export let tagPages;
 
-	let width = 960;
-	let height = 960;
+	$: data = calculateGraph(pagesData, depth, root, secondaryModules)
 
 	$: edges = data.edges;
 	$: nodes = data.nodes;
 
-	const colorScale = {
-		root: '#eeeeee',
-		'Design principles': '#C73938',
-		'Data storytelling': '#316DB0',
-		Pitfalls: '#661188',
-		'Dataviz in practice': '#53793F',
-		'Chart types': '#D96694',
-		Accessibility: '#707070',
-		'Grammar of Graphics': '#E49A3E'
-	};
+	function getNodeTopicColor(nodeID){
+		if(topicColors[nodeID]){
+			return topicColors[nodeID]
+		}
+		else if(edges.find((d) => d.source.id == nodeID) && topicColors[edges.find((d) => d.source.id == nodeID).target.id]){
+			return topicColors[edges.find((d) => d.source.id == nodeID).target.id]
+		}
+		else if(edges.find((d) => d.source.id == nodeID)) {
+			let m1 = edges.find((d) => d.source.id == nodeID).target.id
+			let t1 = edges.find(d => d.source.id == m1).target.id
+			return topicColors[t1]
+		}
+	}
+
+	function getEdgeTopicColor(edge){
+		if(edge.depth == 0){
+			return topicColors[edge.source.id]
+		}
+		if(edge.depth == 1){
+			return topicColors[edge.target.id]
+		}
+		if(edge.depth == 2){
+			return getNodeTopicColor(edge.target.id)
+		}
+	}
 
 	/*$: taggedNodes = nodes.filter((d) =>
     tagPages.map((d) => d.title).includes(d.id)
@@ -39,17 +59,17 @@
 				'link',
 				forceLink(edges)
 					.id((d) => d.id)
-					.distance(0.5)
-					.strength(0.5)
+					.distance(0.1)
+					.strength(0.2)
 			)
 			.force(
 				'collide',
 				forceCollide().radius((d) =>
-					d.depth == 0 ? 100 : d.depth == 1 ? 0 : d.depth == 2 ? 100 : 4
+					d.depth == 0 ? 0 : d.depth == 1 ? 0 : d.depth == 2 ? 0 : 4
 				)
 			)
 			.force('charge', forceManyBody().strength(chargeStrength))
-			.force('center', forceCenter(width / 2, height / 2).strength(0.01))
+			.force('center', forceCenter(width / 2, height / 2).strength(1))
 			.on('tick', () => {
 				simulation.tick();
 				nodes = [...nodes];
@@ -59,28 +79,31 @@
 
 	onMount(network);
 
-	let linkGenerator = linkHorizontal().x(d => d.x).y(d => d.y)
-</script>
+	//let linkGenerator = linkHorizontal().x(d => d.x).y(d => d.y)
 
+	let width
+</script>
+<div class="graph-container" bind:clientWidth={width}>
 <svg {width} {height}>
 	{#each edges as edge}
 		{#if edge.source && (edge.depth || edge.depth == 0)}
-			<g stroke="#C73938" stroke-opacity="0.6">
-				<path
+			<g>
+				<!--path
 					d={linkGenerator(edge)}
 					fill="none"
 					stroke-width={edge.depth == 0 ? 6 : edge.depth == 1 ? 0 : edge.depth == 2 ? 2 : 1}
-					stroke={colorScale[edge.target.id]}><title>{edge.source.id}</title></path>
-				<!--line
+					stroke={colorScale[edge.target.id]}><title>{edge.source.id}</title></path-->
+				<line
 					x1={edge.source.x}
 					y1={edge.source.y}
 					x2={edge.target.x}
 					y2={edge.target.y}
-					stroke-width={edge.depth == 0 ? 6 : edge.depth == 1 ? 0 : edge.depth == 2 ? 2 : 1}
-					stroke={colorScale[edge.target.id]}
+					stroke-width={edge.depth == 0 ? 6 : edge.depth == 1 ? 3 : edge.depth == 2 ? 2 : 1}
+					opacity={edge.depth == 0 ? 1 : edge.depth == 1 ? 0.7 : 0.3}
+					stroke={getEdgeTopicColor(edge)}
 				>
 					<title>{edge.source.id}</title>
-				</line-->
+				</line>
 			</g>
 		{/if}
 	{/each}
@@ -94,18 +117,13 @@
 				<circle
 					class="node"
 					r={point.depth == 0
-						? 12 * nodeScaling
-						: point.depth == 1
 						? 0 * nodeScaling
+						: point.depth == 1
+						? 7 * nodeScaling
 						: point.depth == 2
 						? 5 * nodeScaling
 						: (4 * nodeScaling) / 2}
-					fill={colorScale[point.id]
-						? colorScale[point.id]
-						: edges.find((d) => d.source.id == point.id) &&
-						  colorScale[edges.find((d) => d.source.id == point.id).target.id]
-						? colorScale[edges.find((d) => d.source.id == point.id).target.id]
-						: '#C73938'}
+					fill={getNodeTopicColor(point.id)}
 					cx={point.x}
 					cy={point.y}
 				>
@@ -117,7 +135,7 @@
 
 	{#each nodes as point}
 		{#if point.depth || point.depth == 0}
-			{#if point.depth <= labelLevel && point.depth > 1}
+			{#if point.depth <= labelLevel && point.depth != 0}
 				<a href={'tag/' + slugify(point.id)}>
 					<text
 						class={point.depth < 2 ? 'texthalo caps' : 'texthalo'}
@@ -125,15 +143,19 @@
 						y={point.y}
 						dy={5}
 						text-anchor={'middle'}
-						fill={colorScale[point.id] ? colorScale[point.id] : '#C73938'}>{point.id}</text
+						fill={getNodeTopicColor(point.id)}>{point.id}</text
 					>
 				</a>
 			{/if}
 		{/if}
 	{/each}
 </svg>
+</div>
 
 <style>
+	.graph-container {
+		width: 100%;
+	}
 	circle {
 		stroke: #fff;
 		stroke-width: 1.5;

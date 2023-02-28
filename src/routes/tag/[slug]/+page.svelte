@@ -2,23 +2,28 @@
     //import Tag from '$lib/components/Tag.svelte';
     import { base } from '$app/paths';
     import { location } from '$lib/stores/stores.js'
+    import ForceGraph from '$lib/components/ForceGraph.svelte';
 
     export let data
 
     $: location.set(data.crumbs)
-
-    const done = 397
 </script>
 
 <main>
 <h1>{data.title}</h1>
+<ForceGraph
+		pagesData={data.tagPages}
+		chargeStrength={data.tagPages.length > 20 ? -100 : -400}
+		labelLevel={data.tagPages.length > 20 ? 2 : 3}
+		nodeScaling={3}
+		depth={3}
+		root={false}
+		secondaryModules={false}
+    height={700}
+	/>
 {#each data.tagPages as page}
-<h2 class={page.id <= done ? "done" : "todo"}>
-    {#if page.id <= done}
-    <a href={`${base}/${page.slug}`}>{page.id + '. ' + page.title}</a>
-    {:else}
-    {page.id + '. ' + page.title}
-    {/if}</h2>
+<h2>
+    <a href={`${base}/${page.slug}`}>{page.id + '. ' + page.title}</a></h2>
 <!--div class="tag-container">
     <Tag tagType={'t1'} tag={page.t1} root={false}/>
     <Tag tagType={'m1'} tag={page.m1} root={false}/>
@@ -43,10 +48,10 @@
 </main>
 
 <style>
+    h1 {
+      text-align: center;
+    }
     h2 a {
         text-decoration: none;
-    }
-    h2.todo {
-        opacity: 0.3;
     }
 </style>
