@@ -50,9 +50,9 @@
 	</div>
 </div>
 <div class="knowledge-graph">
-	<h2>Knowledge graph</h2>
-	<SunBurst></SunBurst>
-	<!--ForceGraph
+	<h2>Data Visualisation Academy Visualisation</h2>
+	<SunBurst maxLabelLevel={2} minLabelValue={18000}></SunBurst>
+	<ForceGraph
 		pagesData={pages}
 		chargeStrength={-100}
 		labelLevel={1}
@@ -71,7 +71,7 @@
 		root={true}
 		secondaryModules={true}
 		height={800}
-	/-->
+	/>
 </div>
 
 <style>

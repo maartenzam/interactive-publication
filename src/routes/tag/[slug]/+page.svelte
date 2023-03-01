@@ -3,6 +3,7 @@
     import { base } from '$app/paths';
     import { location } from '$lib/stores/stores.js'
     import ForceGraph from '$lib/components/ForceGraph.svelte';
+    import SunBurst from '$lib/components/SunBurst.svelte';
 
     export let data
 
@@ -11,6 +12,11 @@
 
 <main>
 <h1>{data.title}</h1>
+<SunBurst
+  filter={data.crumbs}
+  maxLabelLevel={2}
+  minLabelValue={data.crumbs.m1 ? 0 : 5000}
+  ></SunBurst>
 <ForceGraph
 		pagesData={data.tagPages}
 		chargeStrength={data.tagPages.length > 20 ? -100 : -400}

@@ -84,7 +84,7 @@
 	let width
 </script>
 <div class="graph-container" bind:clientWidth={width}>
-<svg {width} {height}>
+<svg width={'100%'} {height}>
 	{#each edges as edge}
 		{#if edge.source && (edge.depth || edge.depth == 0)}
 			<g>
