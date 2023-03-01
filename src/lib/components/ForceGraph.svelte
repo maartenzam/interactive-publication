@@ -5,6 +5,7 @@
 	import { linkVertical, linkHorizontal } from 'd3-shape'
 	import calculateGraph from '$lib/utils/calculateGraph.js'
 	import { topicColors } from '$lib/styles/colors.js'
+	import { base } from '$app/paths';
 
 	export let pagesData;
 	export let activePageData;
@@ -112,8 +113,8 @@
 		{#if activePageData && point.id == activePageData.title}
 			<circle r={10 * nodeScaling} stroke={'black'} stroke-width={3} cx={point.x} cy={point.y} />
 		{/if}
-		{#if point.depth || point.depth == 0}
-			<a href={point.depth == 3 ? point.id : 'tag/' + slugify(point.id)}>
+		{#if point.depth}
+			<a href={point.depth == 3 ? `${base}/${point.id }`: `${base}/tag/${slugify(point.id)}`}>
 				<circle
 					class="node"
 					r={point.depth == 0
@@ -131,12 +132,29 @@
 				>
 			</a>
 		{/if}
+		{#if point.depth == 0}
+				<circle
+					class="node"
+					r={point.depth == 0
+						? 0 * nodeScaling
+						: point.depth == 1
+						? 7 * nodeScaling
+						: point.depth == 2
+						? 5 * nodeScaling
+						: (4 * nodeScaling) / 2}
+					fill={getNodeTopicColor(point.id)}
+					cx={point.x}
+					cy={point.y}
+				>
+					<title>{point.id}</title></circle
+				>
+		{/if}
 	{/each}
 
 	{#each nodes as point}
 		{#if point.depth || point.depth == 0}
 			{#if point.depth <= labelLevel && point.depth != 0}
-				<a href={'tag/' + slugify(point.id)}>
+				<a href={point.depth == 3 ? `${base}/${point.id }`: `${base}/tag/${slugify(point.id)}`}>
 					<text
 						class={point.depth < 2 ? 'texthalo caps' : 'texthalo'}
 						x={point.x}
