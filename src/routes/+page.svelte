@@ -51,7 +51,8 @@
 </div>
 <div class="knowledge-graph">
 	<h2>Data Visualisation Academy Visualisation</h2>
-	<SunBurst maxLabelLevel={2} minLabelValue={18000}></SunBurst>
+	<SunBurst maxLabelLevel={2} minLabelValue={18000} dots={true}></SunBurst>
+	<SunBurst maxLabelLevel={2} minLabelValue={18000} dots={false}></SunBurst>
 	<ForceGraph
 		pagesData={pages}
 		chargeStrength={-100}

@@ -1,23 +1,30 @@
 <script>
-    //import Tag from '$lib/components/Tag.svelte';
-    import { base } from '$app/paths';
-    import { location } from '$lib/stores/stores.js'
-    import ForceGraph from '$lib/components/ForceGraph.svelte';
-    import SunBurst from '$lib/components/SunBurst.svelte';
+	//import Tag from '$lib/components/Tag.svelte';
+	import { base } from '$app/paths';
+	import { location } from '$lib/stores/stores.js';
+	import ForceGraph from '$lib/components/ForceGraph.svelte';
+	import SunBurst from '$lib/components/SunBurst.svelte';
 
-    export let data
+	export let data;
 
-    $: location.set(data.crumbs)
+	$: location.set(data.crumbs);
 </script>
 
 <main>
-<h1>{data.title}</h1>
-<SunBurst
-  filter={data.crumbs}
-  maxLabelLevel={2}
-  minLabelValue={data.crumbs.m1 ? 0 : 5000}
-  ></SunBurst>
-<ForceGraph
+	<h1>{data.title}</h1>
+	<SunBurst
+		filter={data.crumbs}
+		maxLabelLevel={1}
+		minLabelValue={data.crumbs.m1 ? 0 : 5000}
+		dots={true}
+	/>
+	<SunBurst
+		filter={data.crumbs}
+		maxLabelLevel={1}
+		minLabelValue={data.crumbs.m1 ? 0 : 5000}
+		dots={false}
+	/>
+	<ForceGraph
 		pagesData={data.tagPages}
 		chargeStrength={data.tagPages.length > 20 ? -100 : -400}
 		labelLevel={data.tagPages.length > 20 ? 2 : 3}
@@ -25,12 +32,13 @@
 		depth={3}
 		root={false}
 		secondaryModules={false}
-    height={700}
+		height={700}
 	/>
-{#each data.tagPages as page}
-<h2>
-    <a href={`${base}/${page.slug}`}>{page.id + '. ' + page.title}</a></h2>
-<!--div class="tag-container">
+	{#each data.tagPages as page}
+		<h2>
+			<a href={`${base}/${page.slug}`}>{page.id + '. ' + page.title}</a>
+		</h2>
+		<!--div class="tag-container">
     <Tag tagType={'t1'} tag={page.t1} root={false}/>
     <Tag tagType={'m1'} tag={page.m1} root={false}/>
 
@@ -50,14 +58,14 @@
       {/each}
     {/if}
   </div-->
-{/each}
+	{/each}
 </main>
 
 <style>
-    h1 {
-      text-align: center;
-    }
-    h2 a {
-        text-decoration: none;
-    }
+	h1 {
+		text-align: center;
+	}
+	h2 a {
+		text-decoration: none;
+	}
 </style>
