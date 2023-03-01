@@ -192,7 +192,7 @@
 							fill="white"
 							text-anchor="middle"
 							x={arcGenerator.centroid(node)[0]}
-							y={arcGenerator.centroid(node)[1] + 5}
+							y={arcGenerator.centroid(node)[1] + 6}
 							style:text-shadow={`-1px -1px ${
 								!filter ? getNodeTopicColor(node) : topicColors[filter.t1]
 							}, -1px 1px ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}, 1px 1px ${
@@ -226,4 +226,7 @@
 		pointer-events: none;
 		font-size: 0.7rem;
 	}
+    path, circle {
+        transition: opacity 0.5s;
+    }
 </style>
