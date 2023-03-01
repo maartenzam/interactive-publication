@@ -61,45 +61,63 @@
 </script>
 
 <div bind:clientWidth={width}>
+    {#if width}
 	<svg width={'100%'} height={width}>
 		<g transform={`translate(${width / 2},${width / 2})`}>
 			{#each root.descendants() as node}
-				{#if node.depth != 0}
-					<a
-						href={!filter && node.depth == 3
-							? `${base}/${node.data.slug}`
-							: filter && filter.m1 && node.depth == 1
-							    ? `${base}/${node.data.slug}`
-							    : filter && !filter.m1 && node.depth == 2
-							        ? `${base}/${node.data.slug}`
-							        : `${base}/tag/${node.data.slug}`}
-					>
+				<!--{#if node.depth != root.height}-->
+					{#if node.depth != 0}
+						<a
+							href={!filter && node.depth == 3
+								? `${base}/${node.data.slug}`
+								: filter && filter.m1 && node.depth == 1
+								? `${base}/${node.data.slug}`
+								: filter && !filter.m1 && node.depth == 2
+								? `${base}/${node.data.slug}`
+								: `${base}/tag/${node.data.slug}`}
+						>
+							<path
+								d={arcGenerator(node)}
+								fill={!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}
+								stroke={'white'}
+								stroke-width={2 - (50 * node.depth) / 100}
+								style:filter={`brightness(${100 + 7 * node.depth}%)`}
+							/>
+						</a>
+					{:else}
 						<path
 							d={arcGenerator(node)}
 							fill={!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}
 							stroke={'white'}
-							stroke-width={2 - 50*node.depth/100}
-                            style:filter={`brightness(${100 + 7*node.depth}%)`}
+							stroke-width={1}
 						/>
-					</a>
-				{:else}
-					<path
-						d={arcGenerator(node)}
-						fill={!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}
-						stroke={'white'}
-						stroke-width={1}
-					/>
-				{/if}
+					{/if}
+				<!--{/if}-->
+                <!--{#if node.depth == root.height}
+                        <circle
+                        cx={arcGenerator.centroid(node)[0]}
+						cy={arcGenerator.centroid(node)[1] + 5} 
+                        r={4}
+                        fill={!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}
+                        stroke={'#ffffff'}
+                        stroke-width={1}
+                        ></circle>
+                {/if}-->
 			{/each}
 			{#if filter}
 				<text
-                    text-anchor="middle"
-                    x={0}
-                    y={0}
-                    fill={'#ffffff'}
-                    style:text-transform={'uppercase'}
-                    style:text-shadow={`-1px -1px ${topicColors[filter.t1]}, -1px 1px ${topicColors[filter.t1]}, 1px 1px ${topicColors[filter.t1]}, 1px -1px ${topicColors[filter.t1]}, -1px 0 ${topicColors[filter.t1]}, 0 1px ${topicColors[filter.t1]}, 1px 0 ${topicColors[filter.t1]}, 0 -1px ${topicColors[filter.t1]}`}
-					>{filter.m1 ? filter.m1 : filter.t1}</text
+					text-anchor="middle"
+					x={0}
+					y={0}
+					fill={'#ffffff'}
+					style:text-transform={'uppercase'}
+					style:text-shadow={`-1px -1px ${topicColors[filter.t1]}, -1px 1px ${
+						topicColors[filter.t1]
+					}, 1px 1px ${topicColors[filter.t1]}, 1px -1px ${topicColors[filter.t1]}, -1px 0 ${
+						topicColors[filter.t1]
+					}, 0 1px ${topicColors[filter.t1]}, 1px 0 ${topicColors[filter.t1]}, 0 -1px ${
+						topicColors[filter.t1]
+					}`}>{filter.m1 ? filter.m1 : filter.t1}</text
 				>
 			{/if}
 			{#each root.descendants() as node}
@@ -110,7 +128,15 @@
 						style:text-transform={node.depth == 1 ? 'uppercase' : ''}
 						x={arcGenerator.centroid(node)[0]}
 						y={arcGenerator.centroid(node)[1] + 5}
-                        style:text-shadow={`-1px -1px ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}, -1px 1px ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}, 1px 1px ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}, 1px -1px ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}, -1px 0 ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}, 0 1px ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}, 1px 0 ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}, 0 -1px ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}`}
+						style:text-shadow={`-1px -1px ${
+							!filter ? getNodeTopicColor(node) : topicColors[filter.t1]
+						}, -1px 1px ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}, 1px 1px ${
+							!filter ? getNodeTopicColor(node) : topicColors[filter.t1]
+						}, 1px -1px ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}, -1px 0 ${
+							!filter ? getNodeTopicColor(node) : topicColors[filter.t1]
+						}, 0 1px ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}, 1px 0 ${
+							!filter ? getNodeTopicColor(node) : topicColors[filter.t1]
+						}, 0 -1px ${!filter ? getNodeTopicColor(node) : topicColors[filter.t1]}`}
 						transform={`
                     rotate(${
 											(((node.x0 + node.x1) / 2) * 180) / Math.PI < 180
@@ -124,12 +150,12 @@
 			{/each}
 		</g>
 	</svg>
+    {/if}
 </div>
 
 <style>
 	text {
 		pointer-events: none;
 		font-size: 0.7rem;
-		/*text-shadow: -1px -1px black, -1px 1px black, 1px 1px black, 1px -1px black, -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 	}
 </style>
