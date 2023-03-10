@@ -1,3 +1,7 @@
+<script>
+    import {Tweet} from 'sveltekit-embed'
+</script>
+
 Rounding numbers in your visualisations will improve legibility: rounded numbers are easier to read, and in a lot of cases numbers can be formatted more efficiently without compromising precision.
 
 An easy rule to follow in the formatting of numbers is simply to remove leading and trailing zeroes. “1,5” means the same as “1,500” and it is easier to read, so the trailing zeroes should be removed and the number should be displayed as “1,5”.
@@ -26,7 +30,7 @@ A visualisation showing confidence intervals. The central estimate should probab
 
 A similar error even happens in scientific papers, as this tweet explains:
 
-[https://twitter.com/ikashnitsky/status/1481223818341453824](https://twitter.com/ikashnitsky/status/1481223818341453824)
+<Tweet tweetLink="ikashnitsky/status/1481223818341453824"></Tweet>
 
 As a rule, more than 1 digit after the decimal sign is not needed, and many numbers in your visualisation can be rounded to 1 digit after the decimal sign, or even to integers. Remember to round numbers in the correct manner (round numbers with less than 5 tenths to the lower integer, and numbers with 5 tenths or more to the higher integer).
 

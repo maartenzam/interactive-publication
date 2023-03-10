@@ -2,7 +2,7 @@ Earth is a three-dimensional sphere, while maps are represented on flat two-dime
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/kIID5FDi2JQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Source: Vox
+_Source: Vox_
 
 Different formulas for cutting and stretching the 3D surface of the globe exist, each with their own characteristics, drawbacks and advantages. These formulas are called projections, because they “project“ a 3D surface onto a 2D surface.
 

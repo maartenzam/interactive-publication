@@ -66,4 +66,4 @@ The following video shows that this also applies to the surface area of squares,
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/BW3YNLsmn8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Source: [eagereyes - Robert Kosara](https://eagereyes.org/eagereyestv/new-video-linear-vs-quadratic-change)
+_Source: [eagereyes - Robert Kosara](https://eagereyes.org/eagereyestv/new-video-linear-vs-quadratic-change)_

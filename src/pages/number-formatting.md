@@ -1,3 +1,7 @@
+<script>
+    import {Tweet} from 'sveltekit-embed'
+</script>
+
 ## Decimal sign
 
 In most but not all European countries, the comma is used as the decimal sign. So the decimal sign is localised, and formatting of numbers should be taken into account when translating visualisations, and when making visualisations for a wider audience.
@@ -29,7 +33,7 @@ These prefixes are handy in visualisations, where space for numbers and labels i
 
 Recently, the Financial Times stopped using “m” for millions for another reason: this prefix can be misinterpreted by screen readers.
 
-[https://twitter.com/joshspero/status/1489329663424008194](https://twitter.com/joshspero/status/1489329663424008194)
+<Tweet tweetLink="joshspero/status/1489329663424008194"></Tweet>
 
 ## Picking formats
 

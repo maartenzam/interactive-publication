@@ -8,4 +8,4 @@ Observable Plot is a JavaScript visualisation library created by Mike Bostock, t
 
 Source: [observablehq.com/@observablehq/plot](https://observablehq.com/@observablehq/plot)
 
-LINK T7 Observable Plot
+See <span class='internal-link'>[Grammar of Graphics in practice: Observable Plot](grammar-of-graphics-in-practice-observable-plot)</span> for an introduction to Observable Plot.

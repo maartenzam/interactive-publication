@@ -6,8 +6,12 @@ Source: Oesch, Jonas, Manuel Roth, and Adina Renner. “Scrolling into the Newsr
 
 Graphic sequences are often used for showing and highlighting information on a visualisation step by step. They can also work well with illustrations and photographs.
 
-[A room, a bar and a classroom: how the coronavirus is spread through the air](https://elpais.com/especiales/coronavirus-covid-19/a-room-a-bar-and-a-class-how-the-coronavirus-is-spread-through-the-air/)
+![Source: [A room, a bar and a classroom: how the coronavirus is spread through the air](https://elpais.com/especiales/coronavirus-covid-19/a-room-a-bar-and-a-class-how-the-coronavirus-is-spread-through-the-air/), elpais.com](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/elpais-covid-spread.png)
 
-[The race to save the river Ganges](https://graphics.reuters.com/INDIA-RIVER/010081TW39P/index.html)
+Source: [A room, a bar and a classroom: how the coronavirus is spread through the air](https://elpais.com/especiales/coronavirus-covid-19/a-room-a-bar-and-a-class-how-the-coronavirus-is-spread-through-the-air/), elpais.com
+
+![](scrollytelling-ganges-reuters.jpg)
+
+Source: [The race to save the river Ganges](https://graphics.reuters.com/INDIA-RIVER/010081TW39P/index.html), reuters.com
 
 In graphic sequences, the transition between the subsequent graphics can be direct or can be faded. The graphic can use the full viewport or can have smaller dimensions. In the latter case, it is usually centered in the middle of the screen.

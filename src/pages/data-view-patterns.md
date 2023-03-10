@@ -36,7 +36,7 @@ The same dataset can be visualised in many different ways. And sometimes a data 
 
 <video src="Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/animation-798x.mov" width="100%" height="450px" controls />
 
-A map transitions into a dot plot. Source: [Why Budapest, Warsaw, and Lithuania split themselves in two](https://pudding.cool/2019/04/eu-regions/), pudding.cool
+_A map transitions into a dot plot. Source: [Why Budapest, Warsaw, and Lithuania split themselves in two](https://pudding.cool/2019/04/eu-regions/), pudding.cool_
 
 A last specific view pattern are **small multiples**. When a multi-series visualisation contains many series (like a line chart with many lines) and the series are of equal importance, the visualisation can become crowded quickly. Small multiples help to overcome this problem by showing repeated mini versions of the chart for each series, which can then be arranged next to or above and below each other. Applying a logical ordering to the small multiples helps to compare them, and helps to quickly find a small multiple of interest.
 

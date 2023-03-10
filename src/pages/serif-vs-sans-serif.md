@@ -21,16 +21,16 @@ Fonts can be mixed, and as a rule combining a serif font for headings and a sans
 
 ![[en.wikipedia.org/wiki/Sans-serif](https://en.wikipedia.org/wiki/Sans-serif)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/wikipedia.png)
 
-[en.wikipedia.org/wiki/Sans-serif](https://en.wikipedia.org/wiki/Sans-serif)
+Source: [en.wikipedia.org/wiki/Sans-serif](https://en.wikipedia.org/wiki/Sans-serif)
 
 ![ [nightingaledvs.com/choosing-fonts-for-your-data-visualization](https://nightingaledvs.com/choosing-fonts-for-your-data-visualization/)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/nightinggale.png)
 
- [nightingaledvs.com/choosing-fonts-for-your-data-visualization](https://nightingaledvs.com/choosing-fonts-for-your-data-visualization/)
+ Source: [nightingaledvs.com/choosing-fonts-for-your-data-visualization](https://nightingaledvs.com/choosing-fonts-for-your-data-visualization/)
 
 ![[www.lefigaro.fr/actualite-france/les-convois-de-la-liberte-interdits-a-paris-20220210](https://www.lefigaro.fr/actualite-france/les-convois-de-la-liberte-interdits-a-paris-20220210)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/figaro.png)
 
-[www.lefigaro.fr/actualite-france/les-convois-de-la-liberte-interdits-a-paris-20220210](https://www.lefigaro.fr/actualite-france/les-convois-de-la-liberte-interdits-a-paris-20220210)
+Source: [www.lefigaro.fr/actualite-france/les-convois-de-la-liberte-interdits-a-paris-20220210](https://www.lefigaro.fr/actualite-france/les-convois-de-la-liberte-interdits-a-paris-20220210)
 
 ![[www.spiegel.de/ausland/kanada-ottawa-ruft-nach-trucker-protesten-notstand-aus-a-4e1cdee9-371d-49c5-86fa-1c184b9a8739](https://www.spiegel.de/ausland/kanada-ottawa-ruft-nach-trucker-protesten-notstand-aus-a-4e1cdee9-371d-49c5-86fa-1c184b9a8739)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/spiegel.png)
 
-[www.spiegel.de/ausland/kanada-ottawa-ruft-nach-trucker-protesten-notstand-aus-a-4e1cdee9-371d-49c5-86fa-1c184b9a8739](https://www.spiegel.de/ausland/kanada-ottawa-ruft-nach-trucker-protesten-notstand-aus-a-4e1cdee9-371d-49c5-86fa-1c184b9a8739)
+Source: [www.spiegel.de/ausland/kanada-ottawa-ruft-nach-trucker-protesten-notstand-aus-a-4e1cdee9-371d-49c5-86fa-1c184b9a8739](https://www.spiegel.de/ausland/kanada-ottawa-ruft-nach-trucker-protesten-notstand-aus-a-4e1cdee9-371d-49c5-86fa-1c184b9a8739)

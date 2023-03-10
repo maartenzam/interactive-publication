@@ -1,5 +1,6 @@
 <script>
 	import Katex from "$lib/components/Katex.svelte"
+	import {Tweet} from 'sveltekit-embed'
 </script>
 
 In November 2020, Danish researchers published the results of a study on the effects of mask wearing on the spread of covid-19. The researchers had recruited 5.000 volunteers and divided these people into 2 group: 2.500 people would wear masks whenever they would move in public spaces, and the other 2.500, the control group, would wear no masks.
@@ -8,7 +9,7 @@ After a period of 1 month, all participants in the study were tested for covid-1
 
 “A very small effect, wearing masks only reduces infections by 0,3 percent!” people against the wearing of masks argued. But others argued that the reduction in infections was in fact a 14 percent reduction, a much higher number that confused a lot of people.
 
-[https://twitter.com/ClarkeMicah/status/1339653223926423553](https://twitter.com/ClarkeMicah/status/1339653223926423553)
+<Tweet tweetLink="ClarkeMicah/status/1339653223926423553"></Tweet>
 
 So what happened?
 

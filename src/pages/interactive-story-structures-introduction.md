@@ -1,3 +1,3 @@
-In the same study defined the narrative visualisation genres described above, the researchers also looked at how interaction was interwoven in the data driven stories they analysed. Interaction gives controls to the reader to discover parts of the story on their own.
+In the same study that defined the <span class='internal-link'>[narrative visualisation genres](narrative-visualisation-genres-introduction)</span>, the researchers also looked at how interaction was interwoven in the data driven stories they analysed. Interaction gives controls to the reader to discover parts of the story on their own.
 
 In static data driven stories, by definition the stories are author-driven: the author decides what data is displayed and how it is visualised. With interactivity, stories can become reader-driven, in varying degrees.

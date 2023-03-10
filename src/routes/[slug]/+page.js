@@ -1,7 +1,7 @@
 import pages from '$lib/data/pages.json'
 //import internalLinks from '$lib/data/internal_links.json'
 
-const done = 397
+const done = 396
 
 export async function load({ params }){
   const post = await import(`../../pages/${params.slug}.md`)

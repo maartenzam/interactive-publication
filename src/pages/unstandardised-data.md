@@ -7,11 +7,11 @@ Correcting these values, or “standardising” them by setting all of them to �
 Because fixing unstandardised data is so costly, it should be avoided as much as possible. So when data is collected, users should be only allowed to pick values from a list, and data should be validated at the moment it is collected. For example, a date of birth should be picked with a date picker, or the date should be entered in a certain format that is checked when it is submitted.
 
 <p class='center'>
-<img src='Pitfalls%20in%20data%20eb8fedacd9fb46a98a3c448baaa69495/datepicker.png' alt='' class='max-600' />
+<img src='Pitfalls%20in%20data%20eb8fedacd9fb46a98a3c448baaa69495/datepicker.png' alt='' class='max-400' />
 </p>
 
 When users can just pick a date on a calendar (above), the dates will be standardised. When users are offered a text field to enter a date (below), chances are high the data will not be standardised. Source: Maarten Lambrechts, CC BY SA 4,0
 
 <p class='center'>
-<img src='Pitfalls%20in%20data%20eb8fedacd9fb46a98a3c448baaa69495/datefield.png' alt='' class='max-600' />
+<img src='Pitfalls%20in%20data%20eb8fedacd9fb46a98a3c448baaa69495/datefield.png' alt='' class='max-400' />
 </p>

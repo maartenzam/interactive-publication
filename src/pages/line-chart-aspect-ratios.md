@@ -1,6 +1,12 @@
+<script>
+    import {Tweet} from 'sveltekit-embed'
+</script>
+
 One chart that is especially sensitive to differences in aspect ratios are line charts.
 
-[https://twitter.com/neilrkaye/status/1455552926743621632](https://twitter.com/neilrkaye/status/1455552926743621632)
+<p style="text-align: center;">
+<Tweet tweetLink="neilrkaye/status/1455552926743621632"></Tweet>
+</p>
 
 A wide layout, with a high width to height ratio, will flatten trends in time series.  A high layout, with a low width to height ratio, will do the reverse and stress or even dramatise trends in the data.
 

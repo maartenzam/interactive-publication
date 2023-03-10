@@ -10,10 +10,18 @@ In animated transitions, the animations can be fully controlled by the scroll po
 
 An example of the former, with animations fully tied to the scroll position, is “A visual introduction to machine learning”
 
-[A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+![](scrollytelling-machine-learning.png)
 
-An example that uses triggers to start animations is “Why Budapest, Warsaw and Lithuania split themselves in two”
+Source: [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 
-[Why EU Regions are Redrawing Their Borders](https://pudding.cool/2019/04/eu-regions/)
+An example that uses triggers to start animations is "Why Budapest, Warsaw and Lithuania split themselves in two"
 
-[East-West Exodus: The Millions Who Left](https://www.zeit.de/politik/deutschland/2019-05/east-west-exodus-migration-east-germany-demography)
+![](scrollytelling-eu-regions.jpg)
+
+Source: [Why EU Regions are Redrawing Their Borders](https://pudding.cool/2019/04/eu-regions/)
+
+Another example of this technique is applied in "East-West Exodus: The Millions Who Left"
+
+![](scrollytelling-zeit.jpg)
+
+Source: [East-West Exodus: The Millions Who Left](https://www.zeit.de/politik/deutschland/2019-05/east-west-exodus-migration-east-germany-demography)

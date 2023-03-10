@@ -34,21 +34,21 @@ So the Google image search was not very helpful in understanding what graphic de
 
 Many definitions of “graphic design” exist. In an effort to find its relevance for data visualisation, below are some of these definitions and their sources.
 
-[Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/graphic-design)
+[Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/graphic-design):
 
 > The art of designing pictures and text for books, magazines, advertising, etc.
 > 
 
 This is a very narrow definition, focussed on print publications. Graphic design is also a lot more than “designing pictures”.
 
-[Merriam-Webster](https://www.merriam-webster.com/dictionary/graphic%20design)
+[Merriam-Webster](https://www.merriam-webster.com/dictionary/graphic%20design):
 
 > The art or profession of using design elements (such as typography and images) to convey information or create an effect.
 > 
 
 This is a much broader definition, focussing on **conveying information** with specific elements of visual design, like typography and images.
 
-[Wikipedia](https://en.wikipedia.org/wiki/Graphic_design)
+[Wikipedia](https://en.wikipedia.org/wiki/Graphic_design):
 
 > Graphic design is the profession and academic discipline whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives.
 > 

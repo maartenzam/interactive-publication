@@ -32,7 +32,7 @@ You could also index both time series and make them relative to their first valu
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/qs7h19vaqQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Source: [youtube.com/@eagereyes](https://www.youtube.com/@eagereyes)
+_Source: [youtube.com/@eagereyes](https://www.youtube.com/@eagereyes)_
 
 An interesting alternative chart type for showing correlation between different time series is to use a connected scatterplot. In a connected scatterplot the values of the 2 time series are plotted on the x and y axis, and time is shown by connecting the dots in the scatterplot in chronological order. Below is an example of a double axis line chart next to a connected scatterplot based on the same data (US military budget vs number of troops).
 

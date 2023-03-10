@@ -1,3 +1,7 @@
+<script>
+    import Reveal from '$lib/components/Reveal.svelte'
+</script>
+
 Pie charts have a bad name in data visualisation. This reputation is partly due to many poorly designed pie charts being published, and suboptimal default settings in popular tools for data visualisation like Excel. 
 
 ![Source: [Wikimedia](https://commons.wikimedia.org/wiki/File:Pie_chart_of_US_population_by_state.png), public domain](Pitfalls%20in%20dataviz%20chart%20types%20f47a4f1dddfb41d0925e9a5a62833d98/Pie_chart_of_US_population_by_state.png)
@@ -10,12 +14,8 @@ But there is no doubt that other chart types can be more effective as the follow
 
 Maarten Lambrechts, CC BY SA 4.0
 
-- If you click the little triangle here on the left, the same data but visualised with a different chart type will be revealed, and you will notice that finding the biggest and smallest category in the data is now much easier.
-    
-    ![Maarten Lambrechts, CC BY SA 4.0](Pitfalls%20in%20dataviz%20chart%20types%20f47a4f1dddfb41d0925e9a5a62833d98/bars.png)
-    
-    Maarten Lambrechts, CC BY SA 4.0
-    
+<Reveal label="If you click the little triangle here on the left, the same data but visualised with a different chart type will be revealed, and you will notice that finding the biggest and smallest category in the data is now much easier." content="<p>
+<img src='Pitfalls%20in%20dataviz%20chart%20types%20f47a4f1dddfb41d0925e9a5a62833d98/bars.png' alt='' /></p><p>Source: Maarten Lambrechts, CC BY SA 4.0</p>"></Reveal>
 
 So pie charts are not very effective if you want your audience to be able to assess proportions effectively. So under what circumstances are pie charts appropriate? Here are some guidelines.
 

@@ -1,3 +1,7 @@
+<script>
+    import {Tweet} from 'sveltekit-embed'
+</script>
+
 When picking colours for data visualisation, or for any design in general, you need to be aware that colours come with connotations, and that these connotations are not universal, but culturally dependent.
 
 Marketeers and logo designers are very aware of the emotions that colours evoke. The below image shows 7 colours, their supposed emotional connotations, and a range of brand logos using the colours.
@@ -22,4 +26,4 @@ Colours of political parties are sensitive colours too in many countries. Red fo
 
 Also to avoid are cliche colour connotations, of which the blue - pink for male - female is the most notorious example. This connotations is very widespread and understood by a lot of people. But many women actually dislike pink, or don’t want to be associated with it. And the blue - pink divide also reinforces gender stereotypes. So why use such a loaded colour combination when there are so many other nice colours and colour harmonies to choose from?
 
-[https://twitter.com/jburnmurdoch/status/1002253114949300225](https://twitter.com/jburnmurdoch/status/1002253114949300225)
+<Tweet tweetLink="jburnmurdoch/status/1002253114949300225"></Tweet>

@@ -8,7 +8,7 @@ Source: Maarten Lambrechts, CC-BY 4.0
 
 Adding lines for the medians in a scatterplot can serve as a powerful storytelling mechanism: the medians for the x and y values create 4 quadrants that can be used to classify the data marks into 4 categories for x and y values (”low-low”, “low-high”, “high-low” and “high-high”).
 
-[This interactive chart uses the “medians-quadrant” visual annotation technique. Notice how the chart makes use of multiple highlighting annotations: the bubbles in each quadrant have 4 different colours , with the ones on the left highlighted and the ones on the right dehighligted, the labelled bubbles have subtle outlines, and when hovered, bubbles get a strong outline. Source: [The millennials who are making it](https://www.axios.com/the-oldest-and-youngest-jobs-in-the-us-millennials-d9738704-4c84-4208-8f15-8d997db170ac.html), axios.com](https://graphics.axios.com/2019-04-06-occupation-demographics/index.html)
+<iframe src='https://graphics.axios.com/2019-04-06-occupation-demographics/index.html' width='100%' height='700px' style='border: none;'></iframe>
 
 This interactive chart uses the “medians-quadrant” visual annotation technique. Notice how the chart makes use of multiple highlighting annotations: the bubbles in each quadrant have 4 different colours , with the ones on the left highlighted and the ones on the right dehighligted, the labelled bubbles have subtle outlines, and when hovered, bubbles get a strong outline. Source: [The millennials who are making it](https://www.axios.com/the-oldest-and-youngest-jobs-in-the-us-millennials-d9738704-4c84-4208-8f15-8d997db170ac.html), axios.com
 

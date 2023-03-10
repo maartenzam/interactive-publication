@@ -2,7 +2,7 @@ Free, open source
 
 [vega.github.io](https://vega.github.io/)
 
-Vega and its smaller and simpler sister Vega Lite are languages to specify how a visualisation is composed from data. It uses the same foundations as ggplot2 in R and Altair in Python, so it specifies how columns in the data should relate to properties of graphical marks, like points or bars. On top of that, it can also describe interactive features of visualisations.
+Vega and its smaller and simpler sister Vega-Lite are languages to specify how a visualisation is composed from data. It uses the same foundations as ggplot2 in R and Altair in Python, so it specifies how columns in the data should relate to properties of graphical marks, like points or bars. On top of that, it can also describe interactive features of visualisations.
 
 ```json
 {
@@ -31,4 +31,4 @@ Source: [vega.github.io/editor](https://vega.github.io/editor/#/)
 
 Vega and Vega Lite are written in <span class='internal-link'>[JSON](json-files)</span> and on their own, they are not enough to turn data into a visualisation. The creators of Vega developed another library to embed visualisations based on Vega into web pages, called [Vega Embed](https://github.com/vega/vega-embed).
 
-LINK to T7 Vega
+See <span class='internal-link'>[Grammar of Graphics in practice: Vega-Lite](grammar-of-graphics-in-practice-vega-lite)</span> for an introduction to Vega-Lite.

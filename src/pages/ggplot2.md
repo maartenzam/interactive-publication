@@ -19,5 +19,5 @@ Source: Maarten Lambrechts, CC-BY-SA 4.0
 
 ggplot2 uses the output formats available in R to save its output, which includes both bitmaps (PNG, JPG) and vector files (SVG, PDF). The [R-graph-gallery.com](http://R-graph-gallery.com) website displays many example visualisations, together with the ggplot2 code that generated them.
 
-LINK to T7 ggplot2
+See <span class='internal-link'>[Grammar of Graphics in practice: ggplot2](grammar-of-graphics-in-practice-ggplot2)</span> for an introduction to ggplot2.
 

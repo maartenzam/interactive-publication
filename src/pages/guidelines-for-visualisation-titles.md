@@ -1,4 +1,4 @@
-The Office for National Statistics of the UK translated the insights regarding chart titles from research and from practitioners in fields [into a guide for chart titles](https://digitalblog.ons.gov.uk/2019/01/28/say-what-you-see-the-way-we-write-chart-titles-is-changing/) to support chart authors.
+The Office for National Statistics of the UK translated the insights regarding chart titles from research and from practitioners in fields into [a guide for chart titles](https://digitalblog.ons.gov.uk/2019/01/28/say-what-you-see-the-way-we-write-chart-titles-is-changing/) to support chart authors.
 
 The main idea of the guide is that chart authors should formulate **the main message of the chart in 10 words or less**. Adding titles like this to charts has several benefits.
 

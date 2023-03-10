@@ -10,6 +10,6 @@ In contrast to the Martini glass structure, an interactive slide show has a read
 
 Below you can find an embedded Flourish story. [Flourish](https://flourish.studio/) is a data visualisation tool with which you can make so called “stories”: interactive slideshows with interactive visualisations on each slide. Use the arrows to navigate the slides and explore the interactivity within each slide.
 
-<iframe style="border: none;" width="100%" height="500px" src="https://flo.uri.sh/story/186356/embed?auto=1"></iframe>
+<iframe style="border: none;" width="100%" height="600px" src="https://flo.uri.sh/story/186356/embed?auto=1"></iframe>
 
-Source: [Creating a story](https://help.flourish.studio/article/13-creating-a-story), Flourish help
+_Source: [Creating a story](https://help.flourish.studio/article/13-creating-a-story), Flourish_

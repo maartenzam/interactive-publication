@@ -16,9 +16,9 @@ Researchers have also found that the title of a chart is the first thing people 
 
 In the video below, you can see the eye fixation points of one participant in the study, when confronted with a new chart.
 
-[Source: [Visualization Recognition and Recall](https://www.youtube.com/watch?v=k7141r6QQ2A), Michelle Borkin at the Tapestry 2017 conference](https://www.youtube.com/embed/k7141r6QQ2A?start=1200)
+<iframe width="100%" height="460" src="https://www.youtube.com/embed/k7141r6QQ2A?start=1200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Source: [Visualization Recognition and Recall](https://www.youtube.com/watch?v=k7141r6QQ2A), Michelle Borkin at the Tapestry 2017 conference
+_Source: [Visualization Recognition and Recall](https://www.youtube.com/watch?v=k7141r6QQ2A), Michelle Borkin at the Tapestry 2017 conference_
 
 As you can see from the animation, the first thing people look at is the center of the visualisation: this is a known phenomenon, called center bias: when something new pops up on your screen, you are very likely to first look at the center of it. But after looking at the center, this participant very quickly focussed on the title of the chart.
 

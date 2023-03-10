@@ -8,12 +8,18 @@ This technique is mostly used with maps as the zoomable and pannable graphic. In
 
 The map in “The Great Flood of 2019” only uses panning:
 
-[The Great Flood of 2019: A Complete Picture of a Slow-Motion Disaster (Published 2019)](https://www.nytimes.com/interactive/2019/09/11/us/midwest-flooding.html)
+![](scrollytelling-floods-nyt.jpg)
+
+Source: [The Great Flood of 2019: A Complete Picture of a Slow-Motion Disaster (Published 2019)](https://www.nytimes.com/interactive/2019/09/11/us/midwest-flooding.html)
 
 “Is the world full or empty?” uses a globe as the graphic and let’s you fly from place to place while scrolling:
 
-[Is the world full or empty?](https://storymaps.arcgis.com/stories/b4380439bc8c4293b36a4f9772c665ba)
+![](scrollytelling-world-full-arcgis.jpg)
+
+Source: [Is the world full or empty?](https://storymaps.arcgis.com/stories/b4380439bc8c4293b36a4f9772c665ba)
 
 “How Russia’s mistakes and Ukrainian resistance altered Putin’s war” also rotates and tilts the map when zooming in:
 
-[How Russia's mistakes and Ukrainian resistance altered Putin's war](https://ig.ft.com/russias-war-in-ukraine-mapped/)
+![](scrollytelling-ukraine-ft.jpg)
+
+Source: [How Russia's mistakes and Ukrainian resistance altered Putin's war](https://ig.ft.com/russias-war-in-ukraine-mapped/)

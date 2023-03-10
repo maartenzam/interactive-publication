@@ -1,6 +1,8 @@
 Text annotations can come in a wide variety of styles. But most text annotations can be broken down into the following building blocks: the note, a connector and the subject:
 
-![The anatomy of a text annotation, as used in the d3-annotation library by Susie Lu. Source: [d3-annotation documentation](https://d3-annotation.susielu.com/), Susie Lu](Text%20annotations%204d77570c409249378ca558ae45eb0d67/annotation-anatomy.png)
+<p class='center'>
+<img src='Text%20annotations%204d77570c409249378ca558ae45eb0d67/annotation-anatomy.png' alt='' class='max-400' />
+</p>
 
 The anatomy of a text annotation, as used in the d3-annotation library by Susie Lu. Source: [d3-annotation documentation](https://d3-annotation.susielu.com/), Susie Lu
 
