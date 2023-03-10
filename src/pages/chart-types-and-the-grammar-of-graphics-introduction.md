@@ -11,7 +11,7 @@ Similarly, in visualisation libraries that are not based on the Grammar, you hav
 ```js
 Highcharts.chart('container', {
     chart: {
-        **type: 'pie'**
+        type: 'pie'
     },
     title: {
         text: 'Browser market shares in May, 2020'

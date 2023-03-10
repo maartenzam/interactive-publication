@@ -30,4 +30,4 @@ The bubble chart uses 5 dimensions in the country level data:
 
 <iframe src='https://www.gapminder.org/tools/?embedded=true#$ui$chart$decorations$enabled:false;;;&chart-type=bubbles&url=v1' width='100%' height='700px' style='border: none;'></iframe>
 
-Source: [gapminder.org/tools](https://www.gapminder.org/tools)
+_Source: [gapminder.org/tools](https://www.gapminder.org/tools)_

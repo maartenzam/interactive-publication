@@ -34,6 +34,6 @@ The circular nephew of the alluvial diagram, is the **chord diagram**. Chord dia
 
 The chord diagram below shows the proportion of survey respondents owning a particular brand of phone with the lengths of the outer arcs, while the inner chords show the brand of these individuals’ previous phone. So, this chart shows how the consumers shift between brands. Hover over the chords to see the percentages of survey respondents shifting brands.
 
-<iframe src='https://observablehq.com/embed/@d3/chord-diagram?cells=chart' width='100%' height='600px' style='border: none;'></iframe>
+<iframe src='https://observablehq.com/embed/@d3/chord-diagram?cells=chart' width='100%' height='820px' style='border: none;'></iframe>
 
 Source: [observablehq.com](https://observablehq.com/@d3/chord-diagram)

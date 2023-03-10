@@ -22,4 +22,4 @@ Reuters used a mini map to better show a world map on mobile screens.
 
 <video src='Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/tracker.mp4' width='100%' height='450px' controls/>
 
-Source: [Creating responsive data visualisations](https://www.gurmanbhatia.com/talk/2020/11/28/responsive-data-viz-phone.html), Gurman Bhatia
+_Source: [Creating responsive data visualisations](https://www.gurmanbhatia.com/talk/2020/11/28/responsive-data-viz-phone.html), Gurman Bhatia_
