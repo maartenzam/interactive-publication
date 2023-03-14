@@ -76,7 +76,7 @@ This will run the getTOC.cjs script that downloads the data and stores is it as 
 
 Each page in the table of contents has a corresponding markdown file in [src/lib/pages](src/lib/pages). All the images (and videos) referenced in the page files are in the [static](static) folder.
 
-#### Routing
+### Routing
 
 The application uses the following routes:
 
@@ -87,4 +87,6 @@ The application uses the following routes:
 
  The `location` store is used to keep track of where the user is and can be imported from [src/lib/stores/store.js]. This store is read in the [BreadCrumbs](src/lib/components/BreadCrumbs.svelte), [TopMenuItem](src/lib/components/TopMenuItem.svelte), [MiddleMenuItem](src/lib/components/MiddleMenuItem.svelte) and [PageNavigation](src/lib/components/PageNavigation.svelte) components, and set in the `+page.svelte` files in the different levels of [src/lib/routing](src/lib/routing).
 
- #### Layout
+ ### Layout
+
+ The main, side wide layout of the application is [src/lib/+layout.svelte](src/lib/+layout.svelte). It imports the [Header](src/lib/components/Header.svelte), BreadCrumbs(src/lib/components/BreadCrumbs.svelte), AccordionMenu(src/lib/components/AccordionMenu.svelte) and [Footer](src/lib/components/Footer.svelte) components and renders in a way depending on the `isMobile` store (which is true when the viewport is smaller than 1024 pixels, false otherwise).
