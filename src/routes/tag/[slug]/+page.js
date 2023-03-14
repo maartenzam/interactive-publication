@@ -22,9 +22,9 @@ export async function load({ params }){
 
   let tagPages = pages.filter(d => 
     d.t1 == title ||
-    d.m1 == title ||
+    d.m1 == title /*||
     d.t2 == title ||
-    d.m2 == title
+    d.m2 == title*/
     )
 
   const metaTagPages = pages.filter(d => {

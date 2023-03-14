@@ -12,13 +12,39 @@
 
 <main>
 	<h1>{data.title}</h1>
+	<h2>Pages in {data.title}</h2>
+	{#each data.tagPages as page}
+	<p>
+		<span class="internal-link"><a href={`${base}/${page.slug}`}>{page.title}</a></span>
+	</p>
+	<!--div class="tag-container">
+<Tag tagType={'t1'} tag={page.t1} root={false}/>
+<Tag tagType={'m1'} tag={page.m1} root={false}/>
+
+{#if page.t2}
+  {#if page.t1 != page.t2}
+  <Tag tagType={'t2'} tag={page.t2} root={false}/>
+  {/if}
+{/if}
+
+{#if page.m2}
+  <Tag tagType={'m2'} tag={page.m2} root={false}/>
+{/if}
+
+{#if page.metatags}
+  {#each page.metatags.split(', ') as tag}
+	<Tag tagType={'meta'} {tag} root={false}/>
+  {/each}
+{/if}
+</div-->
+{/each}
 	<SunBurst
 		filter={data.crumbs}
 		maxLabelLevel={1}
 		minLabelValue={data.crumbs.m1 ? 0 : 5000}
 		dots={true}
 	/>
-	<SunBurst
+	<!--SunBurst
 		filter={data.crumbs}
 		maxLabelLevel={1}
 		minLabelValue={data.crumbs.m1 ? 0 : 5000}
@@ -33,32 +59,7 @@
 		root={false}
 		secondaryModules={false}
 		height={700}
-	/>
-	{#each data.tagPages as page}
-		<h2>
-			<a href={`${base}/${page.slug}`}>{page.id + '. ' + page.title}</a>
-		</h2>
-		<!--div class="tag-container">
-    <Tag tagType={'t1'} tag={page.t1} root={false}/>
-    <Tag tagType={'m1'} tag={page.m1} root={false}/>
-
-    {#if page.t2}
-      {#if page.t1 != page.t2}
-      <Tag tagType={'t2'} tag={page.t2} root={false}/>
-      {/if}
-    {/if}
-
-    {#if page.m2}
-      <Tag tagType={'m2'} tag={page.m2} root={false}/>
-    {/if}
-
-    {#if page.metatags}
-      {#each page.metatags.split(', ') as tag}
-        <Tag tagType={'meta'} {tag} root={false}/>
-      {/each}
-    {/if}
-  </div-->
-	{/each}
+	/-->
 </main>
 
 <style>

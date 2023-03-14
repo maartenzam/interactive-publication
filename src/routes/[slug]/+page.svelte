@@ -46,6 +46,11 @@
 		<svelte:component this={data.content} />
 	</div>
 
+	<h3>Related pages</h3>
+	{#each data.relatedPages as relatedPage}
+		<p><span class="internal-link"><a href={relatedPage.slug}>{relatedPage.title}</a></span></p>
+	{/each}
+
 	<PageNavigation
 		previousSlug={data.previous}
 		previousTitle={data.previousTitle}

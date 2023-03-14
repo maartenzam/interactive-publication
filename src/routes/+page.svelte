@@ -13,8 +13,9 @@
 
 <div class="intro">
 	<h1>Data Visualisation Academy</h1>
-	<p>The Data Visualisation Academy is both a knowledge base about data visualisation, as well as an educational tool to learn about data visualisation. It contains almost 400 pages about all aspects of data visualisation, organised into 7 broad topics.</p>
-	<p>If you want to learn more about a specific topic in data visualisation, use the links to suggested topics below, or search for a topic of interest below or in the top bar. You can explore all pages in the Academy by navigating the table of contents, or just browse the Academy by following the sequence of pages of page chain.</p>
+	<h2>Find information and learn about data visualisation</h2>
+	<p>The Data Visualisation Academy is both a knowledge base and an educational tool to learn about data visualisation. It contains almost 400 pages about all aspects of data visualisation, organised into 7 broad topics.</p>
+	<p>If you want to learn more about a specific topic, use the links to suggested topics below, or search for a topic of interest. You can explore all pages in the Academy by navigating the table of contents, or by browsing the Academy by following the sequence of pages of the page chain.</p>
 </div>
 <div
 	class="navigation-blocks"
@@ -25,15 +26,14 @@
 		<div class="icon">
 			<img src="icons/topics.svg" alt="Icon representing topics">
 		</div>
-		<h2>Topics</h2>
+		<h2>Suggested topics</h2>
 		<p>
 			Explore the topics and subtopics of the Data Visualisation Academy through the table of
-			content.
+			content, or get started with some suggested topics.
 		</p>
 		{#if $isMobile}
 			<p><AccordionMenu /></p>
 		{/if}
-		<p>Here are some suggested topics to get started:</p>
 		<HighlightedTopics />
 	</div>
 	<div class="block search">
@@ -42,7 +42,10 @@
 		</div>
 		<h2>Search</h2>
 		<p>
-			Find the data visualisation topic you are looking for by using the powerful search bar below.
+			Find the data visualisation topic you are looking for by using the search bar below.
+		</p>
+		<p>
+			Try for example "Line charts", "Fonts", "Tools", "Colours", "Annotations" or any other term related to data visualisation.
 		</p>
 		<p><SearchBar /></p>
 	</div>
@@ -50,19 +53,19 @@
 		<div class="icon">
 			<img src="icons/chain.svg" alt="Icon representing a sequence of linked pages">
 		</div>
-		<h2>Page chain</h2>
+		<h2>String of pages</h2>
 		<p>
-			Use the Academy as a course, and navigate through its complete content by following the chain
-			of pages.
+			Use the Academy as a training course, and navigate through its complete content by following the string
+			of pages. 
 		</p>
-		<p>Here are the starting pages for the main topics:</p>
+		<p>These are the starting pages for the main topics. Click the link the next page on each page to browse the Academy.</p>
 		<StartingLinks />
 	</div>
 </div>
 <div class="knowledge-graph">
 	<h2>Data Visualisation Academy Visualisation</h2>
 	<SunBurst maxLabelLevel={2} minLabelValue={18000} dots={true}></SunBurst>
-	<SunBurst maxLabelLevel={2} minLabelValue={18000} dots={false}></SunBurst>
+	<!--SunBurst maxLabelLevel={2} minLabelValue={18000} dots={false}></SunBurst>
 	<ForceGraph
 		pagesData={pages}
 		chargeStrength={-100}
@@ -82,7 +85,7 @@
 		root={true}
 		secondaryModules={true}
 		height={800}
-	/>
+	/-->
 </div>
 
 <style>
