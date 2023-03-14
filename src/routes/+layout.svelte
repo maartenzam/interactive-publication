@@ -18,7 +18,7 @@
 
 {#if !($isMobile && $location.type == 'home')}
 <div class={sidebarOpen ? 'sidebar-toggle open' : 'sidebar-toggle closed'}>
-	<button on:click={() => toggleSidebar()}>TOPICS {sidebarOpen ? '<<' : '>>'}</button>
+	<button on:click={() => toggleSidebar()}>TABLE OF CONTENTS {sidebarOpen ? '<<' : '>>'}</button>
 </div>
 {/if}
 
@@ -53,7 +53,7 @@
 		width: 23%;
 	}
 	.sidebar-toggle.closed {
-		width: 100px;
+		width: 180px;
 	}
 	.sidebar-toggle {
 		transition: width 1s;

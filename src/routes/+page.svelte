@@ -13,7 +13,8 @@
 
 <div class="intro">
 	<h1>Data Visualisation Academy</h1>
-	<p>Intro: what is the Data Visualisaition Academy? Almost 400 pages, 3 ways to navigate, ...</p>
+	<p>The Data Visualisation Academy is both a knowledge base about data visualisation, as well as an educational tool to learn about data visualisation. It contains almost 400 pages about all aspects of data visualisation, organised into 7 broad topics.</p>
+	<p>If you want to learn more about a specific topic in data visualisation, use the links to suggested topics below, or search for a topic of interest below or in the top bar. You can explore all pages in the Academy by navigating the table of contents, or just browse the Academy by following the sequence of pages of page chain.</p>
 </div>
 <div
 	class="navigation-blocks"
@@ -21,6 +22,9 @@
 	style:align-items={$isMobile ? 'center' : 'normal'}
 >
 	<div class="block topics">
+		<div class="icon">
+			<img src="icons/topics.svg" alt="Icon representing topics">
+		</div>
 		<h2>Topics</h2>
 		<p>
 			Explore the topics and subtopics of the Data Visualisation Academy through the table of
@@ -33,6 +37,9 @@
 		<HighlightedTopics />
 	</div>
 	<div class="block search">
+		<div class="icon">
+			<img src="icons/search.svg" alt="Magnifying glass icons representing search">
+		</div>
 		<h2>Search</h2>
 		<p>
 			Find the data visualisation topic you are looking for by using the powerful search bar below.
@@ -40,6 +47,9 @@
 		<p><SearchBar /></p>
 	</div>
 	<div class="block chain">
+		<div class="icon">
+			<img src="icons/chain.svg" alt="Icon representing a sequence of linked pages">
+		</div>
 		<h2>Page chain</h2>
 		<p>
 			Use the Academy as a course, and navigate through its complete content by following the chain
@@ -80,6 +90,11 @@
 		text-align: center;
 		max-width: 50rem;
 		margin: auto;
+	}
+	.icon {
+		margin: auto;
+		height: 100px;
+		max-width: 100px;
 	}
 	.navigation-blocks {
 		margin: auto;

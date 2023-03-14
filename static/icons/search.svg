@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190" height="190" viewBox="0 0 190 190">
+  <defs>
+    <clipPath id="clip-search">
+      <rect width="190" height="190"/>
+    </clipPath>
+  </defs>
+  <g id="search" clip-path="url(#clip-search)">
+    <rect width="190" height="190" fill="#fff"/>
+    <line id="Line_52" data-name="Line 52" y2="36" transform="translate(95 97)" fill="none" stroke="#cecdcd" stroke-linecap="round" stroke-width="3"/>
+    <line id="Line_53" data-name="Line 53" x2="26.692" y2="26.692" transform="translate(151.5 95.5)" fill="none" stroke="#cecdcd" stroke-linecap="round" stroke-width="3"/>
+    <line id="Line_54" data-name="Line 54" x1="26.692" y2="26.692" transform="translate(11.808 95.5)" fill="none" stroke="#cecdcd" stroke-linecap="round" stroke-width="3"/>
+    <g id="Ellipse_136" data-name="Ellipse 136" transform="translate(81 81)" fill="#fff" stroke="#004494" stroke-width="3">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="12.5" fill="none"/>
+    </g>
+    <g id="Ellipse_137" data-name="Ellipse 137" transform="translate(136 81)" fill="#fff" stroke="#004494" stroke-width="3">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="12.5" fill="none"/>
+    </g>
+    <g id="Ellipse_138" data-name="Ellipse 138" transform="translate(26 81)" fill="#fff" stroke="#004494" stroke-width="3">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="12.5" fill="none"/>
+    </g>
+  </g>
+</svg>

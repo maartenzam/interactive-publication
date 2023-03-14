@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="194" height="194" viewBox="0 0 194 194">
+  <defs>
+    <clipPath id="clip-chain">
+      <rect width="194" height="194"/>
+    </clipPath>
+  </defs>
+  <g id="chain" clip-path="url(#clip-chain)">
+    <rect width="194" height="194" fill="#fff"/>
+    <line id="Line_55" data-name="Line 55" x2="113" transform="translate(46 95)" fill="none" stroke="#cecdcd" stroke-width="3"/>
+    <g id="Ellipse_139" data-name="Ellipse 139" transform="translate(83 81)" fill="#fff" stroke="#004494" stroke-width="3">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="12.5" fill="none"/>
+    </g>
+    <g id="Ellipse_140" data-name="Ellipse 140" transform="translate(138 81)" fill="#fff" stroke="#004494" stroke-width="3">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="12.5" fill="none"/>
+    </g>
+    <g id="Ellipse_141" data-name="Ellipse 141" transform="translate(28 81)" fill="#fff" stroke="#004494" stroke-width="3">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="12.5" fill="none"/>
+    </g>
+  </g>
+</svg>
