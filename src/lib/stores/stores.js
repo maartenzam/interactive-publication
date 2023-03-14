@@ -5,7 +5,7 @@ export const location = writable({type: 'home'});
 
 const checkMobile = (win) => win.innerWidth < 1024;
 
-export const isMobile = readable(true /* <- initial value, since we don't have access to window here */, function start(set) {
+export const isMobile = readable(false /* <- initial value, since we don't have access to window here */, function start(set) {
   if (browser) {
     set(checkMobile(window));
 
