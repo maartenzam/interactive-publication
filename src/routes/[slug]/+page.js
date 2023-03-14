@@ -62,7 +62,7 @@ export async function load({ params }) {
 		next,
 		nextTitle,
 		nextID,
-    relatedPages
+    	relatedPages
 		//incomingLinks
 	};
 }

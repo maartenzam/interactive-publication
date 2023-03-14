@@ -62,7 +62,7 @@ The table of content for the Academy is currently managed in [this Google Sheet]
 npm run toc
 ````
 
-This will run the getTOC.cjs script that downloads the data and stores is it as [src/lib/data/toc.json](src/lib/data/toc.json). For each page in the publication, the table of contents contains the following properties:
+This will run the getTOC.cjs script that downloads the data and stores is it as [src/lib/data/toc.json](src/lib/data/toc.json). PAGES.JSON? For each page in the publication, the table of contents contains the following properties:
 
 - `id`: a unique numerical id to identify the page, and also order the pages
 - `title`: the title of the page
@@ -72,3 +72,19 @@ This will run the getTOC.cjs script that downloads the data and stores is it as 
 - `t2`: the secondary training the secondary module is part of (optional)
 - `metatags`: tags to group related pages that are otherwise unrelated through module and trainings
 
+#### Pages
+
+Each page in the table of contents has a corresponding markdown file in [src/lib/pages](src/lib/pages). All the images (and videos) referenced in the page files are in the [static](static) folder.
+
+#### Routing
+
+The application uses the following routes:
+
+- root: the homepage is in [src/routes/+page.svelte](src/routes/+page.svelte)
+- the individual pages are in [src/routes/[slug]/+pages.svelte]. The accompanying [src/routes/[slug]/+pages.js]
+ file imports the markdown file corresponding to the slug of the page and prepares all the metadata (like the page navigation and related pages)
+ - pages are grouped together with tags, based on their `m1`, `t1` and `metatags` HOW TO REACH THE METATAGS TAG PAGES?. These tag pages are generated with [src/routes/tag/[slug]/+pages.svelte], with their data logic in [src/routes/tag/[slug]/+pages.js]
+
+ The `location` store is used to keep track of where the user is and can be imported from [src/lib/stores/store.js]. This store is read in the [BreadCrumbs](src/lib/components/BreadCrumbs.svelte), [TopMenuItem](src/lib/components/TopMenuItem.svelte), [MiddleMenuItem](src/lib/components/MiddleMenuItem.svelte) and [PageNavigation](src/lib/components/PageNavigation.svelte) components, and set in the `+page.svelte` files in the different levels of [src/lib/routing](src/lib/routing).
+
+ #### Layout
