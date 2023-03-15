@@ -44,9 +44,9 @@ Then you can build a production version of your app:
 npm run build
 ```
 
-The build output for deploy ends up in the `build` folder. You can preview the production build with `npm run preview`.
+To deploy your app to services like Netlify and Vercel, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
-> To deploy your app to services like Netlify and Vercel, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+The app has prerendering enabled, which means that pages are already loaded whenever the user hovers over a link (so before clicking a link). This is set in [src/routes/+layout.js](src/routes/+layout.js). Because of this, links that point to internal pages that are not defined in `routes` will throw errors when building the site.
 
 ## Architecture
 
@@ -62,7 +62,7 @@ The table of content for the Academy is currently managed in [this Google Sheet]
 npm run toc
 ````
 
-This will run the getTOC.cjs script that downloads the data and stores is it as [src/lib/data/toc.json](src/lib/data/toc.json). PAGES.JSON? For each page in the publication, the table of contents contains the following properties:
+This will run the `getTOC.cjs` script that downloads the data and stores is it as [src/lib/data/pages.json](src/lib/data/pages.json). For each page in the publication, the table of contents contains the following properties:
 
 - `id`: a unique numerical id to identify the page, and also order the pages
 - `title`: the title of the page
@@ -72,9 +72,13 @@ This will run the getTOC.cjs script that downloads the data and stores is it as 
 - `t2`: the secondary training the secondary module is part of (optional)
 - `metatags`: tags to group related pages that are otherwise unrelated through module and trainings
 
+The `getTOC.cjs` script also constructs the hierarchy of the table of contents from the fetched pages data. This hierarchy is saved as [src/lib/data/toc.json](src/lib/data/toc.json), which is used for the structure of the `AccordionMenu` component and the `SunBurst` visualisations.
+
 #### Pages
 
-Each page in the table of contents has a corresponding markdown file in [src/lib/pages](src/lib/pages). All the images (and videos) referenced in the page files are in the [static](static) folder.
+Each page in the table of contents has a corresponding markdown file in [src/lib/pages](src/lib/pages). All the images (and videos) referenced in the page files are in the [static](static) folder. Markdown files are imported and preprocessed using [mdsvex](https://mdsvex.pngwn.io/docs/), see [svelte.config.js](svelte.config.js) for its configuration.
+
+Some of the pages import some modules for specific types of content. The [Katex.svelte](src/lib/components/Katex.svelte) component is used for displaying mathematical formulas, the [Reveal](src/lib/components/Revael.svelte) component is used for revealing part of the content of a page when the user clicks a dropdown, and tweets are embedded in some pages using [sveltekit-embed](https://sveltekit-embed.vercel.app/).
 
 ### Routing
 
@@ -89,4 +93,19 @@ The application uses the following routes:
 
  ### Layout
 
- The main, side wide layout of the application is [src/lib/+layout.svelte](src/lib/+layout.svelte). It imports the [Header](src/lib/components/Header.svelte), BreadCrumbs(src/lib/components/BreadCrumbs.svelte), AccordionMenu(src/lib/components/AccordionMenu.svelte) and [Footer](src/lib/components/Footer.svelte) components and renders in a way depending on the `isMobile` store (which is true when the viewport is smaller than 1024 pixels, false otherwise).
+ The main, side wide layout of the application is [src/lib/routing/+layout.svelte](src/lib/routing/+layout.svelte). It imports the [Header](src/lib/components/Header.svelte), [BreadCrumbs](src/lib/components/BreadCrumbs.svelte), [AccordionMenu](src/lib/components/AccordionMenu.svelte) and [Footer](src/lib/components/Footer.svelte) components and renders them in a way depending on the `isMobile` store (which is true when the viewport is smaller than 1024 pixels, false otherwise).
+
+ ### Search
+
+ The main component for the search is [SearchBar](src/lib/components/SearchBar.svelte). When the user puts in something into the search bar, it looks for matches in the first words of the `title` properties of the pages in [pages.json](src/lib/data/pages.json). Casing is ignored, and the matches are rendered as a list of [SearchResult](src/lib/components/SearchResult.svelte) instances.
+ 
+ ### Other components
+
+ The components not yet mentioned above are
+
+ - [ForceGraph](src/lib/components/ForceGraph.svelte): component to render force-directed graphs of (parts of) the table of contents hierarchy. Currently not used in the app.
+ - [SunBurst](src/lib/components/SunBurst.svelte): component to render a sunburst visualisation of (parts of) the table of contents hierarchy. Currently used on the home page (showing the complete hierarchy) and on the tag pages (showing the hierarchy of the current main topic).
+- [HighlightedTopics](src/lib/components/HighlightedTopics.svelte): component for the list of suggested topics on the homepage. The list of topics is hard coded into this component.
+- [StartingLinks](src/lib/components/StartingLinks.svelte): component for the links to the starting pages of the main topics on the homepage.
+- the [Tag](src/lib/components/Tag.svelte) component is currently not used.
+
