@@ -38,6 +38,13 @@
 {/if}
 </div-->
 {/each}
+<h2>{data.title} visualised</h2>
+{#if data.crumbs.m1}
+<p>The visualisation below shows the location of the subtopic '{data.title}' in relation to the other subtopics in the main topic of '{data.crumbs.t1}'. The circles in the outer ring represent the pages related to the subtopics, and their size is proportional to the length of each page. Click a circle to navigate to the page it represents.</p>
+{/if}
+{#if !data.crumbs.m1}
+<p>The visualisation below shows the structure of the '{data.title}' topic. The circles in the outer ring represent the pages related to the subtopics, and their size is proportional to the length of each page. Click a circle to navigate to the page it represents.</p>
+{/if}
 	<SunBurst
 		filter={data.crumbs}
 		maxLabelLevel={1}
