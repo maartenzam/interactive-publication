@@ -48,9 +48,13 @@
 	$: radius = width / 2;
 	const padding = 0;
 
-	$: partition()
-		.size([2 * Math.PI, radius])
-		.padding(0)(root);
+	let sunburstPartition = partition().padding(0)
+
+	let layout
+	$: if(radius){
+		sunburstPartition.size([2 * Math.PI, radius])
+		layout = sunburstPartition(root)
+	}
 
 	$: arcGenerator = arc()
 		.startAngle((d) => d.x0)
@@ -82,7 +86,7 @@
 	{#if width}
 		<svg width={'100%'} height={width} on:mousemove={updateMouse}>
 			<g transform={`translate(${width / 2},${width / 2})`}>
-				{#each root.descendants() as node}
+				{#each layout.descendants() as node}
 					{#if dots}
 						{#if node.depth != 0 && node.depth != root.height}
 							<a
@@ -149,9 +153,9 @@
 				{/each}
 
 				<!-- Outline on hover-->
-				{#each root.descendants() as node}
+				{#each layout.descendants() as node}
 					{#if dots && node.data.title == activeTitle}
-						{#if node.depth != 0 && node.depth != root.height}
+						{#if node.depth != 0 && node.depth != layout.height}
 								<path
 									class="outline"
 									d={arcGenerator(node)}
@@ -163,10 +167,8 @@
 					{/if}
 				{/each}
 
-
-
 				{#if dots}
-					{#each root.descendants().filter((d) => d.depth == root.height - 1) as twig}
+					{#each layout.descendants().filter((d) => d.depth == layout.height - 1) as twig}
 						<path
 							d={lineGenerator(twig.children)}
 							stroke={!filter ? getNodeTopicColor(twig) : topicColors[filter.t1]}
@@ -220,7 +222,7 @@
 						}`}>{filter.t1}</text>
 				{/if}
 
-				{#each root.descendants() as node}
+				{#each layout.descendants() as node}
 					{#if node.depth > 0 && node.depth <= maxLabelLevel && node.value > minLabelValue}
 						<text
 							style:text-transform={node.depth == 1 && !filter ? 'uppercase' : 'normal'}
