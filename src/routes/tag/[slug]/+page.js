@@ -25,7 +25,7 @@ export async function load({ params }){
     d.m1 == title /*||
     d.t2 == title ||
     d.m2 == title*/
-    )
+    ).sort((a,b) => a.id - b.id)
 
   const metaTagPages = pages.filter(d => {
     if(d.metatags){
