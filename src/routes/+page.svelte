@@ -14,8 +14,16 @@
 <div class="intro">
 	<h1>Data Visualisation Academy</h1>
 	<h2>Find information and learn about data visualisation</h2>
-	<p>The Data Visualisation Academy is both a knowledge base and an educational tool to learn about data visualisation. It contains almost 400 pages about all aspects of data visualisation, organised into 7 broad topics.</p>
-	<p>If you want to learn more about a specific topic, use the links to suggested topics below, or search for a topic of interest. You can explore all pages in the Academy by navigating the table of contents, or by browsing the Academy by following the sequence of pages of the page chain.</p>
+	<p>
+		The Data Visualisation Academy is both a knowledge base and an educational tool to learn about
+		data visualisation. It contains almost 400 pages about all aspects of data visualisation,
+		organised into 7 broad topics.
+	</p>
+	<p>
+		If you want to learn more about a specific topic, use the links to suggested topics below, or
+		search for a topic of interest. You can explore all pages in the Academy by navigating the table
+		of contents, or by browsing the Academy by following the sequence of pages of the page chain.
+	</p>
 </div>
 <div
 	class="navigation-blocks"
@@ -24,7 +32,7 @@
 >
 	<div class="block topics">
 		<div class="icon">
-			<img src="icons/topics.svg" alt="Icon representing topics">
+			<img src="icons/topics.svg" alt="Icon representing topics" />
 		</div>
 		<h2>Suggested topics</h2>
 		<p>
@@ -38,34 +46,51 @@
 	</div>
 	<div class="block search">
 		<div class="icon">
-			<img src="icons/search.svg" alt="Magnifying glass icons representing search">
+			<img src="icons/search.svg" alt="Magnifying glass icons representing search" />
 		</div>
 		<h2>Search</h2>
+		<p>Find the data visualisation topic you are looking for by using the search bar below.</p>
 		<p>
-			Find the data visualisation topic you are looking for by using the search bar below.
-		</p>
-		<p>
-			Try for example "Line charts", "Fonts", "Tools", "Colours", "Annotations" or any other term related to data visualisation.
+			Try for example "Line charts", "Fonts", "Tools", "Colours", "Annotations" or any other term
+			related to data visualisation.
 		</p>
 		<p><SearchBar /></p>
 	</div>
 	<div class="block chain">
 		<div class="icon">
-			<img src="icons/chain.svg" alt="Icon representing a sequence of linked pages">
+			<img src="icons/chain.svg" alt="Icon representing a sequence of linked pages" />
 		</div>
 		<h2>String of pages</h2>
 		<p>
-			Use the Academy as a training course, and navigate through its complete content by following the string
-			of pages. 
+			Use the Academy as a training course, and navigate through its complete content by following
+			the string of pages.
 		</p>
-		<p>These are the starting pages for the main topics. Click the link the next page on each page to browse the Academy.</p>
+		<p>
+			These are the starting pages for the main topics. Click the link the next page on each page to
+			browse the Academy.
+		</p>
 		<StartingLinks />
 	</div>
 </div>
-<div class="knowledge-graph">
-	<h2>Data Visualisation Academy Visualisation</h2>
-	<SunBurst maxLabelLevel={2} minLabelValue={18000} dots={true}></SunBurst>
-	<!--SunBurst maxLabelLevel={2} minLabelValue={18000} dots={false}></SunBurst>
+{#if !$isMobile}
+	<div class="knowledge-graph">
+		
+		<div class="viz-intro">
+			<h2>Data Visualisation Academy Visualisation</h2>
+			<div class="viz-intro-text">
+				<p>
+					You can also explore the content of the Data Visualisation Academy by interacting with the
+					visualisation below. Click the sections of the inner rings of the visualisation to
+					navigate to the overview pages of the topics and subtopics, or click a circle in the outer
+					ring to navigate to a page in the Academy.
+				</p>
+				<div class="legend-container"><img class="legend" src="SVG/legend.svg" alt="Sunburst diagram that shows the structure of the table of content of the Data Visualisation Academy"/></div>
+				<p>The size of the circles representing the pages is proportional to the length of each page, and the size of the ring sections is proportional to the lenght of pages in each section.</p>
+			</div>
+		</div>
+
+		<SunBurst maxLabelLevel={1} minLabelValue={18000} dots={true} />
+		<!--SunBurst maxLabelLevel={2} minLabelValue={18000} dots={false}></SunBurst>
 	<ForceGraph
 		pagesData={pages}
 		chargeStrength={-100}
@@ -86,10 +111,12 @@
 		secondaryModules={true}
 		height={800}
 	/-->
-</div>
+	</div>
+{/if}
 
 <style>
-	.intro {
+	.intro,
+	.viz-intro-text {
 		text-align: center;
 		max-width: 50rem;
 		margin: auto;
@@ -118,10 +145,12 @@
 		max-width: 100rem;
 		margin: auto;
 	}
-	/*h2 a {
-		text-decoration: none;
+	.legend-container {
+		width: 100%;
 	}
-	h2.todo {
-		opacity: 0.3;
-	}*/
+	img.legend {
+		width: 300px;
+		height: 300px;
+		margin: auto;
+	}
 </style>
