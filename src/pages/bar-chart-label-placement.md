@@ -13,7 +13,7 @@ Data labels outside and inside bars. Source: Maarten Lambrechts, CC BY SA 4.0
 When the labels are placed inside the bars, a solution needs to be provided for small values that lead to labels that do not fit inside the bars.
 
 <p class='center'>
-<img src='A%20deep%20dive%20into%20bar%20charts%20047791ead2e848bdb3d0afcd1bf2bd4a/overflowing-data-label_12x.png' alt='A horizontal bar chart with labels inside of the bars, with one bar being too narrow to contain the label' class='max-400' />
+<img src='A%20deep%20dive%20into%20bar%20charts%20047791ead2e848bdb3d0afcd1bf2bd4a/overflowing-data-label_12x.png' alt='A horizontal bar chart with labels inside of the bars, with one bar being too narrow to contain its label' class='max-400' />
 </p>
 
 Source: Maarten Lambrechts, CC BY SA 4.0

@@ -10,7 +10,7 @@ A first pitfall regarding scales are bar charts with a numerical axis that does 
 
 Here is a recent example, shared by US vice-president Kamala Harris on Twitter.
 
-![Source: [@KamalaHarris](https://twitter.com/KamalaHarris/status/1510408494628941825)](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/biden-harris-bars.png)
+![A bar chart titled 'The Biden-Harris Administration Reduced the Deficit Last Year'. The chart shows a bar for the year 2020 and one for the year 2021. The bar for 2021 is clearly smaller, but the y axis only starts at a value of 2000](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/biden-harris-bars.png)
 
 Source: [@KamalaHarris](https://twitter.com/KamalaHarris/status/1510408494628941825)
 
@@ -18,7 +18,7 @@ The numerical scale in a bar chart converts numbers into the lengths of the bars
 
 This is how the chart should look like in reality:
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/Artboard_12x.png)
+![A corrected version of the bar chart above, with the y axis starting at zero. The differences between the bar for 2020 and the one for 2021 are much smaller than before](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/Artboard_12x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -29,7 +29,7 @@ In the case you want to highlight relatively small differences between large qua
 
 Sometimes breaking a scale is more subtle than cutting a part of it off. Inspect the y axis on the below chart, also published by the White House, closely. Can you see what is going on?
 
-![Source: [@WhiteHouse](https://twitter.com/WhiteHouse/status/1486709480351952901)](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/economic-growth-white-house.jpg)
+![A bar chart with a grid line for every whole number, except for the value 5.5 which is added using the same axis interval as the whole numbers, distorting the bars](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/economic-growth-white-house.jpg)
 
 Source: [@WhiteHouse](https://twitter.com/WhiteHouse/status/1486709480351952901)
 
@@ -37,7 +37,7 @@ The scale is non-linear, because the upper end of the scale is stretched out. As
 
 This “mistake” (it wasn’t clear if this was intentional or not) was corrected, and below is what the chart looks like with a linear scale.
 
-![Source: [@WhiteHouse](https://twitter.com/WhiteHouse/status/1486709480351952901) ](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/economic-growth-white-house-corrected.jpg)
+![A corrected version of the chart above](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/economic-growth-white-house-corrected.jpg)
 
 Source: [@WhiteHouse](https://twitter.com/WhiteHouse/status/1486709480351952901) 
 
@@ -45,7 +45,7 @@ When dates are not recognised properly by the software used to make a visualisat
 
 This is best illustrated with a real life example. The charts below were published in Flemish newspaper De Tijd a couple of years ago. The chart shows the decline in extreme poverty globally and in different regions in the world. The charts seem to suggest a strong reduction in extreme poverty worldwide between 1999 and 2012.
 
-![Source: De Tijd](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/armoede_MFNgraph_TIJD_06102015_ipadgraph.jpg)
+![Line charts showing regional trends in poverty rates. The charts seem to suggest a very strong drop in poverty between 1999 and 2012](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/armoede_MFNgraph_TIJD_06102015_ipadgraph.jpg)
 
 Source: De Tijd
 
@@ -53,6 +53,6 @@ But if you focus on the horizontal axis, you’ll notice that the time intervals
 
 Below are the corrected versions of these charts. The dip has completely vanished now that the time scale is linear.
 
-![Source: De Tijd](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/armoede_correctie2_MFNgraph_TIJD_061020151.jpg)
+![A corrected version of the line charts above. The sudden drop in poverty rates between 1999 and 2012 has disappeared](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/armoede_correctie2_MFNgraph_TIJD_061020151.jpg)
 
 Source: De Tijd

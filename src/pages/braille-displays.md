@@ -8,7 +8,7 @@ This is an example of uncontracted braille, in which each letter is mapped one o
 
 Screen readers traversing a web page or a computer operating system translate this input to speech but also to braille. In order to read the braille, it needs to be displayed on a **refreshable braille display**. This is a device that receives the output of a screen reader and displays the received text as braille through little pins raised through holes on a flat surface.
 
-![A refreshable braille display, with 40 8-dot braille cells. The 8 keys at the top of the display are used to type in braille characters. Source: [humanware.com](https://store.humanware.com/hus/brailliant-bi-40x-braille-display.html)](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/brailliant_bi_40x_closedup_-_dsc06735-lr.jpg)
+![](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/brailliant_bi_40x_closedup_-_dsc06735-lr.jpg)
 
 A refreshable braille display, with 40 8-dot braille cells. The 8 keys at the top of the display are used to type in braille characters. Source: [humanware.com](https://store.humanware.com/hus/brailliant-bi-40x-braille-display.html)
 

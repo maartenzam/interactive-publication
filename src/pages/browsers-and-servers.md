@@ -2,7 +2,7 @@ When you click a link and your web browser navigates to a new page, a lot of thi
 
 In its most basic form, when a web browser opens a page, it is sending a request to a web server to send the content of the requested page. If the request is valid, the web server will respond by sending the content of the page to the browser, after which the browser can display it. In its most basic form, that content is described in a HTML file.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](HTML%20101%20669091b94f10444db4b140f91662a708/simple-request2x.png)
+![A diagram illustrating the communication between a browser and a web server. The browser sends a request to the server, and the server responds by sending an HTML file](HTML%20101%20669091b94f10444db4b140f91662a708/simple-request2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
