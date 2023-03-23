@@ -28,6 +28,7 @@
 </script>
 
 <div class="search-container">
+	<label for="searchfield" class="visuallyhidden">Search</label>
 	<input
 		id="searchfield"
 		type="text"
@@ -85,5 +86,15 @@
 		width: 100%;
 		border: 1px solid #707070;
 		box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+	}
+	label {
+		border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 	}
 </style>

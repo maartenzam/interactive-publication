@@ -1,15 +1,15 @@
 When it is important to be able to compare between the values represented by the slices of a pie chart, a traditional bar chart works better than a pie.
 
-![Maarten Lambrechts, CC BY SA 4.0](A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/pies.png)
+![A series of 3 pie charts, each with 5 slices with different colours. There are clearly differences between the 3 pies, but identifying the biggest and smalles slice of each pie is difficult](A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/pies.png)
 
-![Maarten Lambrechts, CC BY SA 4.0](A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/bars.png)
+![The same data used to make the pie charts is used to produce 3 bar charts. Now the difference between the 3 datasets become very obvious and identifying the biggest and smallest bar becomes easy](A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/bars.png)
 
 The same data visualised as pie charts and as bar charts. Comparing the lengths of the bars is much easier than comparing the sizes of the slices of the pies. Maarten Lambrechts, CC BY SA 4.0
 
 But what if the part-to-whole aspect of the data is more important than comparing between all values? When the guidelines described above in this module are respected, a pie chart can work just fine. Research has shown that the pie chart’s little nephew, the **donut chart**, works just as well for this purpose.
 
 <p class='center'>
-<img src='A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/donut-chart2x.png' alt='A donut chart' class='max-600' />
+<img src='A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/donut-chart2x.png' alt='A donut chart with 5 slices. 3 of the slices are coloured in tones of purple, and together they amount to just over three quarters of the pie' class='max-600' />
 </p>
 
 A donut chart. Source: Maarten Lambrechts, CC BY SA 4.0
@@ -18,7 +18,7 @@ Simple **stacked bar charts** have shown to be less performant in estimating the
 
 Pie charts cannot deal with negative values. So if you would like to show how a total is composed as the cumulative sum of subcomponents, including subcomponents with negative values, a **waterfall chart** is probably a good option. It shows a starting value, the amounts of added positive values and subtracted negative values and the resulting final value.
 
-![A waterfall chart showing the growth and shrink of the EU’s territory over the years. Source: [@Arnold_Platon](https://twitter.com/Arnold_Platon/status/1014252269557239808)](A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/waterfall-chart-eu-arnold-platon.jpeg)
+![](A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/waterfall-chart-eu-arnold-platon.jpeg)
 
 A waterfall chart showing the growth and shrink of the EU’s territory over the years. Source: [@Arnold_Platon](https://twitter.com/Arnold_Platon/status/1014252269557239808)
 
@@ -26,18 +26,18 @@ Probably the best alternative to pie charts are **waffle charts**. Instead of sl
 
 The cells are usually square, and a 10 by 10 grid makes it easy to read values from a waffle chart.
 
-![Waffle charts showing voter turnout in EU member states. Source: [@Arnold_Platon](https://twitter.com/Arnold_Platon/status/1014252269557239808)](A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/waffle-chart-arnold-platon.jpg)
+![](A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/waffle-chart-arnold-platon.jpg)
 
 Waffle charts showing voter turnout in EU member states. Source: [@Arnold_Platon](https://twitter.com/Arnold_Platon/status/1014252269557239808)
 
 Waffle charts can also be used to show absolute numbers instead of percentages. When each cell represents one item in the data, a chart like this is sometimes called a **unit chart**.
 
-![Source: [github.com/hrbrmstr/waffle/blob/master/README.md](https://github.com/hrbrmstr/waffle/blob/master/README.md)](A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/waffle-bars-1.png)
+![A waffle or unit chart showing the number of tropical storms, tropical depressions and hurricans in the years 2010 to 2015](A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/waffle-bars-1.png)
 
 Source: [github.com/hrbrmstr/waffle/blob/master/README.md](https://github.com/hrbrmstr/waffle/blob/master/README.md)
 
 A last alternative to pie charts, are **tree maps**. Tree maps are mainly used to show hierarchical data (see <span class='internal-link'>[Visualising hierarchies](visualising-hierarchies)</span>), but they can just as well be used to show categories and their numerical values.
 
-![Source: [Managing plastic and food waste for a sustainable future](https://datatopics.worldbank.org/sdgatlas/goal-12-responsible-consumption-and-production/), Sustainable Development Goals Atlas 2020, World Bank](A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/treemap-waste-yaryna.jpg)
+![A treemap showing the composition of global waste. Food and green (44%) and plastic (12%) are highlighted in red, the other categories are in grey](A%20deep%20dive%20into%20pie%20charts%208f7a2fa9981a492ebaaad63e57d36d6e/treemap-waste-yaryna.jpg)
 
 Source: [Managing plastic and food waste for a sustainable future](https://datatopics.worldbank.org/sdgatlas/goal-12-responsible-consumption-and-production/), Sustainable Development Goals Atlas 2020, World Bank

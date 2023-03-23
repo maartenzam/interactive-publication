@@ -2,9 +2,9 @@ A significant proportion of the human population is not able to distinguish betw
 
 When your visualisation relies heavily on colour to be well understood, you need to make sure the colours you use are accessible to people suffering from colour blindness.
 
-![red-green-colourblindness@2x.png](Pitfalls%20in%20dataviz%20colours%2043f748a84c564ae5a1b4d6678b8171d7/red-green-colourblindness2x.png)
+![A line chart with 3 series, coloured in red, green and brown. The series are identified through a colour legend above the chart](Pitfalls%20in%20dataviz%20colours%2043f748a84c564ae5a1b4d6678b8171d7/red-green-colourblindness2x.png)
 
-![A chart relying on colour to identify the lines (above) and the same chart as seen by people suffering from deuteranomaly (unable to perceive green, below). Source: Maarten Lambrechts, CC BY SA 4.0](Pitfalls%20in%20dataviz%20colours%2043f748a84c564ae5a1b4d6678b8171d7/deuteranopia.png)
+![The same line chart as above, but viewed through the eyes of someone suffering from deuteranomaly. All colours have changed to brown, making it impossible to identify each line through the colour legend](Pitfalls%20in%20dataviz%20colours%2043f748a84c564ae5a1b4d6678b8171d7/deuteranopia.png)
 
 A chart relying on colour to identify the lines (above) and the same chart as seen by people suffering from deuteranomaly (unable to perceive green, below). Source: Maarten Lambrechts, CC BY SA 4.0
 

@@ -6,14 +6,14 @@ Axes let readers assess the position and/or size of data marks. If a chart uses 
 
 The building blocks of an axis are the ticks, with their associated tick marks and axis labels, and an optional axis line. Next to the tick marks and labels, grid lines can also be attached to the axis ticks.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/axis-grids2x.png)
+![A line chart with annotations in bright pink pointing to the grid lines, axis labels, axis line and tick marks](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/axis-grids2x.png)
 
 Source: Maarten Lambrechts, CC BY 4.0
 
 Notice that the y axis of this chart does not have an axis line. Many data visualisation tools draw axis lines by default. But in many cases, these axis lines do not serve any real purpose, and they can be left out without any problem. This is especially true for bar charts, from which axis lines can be removed without any consequences.
 
 <p class='center'>
-<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/bars-axis-line.gif' alt='A comparison of a bar chart with and without axis line. Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />
+<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/bars-axis-line.gif' alt='An animated gif showing how an axis line on a bar chart can be removed without any problem' class='max-600' />
 </p>
 
 A comparison of a bar chart with and without axis line. Source: Maarten Lambrechts, CC BY 4.0
@@ -21,7 +21,7 @@ A comparison of a bar chart with and without axis line. Source: Maarten Lambrech
 Axis labels, however, are indispensable to interpret the data on a visualisation. Without axis labels, a visualisation is meaningless.
 
 <p class='center'>
-<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/bars-no-labels2x-100.jpg' alt='Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />
+<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/bars-no-labels2x-100.jpg' alt='The same bar chart as above, but with the axis labels removed, rendering the chart unreadable' class='max-600' />
 </p>
 
 Source: Maarten Lambrechts, CC BY 4.0
@@ -29,7 +29,7 @@ Source: Maarten Lambrechts, CC BY 4.0
 The only exception to this are visualisations where enough data points are labelled so that axis labels are not needed.
 
 <p class='center'>
-<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/bars-data-labels2x-100.jpg' alt='Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />
+<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/bars-data-labels2x-100.jpg' alt='The same bar chart as above, but with value labels for each bar and with the grid lines removed' class='max-600' />
 </p>
 
 Source: Maarten Lambrechts, CC BY 4.0
@@ -37,7 +37,7 @@ Source: Maarten Lambrechts, CC BY 4.0
 Another example of a chart type that doesn’t require axis labels, is a slope chart.
 
 <p class='center'>
-<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/slopechart2x.png' alt='Source: Maarten Lambrechts, CC BY 4.0' class='max-400' />
+<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/slopechart2x.png' alt='An example of a slope graph with the grid lines removed. Because the added value labels offer enough context to interpret the chart, chart grids are not needed' class='max-400' />
 </p>
 
 Source: Maarten Lambrechts, CC BY 4.0
@@ -45,7 +45,7 @@ Source: Maarten Lambrechts, CC BY 4.0
 Many visualisation tools put the y axis on the left of charts. This creates space for labels on the right side of the chart. But on line charts showing time series data, the most interesting values on the chart are usually the most recent data. So when no labelling is applied, it makes sense to move the y axis to the right of the chart.
 
 <p class='center'>
-<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/axis-right2x.png' alt='Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />
+<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/axis-right2x.png' alt='A line chart with the y axis on teh right' class='max-600' />
 </p>
 
 Source: Maarten Lambrechts, CC BY 4.0
@@ -68,20 +68,20 @@ It is good practice to give all supporting elements on a chart a grey colour. **
 
 Another suboptimal behaviour in chart tools defaults, is the creation of separate legends to identify colours on a chart.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/anatomy-legend2x.png)
+![A line chart  with 3 coloured lines, identifiable through a separate colour label](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/anatomy-legend2x.png)
 
 Source: Maarten Lambrechts, CC BY 4.0
 
 Separate legends create unnecessary cognitive load for the chart reader: they require readers to look back and forth between the chart and the legend to identify the elements with different colours on the chart. On top of that, many colour legend will loose their functionality for colour blind people, or when printed on black and white.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/legend-black-white.png)
+![A greyscale version of the chart above. Because the colours are removed, the chart becomes unreadable](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/legend-black-white.png)
 
 Source: Maarten Lambrechts, CC BY 4.0
 
 A solution to this problem is a technique called direct labelling: integrating the names of elements and categories in the chart and positioning their labels next to the elements. This removes the drawbacks separate legends suffer from.
 
 <p class='center'>
-<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/eu272x.png' alt='Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />
+<img src='Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/eu272x.png' alt='The same line chart as above, but with the names of the lines directly next to the lines, instead of with a separate colour legend' class='max-600' />
 </p>
 
 Source: Maarten Lambrechts, CC BY 4.0
@@ -90,6 +90,6 @@ Direct labelling has its limits though: when many elements are close together on
 
 Another technique that can work really well and that integrates a visualisation and the surrounding text, is to reuse the colours on the chart in the surrounding text.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/anatomy-text-labels2x.png)
+![The same line chart as above, with an introductory text added in which the names of the countries highlighted on the chart are the same colours as the lines on the chart](Design%20of%20chart%20elements%204102ea0d355c42149d1061e60bfd32a8/anatomy-text-labels2x.png)
 
 Source: Maarten Lambrechts, CC BY 4.0

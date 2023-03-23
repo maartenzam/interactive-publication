@@ -8,12 +8,12 @@ This means that the text can stay the same font size when the underlying image i
 
 With ai2html it is also easy to design different versions of your visualisation for different screen sizes. When you have multiple artboards in your Illustrator file, ai2html can export all of them (into a single HTML document, or into a separate HTML document for each of them). When this HTML is inserted into your web page, CSS media queries can be used to hide and show the relevant artboard/HTML on different screen sizes.
 
-![This bar chart was made with ai2html and is part of the article [Marine species under threat](https://datatopics.worldbank.org/sdgatlas/goal-14-life-below-water/) of the [Sustainable Development Goals Atlas 2020](https://datatopics.worldbank.org/sdgatlas/) of the World Bank. Below is the mobile version of the chart. Try the visualisation on different screen sizes, and also try the screen reader accessibility of the chart. Source:  [Sustainable Development Goals Atlas 2020](https://datatopics.worldbank.org/sdgatlas/), World Bank](Accessibility%20in%20data%20visualisation%20tools%206c7b042656f64445977564c856e9a8b9/ai2html-marine-species-desktop.png)
+![A horizontal bar chart titled 'Marine species face a higher threat of extinction', showing the share of threatened species of different groups of animals. The groups are illustrated by silhouettes and the colours indicate terrestrial, freshwater and marine groups of species](Accessibility%20in%20data%20visualisation%20tools%206c7b042656f64445977564c856e9a8b9/ai2html-marine-species-desktop.png)
 
 This bar chart was made with ai2html and is part of the article [Marine species under threat](https://datatopics.worldbank.org/sdgatlas/goal-14-life-below-water/) of the [Sustainable Development Goals Atlas 2020](https://datatopics.worldbank.org/sdgatlas/) of the World Bank. Below is the mobile version of the chart. Try the visualisation on different screen sizes, and also try the screen reader accessibility of the chart. Source:  [Sustainable Development Goals Atlas 2020](https://datatopics.worldbank.org/sdgatlas/), World Bank
 
 <p class='center'>
-<img src='Accessibility%20in%20data%20visualisation%20tools%206c7b042656f64445977564c856e9a8b9/ai2html-marine-species-mobile.png' alt='' class='max-400' />
+<img src='Accessibility%20in%20data%20visualisation%20tools%206c7b042656f64445977564c856e9a8b9/ai2html-marine-species-mobile.png' alt='A version of the chart above, designed for mobile screens. The main changes are the ommition of the species icons, and the x axis that only runs up to a value of 40 instead of the original 100' class='max-400' />
 </p>
 
 Source:  [Sustainable Development Goals Atlas 2020](https://datatopics.worldbank.org/sdgatlas/), World Bank

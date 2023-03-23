@@ -1,6 +1,6 @@
 In April 2019 many media reported on a study that found people eating red and processed meat on a daily basis had an increased risk on developing colorectal cancer.
 
-![Source: [cnn.com](https://edition.cnn.com/2019/04/17/health/colorectal-cancer-risk-red-processed-meat-study-intl/index.html)](More%20pitfalls%20in%20statistics%20980beb010f984cd49c83ec8dab6dae6e/cnn-bacon.png)
+![Screenshot of a web browser showing an article on cnn.com titled 'Eating just one slice of bacon a day linked to higher risk of colorectal cancer, says study'](More%20pitfalls%20in%20statistics%20980beb010f984cd49c83ec8dab6dae6e/cnn-bacon.png)
 
 Source: [cnn.com](https://edition.cnn.com/2019/04/17/health/colorectal-cancer-risk-red-processed-meat-study-intl/index.html)
 
@@ -16,7 +16,7 @@ Of 10.000 people in the study who ate 21 grams of red or processed meat each day
 
 But that doesn’t mean that relative increases in small probabilities are never important. The following news article is an example of that.
 
-![Source: [cnbc.com](https://www.cnbc.com/2021/03/11/covid-variant-in-the-uk-appears-to-be-64percent-more-deadly-than-other-strains-study-finds.html#:~:text=Covid%20variant%20first%20found%20in,than%20earlier%20strains%2C%20study%20finds&text=Researchers%20in%20the%20U.K.%20analyzed,with%20other%20previously%20circulating%20strains.)](More%20pitfalls%20in%20statistics%20980beb010f984cd49c83ec8dab6dae6e/cnbc-covid.png)
+![Screenshot of a web browser showing an article on cnbc.com titled 'Covid variant first found in the U.K. appears to be 64% more deadly than earlier strains, study finds'](More%20pitfalls%20in%20statistics%20980beb010f984cd49c83ec8dab6dae6e/cnbc-covid.png)
 
 Source: [cnbc.com](https://www.cnbc.com/2021/03/11/covid-variant-in-the-uk-appears-to-be-64percent-more-deadly-than-other-strains-study-finds.html#:~:text=Covid%20variant%20first%20found%20in,than%20earlier%20strains%2C%20study%20finds&text=Researchers%20in%20the%20U.K.%20analyzed,with%20other%20previously%20circulating%20strains.)
 

@@ -76,7 +76,7 @@
 	<div class="knowledge-graph">
 		
 		<div class="viz-intro">
-			<h2>Data Visualisation Academy Visualisation</h2>
+			<h2>Visual Table of Contents</h2>
 			<div class="viz-intro-text">
 				<p>
 					You can also explore the content of the Data Visualisation Academy by interacting with the

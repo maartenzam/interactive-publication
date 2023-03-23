@@ -14,7 +14,7 @@
 		{t1: 'Dataviz in practice', m1: 'Data file formats'},
 		{t1: 'Chart types', m1: 'A deep dive into line charts'},
 		{t1: 'Chart types', m1: 'Visualising distributions'},
-		{t1: 'Accessibility', m1: 'a11?'},
+		{t1: 'Accessibility', m1: 'a11y?'},
 		{t1: 'Accessibility', m1: 'HTML 101'},
 		{t1: 'Grammar of Graphics', m1: 'Grammar of Graphics: introduction'},
 		{t1: 'Grammar of Graphics', m1: 'Grammar of Graphics in practice'},

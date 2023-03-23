@@ -18,7 +18,7 @@ According to Cesal’s formula, the chart below could be summarised in an alt te
 > alt = "<span class='coloured-span' style='background-color: #a60df2'>Line chart</span> of <span class='coloured-span' style='background-color: #17ad2b'>cumulative burnt area in Europe</span> where the <span class='coloured-span' style='background-color: #f20d0d'>2022 area is more than double the 2006-2021 average, and well above the range for the same period</span>"
 > 
 
-![Source: [theguardian.com](https://www.theguardian.com/environment/ng-interactive/2022/jul/26/how-europe-has-been-hit-by-record-fire-damage-and-temperatures)](Making%20data%20visualisations%20understandable%20648d0f70b68446a19ed8c94e7ef74fc2/guardian-burnt-area-europe.png)
+![Line chart of cumulative burnt area in Europe where the 2022 area is more than double the 2006-2021 average, and well above the range for the same period](Making%20data%20visualisations%20understandable%20648d0f70b68446a19ed8c94e7ef74fc2/guardian-burnt-area-europe.png)
 
 Source: [theguardian.com](https://www.theguardian.com/environment/ng-interactive/2022/jul/26/how-europe-has-been-hit-by-record-fire-damage-and-temperatures)
 
@@ -40,7 +40,7 @@ Finally, at the **fourth level**, descriptions can contain contextual and domain
 Consider the following chart and the descriptions at the 4 different levels below:
 
 <p class='center'>
-<img src='Making%20data%20visualisations%20understandable%20648d0f70b68446a19ed8c94e7ef74fc2/born-in-2016-chart-description.png' alt='' class='max-600' />
+<img src='Making%20data%20visualisations%20understandable%20648d0f70b68446a19ed8c94e7ef74fc2/born-in-2016-chart-description.png' alt='This is a scatter plot entitled “Born in 2016: Life Expectancy Gap by Gender and Income” that plots Women Life Expectancy at Birth (Years) by Men Life Expectancy at Birth (Years). The Women Life Expectancy at Birth is plotted on the vertical y-axis from 40 to 90 years. The Men Life Expectancy at Birth is plotted on the horizontal x-axis from 40 to 90 years. High Income Countries are plotted in dark green. Low Income Countries are plotted in light green. A 45 degree line from the origin represents Equal Life Expectancy. For low income countries, the average life expectancy is 60 years for men and 65 years for women. For high income countries, the average life expectancy is 77 years for men and 82 years for women. Overall, women have a slightly higher life expectancy than men. Women live around 5 to 10 years longer than men. The low income countries are more scattered than the high income countries. There is a visible gap between high and low income countries, indicated by the Income-Age Divide line. People living in low-income countries tend to have a lower life expectancy than the people living in high-income countries, likely due to many societal factors, including access to healthcare, food, other resources, and overall quality of life. People who live in lower income countries are more likely to experience deprivation and poverty, which can cause related health problems.' class='max-600' />
 </p>
 
 Source: World Bank

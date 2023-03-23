@@ -3,7 +3,7 @@ A data visualisation tool that has some accessbility features and good responsiv
 When you create a chart with Datawrapper, it will automatically run a colour blindness test on the colours you are using in your visualisation. The tool will show a warning whenever some colour combinations are not fully colour blind proof, and you can easily simulate different kind of colour blindness.
 
 <p class='center'>
-<img src='Accessibility%20in%20data%20visualisation%20tools%206c7b042656f64445977564c856e9a8b9/datawrapper-colourblind-check.gif' alt='' class='max-600' />
+<img src='Accessibility%20in%20data%20visualisation%20tools%206c7b042656f64445977564c856e9a8b9/datawrapper-colourblind-check.gif' alt='An animated gif showing the colourblind simulator built into the Datawrapper interface for configuring charts' class='max-600' />
 </p>
 
 Source: [academy.datawrapper.de](https://academy.datawrapper.de/article/206-how-we-make-sure-our-charts-maps-and-tables-are-accessible)
@@ -29,14 +29,14 @@ The 2 embedded charts below show how Datawrapper handles labels and annotations 
 As an option, you can select to include a link to download the data of the visualisation, which also increases accessibility.
 
 <p class='center'>
-<img src='Accessibility%20in%20data%20visualisation%20tools%206c7b042656f64445977564c856e9a8b9/datawrapper-data-download.png' alt='' class='max-400' />
+<img src='Accessibility%20in%20data%20visualisation%20tools%206c7b042656f64445977564c856e9a8b9/datawrapper-data-download.png' alt='Screenshot of the lower left part of a Datawrapper visualisation, showing a link to the source of the data and a link to download the data of the chart' class='max-400' />
 </p>
 
 Source: [academy.datawrapper.de](https://academy.datawrapper.de/article/206-how-we-make-sure-our-charts-maps-and-tables-are-accessible)
 
 Probably the most important accessibility feature of Datawrapper is the alternative description for screen readers. This description is added to the HTML of the chart when it is embedded, and when it is present, the body of the embedded chart, including the annotations it contains, is hidden from screen readers.
 
-![Source: [academy.datawrapper.de](https://academy.datawrapper.de/article/206-how-we-make-sure-our-charts-maps-and-tables-are-accessible)](Accessibility%20in%20data%20visualisation%20tools%206c7b042656f64445977564c856e9a8b9/datawrapper-alternative-description.png)
+![A screenshot of the Datawrapper interface showing how an alternative description can be added to a visualisation](Accessibility%20in%20data%20visualisation%20tools%206c7b042656f64445977564c856e9a8b9/datawrapper-alternative-description.png)
 
 Source: [academy.datawrapper.de](https://academy.datawrapper.de/article/206-how-we-make-sure-our-charts-maps-and-tables-are-accessible)
 

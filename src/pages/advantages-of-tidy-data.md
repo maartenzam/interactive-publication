@@ -28,7 +28,7 @@ Both of the little exercises above illustrate the advantage of working with tidy
 
 Tidy data is a prerequisite for making visualisations based on the Grammar of Graphics. The schema below illustrates why. In the Grammar of Graphics, variables in the data are mapped to the visual properties (the aesthetics) of geometrical objects (see <span class='internal-link'>[Overview of the Grammar of Graphics building blocks](overview-of-gog-building-blocks)</span>). 
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/tidy-data-grammarofgraphics2x.png)
+![A diagram explaining how the columns in a tidy data set can be mapped to the colours and axis in a slopegraph. The country column is mapped to colour, the year column is mapped to the x axis and the cases column is mapped to the y axis](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/tidy-data-grammarofgraphics2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 

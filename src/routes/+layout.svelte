@@ -11,7 +11,18 @@
 	const toggleSidebar = function () {
 		sidebarOpen = !sidebarOpen;
 	};
+
 </script>
+
+<svelte:head>
+    <title>{$location.type == 'home'
+		? 'Data Visualisation Academy'
+		: $location.title
+			? $location.title 
+			: $location.m1
+				? $location.m1
+				: $location.t1}</title> 
+</svelte:head>
 
 <Header />
 <Breadcrumbs />

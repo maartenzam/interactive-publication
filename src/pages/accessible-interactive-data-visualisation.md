@@ -6,7 +6,7 @@ Use your mouse to reveal the tooltips in this scatter plot. Source: [academy.dat
 
 Sometimes the viewer of a visualisation is given some control over what data a visualisation should show. This can be a **filtering** mechanism, in which the viewer can add or remove data points from the visualisation.
 
-![An interactive chart with filtering functionality. Source: [babynames-stat.ch/en](https://babynames-stat.ch/en/index.html)](Accessible%20interactivity%201a5231a2445b406ab293908e35bc18c6/babynames-explorer-bfs.png)
+![Screenshot of a line chart with the title 'Change in first names over time'. 3 names are highlighted with colours, showing the popularity of the names Emma, Julia and Zoé. Above the chart there are controls to search for a name, to show either boys or girls names and to select the Swiss language region of the names (this is currently set to the whole of Switzerland)](Accessible%20interactivity%201a5231a2445b406ab293908e35bc18c6/babynames-explorer-bfs.png)
 
 An interactive chart with filtering functionality. Source: [babynames-stat.ch/en](https://babynames-stat.ch/en/index.html)
 

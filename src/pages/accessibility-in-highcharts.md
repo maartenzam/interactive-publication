@@ -11,7 +11,7 @@ Demo of a Highcharts map that is navigable with the keyboard and accessible to s
 
 - <span class='internal-link'><a href='double-encoding'>double encoding</a></span> to not only rely on colours. This is implented through the use of different fill and dot patterns
     
-![Source: [highcharts.com/accessibility](https://www.highcharts.com/accessibility/)](Accessibility%20in%20data%20visualisation%20tools%206c7b042656f64445977564c856e9a8b9/highcharts-patterns.png)
+![Examples of Highchart visualisations with pattern fills with different colours, applying the concept of double encoding](Accessibility%20in%20data%20visualisation%20tools%206c7b042656f64445977564c856e9a8b9/highcharts-patterns.png)
     
 Source: [highcharts.com/accessibility](https://www.highcharts.com/accessibility/)
     
