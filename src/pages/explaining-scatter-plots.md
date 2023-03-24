@@ -1,7 +1,7 @@
 Research has shown that only six out of ten (American) adults managed to interpret a scatterplot correctly.
 
 <p class='center'>
-<img src='How%20to%20introduce%20less%20common%20chart%20types%2054daaa496c1540519f56f72f5ba88962/pew-scatterplot.webp' alt='Source: [The art and science of the scatterplot](https://www.pewresearch.org/fact-tank/2015/09/16/the-art-and-science-of-the-scatterplot/), pewresearch.net' class='max-600' />
+<img src='How%20to%20introduce%20less%20common%20chart%20types%2054daaa496c1540519f56f72f5ba88962/pew-scatterplot.webp' alt='A scatter plot with a linear regression line, titled "63% of American Adutls Can Correctly Read This Chart". The plot has average sugar consumption on the x axis and average number of decayed teeth per person in different countries on the y axis' class='max-600' />
 </p>
 
 Source: [The art and science of the scatterplot](https://www.pewresearch.org/fact-tank/2015/09/16/the-art-and-science-of-the-scatterplot/), pewresearch.net
@@ -14,13 +14,13 @@ It should also be **made clear what each dot in the scatter plot represents**. I
 
 In order to interpret a scatterplot correctly, a good understanding of the axes of the plots is very important. Instead of just showing axis labels (the numbers on the axis) and an axis title explaining the units the numbers are expressed in, **text can be added that explain what the ends of the axes means**, in human readable and simple language. For example, the left end of the x axis could say “Low sugar consumption” and the right end of the axis “High sugar consumption”. Arrows can also be used to reinforce the direction of the axes.
 
-![A scatterplot with very clearly labelled axes. Source: [Obesity Was Rising as Ghana Embraced Fast Food. Then Came KFC.](https://www.nytimes.com/2017/10/02/health/ghana-kfc-obesity.html), nytimes.com](How%20to%20introduce%20less%20common%20chart%20types%2054daaa496c1540519f56f72f5ba88962/nytimes-scatterplot-axes.png)
+![A scatter plot titled 'As Countries Develop, Fast Food Takes Hold', showing the wealth and fast food sales of countries](How%20to%20introduce%20less%20common%20chart%20types%2054daaa496c1540519f56f72f5ba88962/nytimes-scatterplot-axes.png)
 
 A scatterplot with very clearly labelled axes. Source: [Obesity Was Rising as Ghana Embraced Fast Food. Then Came KFC.](https://www.nytimes.com/2017/10/02/health/ghana-kfc-obesity.html), nytimes.com
 
 The scatterplot in the Pew survey contains a regression line showing the trend in the data. To help the understanding, this **trendline should be explicitly annotated**. The line could be annotated with a generic annotation, like “Trendline”, but better would be to annotate it with text reinforcing the take away message of the chart, like “Higher sugar consumption is associated with higher numbers of decayed teeth”.
 
-![An explicitly labelled trendline. Source: [fivethirtyeight.com](https://fivethirtyeight.com/features/our-51-best-and-weirdest-charts-of-2021/)](How%20to%20introduce%20less%20common%20chart%20types%2054daaa496c1540519f56f72f5ba88962/538-trendline.png)
+![A scatter plot titled 'Republican-leaning counties saw lower turnout', with margin in presidential race on the x axis and change in turnout in states on the y axis](How%20to%20introduce%20less%20common%20chart%20types%2054daaa496c1540519f56f72f5ba88962/538-trendline.png)
 
 An explicitly labelled trendline. Source: [fivethirtyeight.com](https://fivethirtyeight.com/features/our-51-best-and-weirdest-charts-of-2021/)
 

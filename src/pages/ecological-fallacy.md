@@ -1,6 +1,6 @@
-There is another issue with the chocolate versus Nobel prizes chart. Notice how the data used are country averages:
+There is another issue with the chocolate versus Nobel prizes chart discussed on the <span class='internal-link'>[Correlation is not causation](correlation-is-not-causation)</span> page. Notice how the data used are country averages:
 
-![Source: [Chocolate Consumption, Cognitive Function and Nobel Laureates](https://www.biostat.jhsph.edu/courses/bio621/misc/Chocolate%20consumption%20cognitive%20function%20and%20nobel%20laurates%20(NEJM).pdf), The New England Journal of Medecine](More%20pitfalls%20in%20statistics%20980beb010f984cd49c83ec8dab6dae6e/chocolate_countries_large.jpg)
+![A scatter plot showing the correlation between per capita chocolate consumption and number of Nobel prizes won at the country level](More%20pitfalls%20in%20statistics%20980beb010f984cd49c83ec8dab6dae6e/chocolate_countries_large.jpg)
 
 Source: [Chocolate Consumption, Cognitive Function and Nobel Laureates](https://www.biostat.jhsph.edu/courses/bio621/misc/Chocolate%20consumption%20cognitive%20function%20and%20nobel%20laurates%20(NEJM).pdf), The New England Journal of Medecine
 

@@ -4,7 +4,7 @@ Better, but still not optimal, is to use error bars to show a standard-deviation
 
 But error bars can also be misinterpreted by people not familiar with standard deviations and confidence intervals. In one study that looked at how people interpreted a bar chart showing forecasted minimum night time temperatures with a 95% confidence interval, participants incorrectly believed that the limits of the confidence interval represented minimum and maximum forecasted temperatures.
 
-![Source: [The issue with error bars](https://www.data-to-viz.com/caveat/error_bar.html), data-to-viz.com](Visualising%20uncertainty%208aa5c9e663864767aaa41986a5a6f96c/bars-with-error-bars.png)
+![5 bars with error bars plotted on top of them](Visualising%20uncertainty%208aa5c9e663864767aaa41986a5a6f96c/bars-with-error-bars.png)
 
 Source: [The issue with error bars](https://www.data-to-viz.com/caveat/error_bar.html), data-to-viz.com
 
@@ -13,7 +13,7 @@ Using bar charts to summarise a distribution itself is a bad idea, even when err
 And there is another problem associated with summarising a data set with a bar + error bars. Consider these 2 bar charts with error bars, and the 2 datasets they summarise:
 
 <p class='center'>
-<img src='Visualising%20uncertainty%208aa5c9e663864767aaa41986a5a6f96c/bars-symmetrical.png' alt='' class='max-600' />
+<img src='Visualising%20uncertainty%208aa5c9e663864767aaa41986a5a6f96c/bars-symmetrical.png' alt='2 datasets visualised with dots on the right and 2 bars with error bars summarising the distributions on the left' class='max-600' />
 </p>
 
 Source: [Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)
@@ -24,14 +24,14 @@ This illustrates the issues that visualising distributions with bar charts suffe
 - the bars also have a “zone of irrelevance”: part of the bars cover an area where no data values occur
 
 <p class='center'>
-<img src='Visualising%20uncertainty%208aa5c9e663864767aaa41986a5a6f96c/Artboard_14x.png' alt='' class='max-600' />
+<img src='Visualising%20uncertainty%208aa5c9e663864767aaa41986a5a6f96c/Artboard_14x.png' alt='The same graphic as above, with annotations for the Zones of invisibility and the Zones of irrelevance' class='max-600' />
 </p>
 
 Source: [Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)
 
 Another example of a visual representation of a confidence interval that is often misunderstood, is the “cone of uncertainty” that is used by many weather services in the US to show the predicted paths of hurricanes on maps.
 
-![A map showing a cone of uncertainty for the predicted path of a hurricane. Source: NOAA - NWS](Visualising%20uncertainty%208aa5c9e663864767aaa41986a5a6f96c/cone-of-uncertainty.webp)
+![ ](Visualising%20uncertainty%208aa5c9e663864767aaa41986a5a6f96c/cone-of-uncertainty.webp)
 
 A map showing a cone of uncertainty for the predicted path of a hurricane. Source: NOAA - NWS
 
