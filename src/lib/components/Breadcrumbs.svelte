@@ -88,7 +88,7 @@
 		background-color: #f5f5f5;
 		border-bottom: 1px solid #cecdcd;
 		padding: 0.5rem 1rem;
-		color: #a0a0a0;
+		color: #525252;
 		font-size: 0.8rem;
 		font-weight: 400;
 	}
@@ -104,9 +104,9 @@
 
 	.crumb a {
 		text-decoration: none;
-		color: #a0a0a0;
+		color: #525252;
 		padding-bottom: 3px;
-		border-bottom: 1px solid #a0a0a0;
+		border-bottom: 1px solid #525252;
 	}
 	.crumb.end {
 		font-weight: bold;
