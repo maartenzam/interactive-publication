@@ -3,7 +3,9 @@ export let topicColors = {
     'Data storytelling': '#316DB0',
     'Pitfalls': '#661188',
     'Dataviz in practice': '#53793F',
-    'Chart types': '#D96694',
+    //'Chart types': '#D96694',
+    'Chart types': '#C14E7C',
     'Accessibility': '#707070',
-    'Grammar of Graphics': '#E49A3E'
+    'Grammar of Graphics': '#7C4D13'
+    //'Grammar of Graphics': '#98622A'
 }
