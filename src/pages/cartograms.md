@@ -1,7 +1,7 @@
 Cartograms are maps in which the geography is altered to let the surface area of geographic entities be proportional to a numerical value. Below is an example of a cartogram showing the total population of African countries. The dark red country on this map, Nigeria, is blown up because it has a big population, while other countries have shrunken because of their low populations.
 
 <p class='center'>
-<img src='Maps%20e22d0627fc944d47be79a1d1a4f8acef/contiguous-cartogram.png' alt='' class='max-600' />
+<img src='Maps%20e22d0627fc944d47be79a1d1a4f8acef/contiguous-cartogram.png' alt='A contiguous cartogram of African countries, with their size representing their population' class='max-600' />
 </p>
 
 Source: Maarten Lambrechts, CC BY SA 4.0
@@ -11,7 +11,7 @@ The cartogram above is called a **contiguous cartogram**. In a contiguous cartog
 The cartogram below is a **non-contiguous cartogram**: the countries are scaled to represent their populations, and as a result, neighbouring countries no longer touch each other.
 
 <p class='center'>
-<img src='Maps%20e22d0627fc944d47be79a1d1a4f8acef/non-contiguous-cartogram.png' alt='' class='max-600' />
+<img src='Maps%20e22d0627fc944d47be79a1d1a4f8acef/non-contiguous-cartogram.png' alt='A non-contiguous cartogram of African countries and their populations' class='max-600' />
 </p>
 
 Source: Maarten Lambrechts, CC BY SA 4.0
@@ -19,7 +19,7 @@ Source: Maarten Lambrechts, CC BY SA 4.0
 In a **Dorling cartogram**, the shapes of the geographical entities are completely abstracted into circles which are scaled to represent the values of a numerical variable.
 
 <p class='center'>
-<img src='Maps%20e22d0627fc944d47be79a1d1a4f8acef/dorling-cartogram.png' alt='' class='max-600' />
+<img src='Maps%20e22d0627fc944d47be79a1d1a4f8acef/dorling-cartogram.png' alt='A Dorling cartogram of African countries and their populations' class='max-600' />
 </p>
 
 Source: Maarten Lambrechts, CC BY SA 4.0
@@ -42,6 +42,6 @@ Tile grid maps distort the geography even more than Dorling and Demers cartogram
 
 However, tile grid maps can be used to show mini charts for each entity in the grid. The tile grid map below shows the share of the population using the internet in African countries, for example.
 
-![Source: [Making the connection: how the internet can help end extreme poverty](https://www.one.org/making-the-connection/index-en.html), one.org](Maps%20e22d0627fc944d47be79a1d1a4f8acef/tile-grid-waffles.png)
+![A tile grid map of African countries in which each tile is unit chart representing the population using the internet in each country](Maps%20e22d0627fc944d47be79a1d1a4f8acef/tile-grid-waffles.png)
 
 Source: [Making the connection: how the internet can help end extreme poverty](https://www.one.org/making-the-connection/index-en.html), one.org

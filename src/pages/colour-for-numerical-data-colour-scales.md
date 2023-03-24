@@ -2,13 +2,13 @@ Colour scales for representing numerical data can be continuous or discrete, and
 
 In a continuous colour scale, every value in the data is mapped to a unique colour. This creates visualisations with a lot of details and nuance.
 
-![Source: Mathias Leroy](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/continuous-colour-scale.jpg)
+![A choropleth map of Belgian municipalities, showing 14-day cumulative incidence of Covid-19 with a continuous colour scale](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/continuous-colour-scale.jpg)
 
 Source: Mathias Leroy
 
 In a discrete colour scale, values are grouped or ‘binned’ into discrete buckets, and each bucket is assigned a colour. Visualisations that use discrete colour scales show less detail, and are less precise, but they can show patterns in a clearer way.
 
-![Source: Mathias Leroy](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/discrete-colour-sclae.jpg)
+![A choropleth map of Belgian municipalities, showing 14-day cumulative incidence of Covid-19 with a discrete colour scale](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/discrete-colour-sclae.jpg)
 
 Source: Mathias Leroy
 
@@ -19,7 +19,7 @@ One important aspect of discrete colour scales, is the method used for classifyi
 - the boundaries reflect “natural” breaks in the data. The most popular algorithm to determine the breaks was developed by cartographer George Frederick Jenks, this method is often reffered to as “Jenks natural breaks”
 - boundaries are nice round values. Often one of the three previous methods is chosen, and the class breaks are then modified manually to “nice” values.
 
-![Interface of data visualisation tool Datawrapper, showing the available options to classify values for a choropleth map.](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/datawrapper-classifications.png)
+![ ](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/datawrapper-classifications.png)
 
 Interface of data visualisation tool Datawrapper, showing the available options to classify values for a choropleth map.
 
@@ -27,17 +27,17 @@ Visualisations and maps can show very different patterns depending on the classi
 
 ColorBrewer is a good source of perceptually uniform, discrete colour palettes.
 
-![colorbrewer-sequential.png](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/colorbrewer-sequential.png)
+![Screenshot of the Color Brewer interface, showing a 7 classes sequential colour scheme](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/colorbrewer-sequential.png)
 
 Some of these colour palettes are built into visualisation tools like Datawrapper, which also offers continuous versions of these palettes.
 
-![The Datawrapper interface for choropleth maps, with a continuous colour palette (called “linear”) selected.](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/datawrapper-continuous.png)
+![ ](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/datawrapper-continuous.png)
 
-The Datawrapper interface for choropleth maps, with a continuous colour palette (called “linear”) selected.
+The Datawrapper interface for choropleth maps, with a continuous colour palette (called "linear") selected.
 
 Diverging colour palettes are designed to show deviations from a central value, in both the positive and negative direction. The central value can be zero, or any other meaningful value (like an average or the median) and is usually displayed in a neutral value (a tint of grey). Like normal colour palettes, diverging colour palettes should be perceptually uniform and can be continuous or discrete.
 
-![Source: [Diverging colour scales in ColorBrewer](https://colorbrewer2.org/#type=diverging)](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/ColorBrewer-diverging.png)
+![Screenshot of the Color Brewer interface, showing a 7 classes diverging colour scheme with browns and greens](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/ColorBrewer-diverging.png)
 
 Source: [Diverging colour scales in ColorBrewer](https://colorbrewer2.org/#type=diverging)
 

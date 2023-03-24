@@ -4,31 +4,31 @@ A critique on the use of the term is that Tufte uses a very broad definition of 
 
 Also recently, there seem to be some renewed interest in making more playful chart designs, integrating hand drawn and illustrative elements. One exponent of this style of data visualisation is data journalist [**Mona Chalabi**](https://monachalabi.com/). Her popular Instagram page contains many visualisations that clearly violate Tufte’s rules, but that do get a message across and are appreciated by a huge audience.
 
-![Source: [@MonaChalabi](https://twitter.com/MonaChalabi/status/1462845944857350151)](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/mona-chalabi-cars.jpg)
+![A drawn line chart, with a seat belt representing the seat belt use rate over time, and a bar chart representing the fatalities per 100 million vehicular miles travelled](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/mona-chalabi-cars.jpg)
 
 Source: [@MonaChalabi](https://twitter.com/MonaChalabi/status/1462845944857350151)
 
-![Source: [@MonaChalabi](https://twitter.com/MonaChalabi/status/1452642962769383425)](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/mona-chalabi-dentist.jpg)
+![Drawings of teeth in mouths, with the number of white teeth proportional to the number of dentist consultations per year in different countries](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/mona-chalabi-dentist.jpg)
 
 Source: [@MonaChalabi](https://twitter.com/MonaChalabi/status/1452642962769383425)
 
 Data illustrator Gabrielle Merite is adding to the same genre, with collage-like data visualisations.
 
-![Source: [@Data_Soul](https://twitter.com/Data_Soul/status/1498688948314406916)](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/gabrielle-merite-costa-rica-carbon.jpg)
+![3D renderings of different sources and sinks of carbon (like forestry, electricity and buildings), with the height of the drawings proportional to the amount of CO2 emitted or sequestrated in Costa Rica in 2018 and 2050](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/gabrielle-merite-costa-rica-carbon.jpg)
 
 Source: [@Data_Soul](https://twitter.com/Data_Soul/status/1498688948314406916)
 
-![Source: [@Data_Soul](https://twitter.com/Data_Soul/status/1465365173040914435)](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/hugs-gabrielle-merite.jpg)
+![A bar chart titled 'Hold me longer' in which each bar is drawn being hugged and its height is proportional to the pleasure rating tied to the duration of the hug](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/hugs-gabrielle-merite.jpg)
 
 Source: [@Data_Soul](https://twitter.com/Data_Soul/status/1465365173040914435)
 
-![Source: [@Data_Soul](https://twitter.com/Data_Soul/status/1457770156189315075)](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/gabrielle-merite-emissions.jpg)
+![A collage like visualisation of the top 10 countries with the largest cumulative carbon emissions](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/gabrielle-merite-emissions.jpg)
 
 Source: [@Data_Soul](https://twitter.com/Data_Soul/status/1457770156189315075)
 
 In a talk at the Outlier 2022 Conference, Robert Kosara (the researcher who coined the term “harmless junk”), highlighted this chart:
 
-![Source: [@McKinsey](https://twitter.com/mckinsey/status/1457365985971908616)](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/mckinsey-cow.jpg)
+![A bar chart titled 'If cows were a country, they would be among the top greenhouse-gas emitters. The bar representing Cattle & Dairy is replaced by a cow](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/mckinsey-cow.jpg)
 
 Source: [@McKinsey](https://twitter.com/mckinsey/status/1457365985971908616)
 
@@ -38,7 +38,7 @@ Tuftean purists might say that because the cow is so wide, people might overesti
 
 But would the message be so powerful if the data was represented like below?
 
-![Source: [Robert Kosara—Outlier 2022—This Should Have Been a Bar Chart](https://www.youtube.com/watch?v=GeRgED7LWr8)](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/cows-bars.png)
+![The same bar chart as above, but without the cow](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/cows-bars.png)
 
 Source: [Robert Kosara—Outlier 2022—This Should Have Been a Bar Chart](https://www.youtube.com/watch?v=GeRgED7LWr8)
 

@@ -22,18 +22,18 @@ Tools for checking <span class='internal-link'>[colour contrast](colour-contrast
 
 The built in [Digital Colour Meter](https://support.apple.com/en-mide/guide/digital-color-meter/welcome/mac) app on Mac computers allows you to identify and copy colours on your screen to your clipboard.
 
-![colour-meter.png](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/colour-meter.png)
+![Screenshot of the Digital Colour Meter](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/colour-meter.png)
 
 Source: [Digital Colour Meter](https://support.apple.com/en-mide/guide/digital-color-meter/welcome/mac)
 
 [Sim Daltonism](https://apps.apple.com/us/app/sim-daltonism/id693112260?mt=12) is a Mac app that overlays a window over your screen to simulate different kinds of colour blindness.
 
-![simdaltonism.webp](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/simdaltonism.webp)
+![Screenshot of the Sim Daltonism window over a picture of an air balloon with different colours](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/simdaltonism.webp)
 
 Source: [Sim Daltonism](https://apps.apple.com/us/app/sim-daltonism/id693112260?mt=12)
 
 [Color Oracle](https://colororacle.org) is a colour blindness simulator for Windows, Mac and Linux.rg)
 
-![colororacle.gif](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/colororacle.gif)
+![An animated gif showing the interface of Color Oracle](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/colororacle.gif)
 
 Source: [Color Oracle](https://colororacle.org)

@@ -29,7 +29,7 @@ On the circle, saturation can be mapped from 0% saturation (pure grey) in the ce
 
 Then, finally, lightness can be added if the circle is put in 3D, with 0% lightness (black) at the bottom, to 100% lightness (white) at the top.
 
-![The HSL colour cylinder. By [SharkD](https://commons.wikimedia.org/wiki/File:HSL_color_solid_cylinder_saturation_gray.png), CC BY-SA 3.0](Data%20visualisation%20design%20in%20practice%201%20design%20tri%201d0d3c62419c4546846d9a92f783836c/1280px-HSL_color_solid_cylinder_saturation_gray.png)
+![The HSL colour cylinder, with lightness increasing from bottom to top, saturation increasing from center to edge and hue varying around the edge of the cylinder](Data%20visualisation%20design%20in%20practice%201%20design%20tri%201d0d3c62419c4546846d9a92f783836c/1280px-HSL_color_solid_cylinder_saturation_gray.png)
 
 The HSL colour cylinder. By [SharkD](https://commons.wikimedia.org/wiki/File:HSL_color_solid_cylinder_saturation_gray.png), CC BY-SA 3.0
 
@@ -85,7 +85,7 @@ From these series you can see how HSL makes it easy to generate tints of colours
 
 RGB values can be converted into HSL values by using relatively simple formulas, and many tools exist that can do that for you. The easiest one to find is the one that is built into Google: simply Google a hexadecimal colour, like [#855ca1](https://www.google.com/search?q=%23855ca1), or an RGB colour, like [rgb(237, 148, 38)](https://www.google.com/search?q=rgb(237%2C148%2C38)). This will open the searched colour in a colour picker, in which you can adjust colours visually. Colours can be adjusted in RGB (both in decimal as in hexadecimal values), in HSL, in HSV (which stands for hue, saturation and value, and is similar to HSL) and CMYK (a colour model used for print).
 
-![The Google colour picker. Source: Maarten Lambrechts, CC BY SA 4.0](Data%20visualisation%20design%20in%20practice%201%20design%20tri%201d0d3c62419c4546846d9a92f783836c/google-colorpicker.png)
+![The Google colour picker, showing the colour #855ca1](Data%20visualisation%20design%20in%20practice%201%20design%20tri%201d0d3c62419c4546846d9a92f783836c/google-colorpicker.png)
 
 The Google colour picker. Source: Maarten Lambrechts, CC BY SA 4.0
 

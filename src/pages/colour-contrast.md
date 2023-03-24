@@ -26,18 +26,18 @@ The contrast ratio is the ratio of the relative luminance of the text colour and
 
 Luckily you don’t have to compute the luminances and their ratio yourself: there are many tools freely avaible online to calculate the ratio.
 
-![An example of white text on a blue background lacking enough contrast for small font sizes according to [contrastchecker.com](https://contrastchecker.com/)](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/contrastchecker.png)
+![A screenshot of the interface of contrastchecker.com showing that the contrast between white text and a blue background is too low](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/contrastchecker.png)
 
 An example of white text on a blue background lacking enough contrast for small font sizes according to [contrastchecker.com](https://contrastchecker.com/)
 
 Lately, the WCAG guidelines on contrast have been criticised for scoring highly contrasting colours lower than some lower contrasting colours. The main reason for this is that the way WCAG prescribes to calculate the contrast ratio is not fully in line with how we perceive colours and colour combinations.
 
-![Examples of colour combinations with lower contrast but with high WCAG contrast scores (left) and with higher contrast but lower WCAG scores (right). Source: [It’s time for a more sophisticated color contrast check for data visualizations](https://blog.datawrapper.de/color-contrast-check-data-vis-wcag-apca/), datawrapper.de](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/contrast-wcag-datawrapper.png)
+![ ](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/contrast-wcag-datawrapper.png)
 
 Examples of colour combinations with lower contrast but with high WCAG contrast scores (left) and with higher contrast but lower WCAG scores (right). Source: [It’s time for a more sophisticated color contrast check for data visualizations](https://blog.datawrapper.de/color-contrast-check-data-vis-wcag-apca/), datawrapper.de
 
 An alternative way of calculating contrast is the Advanced Perceptual Contrast Algorithm (APCA), which probably will be part of WCAG3. You can calculate APCA contrast with the [APCA Contrast Calculator](https://www.myndex.com/APCA/). APCA contrast has a value between 0 and 105, a contrast of 90 or higher is recommended for body text.
 
-![apca-contrast.png](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/apca-contrast.png)
+![A web browser showing the APCA Contrast Calculator](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/apca-contrast.png)
 
 Source: [APCA Contrast Calculator](https://www.myndex.com/APCA/)

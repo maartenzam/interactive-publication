@@ -2,31 +2,31 @@ When you want to see the relationship between 2 time series over the same period
 
 The chart below shows the weekly averages of Covid-19 hospitalisations and deaths for Belgium in 2020.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/covid-lines-belgium.png)
+![A line chart titled Covid-19 cycles in Belgium, showing the daily hospitalisations and deaths in Belgium between March 15 2020 and June 15 2021](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/covid-lines-belgium.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
 In order to make a connected scatter plot, you can plot the hospitalisations on the x axis and the number of deaths on the y axis. Then the points in the scatter plot are connected chronologically.
 
-![Note that this chart uses logarithmic scales for both x and y. Source: Maarten Lambrechts, CC BY SA 4.0](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/covid-cycles-no-annotations2x.png)
+![A connected scatter plot titled Covid-19 cycles in Belgium, showing the daily hospitalisations and deaths in Belgium between March 15 2020 and June 15 2021](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/covid-cycles-no-annotations2x.png)
 
 Note that this chart uses logarithmic scales for both x and y. Source: Maarten Lambrechts, CC BY SA 4.0
 
 From this chart, some elements become much more obvious than they were on the initial line charts. For example somewhere end March-beginning of April the number of hospitalisations peaks (the curve starts moving to the left). A little later, the number of deaths peak (the curve moves down again).
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/covid-cycles-peaks2x.png)
+![The same connected scatter plot as above, with annotations for the peak deaths and peak hospitalisations](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/covid-cycles-peaks2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
 In connected scatter plots, a loop in the curve means that there is a delayed correlation: a change in one variable is followed by a change in the second variable, but with a delay. In August there was also a little flare up of the virus, which was quickly controlled. This is visible on the curve as a small loop in the bottom left.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/covid-cycles-small-outbreak2x.png)
+![The same connected scatter plot as above, with an annotation for the small outbreak in August 2020](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/covid-cycles-small-outbreak2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
 There is also a difference going up to the peak versus going down: at the same number of hospitalisations, the number of deaths is much higher descending from the peak of hospitalisations than moving up to the peak, an effect called hysteresis.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/covid-cycles-hysteresis2x.png)
+![The same connected scatter plot as above, with an annotation for the hysteresis between hospitalisations and deaths](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/covid-cycles-hysteresis2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -42,6 +42,6 @@ A classic connected scatter plot is the example below, showing how the distance 
 - labels for each year
 - repeated arrows showing the chronological order of the data points
 
-![Source: [Driving Safety, in Fits and Starts](https://archive.nytimes.com/www.nytimes.com/interactive/2012/09/17/science/driving-safety-in-fits-and-starts.html), nytimes.com](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/driving-shifts-into-reverse-annotated-connected-scatterplot.png)
+![A connected scatter plot of vehicle miles driven per capita on the x axis and auto fatalities per 100.000 people on the y axis](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/driving-shifts-into-reverse-annotated-connected-scatterplot.png)
 
 Source: [Driving Safety, in Fits and Starts](https://archive.nytimes.com/www.nytimes.com/interactive/2012/09/17/science/driving-safety-in-fits-and-starts.html), nytimes.com

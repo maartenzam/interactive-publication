@@ -1,7 +1,7 @@
 Visualisation tools that are not based on the Grammar of Graphics work with chart type templates. If you want to make a bar chart, for example, you navigate to the chart template gallery, pick the bar chart template, and then input your data into the template.
 
 <p class='center'>
-<img src='Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/excel-chart-templates.png' alt='' class='max-600' />
+<img src='Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/excel-chart-templates.png' alt='Screenshot of the list of chart templates avaiable in Microsoft Excel' class='max-600' />
 </p>
 
 Picking a chart template from the chart template gallery in Microsoft Excel. Source: Maarten Lambrechts CC BY SA 4.0
@@ -59,7 +59,7 @@ Highcharts.chart('container', {
 });
 ```
 
-![Source: [www.highcharts.com/demo/pie-basic](https://www.highcharts.com/demo/pie-basic)](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/browser-market-shares-highcharts.png)
+![The pie chart resulting from the Highcharts specifcation shown above](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/browser-market-shares-highcharts.png)
 
 Source: [www.highcharts.com/demo/pie-basic](https://www.highcharts.com/demo/pie-basic)
 
@@ -80,7 +80,7 @@ Here, Wilkinson is saying that without a deeper understanding of how charts are 
 This is illustrated by [the examples gallery of Vega-Lite](https://vega.github.io/vega-lite/examples/). This gallery contains almost 200 different charts, all produced with the same, single, Grammar of Graphics-based tool.
 
 <p class='center'>
-<img src='Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/vega-lite-gallery.png' alt='' class='max-400' />
+<img src='Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/vega-lite-gallery.png' alt='Screenshot of the Vega-Lite examples gallery' class='max-400' />
 </p>
 
 Source: [vega.github.io/vega-lite/examples/](https://vega.github.io/vega-lite/examples/)

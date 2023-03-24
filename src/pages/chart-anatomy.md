@@ -2,7 +2,7 @@ Visualisations come in many forms and tastes, but many visualisations share a lo
 
 For this, we need a good understanding of the buildings blocks, or the anatomy, of a data visualisation. Consider the line chart below.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/Chart-no_annotations2x.png)
+![A line chart titled 'European Union slowly on its way to greener heating and cooling'. The chart has a line for each EU member state, and the lines representing Sweden, EU and Ireland are highlighted with colour and labels](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/Chart-no_annotations2x.png)
 
 Source: Maarten Lambrechts, CC BY 4.0
 
@@ -10,7 +10,7 @@ This chart is composed out of many building blocks: there are multiple text elem
 
 The schema below illustrates the anatomy of a classical data visualisation using the example chart. It establishes a terminology to identify and describe the elements of a chart.
 
-![Chart-annotations@2x.png](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/Chart-annotations2x.png)
+![The same chart as above, but with annotations indicating all the elements of the anatomy of a chart](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/Chart-annotations2x.png)
 
 Source: Maarten Lambrechts, CC BY 4.0
 

@@ -21,19 +21,19 @@ The values in the 4 datasets (now known as “Anscombe’s quartet”) have some
 So as far as these descriptive statistics are concerned, no distinction can be made between the 4 sets of data. But when the datasets are represented visually, they are clearly very different:
 
 <p class='center'>
-<img src='Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/anscombe_1-op.png' alt='' class='max-400' />
+<img src='Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/anscombe_1-op.png' alt='A scatter plot showing a positive correlation with noise between the x and y values' class='max-400' />
 </p>
 
 <p class='center'>
-<img src='Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/anscombe_2-op.png' alt='' class='max-400' />
+<img src='Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/anscombe_2-op.png' alt='A scatter plot showing a sinusoidal relation between the x and y values' class='max-400' />
 </p>
 
 <p class='center'>
-<img src='Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/anscombe_3-op.png' alt='' class='max-400' />
+<img src='Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/anscombe_3-op.png' alt='A scatter plot showing a perfect positive correlation between the x and y values, except for one outlier observation' class='max-400' />
 </p>
 
 <p class='center'>
-<img src='Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/anscombe_4-op.png' alt='' class='max-400' />
+<img src='Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/anscombe_4-op.png' alt='A scatter plot showing variation in y for the same value of x, except for one outlier observation' class='max-400' />
 </p>
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
@@ -42,7 +42,7 @@ At the time Anscombe designed his quartet, data visualisation was not as popular
 
 In 2017 [researchers at Autodesk](https://www.autodesk.com/research/publications/same-stats-different-graphs) extended Anscombe’s quartet to the Datasaurus Dozen: 12 datasets all sharing the same descriptive statistics, but with a drastically different visual appearance. They even put in a dinosaur!
 
-![Source: [Same Stats, Different Graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs), Autodesk](Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/DataDino-600x455.gif)
+![An animation showing 12 distributions (scatterplots) of x and y that all share the same descriptive statistics. One of the datasets has the shape of the head of T-Rex](Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/DataDino-600x455.gif)
 
 Source: [Same Stats, Different Graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs), Autodesk
 

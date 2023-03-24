@@ -2,13 +2,13 @@ To pick colours that are easy on the eye and that combine in an aesthetically pl
 
 The first rule is to not use “pure”, or fully saturated colours, especially with high lightness (”bright” colours). These bright and saturated colours attract attention, sure, but to a degree that it is much more comfortable to look away than keep looking at them.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/saturated-viz.png)
+![A 4 colour palette with very saturated colours applied to a stacked bar chart, a line chart and a scatter plot](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/saturated-viz.png)
 
 Source: Maarten Lambrechts, CC BY 4.0
 
 So try to avoid these colours, especially for filling objects with large surface areas. Reduce the saturation and the brightness to avoid the “screaming for attention” effect.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/less-saturated-viz.png)
+![The same stacked bar chart, line chart and scatter plot as above, but with less saturated and less bright colours](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/less-saturated-viz.png)
 
 Source: Maarten Lambrechts, CC BY 4.0
 

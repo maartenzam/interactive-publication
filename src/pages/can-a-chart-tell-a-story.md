@@ -1,7 +1,7 @@
 Take some time to look at the image below:
 
 <p class='center'>
-<img src='Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/chartoon-lizandmollie.png' alt='Source: [Liz and Mollie](https://twitter.com/lizandmollie/status/1363648664569143300)' class='max-600' />
+<img src='Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/chartoon-lizandmollie.png' alt='A cartoon of 2 stacked bar charts, composed of a bar labeled "The workweek" and a bar labelled "The weekend". The top bar is titled "How it is", the bottom one is titled "How it feels". In the bottom one the bar for the weekend is much smaller' class='max-600' />
 </p>
 
 Source: [Alyssa Fowers](https://twitter.com/lizandmollie/status/1363648664569143300)
@@ -17,7 +17,7 @@ This is what good stories do: they let us empathise with what other people went 
 
 Stories create engagement, and research has shown that information presented using storytelling techniques instead of just presenting list of facts leads to better understanding and higher rememberability.
 
-![Source: [Alyssa Fowers](https://twitter.com/alyssafowers/status/1191038086882435074)](Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/chartoon-alyssa-fowers.jpg)
+![A cartoon titled 'The Yearly Trip' with subtitle 'Early dark after Daylight Savings Time', showing a women running over the line of a line chart. The y axis represents the time of sunset and the x axis runs over a year, from February to February the next year. The woman trips around November, at the end of Daylight Savings Time'](Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/chartoon-alyssa-fowers.jpg)
 
 Source: [Alyssa Fowers](https://twitter.com/alyssafowers/status/1191038086882435074)
 

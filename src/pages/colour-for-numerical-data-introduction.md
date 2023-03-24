@@ -2,7 +2,7 @@ Numbers can be converted into colours to communicate numeric data. But before de
 
 The reason for this is that decoding numeric values from colours is not efficient. Take for example the following 2 colours:
 
-![2-colors@2x.png](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/2-colors2x.png)
+![A yellow square on the left and a purple square on the right](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/2-colors2x.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
@@ -15,7 +15,7 @@ There is no way to accurately answer these questions, because there is no colour
 
 But there is more: even if there is a colour scale, it is still difficult to extract the exact value of the colours.
 
-![Source: Maarten Lambrechts, CC BY 4.0](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/colors-with-legend2x.png)
+![The yellow and the purple squares plotted on top of a yellow - purple continuous colour strip](Colour%20use%20in%20data%20visualisation%20acd08b9e488e4cd9bd518e063a86f6b7/colors-with-legend2x.png)
 
 Source: Maarten Lambrechts, CC BY 4.0
 

@@ -2,7 +2,7 @@ With the concept of <span class="internal-link">[chart junk and the “maximize 
 
 In his next book, “Envisioning Information”, Tufte repeated his critique on illustration style data visualisation, in which the hand of the designer was very visible. As an example, he used a graphic by (then) Time magazine illustrator [Nigel Holmes](http://www.nigelholmes.com/): the now famous “Diamonds were a girl’s best friend” chart:
 
-![diamonds-nigel-holmes.png](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/diamonds-nigel-holmes.png)
+![A line chart showing the average price of a one-carat D-flawless, titled 'Diamonds were a girl's best friend'. The line of the chart is drown as the bottom side of the leg of a drawn lady sitting on the ground.](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/diamonds-nigel-holmes.png)
 
 Source: Nigel Holmes for Time Magazine
 
@@ -10,7 +10,7 @@ This kicked off a Tufte vs Holmes debate, in which Holmes claimed that “Tufte,
 
 So, do illustrations  and “chart junk” hinder the interpretation of a chart? In 2010 researchers tried to find out and settle the Tufte vs Holmes discussion by exposing people to visualisations designed by Holmes and versions of these charts following Tufte’s rules:
 
-![Left: Holmes’s graphics, right: minimalistic versions of the charts. Source: [Useful Junk? The Effects of Visual Embellishment on Comprehension and Memorability of Charts](http://www.stat.columbia.edu/~gelman/communication/Bateman2010.pdf), Bateman et al](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/holmes-tufte.png)
+![ ](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/holmes-tufte.png)
 
 Left: Holmes’s graphics, right: minimalistic versions of the charts. Source: [Useful Junk? The Effects of Visual Embellishment on Comprehension and Memorability of Charts](http://www.stat.columbia.edu/~gelman/communication/Bateman2010.pdf), Bateman et al
 
@@ -18,7 +18,7 @@ The researchers found that the embellished charts did a better job in getting th
 
 A sane way of looking at the Tufte versus Holmes is to see them as two extremes of a continuum. How much ink you can and should spend on non-data elements in your designs depends on the medium, the audience, the topic and also of your own taste and style. If you are after readable values, effective comparisons, and a scientifical look: go towards minimalistic. If you want engagement, some humour and memorability, go more for the Nigel Holmes style.
 
-![Going from one end of the spectrum to the other. Source: [Data Looks Better Naked](https://www.darkhorseanalytics.com/blog/data-looks-better-naked), Darkhorse Analytics](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/data-ink.gif)
+![An animation showing how a bar chart with a very busy design can be transformed into a minimalistic visualisation by removing unnecesary elements from it](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/data-ink.gif)
 
 Going from one end of the spectrum to the other. Source: [Data Looks Better Naked](https://www.darkhorseanalytics.com/blog/data-looks-better-naked), Darkhorse Analytics
 

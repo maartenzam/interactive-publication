@@ -4,7 +4,7 @@
 
 Choosing the best chart type to deliver your data message is not easy: many different chart types exist, and they all highlight different aspects of your data.
 
-![Source: [gocomics.com/brewsterrockit](https://www.gocomics.com/brewsterrockit/2020/05/03)](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/brewster-rocket-comic.jpg)
+![A comic in which Brewster Rockit talks about different chart types](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/brewster-rocket-comic.jpg)
 
 Source: [gocomics.com/brewsterrockit](https://www.gocomics.com/brewsterrockit/2020/05/03)
 

@@ -8,7 +8,7 @@ To overcome these issues, in the same book Tufte introduced the concept of “da
 
 But Tufte also mentions another category of chart junk, which he compares to the “Big Duck”, a famous duck shaped building in New York, built by a duck farmer and used as a shop to sell ducks and duck eggs.
 
-![Big Duck. Source: [Mike Peel](https://en.wikipedia.org/wiki/File:Big_Duck_2018_05.jpg), CC-BY-SA-4.0](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/1280px-Big_Duck_2018_05.jpg)
+![Picture of the Big Duck building](Chart%20junk%20and%20data%20ink%2045cd2a8ea3454bffa82b78d53ca414dc/1280px-Big_Duck_2018_05.jpg)
 
 Big Duck. Source: [Mike Peel](https://en.wikipedia.org/wiki/File:Big_Duck_2018_05.jpg), CC-BY-SA-4.0
 
