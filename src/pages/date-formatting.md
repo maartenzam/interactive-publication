@@ -3,7 +3,7 @@ The formatting of dates deserves special attention in the world of data visualis
 Date formats are a mix of numbers, symbols and text strings. They come in a wide variety, and also depend on the locale. They are used to indicate years, months and dates, but also quarters, and time ranges with a start and end time.
 
 <p class='center'>
-<img src='Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3/date-formatting-datawrapper.png' alt='Date formats in Datawrapper' class='max-400' />
+<img src='Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3/date-formatting-datawrapper.png' alt='Screenshot of the list of available date formats in Datawrapper' class='max-400' />
 </p>
 
 Date formats in Datawrapper

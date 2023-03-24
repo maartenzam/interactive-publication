@@ -4,25 +4,25 @@ Below or some examples of data physicalisations, taken from the [List of Physica
 
 Artist Mathieu Lehanneur created 100 objects, each showing the age distribution of a country, for his [State of the World, Sculptures](https://www.mathieulehanneur.fr/project/state-of-the-world-sculptures-297).
 
-![Source: [mathieulehanneur.fr](https://www.mathieulehanneur.fr/project/state-of-the-world-sculptures-297)](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/mathieu-lehanneur-state-world-miami-designboom-02.jpg)
+![Picture of someone taking a picture of one of the objects representing the age distrubution of countries](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/mathieu-lehanneur-state-world-miami-designboom-02.jpg)
 
 Source: [mathieulehanneur.fr](https://www.mathieulehanneur.fr/project/state-of-the-world-sculptures-297)
 
-![Source: [mathieulehanneur.fr](https://www.mathieulehanneur.fr/project/state-of-the-world-sculptures-297)](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/mathieu-lehanneur-state-world-miami-designboom-03.jpg)
+![A couple of the objects representing the age distrubution of countries](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/mathieu-lehanneur-state-world-miami-designboom-03.jpg)
 
 Source: [mathieulehanneur.fr](https://www.mathieulehanneur.fr/project/state-of-the-world-sculptures-297)
 
 [Perpetual Plastic](https://perpetual-plastic.net/) is a data artwork installed on a beach in Bali, showing the amount of plastic discarded, recycled, incinerated and still in use world wide. It was composed out of marine debris collected from nearby.
 
-![Source: [perpetual-plastic.net](https://perpetual-plastic.net/)](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/perpetual_plastic.jpg)
+![A drone picture of the Perpetual Plastic piece on the beach, showing waves touching the installation](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/perpetual_plastic.jpg)
 
 Source: [perpetual-plastic.net](https://perpetual-plastic.net/)
 
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/2YENhEwM-9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Data physicalisation today is almost always supported by computer technology. But data physicalisation was already being used in the pre-digital era. For example, the Detroit Edison Company used this physicalisation to anticipate power demands. It shows electricity for the whole year of 1935, with each slice representing a day, divided into 30 minute intervals.
+Data physicalisation today is almost always supported by computer technology. But data physicalisation was already being used in the pre-digital era. For example, the Detroit Edison Company used this physicalisation to anticipate power demands. It shows electricity consumption for the whole year of 1935, with each slice representing a day, divided into 30 minute intervals.
 
-![Source: [Graphic Presentation](https://archive.org/details/graphicpresentat00brinrich/page/354/mode/2up?view=theater), Willard Cope Brinton](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/edison-physicalisation-electricity.gif)
+![An old picture of a 3D object representing electricity consumption](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/edison-physicalisation-electricity.gif)
 
 Source: [Graphic Presentation](https://archive.org/details/graphicpresentat00brinrich/page/354/mode/2up?view=theater), Willard Cope Brinton
 
@@ -32,28 +32,28 @@ Source: [Graphic Presentation](https://archive.org/details/graphicpresentat00bri
 
 [Data Strings](https://domesticstreamers.com/projects/data-strings/) is a participatory data physicalisation of people’s opinions, developed by Spanish agency [Domestic Data Streamers](https://domesticstreamers.com/). People in the audience are invited to answer different questions by knitting information on the different options, generating a visualisation of collective thoughts and facts that enables them to compare their answers with the bigger picture.
 
-![Source: [domesticstreamers.com](https://domesticstreamers.com/projects/data-strings/)](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/DSS_DataStrings05.jpg)
+![Children interacting with a Data Strings installation](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/DSS_DataStrings05.jpg)
 
 Source: [domesticstreamers.com](https://domesticstreamers.com/projects/data-strings/)
 
-![Source: [domesticstreamers.com](https://domesticstreamers.com/projects/data-strings/)](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/DSS_DataStrings07.jpg)
+![A couple interacting with a Data Strings installation called East meets West](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/DSS_DataStrings07.jpg)
 
 Source: [domesticstreamers.com](https://domesticstreamers.com/projects/data-strings/)
 
-![Source: [domesticstreamers.com](https://domesticstreamers.com/projects/data-strings/)](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/DSS_DataStrings06.jpg)
+![A picture of the full East meets West installation](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/DSS_DataStrings06.jpg)
 
 Source: [domesticstreamers.com](https://domesticstreamers.com/projects/data-strings/)
 
 The [Data Cuisine](https://data-cuisine.net/) project goes even further than mere physicalisation: it aims to represent data in food dishes. It is run as a series of workshops in which participants can collaboratively experiment.
 
-![Source: [data-cuisine.net](https://data-cuisine.net/data-dishes)](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/death-by-chocolate.jpg)
+![Result of a Data Cuisine workshop called 'Death by chocolate', consisting of little chocolate coffins](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/death-by-chocolate.jpg)
 
 Source: [data-cuisine.net](https://data-cuisine.net/data-dishes)
 
-![Source: [data-cuisine.net](https://data-cuisine.net/data-dishes)](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/halal-internet.jpg)
+![Result of a Data Cuisine workshop called 'Halal internet', representing access to internet in Iran with different colours of rice](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/halal-internet.jpg)
 
 Source: [data-cuisine.net](https://data-cuisine.net/data-dishes)
 
-![Source: [data-cuisine.net](https://data-cuisine.net/data-dishes)](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/unemployed-pan-con.tomate.jpeg)
+![Result of a Data Cuisine workshop called 'Unemployed Pan con Tomate'](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/unemployed-pan-con.tomate.jpeg)
 
 Source: [data-cuisine.net](https://data-cuisine.net/data-dishes)

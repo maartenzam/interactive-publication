@@ -2,11 +2,11 @@ Next to patterns in the data itself, storytelling in data visualisation can also
 
 A common view pattern is putting 2 **contrasting views** next to each other, to highlight differences.
 
-![Source: [Gender pay gap: what we learned and how to fix it](https://www.theguardian.com/news/ng-interactive/2018/apr/05/women-are-paid-less-than-men-heres-how-to-fix-it), theguardian.com](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/paygap-guardian.png)
+![A chart showing 10.109 companies as dots. The dots are ordered according to the pay gap between men and women, with the companies paying women more on the left and companies paying men more on the right. The dots belonging to companies that pay women more are green, the companies that pay men more are orange](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/paygap-guardian.png)
 
 Source: [Gender pay gap: what we learned and how to fix it](https://www.theguardian.com/news/ng-interactive/2018/apr/05/women-are-paid-less-than-men-heres-how-to-fix-it), theguardian.com
 
-![Source: [Russia’s war in Ukraine: complete guide in maps, video and pictures](https://www.theguardian.com/world/2022/mar/07/russia-war-ukraine-complete-guide-maps-video-and-pictures), theguardian.com](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/weapons-gap-guardian.png)
+![A graphic comparing the Russian army on the left and the Ukrainian army on the right. The armies are compared using icons representing the number of tanks, fighting vehicles and artillery pieces](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/weapons-gap-guardian.png)
 
 Source: [Russia’s war in Ukraine: complete guide in maps, video and pictures](https://www.theguardian.com/world/2022/mar/07/russia-war-ukraine-complete-guide-maps-video-and-pictures), theguardian.com
 
@@ -14,17 +14,19 @@ A common pattern when small details are important in a data driven story, is to 
 
 Below is an example using a “lens” to magnify a small but significant detail in the visualisation.
 
-![crisis-annotation-chart-FR.webp](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/crisis-annotation-chart-FR.webp)
+![A chart showing countries' GDP and the cumulative impact of bailout since 2007 on Gross Public Debt and other support. A part of the graphic in the middle left is magnified to reveal a small detail](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/crisis-annotation-chart-FR.webp)
+
+Source: [FT.com](https://www.ft.com/content/b823371a-76e6-11e7-90c0-90a9d1bc9691)
 
 In the pie charts below, a small portion of the top 2 charts is magnified in the pie chart just below it.
 
-![Source: [thiswoo.wordpress.com](https://thiswoo.wordpress.com/2008/10/21/i-give-you-statistical-pie-charts/), graphic by [Andrew Davies](https://www.andrewdavies.com.au/)](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/water-stats-pie21.jpg)
+![Three 3D pie charts showing the composition of all water on earth, divided between saltwater, freshwater, ice caps and glaciers, groundwater, water in lakes, water in soil, water vapour in the atmosphere, water in living organisms and water in rivers](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/water-stats-pie21.jpg)
 
 Source: [thiswoo.wordpress.com](https://thiswoo.wordpress.com/2008/10/21/i-give-you-statistical-pie-charts/), graphic by [Andrew Davies](https://www.andrewdavies.com.au/)
 
 Zooming in does not have to involve very elaborate designs. Below the same data as above is used, but this time with more traditional chart types.
 
-![Source: [Chandoo.org](https://chandoo.org/wp/pie-of-pie-of-pie-chart/)](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/data-as-bar-of-bar-bar-chart.png)
+![The same data set about the composition of the water on earth used in the graphic above, but this time visualised with 3 bar charts, of which 2 charts are a magnification of another one](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/data-as-bar-of-bar-bar-chart.png)
 
 Source: [Chandoo.org](https://chandoo.org/wp/pie-of-pie-of-pie-chart/)
 
@@ -40,11 +42,11 @@ _A map transitions into a dot plot. Source: [Why Budapest, Warsaw, and Lithuania
 
 A last specific view pattern are **small multiples**. When a multi-series visualisation contains many series (like a line chart with many lines) and the series are of equal importance, the visualisation can become crowded quickly. Small multiples help to overcome this problem by showing repeated mini versions of the chart for each series, which can then be arranged next to or above and below each other. Applying a logical ordering to the small multiples helps to compare them, and helps to quickly find a small multiple of interest.
 
-![Source: [Beyond hunger: ensuring food security for all,](https://datatopics.worldbank.org/sdgatlas/goal-2-zero-hunger/) Sustainable Development Goals Atlas 2020, World Bank](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/small-multiples.png)
+![A series of area charts showing the trend in undernourishment rates in 7 regions of the world](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/small-multiples.png)
 
 Source: [Beyond hunger: ensuring food security for all,](https://datatopics.worldbank.org/sdgatlas/goal-2-zero-hunger/) Sustainable Development Goals Atlas 2020, World Bank
 
-![Source: [Over-friendly, or sexual harassment? It depends partly on whom you ask](https://www.economist.com/graphic-detail/2017/11/17/over-friendly-or-sexual-harassment-it-depends-partly-on-whom-you-ask),  Economist.com](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/economist-small-multiples.png)
+![A grid of line charts titled 'My eyes are up here'. The charts show trends in what is considered sexual harassment in five countries](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/economist-small-multiples.png)
 
 Source: [Over-friendly, or sexual harassment? It depends partly on whom you ask](https://www.economist.com/graphic-detail/2017/11/17/over-friendly-or-sexual-harassment-it-depends-partly-on-whom-you-ask),  Economist.com
 
@@ -52,18 +54,18 @@ A view pattern specifically designed to grab attention is to **break existing co
 
 A classic example of this is Iraq’s bloody toll by Simon Scarr. It breaks the convention of the y axis running from bottom to top, in order to mimic blood dripping down the chart.
 
-![Source: [simonscarr.com](http://www.simonscarr.com/iraqs-bloody-toll), for South China Morning Post](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/iraqs-bloody-toll.png)
+![A bar chart with red bars running down, mimicking blood. The title of the chart is 'Iraq's bloody toll', the y axis shows monthly fatalities of the war in Iraq, and the x axis runs from 2003 up to 2011](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/iraqs-bloody-toll.png)
 
 Source: [simonscarr.com](http://www.simonscarr.com/iraqs-bloody-toll), for South China Morning Post
 
 Letting the x axis spiral instead of letting it run straight, is a very clear example of breaking a convention. This spiral chart showing new covid-19 cases in the US sparked a lively debate over its design (people arguing against the spiral chart forgot or didn’t know that it accompanied an opinion article, and was not designed as a visualisation to read exact values from).
 
-![Source: [Here’s When We Expect Omicron to Peak](https://www.nytimes.com/2022/01/06/opinion/omicron-covid-us.html), nytimes.com](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/spiral-chart.png)
+![A chart in the form of a spiral, titled 'New Covid-19 cases, United States'. The spiral start small in 2020 and ends wide in January 2022](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/spiral-chart.png)
 
 Source: [Here’s When We Expect Omicron to Peak](https://www.nytimes.com/2022/01/06/opinion/omicron-covid-us.html), nytimes.com
 
 An illustration of how strong conventions are and how strange things can look when they are not respected, is this rotated map of the Mediterannean. We are so used to seeing maps with the North up that this North-to-the-right map feels strange. Suddenly Europe seems much closer to Africa than we think it is.
 
-![Source: [Sabine Réthoré](http://www.sabine-rethore.net/engl/artistic%20maps/mediterraneanwit.html), [Free Art License](https://en.wikipedia.org/wiki/Free_Art_License)](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/mediterranean-rotated.jpg)
+![A map of the Mediterranean, with the North pointing to the right](Patterns%20for%20data%20driven%20stories%2034fe0220a7d64297ae6ccf534303e18f/mediterranean-rotated.jpg)
 
 Source: [Sabine Réthoré](http://www.sabine-rethore.net/engl/artistic%20maps/mediterraneanwit.html), [Free Art License](https://en.wikipedia.org/wiki/Free_Art_License)

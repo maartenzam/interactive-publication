@@ -1,12 +1,12 @@
 RGB stands for **R**ed **G**reen **B**lue, the primary colors in the so called additive color model. Where the primary colors overlap in the additive model, you get secondary colors. And where all 3 primary colors overlap, you get white.
 
-![Source: [commons.wikimedia.org/wiki/File:AdditiveColor.svg](https://commons.wikimedia.org/wiki/File:AdditiveColor.svg), public domain](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/AdditiveColor.svg.png)
+![A red, a green and a blue circle. Where the blue and red colour overlap, the result is pink, where red and green overlap the result is yellow, and where green and blue overlap, the result is cyan](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/AdditiveColor.svg.png)
 
 Source: [commons.wikimedia.org/wiki/File:AdditiveColor.svg](https://commons.wikimedia.org/wiki/File:AdditiveColor.svg), public domain
 
 RGB is modelled after how light of different wave lengths mix. White light consists of light with wave lengths in the visible spectrum, as was demonstrated in Newton’s prism experiment.
 
-![White light is refracted in a prism. Source: [commons.wikimedia.org/wiki/File:Light_dispersion_conceptual_waves.gif](https://commons.wikimedia.org/wiki/File:Light_dispersion_conceptual_waves.gif), public domain](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/Light_dispersion_conceptual_waves.gif)
+![An animation shows how white light is split into different colours when it passes through a prism](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/Light_dispersion_conceptual_waves.gif)
 
 White light is refracted in a prism. Source: [commons.wikimedia.org/wiki/File:Light_dispersion_conceptual_waves.gif](https://commons.wikimedia.org/wiki/File:Light_dispersion_conceptual_waves.gif), public domain
 
@@ -14,11 +14,11 @@ Practically, RGB has its roots in photography. But today it is mostly used in el
 
 The smallest units that display a colour on digital screens are called pixels. Each pixel contains 3 subpixels that emit red, green and blue light. By letting these subpixels emit light in different proportions, light with a different colour is emitted from each pixel as a result.
 
-![Sub-pixels of an LCD screen, on the right: an orange and a blue color; on the left: a close-up. [CC BY-SA 3.0 Stan Zurek](https://en.wikipedia.org/wiki/RGB_color_model#/media/File:RGB_pixels.jpg)](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/RGB_pixels.jpg)
+![ ](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/RGB_pixels.jpg)
 
 Sub-pixels of an LCD screen, on the right: an orange and a blue color; on the left: a close-up. [CC BY-SA 3.0 Stan Zurek](https://en.wikipedia.org/wiki/RGB_color_model#/media/File:RGB_pixels.jpg)
 
-![RGB pixels arranged on a color wheel. [László Németh, CC0](https://commons.wikimedia.org/wiki/File:RGB_color_wheel_10.svg)](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/1024px-RGB_color_wheel_10.svg.png)
+![A colour wheel showing how every colour can be produced by different combinations of the RGB sub-pixels of a screen](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/1024px-RGB_color_wheel_10.svg.png)
 
 RGB pixels arranged on a color wheel. [László Németh, CC0](https://commons.wikimedia.org/wiki/File:RGB_color_wheel_10.svg)
 

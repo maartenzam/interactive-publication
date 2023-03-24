@@ -2,9 +2,9 @@ Operating systems, websites and web browsers and their plugins are increasingly 
 
 Data visualisation tool Datawrapper [started to offer dark mode](https://blog.datawrapper.de/dark-mode-for-embedded-visualizations/) for its embedded visualisations to their users. When the “automatic dark mode” option is enabled on a Datawrapper visualisation, the styling of the embedded visualisation will switch to dark mode whenever users have selected to prefer dark colour schemes in their browser or operating system. Note that for this to work properly, the website the visualisation is embedded in should also support dark mode.
 
-![light-mode.png](Colours,%20colour%20blindness%20and%20data%20visualisation%201bdcaf7fa57b4d92a9804910f3066592/light-mode.png)
+![An area chart titled 'More than Earth can handle', with a white background and dark text](Colours,%20colour%20blindness%20and%20data%20visualisation%201bdcaf7fa57b4d92a9804910f3066592/light-mode.png)
 
-![The same chart in standard and in dark mode. Source: Datawrapper](Colours,%20colour%20blindness%20and%20data%20visualisation%201bdcaf7fa57b4d92a9804910f3066592/dark-mode.png)
+![The same area chart, but with a dark background, white text and modified colours](Colours,%20colour%20blindness%20and%20data%20visualisation%201bdcaf7fa57b4d92a9804910f3066592/dark-mode.png)
 
 The same chart in standard and in dark mode. Source: Datawrapper
 

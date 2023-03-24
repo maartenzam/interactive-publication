@@ -4,7 +4,7 @@ In **heatmaps**, the colour of data marks are used to encode the numerical value
 
 A famous example of a heatmap is the chart below, showing the impact of vaccines on the incidence of measles in the US. The chart shows the incidence of measles as the number of cases per 100.000 people in 26 states.
 
-![Source: [Battling Infectious Diseases in the 20th Century: The Impact of Vaccines](http://graphics.wsj.com/infectious-diseases-and-vaccines), graphics.wsj.com](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/wall-street-journal-measles-heatmap.png)
+![A heatmap titled 'Measles' showing the infection rate in different US states. The infection rates drop dramatically after a vaccine is introduced. This moment is marked with a black vertical line](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/wall-street-journal-measles-heatmap.png)
 
 Source: [Battling Infectious Diseases in the 20th Century: The Impact of Vaccines](http://graphics.wsj.com/infectious-diseases-and-vaccines), graphics.wsj.com
 
@@ -12,13 +12,13 @@ Notice that the visualisation contains many time series, but at the cost of read
 
 The famous Warming Stripes visualisation of the rising global temperature, designed by climate scientist Ed Hawkins, is also a heatmap. It uses lines (stripes) instead of squares, and it doesn’t even bother to provide a colour legend: reading values is not important, everyone knows what the message of the chart is.
 
-![Source: [showyourstripes.info](https://showyourstripes.info/)](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/GLOBE---1850-2021-MO-withlabels.png)
+![The Show your stripes visualisation, with blue lines representing colder than average years and red lines the warmer than average years. The more recent years (on the right of the chart) are all coloured red and deep red](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/GLOBE---1850-2021-MO-withlabels.png)
 
 Source: [showyourstripes.info](https://showyourstripes.info/)
 
 The stripes scale very well, even up to the point that you can put warming stripes for every country in the world into a single (literal) heatmap.
 
-![Source: [Ed Hawkins](https://commons.wikimedia.org/wiki/File:20190721_STACKED_warming_stripes_-_all_countries_-_Climate_Lab_Book_(Ed_Hawkins).png), CC BY SA 4.0](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/warming-stripes-all-countries.png)
+![A heatmap showing the anomalies in yearly average temperatures in some 200 countries for the years 1900 to 2019](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/warming-stripes-all-countries.png)
 
 Source: [Ed Hawkins](https://commons.wikimedia.org/wiki/File:20190721_STACKED_warming_stripes_-_all_countries_-_Climate_Lab_Book_(Ed_Hawkins).png), CC BY SA 4.0
 
@@ -41,12 +41,12 @@ To make a horizon chart, you start from a normal line chart and you
 
 The following animation shows each of these steps:
 
-![Source: [vizualism.nl](https://www.vizualism.nl/winnaar-infographicjaarprijs-2009/)](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/horizonchart2.gif)
+![An animated gif showing how to make and how to read horizon charts](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/horizonchart2.gif)
 
 Source: [vizualism.nl](https://www.vizualism.nl/winnaar-infographicjaarprijs-2009/)
 
 The horizon chart below proves that horizon charts are a data dense chart type: it packs over 73 time series each with daily numbers spanning a period of 2 years: that is more than 53.000 data points, and for each you can still read the values from the chart!
 
-![This horizon chart shows the prices of 73 stocks on the Amsterdam stock exchange and how these were affected by the financial crisis in 2008. Stocks are grouped by sector (see the labels on the left) and named on the right of the chart. The main point of the chart is that all stocks were affected, and had a lower price at the end of 2008 than they had in the beginning of 2007. Source: [Frédérik Ruys](https://www.vizualism.nl/winnaar-infographicjaarprijs-2009/) for Financieele Dagblad](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/horizon-chart-ruys.png)
+![ ](Visualising%20time%20series%20241d2bc1ddf14663bae604098441f388/horizon-chart-ruys.png)
 
 This horizon chart shows the prices of 73 stocks on the Amsterdam stock exchange and how these were affected by the financial crisis in 2008. Stocks are grouped by sector (see the labels on the left) and named on the right of the chart. The main point of the chart is that all stocks were affected, and had a lower price at the end of 2008 than they had in the beginning of 2007. Source: [Frédérik Ruys](https://www.vizualism.nl/winnaar-infographicjaarprijs-2009/) for Financieele Dagblad

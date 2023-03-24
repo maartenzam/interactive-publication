@@ -12,7 +12,7 @@ On the circle, saturation can be mapped from 0% saturation (pure grey) in the ce
 
 Then, finally, lightness can be added if the circle is put in 3D, with 0% lightness (black) at the bottom, to 100% lightness (white) at the top.
 
-![The HSL colour cylinder. By [SharkD](https://commons.wikimedia.org/wiki/File:HSL_color_solid_cylinder_saturation_gray.png), CC BY-SA 3.0](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/1280px-HSL_color_solid_cylinder_saturation_gray.png)
+![The HSL colour cylinder, with lightness increasing from bottom to top, saturation increasing from center to edge and hue varying around the edge of the cylinder](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/1280px-HSL_color_solid_cylinder_saturation_gray.png)
 
 The HSL colour cylinder. By [SharkD](https://commons.wikimedia.org/wiki/File:HSL_color_solid_cylinder_saturation_gray.png), CC BY-SA 3.0
 

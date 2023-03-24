@@ -1,6 +1,6 @@
 Territorial disputes might be more common than you think. The [List of territorial disputes page](https://en.wikipedia.org/wiki/List_of_territorial_disputes) on Wikipedia contains no less than 188 disputed areas, distributed over all continents.
 
-![A world map overlaying the [disputed areas](http://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-breakaway-disputed-areas/) of the [Natural Earth](http://www.naturalearthdata.com/) dataset (red) on the official country boundaries [as published by the European Commision](https://ec.europa.eu/eurostat/web/gisco) (grey). Source: Maarten Lambrechts, CC BY SA 4.0](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/world-disputed.png)
+![ ](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/world-disputed.png)
 
 A world map overlaying the [disputed areas](http://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-breakaway-disputed-areas/) of the [Natural Earth](http://www.naturalearthdata.com/) dataset (red) on the official country boundaries [as published by the European Commision](https://ec.europa.eu/eurostat/web/gisco) (grey). Source: Maarten Lambrechts, CC BY SA 4.0
 

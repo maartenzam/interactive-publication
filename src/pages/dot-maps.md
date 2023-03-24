@@ -2,7 +2,7 @@
 
 The dot map below shows a dot for every individual living in an area in the Netherlands. The colour of each dot represents the origin of the people they represent: Dutch (pink), western (green) and non-western (blue).
 
-![Source: CBS](Maps%20e22d0627fc944d47be79a1d1a4f8acef/dotmap.jpeg)
+![A dot map of an area in the Netherlands, with dots with colours representing the origin of inhabitants](Maps%20e22d0627fc944d47be79a1d1a4f8acef/dotmap.jpeg)
 
 Source: CBS
 

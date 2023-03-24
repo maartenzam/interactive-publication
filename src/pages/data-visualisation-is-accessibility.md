@@ -27,7 +27,7 @@ With some mental effort, you are probably able to answer the questions posed abo
 
 When the same data is represented in a visual way, answering these questions suddenly becomes much easier. Check the chart below: finding the year with the highest imports is as easy as finding the location where the yellow line is at its peak (around 1725), and finding the moment the trade balance shifts is just a matter of finding the location were the yellow and red line cross each other (around 1755).
 
-![Source: [William Playfair](https://commons.wikimedia.org/wiki/File:Playfair_TimeSeries-2.png), public domain](Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/Playfair_TimeSeries.png)
+![A chart titled 'Exports and imports to and from Denmark & Norway from 1700 to 1780', showing a line for imports and a line for exports. The area between the lines is labeled 'Blance against' where imports are higher than exports and 'Balance in favour of England' where exports are higher than imports](Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/Playfair_TimeSeries.png)
 
 Source: [William Playfair](https://commons.wikimedia.org/wiki/File:Playfair_TimeSeries-2.png), public domain
 

@@ -3,7 +3,7 @@ In order to be processed correctly and prepared for visualisation, the data need
 The most common mismatch between data types is numerical data being treated by software as text.
 
 <p class='center'>
-<img src='Pitfalls%20in%20data%20eb8fedacd9fb46a98a3c448baaa69495/textasnumber.png' alt='' class='max-600' />
+<img src='Pitfalls%20in%20data%20eb8fedacd9fb46a98a3c448baaa69495/textasnumber.png' alt='A screenshot showing a Microsoft Excel table with three numbers, and a generated warning with the words "Number Stored as Text" warning' class='max-600' />
 </p>
 
 Microsoft Excel generates a warning when it suspects numerical values are stored as text. Source: Maarten Lambrechts, CC BY SA 4.0

@@ -12,7 +12,7 @@ The good examples of data sonification or still quite scarce, but one excellent 
 
 The graphic below explains how the data is mapped to musical notes. The range between the minimum and maximum values in the data is binned into 24 buckets, which are assigned to 24 notes evenly spaced out over 4 octaves.
 
-![Source: What does a chart sound like?, [ft.com](https://www.ft.com/content/a5772530-e440-11e9-b8e0-026e07cbe5b4)](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/yield-curve-sonification-explanation-ft.webp)
+![A diagram showing how data is mapped to musical notes with a piano keyboard and musical notes on staves](Braille,%20data%20sonification%20and%20data%20physicalisatio%203da60749f91a44b48ddbe910563ea247/yield-curve-sonification-explanation-ft.webp)
 
 Source: What does a chart sound like?, [ft.com](https://www.ft.com/content/a5772530-e440-11e9-b8e0-026e07cbe5b4)
 

@@ -1,18 +1,18 @@
 A scatter plot shows 2 dimensions of your data: the x position of the data marks is mapped to one dimension, and the y position is mapped to a second dimension.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/gapminder-scatter-grey.png)
+![A scatter plot showing country values of life expectancy (y axis) and GDP/capita (x axis)](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/gapminder-scatter-grey.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
 But the visual properties of the data marks (in this case the dots on the chart) can be used to map more dimensions in your data. For example, you can use the colour of the marks to show data points belonging to the same category.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/gapminder-scatter-colour.png)
+![The same scatter plot as above, but with the dots coloured according to the region its country belongs to](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/gapminder-scatter-colour.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
 And than you can use the size of the marks to show another numerical dimension on the data. This creates what is called a **bubble chart**.
 
-![A bubble chart showing the life expectancy (y), GDP per capita (x), region (colour) and population (size) of countries. Source: Maarten Lambrechts, CC BY SA 4.0](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/gapminder-bubble.png)
+![The same scatter plot as above, but with the country circles sized proportional to their population](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/gapminder-bubble.png)
 
 A bubble chart showing the life expectancy (y), GDP per capita (x), region (colour) and population (size) of countries. Source: Maarten Lambrechts, CC BY SA 4.0
 

@@ -4,20 +4,20 @@ When you use totals, results might not be comparable because of correlation with
 
 When using visual summary techniques like histograms, the output can vary widely depending on the numbers of bins used. For example, taking the data on the eruptions of the Old Faithful geyser from the <span class='internal-link'>[distributions](distributions)</span> page, the bimodality in the data is much clearer when using 8 bins compared to using 10 bins. This means that the number of bins can be used to amplify or hide patterns in the data, for good or for bad.
 
-![Histogram of the minutes between eruptions of Old Faithful using 8 bins. Source: Maarten Lambrechts, CC BY SA 4.0](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/faithfull-histo-8.png)
+![ ](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/faithfull-histo-8.png)
 
 Histogram of the minutes between eruptions of Old Faithful using 8 bins. Source: Maarten Lambrechts, CC BY SA 4.0
 
-![Histogram of the minutes between eruptions of Old Faithful using 10 bins. Source: Maarten Lambrechts, CC BY SA 4.0](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/faithfull-histo-10.png)
+![ ](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/faithfull-histo-10.png)
 
 Histogram of the minutes between eruptions of Old Faithful using 10 bins. Source: Maarten Lambrechts, CC BY SA 4.0
 
 In the same way, using different binning methods on choropleth maps can produce visually very different results (see the <span class='internal-link'>[choropleth classification methods](choropleth-classification-methods)</span> page). The binning method can be chosen to show or hide outliers, for example.
 
-![Regional gdp/capita numbers using an equal interval classification. Source: Maarten Lambrechts, CC BY SA 4.0](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/gdp-map-equal-count-9.png)
+![A choropleth map showing regional GDP in EU regions](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/gdp-map-equal-count-9.png)
 
 Regional gdp/capita numbers using an equal interval classification. Source: Maarten Lambrechts, CC BY SA 4.0
 
-![Regional gdp/capita numbers using a pretty breaks classification. Source: Maarten Lambrechts, CC BY SA 4.0](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/gdp-map-prettybreaks-9.png)
+![A choropleth map showing the same data as in the map above, but with different class breaks. Two regions, Luxembourg and a region in the south of Ireland, stand out as outliers](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/gdp-map-prettybreaks-9.png)
 
 Regional gdp/capita numbers using a pretty breaks classification. Source: Maarten Lambrechts, CC BY SA 4.0

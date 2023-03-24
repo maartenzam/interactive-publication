@@ -8,7 +8,7 @@ At this point, it is relevant to distinguish between 2 kinds of data visualisati
 
 **Explanatory data visualisation** is used to show and explain patterns in the data to other people: a chart author designs the chart so that other people can see what she discovered in the data. In explanatory data visualisation, chart design plays a pivotal role, because the audience of the chart can be very diverse, and might not be familiar with the data, the topic or the chart type. The whole design of the chart should work together to communicate the data message in a very coherent way.
 
-![Source: [Sjoerd van Leeuwen](https://sjoerdvanleeuwen.com/)](Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/chartoon-explanatory.jpg)
+![A cartoon showing a person explaining something to another person, with a text balloon which is a pie chart at the same time](Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/chartoon-explanatory.jpg)
 
 Source: [Sjoerd van Leeuwen](https://sjoerdvanleeuwen.com/)
 
@@ -19,7 +19,7 @@ Below is a visualisation that applies many examples of data storytelling (or dat
 
 </aside>
 
-![Source: [Christopher Ingraham](https://twitter.com/_cingraham/status/1136626313375039494)](Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/ingraham-co2-levels.jpg)
+![A line chart titled 'Clearing the air', and with the subtitle 'CO2 levels in an occupied conference room on June 4, 2019'](Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/ingraham-co2-levels.jpg)
 
 Source: [Christopher Ingraham](https://twitter.com/_cingraham/status/1136626313375039494)
 
@@ -27,7 +27,7 @@ The chart shows the CO₂ concentration in a conference room during a morning. T
 
 Below, you can find a breakdown of the chart elements and how they are laid out on the chart.
 
-![Source: [Francis Gagnon](https://twitter.com/chezVoila/status/1136631524919513088)](Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/voila-ingraham-co2-breakdown.jpg)
+![An annotated version of the chart above, higlighting all the annotations and design decisions working together to explain the chart](Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/voila-ingraham-co2-breakdown.jpg)
 
 Source: [Francis Gagnon](https://twitter.com/chezVoila/status/1136631524919513088)
 

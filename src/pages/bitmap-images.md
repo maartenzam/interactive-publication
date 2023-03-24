@@ -20,7 +20,7 @@ PNG images make use of lossless compression. PNG stands for Portable Network Gra
 
 JPG (Joint Photographic Group) images use lossy compression. The level of compression can be set when saving images from bitmap image editing software. Typically, a compression rate of 60 to 70 percent will lead to big reductions in file size, while the image quality remains relatively high and is hardly perceptible for most use cases. JPG images cannot encode transparency.
 
-![](File%20formats,%20dimensions%20and%20units%20d1757276a4214716bd793dd0f19ac95c/Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png)
+![ ](File%20formats,%20dimensions%20and%20units%20d1757276a4214716bd793dd0f19ac95c/Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png)
 
 A jpg image of a European wild cat, with decreasing compression from left to right. Source: [Michael Gäblerderivative, AzaToth](https://commons.wikimedia.org/wiki/File:Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png), CC BY 3.0
 

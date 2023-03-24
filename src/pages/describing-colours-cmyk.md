@@ -1,7 +1,7 @@
 You might know CMYK from the ink cartridges in your printer. CMYK stands for **C**yan, **M**agenta, **Y**ellow and **K**ey (black).
 
 <p class='center'>
-<img src='Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/1024px-CMYK_subtractive_color_mixing.svg.png' alt='Source: [SharkD](https://commons.wikimedia.org/wiki/File:CMYK_subtractive_color_mixing.svg), CC0' class='max-600' />
+<img src='Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/1024px-CMYK_subtractive_color_mixing.svg.png' alt='A yellow, a magenta and a cyan circle plotted on top of each other. Overlap between the yellow and magenta circles results in red, between yellow and cyan in green, between magenta and cyan blue, and where all three overlap black' class='max-600' />
 </p>
 
 Source: [SharkD](https://commons.wikimedia.org/wiki/File:CMYK_subtractive_color_mixing.svg), CC0
@@ -12,20 +12,20 @@ Printers do not print full blocks of solid cyan, magenta and yellow colours. If 
 
 This technique of printing small dots of ink is called halftoning. By varying the size of the dots for each color, printers can produce many different colours. In the image below, you can see a CMYK print under a microscope. You can clearly see the dots of the CMYK colours.
 
-![Source: [Psihedelisto](https://commons.wikimedia.org/wiki/File:CMYK_under_a_microscope.jpg), CC0](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/CMYK_under_a_microscope.jpg)
+![A CMYK print viewed under a microscope](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/CMYK_under_a_microscope.jpg)
 
 Source: [Psihedelisto](https://commons.wikimedia.org/wiki/File:CMYK_under_a_microscope.jpg), CC0
 
 The image below is the same image as above, but displayed much smaller. It is impossible to spot the individual dots of ink, and the image seems to contain solid, light and darker teal tints.
 
 <p class='center'>
-<img src='Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/CMYK_under_a_microscope%201.jpg' alt='CMYK_under_a_microscope.jpg' class='max-50' />
+<img src='Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/CMYK_under_a_microscope%201.jpg' alt='The same CMYK print as above, but with a zoomed out view' class='max-50' />
 </p>
 
 Source: [Psihedelisto](https://commons.wikimedia.org/wiki/File:CMYK_under_a_microscope.jpg), CC0
 
 The image below illustrates how printers can produce different colours by using halftoning. Different dot sizes for different ink colours determine the resulting perceived colour. Note the use of black ink dots, which is more efficient than combining cyan, magenta and yellow to produce black. Rotating the grid of dots for the ink colours produces better print results.
 
-![Source: [en.wikipedia.org/wiki/File:Halftoningcolor.svg](https://en.wikipedia.org/wiki/File:Halftoningcolor.svg), public domain](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/2560px-Halftoningcolor.svg.png)
+![3 examples of how differently sized dots of the CMYK colours produce different final colours](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/2560px-Halftoningcolor.svg.png)
 
 Source: [en.wikipedia.org/wiki/File:Halftoningcolor.svg](https://en.wikipedia.org/wiki/File:Halftoningcolor.svg), public domain

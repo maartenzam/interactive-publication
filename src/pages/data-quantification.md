@@ -1,6 +1,6 @@
 Knowing how data is classified and included in a dataset is crucial. The [Global Terrorism Database](https://www.start.umd.edu/gtd/) tracks terror attacks worldwide since 1970. When Russia helped separatists occupying the Luhansk and Donetsk Republics in the east of Ukraine in 2014, there was no official declaration of war and Russia denied its involvement. As a result, the fightings in the area were not considered to be acts of war by the Global Terrorism Database, and instead they were classified as terrorism. 
 
-![A spike in the number of terrorist attacks in Ukraine as recorded by the Global Terrorism Database. Source: [start.umc.edu/gtd](https://www.start.umd.edu/gtd/search/Results.aspx?chart=overtime&casualties_type=&casualties_max=&country=214)](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/terrorism-ukraine.png)
+![A line chart with a single line, with the variable 'Attacks' on the y axis and years on the x axis](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/terrorism-ukraine.png)
 
 A spike in the number of terrorist attacks in Ukraine as recorded by the Global Terrorism Database. Source: [start.umc.edu/gtd](https://www.start.umd.edu/gtd/search/Results.aspx?chart=overtime&casualties_type=&casualties_max=&country=214)
 

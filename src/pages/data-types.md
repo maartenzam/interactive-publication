@@ -3,14 +3,14 @@ Data comes in the form of many types, and the types in your data will limit the 
 **Categorical data** is usually text based data that groups records in a dataset together, or that identifies each feature in a dataset. For example, the country names in a bar chart showing the cost of gasoline in the EU member states are categorical data.
 
 <p class='center'>
-<img src='Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/gdcWi-price-of-euro-super-95-in-march-2022.png' alt='Source: Maarten Lambrechts, CC-BY 4.0' class='max-600' />
+<img src='Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/gdcWi-price-of-euro-super-95-in-march-2022.png' alt='A horizontal bar chart showing the cost of gasoline in EU member states. The cost is highest in the Netherlands (2,24€) and the lowest in Hungary (1,22€)' class='max-600' />
 </p>
 
 Source: Maarten Lambrechts, CC-BY 4.0
 
 Categorical data is also used to colour visual elements in a chart belonging to the same group. For example in the bubble chart below, the bubbles representing countries from the same region share their colour.
 
-![Source: [gapminder.org/tools](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1)](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/gapminder.png)
+![A bubble chart with income on the x axis and life expectancy on the y axis, showing country level data from 2021. The bubbles on the chart are sized by population and coloured according to the region they belong to](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/gapminder.png)
 
 Source: [gapminder.org/tools](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1)
 
@@ -18,11 +18,11 @@ Source: [gapminder.org/tools](https://www.gapminder.org/tools/#$chart-type=bubbl
 
 Numerical data can be continuous or discrete. In continuous data, a data point can take any value, while in discrete numerical data the number of possible values is limited. Continuous data can be converted into discrete, binned values, as the following 2 maps illustrate. Binned numerical values behave very much like categorical data.
 
-![A choropleth map with a continuous colour scale. Source: Mathias Leroy](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/continuous-colour-scale.jpg)
+![A choropleth map with showing the 14-day cumulative incidence of Covid-19 in Belgian municipalities with a continuous colour scale](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/continuous-colour-scale.jpg)
 
 A choropleth map with a continuous colour scale. Source: Mathias Leroy
 
-![The same map, but this time with a binned colour scale. Source: Mathias Leroy](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/discrete-colour-sclae.jpg)
+![The same choropleth map, but with a binned colour scale](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/discrete-colour-sclae.jpg)
 
 The same map, but this time with a binned colour scale. Source: Mathias Leroy
 

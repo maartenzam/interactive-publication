@@ -2,7 +2,7 @@ A data visualisation can be created with a visualisation tool, then exported as 
 
 For this, two things need to happen: the browser needs to load the data for the visualisation, and the data needs to be transformed into SVG elements. Both can be done with **JavaScript**, the language with which you can make web pages dynamic and interactive.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/data-request2x.png)
+![A schematic representation of how a browser sends requests to web servers and receives HTML, JavaScript, CSS and data files in response](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/data-request2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 

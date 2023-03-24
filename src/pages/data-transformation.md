@@ -4,7 +4,7 @@ The most obvious of these transformations is **filtering** out the relevant data
 
 A visualisation based on absolute numbers can paint a very different picture than a visualisation based on **relative values** (percentages) or **normalised values** (per capita numbers, ...). Normalisation serves the purpose of making values comparable, so they are the most appropriate values to use in visualisation. This is of special concern when making choropleth maps (see the <span class='internal-link'>[normalising data](normalising-data)</span> page).
 
-![A choropleth map showing the number of troops in the military for each country. The map is very similar to a population map, because the numbers are not normalised: they should be expressed per capita. Source: [Danalm000](https://commons.wikimedia.org/wiki/File:Countries_by_soldier_count.svg), CC-BY-SA 3.0](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/1280px-Countries_by_soldier_count.svg.png)
+![ ](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/1280px-Countries_by_soldier_count.svg.png)
 
 A choropleth map showing the number of troops in the military for each country. The map is very similar to a population map, because the numbers are not normalised: they should be expressed per capita. Source: [Danalm000](https://commons.wikimedia.org/wiki/File:Countries_by_soldier_count.svg), CC-BY-SA 3.0
 
@@ -12,10 +12,12 @@ Of course normalisation should not be performed just for the sake of it. The eth
 
 Interactive visualisations have the benefit of being able to show the same visualisation with different measures. In that way, the reader can choose what view on the data they want to see, and it is not up to the chart author to make the editorial choice of what is the best view on the data (to which readers might disagree and accuse the author of being “biased”). But still, the author of an interactive chart needs to make the decision of what the default view on the data is.
 
-![A chart showing the share of the population suffering from undernourishment in different regions. Source: [Beyond hunger: ensuring food security for all](https://datatopics.worldbank.org/sdgatlas/goal-2-zero-hunger/), Sustainable Development Goals Atlas 2020, World Bank](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/undernourishment-percentages.png)
+![ ](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/undernourishment-percentages.png)
 
 A chart showing the share of the population suffering from undernourishment in different regions. Source: [Beyond hunger: ensuring food security for all](https://datatopics.worldbank.org/sdgatlas/goal-2-zero-hunger/), Sustainable Development Goals Atlas 2020, World Bank
 
-![But absolute numbers matter too, so users can select this view by using the buttons on the top left of the chart to switch from relative numbers to absolute ones. Source: [Beyond hunger: ensuring food security for all](https://datatopics.worldbank.org/sdgatlas/goal-2-zero-hunger/), Sustainable Development Goals Atlas 2020, World Bank](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/undernourishment-absolute.png)
+![The same chart as above, but this time showing absolute numbers (millions of undernourished people) instead of relative numbers (share of population that is undernourished)](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/undernourishment-absolute.png)
+
+Source: [Beyond hunger: ensuring food security for all](https://datatopics.worldbank.org/sdgatlas/goal-2-zero-hunger/), Sustainable Development Goals Atlas 2020, World Bank
 
 But absolute numbers matter too, so users can select this view by using the buttons on the top left of the chart to switch from relative numbers to absolute ones. Source: [Beyond hunger: ensuring food security for all](https://datatopics.worldbank.org/sdgatlas/goal-2-zero-hunger/), Sustainable Development Goals Atlas 2020, World Bank

@@ -1,5 +1,5 @@
 <p class='center'>
-<img src='Data%20story%20genres%20and%20structures%20854bd72307ad4dbda8a777a86347f3df/drill-down-story.png' alt='Illustration of a interactive slides' class='max-400' />
+<img src='Data%20story%20genres%20and%20structures%20854bd72307ad4dbda8a777a86347f3df/drill-down-story.png' alt='Schematic illustration of a drill down story, with a panel in the center of which subpanels can be expanded' class='max-400' />
 </p>
 
 Source: [Narrative Visualization: Telling Stories with Data](https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/3/3481/files/2015/02/Narrative_Visualization.pdf)
@@ -8,6 +8,6 @@ This structure gives a considerable amount of control to the reader: as an autho
 
 An example of a drill down map is the global map of Freedom House. Clicking on a country reveals the key scores for each country in a pop up, together with a link to the country report of the selected country.
 
-![Source: [freedomhouse.org/explore-the-map](https://freedomhouse.org/explore-the-map?type=fiw&year=2022&country=DZA)](Data%20story%20genres%20and%20structures%20854bd72307ad4dbda8a777a86347f3df/freedom-house-drill-down.png)
+![A map centered on Northern Africa, with countries coloured in different countries and a popup for Algeria that says 'Not free' and gives the country a score of 32 out of 100](Data%20story%20genres%20and%20structures%20854bd72307ad4dbda8a777a86347f3df/freedom-house-drill-down.png)
 
 Source: [freedomhouse.org/explore-the-map](https://freedomhouse.org/explore-the-map?type=fiw&year=2022&country=DZA)
