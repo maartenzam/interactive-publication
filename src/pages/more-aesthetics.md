@@ -1,6 +1,6 @@
 Consider the following plot:
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20Tableau%2075769011e12544f993c61105e5caa3e8/gapminder_basic.png)
+![A bubble chart of countries with GDP/capita on the x axis and life expectancy on the y axis](Grammar%20of%20Graphics%20in%20practice%20Tableau%2075769011e12544f993c61105e5caa3e8/gapminder_basic.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 

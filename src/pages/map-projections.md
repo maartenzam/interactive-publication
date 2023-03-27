@@ -14,13 +14,13 @@ But the Mercator projection has some serious drawbacks. The biggest one is that 
 
 Here is an example to illustrate this. This is a world map using the Mercator projection, with Greenland highlighted. 
 
-![Source: [thetruesize.com](https://www.thetruesize.com/)](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/truesizeof-1.png)
+![A world map in the Mercator projection, with Greenland highlighted in pink](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/truesizeof-1.png)
 
 Source: [thetruesize.com](https://www.thetruesize.com/)
 
 From this map, you might conclude that Greenland is roughly the size of the African continent. But that is very far from the truth. Look what happens when we bring Greenland to the equator on this map:
 
-![Source: [thetruesize.com](https://www.thetruesize.com/)](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/truesizof-2.png)
+![The same map as above, but with Greenland moved to the equator and shrunken to its real size](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/truesizof-2.png)
 
 Source: [thetruesize.com](https://www.thetruesize.com/)
 
@@ -28,7 +28,7 @@ Greenland has shrunken to the size of the Democratic Republic of the Congo. In r
 
 So the Mercator projection overestimates the area of regions more to the north and south of the map. But this “stretching” of the map going north and south has other consequences too, as some journalists experienced when they published the map below in the edition of the The Economist of 3 May 2003.
 
-![Source: The Economist](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/economist-northkorea-mercator.jpg)
+![A world map in the Mercator projection showing concentric circles around North Korea](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/economist-northkorea-mercator.jpg)
 
 Source: The Economist
 
@@ -36,7 +36,7 @@ The map shows the range of 3 types of North Korean missiles on top of a Mercator
 
 But as we’ve seen already, the areas are distorted heavily in northern and southern areas on Mercator maps. And as a result, what on a 3D sphere are concentric circles will not be concentric circles on the Mercator map. Cartography knowledgable Economist readers knew this and filed complaints about the map. Two weeks later, The Economist published a corrected version of the map.
 
-![Source: The Economist](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/economist-northkorea-correction.jpg)
+![A corrected version of the map above, with wavy shapes instead of concentric circles](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/economist-northkorea-correction.jpg)
 
 Source: The Economist
 
@@ -44,32 +44,32 @@ The concentric circles have been replaced by an ellipse and sinusoidal bands on 
 
 Instead of using the Mercator projection, a more elegant solution would be to use a projection that looks down on Earth from directly above North Korea. With a projection like that, the concentric circles on the globe remain concentric circles on the map.
 
-![Source: [North Korea test-fires mid-range missiles](https://www.bbc.com/news/world-asia-26743197), bbc.com](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/_66923628_north_korea_ranges624_2.gif)
+![A map looking directly down on earth from space, with concentric circles around North Korea](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/_66923628_north_korea_ranges624_2.gif)
 
 Source: [North Korea test-fires mid-range missiles](https://www.bbc.com/news/world-asia-26743197), bbc.com
 
 Of course, this projection can only show half of the world at once. To show how far the biggest missiles can strike, you need to use yet another projection, and look at the globe from space at another angle.
 
-![Source: [North Korea ‘fires short-range missiles’ into sea](https://www.bbc.com/news/world-asia-35860044), bbc.com](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/_88837987_north_korea_missile_ranges2_map624new.png)
+![2 maps showing the range of different North Korean rockets](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/_88837987_north_korea_missile_ranges2_map624new.png)
 
 Source: [North Korea ‘fires short-range missiles’ into sea](https://www.bbc.com/news/world-asia-35860044), bbc.com
 
 In the same way that circles on the globe are not circles on a Mercator map, straight lines on the globe are not straight lines on the map.
 
-![Source: [greatcirclemap.com](http://greatcirclemap.com/)](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/luxembourg-sanfrancisco-globe.png)
+![A globe showing the a line between San Francisco and Luxemburg](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/luxembourg-sanfrancisco-globe.png)
 
 Source: [greatcirclemap.com](http://greatcirclemap.com/)
 
-![Source: [greatcirclemap.com](http://greatcirclemap.com/)](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/luxembourg-sanfrancisco-map.png)
+![The same line plotted on a Mercator map. The line has the shape of an arc.](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/luxembourg-sanfrancisco-map.png)
 
 Source: [greatcirclemap.com](http://greatcirclemap.com/)
 
 And this is what happens when you map the route of flight passing close the North pole:
 
-![Source: [greatcirclemap.com](https://www.greatcirclemap.com/)](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/dubai-sanfrancisco-globe.png)
+![A globe showing a line between San Francisco and Dubai, passing over the North Pole](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/dubai-sanfrancisco-globe.png)
 
 Source: [greatcirclemap.com](https://www.greatcirclemap.com/)
 
-![Source: [greatcirclemap.com](https://www.greatcirclemap.com/)](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/dubai-sanfrancisco-map.png)
+![The same line on a Mercator map. The line is of the map](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/dubai-sanfrancisco-map.png)
 
 Source: [greatcirclemap.com](https://www.greatcirclemap.com/)

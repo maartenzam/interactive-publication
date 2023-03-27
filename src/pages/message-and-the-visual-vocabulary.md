@@ -11,13 +11,13 @@ So, it is clear that data visualisation designers have to make a lot of decision
 
 The visual journalists of the graphics desk of the Financial Times news paper were having a lot of discussions with their non-graphic colleagues about what kind of chart would fit a story the best. In order to structure those discussions and to establish a common vocabulary to talk about chart types, they designed the Visual Vocabulary.
 
-![Source: [Financial Times](https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/Visual-vocabulary.pdf)](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/Visual-vocabulary.png)
+![The Visual Vocabulary, with many chart icons grouped into 9 categories](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/Visual-vocabulary.png)
 
 Source: [Financial Times](https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/Visual-vocabulary.pdf)
 
 The Visual Vocabulary is a collection of chart types organised by the pattern in the data they can highlight.
 
-![Source: [Financial Times](https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/Visual-vocabulary.pdf)](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/visual-vocabulary-categories.png)
+![A zoomed in version of the Visual Vocabulary showing the description of the Ranking, Distribution and Change over Time categories](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/visual-vocabulary-categories.png)
 
 Source: [Financial Times](https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/Visual-vocabulary.pdf)
 

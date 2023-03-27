@@ -6,6 +6,6 @@ Using the medians for x and y assures that each quadrant contains the same amoun
 
 _The interactive chart above uses the "medians-quadrant" visual annotation technique. Source: [The millennials who are making it](https://www.axios.com/the-oldest-and-youngest-jobs-in-the-us-millennials-d9738704-4c84-4208-8f15-8d997db170ac.html), axios.com_
 
-![Source: [@driblab](https://twitter.com/driblab/status/1224387280271544322) ](A%20deep%20dive%20into%20scatter%20plots%20447afd31ef0d4b0a887b000d2b360f95/median-scatterplot-driblab.jpg)
+![A scatter plot of footballers with their average successfull dribbles on the x axis and the proportion of successfull dribbles on the y axis. The chart is divided into quadrants using the medians for x and y](A%20deep%20dive%20into%20scatter%20plots%20447afd31ef0d4b0a887b000d2b360f95/median-scatterplot-driblab.jpg)
 
 Source: [@driblab](https://twitter.com/driblab/status/1224387280271544322) 
