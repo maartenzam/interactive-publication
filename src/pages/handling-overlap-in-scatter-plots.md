@@ -2,19 +2,19 @@ In the scatter plots shown above, many of the circles representing the data poin
 
 This technique of using transparent circles can be replaced or complemented with giving the circles a white or other light coloured outline.
 
-![Overlapping dots without outline nor opacity. Source: adapted from [Allison Horst](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)](A%20deep%20dive%20into%20scatter%20plots%20447afd31ef0d4b0a887b000d2b360f95/penguins-scatter-overplotted.png)
+![A scatterplot of flipper lengths (x axis) and body mass (y axis) of penguins, with overlapping dots without outline nor opacity. Source: adapted from [Allison Horst](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)](A%20deep%20dive%20into%20scatter%20plots%20447afd31ef0d4b0a887b000d2b360f95/penguins-scatter-overplotted.png)
 
 Overlapping dots without outline nor opacity. Source: adapted from [Allison Horst](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)
 
-![Overlapping dots with opacity. Source: adapted from [Allison Horst](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)](A%20deep%20dive%20into%20scatter%20plots%20447afd31ef0d4b0a887b000d2b360f95/penguins-scatter-alpha.png)
+![The same scatter plot as above, but with transparent dots](A%20deep%20dive%20into%20scatter%20plots%20447afd31ef0d4b0a887b000d2b360f95/penguins-scatter-alpha.png)
 
 Overlapping dots with opacity. Source: adapted from [Allison Horst](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)
 
-![Overlapping dots with a white outline. Source: adapted from [Allison Horst](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)](A%20deep%20dive%20into%20scatter%20plots%20447afd31ef0d4b0a887b000d2b360f95/penguins-scatter-white-outlines.png)
+![The same scatter plot as above, but with the dots having a white ouline](A%20deep%20dive%20into%20scatter%20plots%20447afd31ef0d4b0a887b000d2b360f95/penguins-scatter-white-outlines.png)
 
 Overlapping dots with a white outline. Source: adapted from [Allison Horst](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)
 
-![Overlapping dots with both opacity and a white outline. Source: adapted from [Allison Horst](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)](A%20deep%20dive%20into%20scatter%20plots%20447afd31ef0d4b0a887b000d2b360f95/penguins-scatter-white-outline-alpha.png)
+![The same scatter plot, but with transparent dots with a white outline](A%20deep%20dive%20into%20scatter%20plots%20447afd31ef0d4b0a887b000d2b360f95/penguins-scatter-white-outline-alpha.png)
 
 Overlapping dots with both opacity and a white outline. Source: adapted from [Allison Horst](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)
 

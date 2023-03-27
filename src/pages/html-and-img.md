@@ -2,7 +2,7 @@ When you click a link and your web browser navigates to a new page, a lot of thi
 
 In its most basic form, when a web browser opens a page, it is sending a request to a web server to send the content of the requested page. If the request is valid, the web server will respond by sending the content of the page to the browser, after which the browser can display it.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/simple-request2x.png)
+![A diagram showing how a browser performs an HTTP request and a server sending an HTML file in response](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/simple-request2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -22,13 +22,13 @@ Source: Maarten Lambrechts, CC BY SA 4.0
 </html>
 ```
 
-![The HTML above displayed in a browser. Source: Maarten Lambrechts, CC BY SA 4.0](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/learning-html.png)
+![A browser window showing a basic web page with the heading 'Learning about HTML'](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/learning-html.png)
 
 The HTML above displayed in a browser. Source: Maarten Lambrechts, CC BY SA 4.0
 
 When the browser is loading this very basic web page, it is actually making a second request: it requests the image file from the server at upload.wikimedia.org. That server will respond by sending the image to the browser, so the browser can display it.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/image-request2x.png)
+![A diagram showing a web browser requesting an HTML page and an image, and web servers responding by sending the files](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/image-request2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 

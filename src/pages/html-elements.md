@@ -14,7 +14,7 @@ The building blocks of HTML are called **elements**, and each element consists o
 </html>
 ```
 
-![The HTML above displayed in a browser. Source: Maarten Lambrechts, CC BY SA 4.0](HTML%20101%20669091b94f10444db4b140f91662a708/learning-html.png)
+![A browser window showing a basic HTML page with the heading 'Learning about HTML'](HTML%20101%20669091b94f10444db4b140f91662a708/learning-html.png)
 
 The HTML above displayed in a browser. Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -53,7 +53,7 @@ The most basic HTML elements are paragraphs and headers. Paragraphs are specifie
 </html>
 ```
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](HTML%20101%20669091b94f10444db4b140f91662a708/html-paragraphs-headers-page.png)
+![A web browser showing a web page with the header '1. Intro to HTML' and with smaller headers, paragraphs and an image](HTML%20101%20669091b94f10444db4b140f91662a708/html-paragraphs-headers-page.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
