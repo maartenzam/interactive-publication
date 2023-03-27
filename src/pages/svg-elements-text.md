@@ -6,16 +6,18 @@ Vector graphics like SVG have a big advantage over <span class='internal-link'>[
 </aside>
 
 <p class='center'>
-<img src='Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/life-expectancy2x.png' alt='PNG version of the chart' class='max-600' />
+<img src='Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/life-expectancy2x.png' alt='A PNG image titled A 10 year gap in life expectancy, showing a bar for Norway and one for Bulgaria with their labels' class='max-600' />
 </p>
+<p><a href="Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/life-expectancy2x.png" target="_blank">Open this image in a new tab</a></p>
 
-[Open this image in a new tab](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/life-expectancy2x.png)
 
 <p class='center'>
 <img src='Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/life-expectancy.svg' alt='SVG version of the bar chart' class='max-600' />
 </p>
 
-[Open this image in a new tab](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/life-expectancy.svg)
+<p class="center">
+<a href="Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/life-expectancy.svg" target="_blank">Open this image in a new tab</a>
+<p>
 
 When Google’s search engine encounters the SVG version of the visualisation above, it will “know” that it is an image about life expectancy in Norway and Bulgaria in 2020, and that the source of the data is Eurostat. For the PNG image, this information should be provided in the alt attribute.
 

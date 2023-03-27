@@ -1,12 +1,12 @@
 Fonts come in two kinds: serif fonts and sans serif fonts. Serif fonts have a small stroke attached to the end of larger strokes of letters. Check the characters in the following popular serif fonts taken from Google Fonts.
 
-![Popular serif fonts on [Google Fonts](https://fonts.google.com)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/serif.png)
+![6 serif fonts from Google Fonts](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/serif.png)
 
 Popular serif fonts on [Google Fonts](https://fonts.google.com)
 
 Sans serif fonts on the other hand lack these strokes at the end of larger strokes. Compare the serif fonts above to the sans serif ones below.
 
-![Popular sans serif fonts on [Google Fonts](fonts.google.com)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/sans-serif.png)
+![6 non-serif fonts from Google Fonts](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/sans-serif.png)
 
 Popular sans serif fonts on [Google Fonts](https://fonts.google.com)
 
@@ -19,18 +19,18 @@ Fonts can be mixed, and as a rule combining a serif font for headings and a sans
 
 </aside>
 
-![[en.wikipedia.org/wiki/Sans-serif](https://en.wikipedia.org/wiki/Sans-serif)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/wikipedia.png)
+![A browser window of the Wikipedia page about sans-serif fonts. It uses a serif font](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/wikipedia.png)
 
 Source: [en.wikipedia.org/wiki/Sans-serif](https://en.wikipedia.org/wiki/Sans-serif)
 
-![ [nightingaledvs.com/choosing-fonts-for-your-data-visualization](https://nightingaledvs.com/choosing-fonts-for-your-data-visualization/)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/nightinggale.png)
+![A browser window displaying the article Choosing Fonts for Your Data Visualization on nightingaledvs.com. It uses both sans-serif as serif fonts](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/nightinggale.png)
 
  Source: [nightingaledvs.com/choosing-fonts-for-your-data-visualization](https://nightingaledvs.com/choosing-fonts-for-your-data-visualization/)
 
-![[www.lefigaro.fr/actualite-france/les-convois-de-la-liberte-interdits-a-paris-20220210](https://www.lefigaro.fr/actualite-france/les-convois-de-la-liberte-interdits-a-paris-20220210)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/figaro.png)
+![A browser window displaying the article Les convois de la liberté interdits à Paris on lefigaro.fr. The website uses both sans-serif as serif fonts](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/figaro.png)
 
 Source: [www.lefigaro.fr/actualite-france/les-convois-de-la-liberte-interdits-a-paris-20220210](https://www.lefigaro.fr/actualite-france/les-convois-de-la-liberte-interdits-a-paris-20220210)
 
-![[www.spiegel.de/ausland/kanada-ottawa-ruft-nach-trucker-protesten-notstand-aus-a-4e1cdee9-371d-49c5-86fa-1c184b9a8739](https://www.spiegel.de/ausland/kanada-ottawa-ruft-nach-trucker-protesten-notstand-aus-a-4e1cdee9-371d-49c5-86fa-1c184b9a8739)](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/spiegel.png)
+![A browser window showing the article Ottawa ruft nach Truckerprotesten Notstand aus on spiegel.de. It uses both sans-serif and serif fonts](Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/spiegel.png)
 
 Source: [www.spiegel.de/ausland/kanada-ottawa-ruft-nach-trucker-protesten-notstand-aus-a-4e1cdee9-371d-49c5-86fa-1c184b9a8739](https://www.spiegel.de/ausland/kanada-ottawa-ruft-nach-trucker-protesten-notstand-aus-a-4e1cdee9-371d-49c5-86fa-1c184b9a8739)

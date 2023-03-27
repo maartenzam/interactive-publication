@@ -4,13 +4,13 @@ Circles are the most used symbols for scaled symbol maps. The surface area of th
 
 In the map below, the colour of the circles is used to encode a secondary numerical variable.
 
-![Source: [Eurostat-map.js](https://observablehq.com/@joewdavies/eurostat-map-js#bivariate) on observablehq.com](Maps%20e22d0627fc944d47be79a1d1a4f8acef/proportional-symbol-choropleth.png)
+![A bubble map of EU regions, with the size of the bubbles proportional to the GDP of each region, and its colour representing the GDP per inhabitant](Maps%20e22d0627fc944d47be79a1d1a4f8acef/proportional-symbol-choropleth.png)
 
 Source: [Eurostat-map.js](https://observablehq.com/@joewdavies/eurostat-map-js#bivariate) on observablehq.com
 
 Other symbols, like squares, are also an option.
 
-![Source: [Eurostat-map.js](https://observablehq.com/@joewdavies/eurostat-map-js#bivariate) on observablehq.com](Maps%20e22d0627fc944d47be79a1d1a4f8acef/proportional-squares.png)
+![The same map as above, but using squares instead of circles](Maps%20e22d0627fc944d47be79a1d1a4f8acef/proportional-squares.png)
 
 Source: [Eurostat-map.js](https://observablehq.com/@joewdavies/eurostat-map-js#bivariate) on observablehq.com
 
@@ -22,6 +22,6 @@ Source: [Eurostat-map.js](https://observablehq.com/@joewdavies/eurostat-map-js#b
 
 The spike map below encodes two additional numerical values with the colour and the width of the spikes.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Maps%20e22d0627fc944d47be79a1d1a4f8acef/covid-spike-map-belgium.jpg)
+![Spike map of Belgian municipalities, with the height of the spikes proportional to the number of Covid-19 cases per 100.000 inhabitants, their widht proportional to the population and the colour representing the trend in cases](Maps%20e22d0627fc944d47be79a1d1a4f8acef/covid-spike-map-belgium.jpg)
 
 Source: Maarten Lambrechts, CC BY SA 4.0

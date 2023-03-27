@@ -1,6 +1,6 @@
 When showing small differences between large quantities, data visualisation designers are sometimes tempted to start the numerical axis of a bar chart not at zero. Here is a recent example, shared by US vice-president Kamala Harris on Twitter.
 
-![Source: [@KamalaHarris](https://twitter.com/KamalaHarris/status/1510408494628941825)](A%20deep%20dive%20into%20bar%20charts%20047791ead2e848bdb3d0afcd1bf2bd4a/biden-harris-bars.png)
+![A bar chart with its y axis starting at 2.000, titled The Biden-Harris Administration Reduced the Deficit Last Year](A%20deep%20dive%20into%20bar%20charts%20047791ead2e848bdb3d0afcd1bf2bd4a/biden-harris-bars.png)
 
 Source: [@KamalaHarris](https://twitter.com/KamalaHarris/status/1510408494628941825)
 
@@ -8,7 +8,7 @@ The numerical scale in a bar chart converts numbers into the lengths of the bars
 
 This is how the chart should look like in reality:
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](A%20deep%20dive%20into%20bar%20charts%20047791ead2e848bdb3d0afcd1bf2bd4a/Artboard_12x.png)
+![A corrected version of the chart above, with the y axis starting at zero](A%20deep%20dive%20into%20bar%20charts%20047791ead2e848bdb3d0afcd1bf2bd4a/Artboard_12x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 

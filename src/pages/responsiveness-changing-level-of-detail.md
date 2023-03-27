@@ -4,7 +4,7 @@ Similarly, daily values can be aggregated to weekly averages, weekly to monthly 
 
 When data values are binned, like on a histogram for example, the bin sizes can be adjusted to show more or less bins depending on the available screen size. Both histograms below show the same data, but are using different bin sizes.
 
-![This chart shows the difference in voting support in different states among voters that say that immigration is the most important issue of the 2016 presidential elections in the US. It is using a bin size of 10 percentage points. Source: [nytimes.com](https://www.nytimes.com/interactive/2016/04/05/us/elections/state-voter-histograms.html)](Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/nytimes-histogram-desktop.png)
+![ ](Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/nytimes-histogram-desktop.png)
 
 This chart shows the difference in voting support in different states among voters that say that immigration is the most important issue of the 2016 presidential elections in the US. It is using a bin size of 10 percentage points. Source: [nytimes.com](https://www.nytimes.com/interactive/2016/04/05/us/elections/state-voter-histograms.html)
 

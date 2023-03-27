@@ -2,11 +2,13 @@ Should the y axis used on line charts also always start at zero? Next to the use
 
 The question is: is the left line chart, with a truncated y scale,  misleading (or: as misleading) as the left bar chart below?
 
-![Source: [Truncating the Y-Axis: Threat or Menace?](https://engineering.tableau.com/truncating-the-y-axis-threat-or-menace-d0bce66d4d08), engineering.tableau.com](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/cut-lines-correll.png)
+![2 line charts side by side showing the Top Tax Rate on two moments in time. The left one starts the y axis at 34, the right one on zero](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/cut-lines-correll.png)
 
 Source: [Truncating the Y-Axis: Threat or Menace?](https://engineering.tableau.com/truncating-the-y-axis-threat-or-menace-d0bce66d4d08), engineering.tableau.com
 
-![cut-bars-correll.png](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/cut-bars-correll.png)
+![The same data presented with bars instead of with a line. The left bar chart starts the y axis at 34, the right one on zero](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/cut-bars-correll.png)
+
+Source: [Truncating the Y-Axis: Threat or Menace?](https://engineering.tableau.com/truncating-the-y-axis-threat-or-menace-d0bce66d4d08), engineering.tableau.com
 
 [Researchers have stepped in to try to answer this question](https://engineering.tableau.com/truncating-the-y-axis-threat-or-menace-d0bce66d4d08) by exposing people to line charts with varying degrees of y scale truncation, and asked the participants how quickly the values were changing over time.
 
@@ -16,13 +18,13 @@ The researchers didn’t provide us with guidelines on if and how to truncate th
 
 **When the zero line is not meaningful.** A chart showing measured body temperature does not need to have a y scale starting at zero. A temperature of 0°C is not meaningful for a (living) person, so there is no reason to start at that value. On top of that, changing the units to degrees Fahrenheit or degrees Kelvin and start the y axis at 0 degrees would lead to very different charts, with different starting temperatures values for the y axis (0°F is -17,8°C and 0°K is -273°C).
 
-![Source: [Elizgoiri](https://commons.wikimedia.org/wiki/File:BBT05.jpg), CC BY SA 3.0](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/temperature-linechart.jpg)
+![A line chart showing body temperature over the course of 30 days. The lowest value is 36,1°C, the y axis starts at 36°C](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/temperature-linechart.jpg)
 
 Source: [Elizgoiri](https://commons.wikimedia.org/wiki/File:BBT05.jpg), CC BY SA 3.0
 
 **When including zero on the y axis hides important changes in the data.** A good example are time series showing the value of stocks and commodity prices. Potentially, these could drop to zero (or come close to zero),  but they usually fluctuate within a limited range. Small increases or decreases in prices can mean big monetary gains or losses, but could be hard to spot on charts with y axes starting at zero.
 
-![The price of an ounce of gold varied between 1.130 and 1.800 euros over the last year. Source: gold.org ](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/gold-price.png)
+![A line chart whowing the price of an ounce of gold, with the y axis starting at 1.000 euro](Pitfalls%20in%20dataviz%20scales%20and%20proportions%20c55dba398451424aa684d319018f8380/gold-price.png)
 
 The price of an ounce of gold varied between 1.130 and 1.800 euros over the last year. Source: gold.org 
 

@@ -1,6 +1,6 @@
 For larger charts data marks and font sizes should be scaled up to some degree: bigger charts need thicker lines, larger dots and bigger letters. Otherwise the design can look empty. The reverse is also true: these elements need scaling down for smaller charts.
 
-![A chart with normal proportions... Source: Maarten Lambrechts, CC BY 4.0](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/linechart-normal-size2x.png)
+![A line chart showing trends for all EU member states, with the lines for Sweden, Ireland and the EU average labelled and highlighted with colours](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/linechart-normal-size2x.png)
 
 A chart with normal proportions... Source: Maarten Lambrechts, CC BY 4.0
 
@@ -11,7 +11,7 @@ A chart with normal proportions... Source: Maarten Lambrechts, CC BY 4.0
 ...and the same chart in smaller size, but with the same font sizes and stroke widths. Source: Maarten Lambrechts, CC BY 4.0
 
 <p class='center'>
-<img src='Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/linechart-small-scaled2x.png' alt='On this chart, font sizes, stroke widths and dot radii have been adapted to the chart dimensions. Source: Maarten Lambrechts, CC BY 4.0' class='max-400' />
+<img src='Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/linechart-small-scaled2x.png' alt='' class='max-400' />
 </p>
 
 On this chart, font sizes, stroke widths and dot radii have been adapted to the chart dimensions. Source: Maarten Lambrechts, CC BY 4.0
@@ -21,7 +21,7 @@ But designing the same chart in different dimensions is not simply a matter of s
 Bigger charts can hold more data than smaller charts. So one obvious adaptation to chart size is including and excluding chart data.
 
 <p class='center'>
-<img src='Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/linechart-small-scaled-lessdata_12x.png' alt='The grey line representing the other EU member states are removed from this chart. Source: Maarten Lambrechts, CC BY 4.0' class='max-400' />
+<img src='Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/linechart-small-scaled-lessdata_12x.png' alt='The grey line representing the other EU member states are removed from this chart' class='max-400' />
 </p>
 
 The grey line representing the other EU member states are removed from this chart. Source: Maarten Lambrechts, CC BY 4.0
@@ -29,7 +29,7 @@ The grey line representing the other EU member states are removed from this char
 To avoid overcrowded axis, smaller charts should have less axis labels. Labels on smaller charts could also have a more compact formatting.
 
 <p class='center'>
-<img src='Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/linechart-small-less-ticks2x.png' alt='Source: Maarten Lambrechts, CC BY 4.0' class='max-400' />
+<img src='Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/linechart-small-less-ticks2x.png' alt='The same chart as above, but with less axis labels and and less grid lines' class='max-400' />
 </p>
 
 Source: Maarten Lambrechts, CC BY 4.0
@@ -50,11 +50,11 @@ A more radical adaptation to a reduction in size is to change the orientation of
 
 Some online media serve charts in different layouts depending on screen sizes. Below are two examples.
 
-![A visualisation with a wide layout is rotated on narrower screens. Source: [Italy elections 2018 polls: who is running and why it matters](https://ig.ft.com/italy-poll-tracker/), ft.com](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/verticalcharts.gif)
+![An animation showing how a chart changes its orientation when the browser window is made smaller](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/verticalcharts.gif)
 
 A visualisation with a wide layout is rotated on narrower screens. Source: [Italy elections 2018 polls: who is running and why it matters](https://ig.ft.com/italy-poll-tracker/), ft.com
 
-![A map showing a long feature running east-west is rotated to have north to the left to fit on mobile screens. Source: [London’s New Subway Symbolized the Future. Then Came Brexit](https://www.nytimes.com/2017/07/31/world/europe/london-crossrail-uk-brexit.html), nytimes.com](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/northleft_nyt.gif)
+![ ](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/northleft_nyt.gif)
 
 A map showing a long feature running east-west is rotated to have north to the left to fit on mobile screens. Source: [London’s New Subway Symbolized the Future. Then Came Brexit](https://www.nytimes.com/2017/07/31/world/europe/london-crossrail-uk-brexit.html), nytimes.com
 

@@ -75,6 +75,6 @@ Source: Maarten Lambrechts, CC-BY-SA 4.0
 
 CSS can be written directly in an HTML file, as above, but usually it is loaded from a separate CSS file.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/css-request2x.png)
+![A browser window showing a basic HTML page with an SVG graphic with 9 purple circles](Online%20graphics%20d2d7b9f6c2b748a9a12dc8a006f8330a/css-request2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0

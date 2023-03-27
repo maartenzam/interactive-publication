@@ -6,14 +6,14 @@
 
 For example, try to identify the longest bar for each colour in the chart below.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](A%20deep%20dive%20into%20bar%20charts%20047791ead2e848bdb3d0afcd1bf2bd4a/stacked-bars2x.png)
+![4 horizontal stacked bars, with pink, green and blue bars](A%20deep%20dive%20into%20bar%20charts%20047791ead2e848bdb3d0afcd1bf2bd4a/stacked-bars2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
 You will probably be able to tell which of the pink bars is the longest. But you will have a much harder time identifying the longest green and blue bar.
 
 <Reveal label="Click on the little triangle on the left to reveal which of the green and blue bars are the longest." content="These are the values used to scale the bars in this visualisation. Notice how the used values for each colour are the same, they are just shuffled. <p class='center'>
-<img src='A%20deep%20dive%20into%20bar%20charts%20047791ead2e848bdb3d0afcd1bf2bd4a/stacked-bars-labels2x.png' alt='' />
+<img src='A%20deep%20dive%20into%20bar%20charts%20047791ead2e848bdb3d0afcd1bf2bd4a/stacked-bars-labels2x.png' alt='The same stacked bar chart as above, but with labels of the values the bars represent' />
 </p><p>Source: Maarten Lambrechts, CC BY SA 4.0</p>"></Reveal>
     
 

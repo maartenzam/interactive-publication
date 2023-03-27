@@ -7,7 +7,7 @@ Scales are at the heart of the Grammar of Graphics. Scales are the functions tha
 
 In order to understand scales, consider the following chart:
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20Tableau%2075769011e12544f993c61105e5caa3e8/gapminder_basic.png)
+![A bubble chart of countries, with their GDP/capita on the x axis and their life expectancy on the y axis](Grammar%20of%20Graphics%20in%20practice%20Tableau%2075769011e12544f993c61105e5caa3e8/gapminder_basic.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -28,7 +28,7 @@ Let’s suppose the height of the plot area is 400 pixels (the plot area is the 
 
 In the simplest approach, the minimum value of the variable domain is mapped to the minimum value of the range, and the maximum value of the domain is mapped to the maximum value of the range.
 
-![A visual representation of a scale that maps a domain of [0, 5000] to a range of [250 pixels, 550 pixels] Source: [observablehq.com/@observablehq/plot-cheatsheets-layouts](https://observablehq.com/@observablehq/plot-cheatsheets-layouts)](Scales,%20guides,%20facets%20and%20theming%209e76a2b3e0f343a6bdfd6888555b52ca/domain-range-observable-plot.png)
+![ ](Scales,%20guides,%20facets%20and%20theming%209e76a2b3e0f343a6bdfd6888555b52ca/domain-range-observable-plot.png)
 
 A visual representation of a scale that maps a domain of [0, 5000] to a range of [250 pixels, 550 pixels] Source: [observablehq.com/@observablehq/plot-cheatsheets-layouts](https://observablehq.com/@observablehq/plot-cheatsheets-layouts)
 

@@ -2,18 +2,18 @@ It can be a big challenge to make bigger, more complex and interactive visualisa
 
 An example of this technique is used in The Evolution of Trade Agreements. It shows the web of trade agreements between countries in a radial chart with additional controls and smaller visualisations to the side. 
 
-![Source: [ftavis.com](http://ftavis.com)](Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/ftavis-full.png)
+![Screenshot of the The Evolution of Trade Agreements, with a central radial visualisation, an intro text and legends on the left and a chart and a table on the right](Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/ftavis-full.png)
 
 Source: [ftavis.com](http://ftavis.com)
 
 The visualisation and the interactive controls are not suitable for smaller screens, and are not displayed on these screens. Instead, screenshots of parts of the visualisation are provided, accompanied by a little explanation, in a section called “Selection of findings and data stories”.
 
 <p class='center'>
-<img src='Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/ftavis-story1.png' alt='' class='max-400' />
+<img src='Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/ftavis-story1.png' alt='A zoomed in part of the visual, with a snippet of text with title Bloc Agreements to Protect Markets' class='max-400' />
 </p>
 
 <p class='center'>
-<img src='Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/ftavis-story2.png' alt='' class='max-400' />
+<img src='Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/ftavis-story2.png' alt='A zoomed in part of the visual, with a snippet of text with title Trade Relations of the Third World with Developed Countries' class='max-400' />
 </p>
 
 Source: [ftavis.com](http://ftavis.com)

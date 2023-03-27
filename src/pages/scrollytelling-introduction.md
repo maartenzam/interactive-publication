@@ -11,7 +11,7 @@ The paper has a handy definitition of what scrollytelling is:
 
 Scrollytelling usually involves a fixed or updating visual that updates as text blocks scroll by.
 
-![An animation illustrating scrollytelling. Source: [Russell Goldenberg](https://github.com/russellgoldenberg/scrollama)](Scrollytelling%200ae4533947224ed3b08305e4c650ce0d/scrollytelling.gif)
+![ ](Scrollytelling%200ae4533947224ed3b08305e4c650ce0d/scrollytelling.gif)
 
 An animation illustrating scrollytelling. Source: [Russell Goldenberg](https://github.com/russellgoldenberg/scrollama)
 

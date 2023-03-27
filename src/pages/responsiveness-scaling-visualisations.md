@@ -1,7 +1,7 @@
 The easiest way to make visualisations fit different screen sizes, is by making them scale. This works in the same way as for images: the visualisation is shown bigger on big screens and smaller on small screens.
 
 <p class='center'>
-<img src='Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/linechart-normal-size2x.png' alt='' class='max-600' />
+<img src='Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/linechart-normal-size2x.png' alt='A line chart showing trends for the EU member states, with the lines for Sweden, Ireland and the EU average labelled and highlighted with colour' class='max-600' />
 </p>
 
 A chart with normal proportions... Source: Maarten Lambrechts, CC BY 4.0
@@ -11,21 +11,21 @@ But scaling data visualisations has its limitations. Small screens usually have 
 When scaled down, the text on a visualisation may also become too small to be read.
 
 <p class='center'>
-<img src='Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/linechart-normal-size2x.png' alt='' class='max-200' />
+<img src='Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/linechart-normal-size2x.png' alt='The same chart as above, but shown much smaller' class='max-200' />
 </p>
 
 The same chart scaled down
 
 Or vice versa: when scaled up, the text can be rendered disproportionally large.
 
-![The same chart scaled up. Source: Maarten Lambrechts, CC BY 4.0](Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/linechart-normal-size2x.png)
+![The same chart as above, but shown much bigger](Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/linechart-normal-size2x.png)
 
 The same chart scaled up. Source: Maarten Lambrechts, CC BY 4.0
 
 Different scaling can be applied for text and non-text elements in a visualisation, to keep font sizes to appropriate levels. But this can lead to the problem that the text in a visualisation will not fit its designated space anymore and will start to overlap with other elements in a chart. Check for example the labels on the x axis in the following version of the chart, in which the text is not scaled down.
 
 <p class='center'>
-<img src='Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/linechart-small-size2x.png' alt='' class='max-200' />
+<img src='Responsiveness%20and%20data%20visualisation%20for%20small%20sc%20bfcc7f2b3f63483d9213104e4137aec4/linechart-small-size2x.png' alt='The same chart as above, displayed much smaller, but with all text kept at the same font size as the original' class='max-200' />
 </p>
 
 The same as above, scaled down but with the same font sizes. Source: Maarten Lambrechts, CC BY 4.0

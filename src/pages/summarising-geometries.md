@@ -4,7 +4,7 @@ An exception to this is the automatic stacking of bars and areas: the positions,
 
 For specific kinds of visualisations, other calculations are also required before a plot can be generated. For example, in order to produce a histogram, the number of observations in each bin need to be counted before the bars of the histogram can be generated. 
 
-![A histogram showing the number of diamonds in each bin of the `carat` variable. Source: [ggplot2.tidyverse.org/reference/geom_histogram.html](https://ggplot2.tidyverse.org/reference/geom_histogram.html)](Geometric%20objects%20in%20detail%20bd1876bee7c94755a7803c7578a39cd9/geom_histogram-ggplot2.png)
+![ ](Geometric%20objects%20in%20detail%20bd1876bee7c94755a7803c7578a39cd9/geom_histogram-ggplot2.png)
 
 A histogram showing the number of diamonds in each bin of the `carat` variable. Source: [ggplot2.tidyverse.org/reference/geom_histogram.html](https://ggplot2.tidyverse.org/reference/geom_histogram.html)
 
@@ -12,11 +12,11 @@ The counting of the number of observations could be done outside of the visualis
 
 This is the case with ggplot2, which has a `histogram` geometry that automatically calculates the number of observations in each bin. Other examples of ggplot geometries that automatically perform some kind of internal calculations are the `hex` and `boxplot`  geometries:
 
-![The `hex` geometry partitions the x-y space into hexagons and counts the number of observations in each hexagon. The counts are displayed here with the `fill` aesthetic of the hexagons. Source: [ggplot2.tidyverse.org/reference/geom_hex.html](https://ggplot2.tidyverse.org/reference/geom_hex.html)](Geometric%20objects%20in%20detail%20bd1876bee7c94755a7803c7578a39cd9/geom_hex-geometry-ggplot.png)
+![ ](Geometric%20objects%20in%20detail%20bd1876bee7c94755a7803c7578a39cd9/geom_hex-geometry-ggplot.png)
 
 The `hex` geometry partitions the x-y space into hexagons and counts the number of observations in each hexagon. The counts are displayed here with the `fill` aesthetic of the hexagons. Source: [ggplot2.tidyverse.org/reference/geom_hex.html](https://ggplot2.tidyverse.org/reference/geom_hex.html)
 
-![Boxplots show the quartiles of a distribution. These are calculated internally from the source data by the `boxplot` geometry. Source: [ggplot2.tidyverse.org/reference/geom_boxplot.html](https://ggplot2.tidyverse.org/reference/geom_boxplot.html)](Geometric%20objects%20in%20detail%20bd1876bee7c94755a7803c7578a39cd9/geom_boxplot-geometry-ggplot.png)
+![ ](Geometric%20objects%20in%20detail%20bd1876bee7c94755a7803c7578a39cd9/geom_boxplot-geometry-ggplot.png)
 
 Boxplots show the quartiles of a distribution. These are calculated internally from the source data by the `boxplot` geometry. Source: [ggplot2.tidyverse.org/reference/geom_boxplot.html](https://ggplot2.tidyverse.org/reference/geom_boxplot.html)
 
