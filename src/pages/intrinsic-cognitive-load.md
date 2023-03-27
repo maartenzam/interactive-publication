@@ -5,7 +5,7 @@ The intrinsic load of the data presented in a visualisation can be high or low d
 - a low number of records has a lower intrinsic load than a high number of records. So a bar chart comparing just 2 values is easier to process than a bar chart with 20 values.
 - a low number of dimensions has a lower intrinsic load than data with a lot of dimensions. A bar chart only shows 2 dimensions (one categorical and one numerical), so it is easier to process than a bubble chart, which can show 5 dimensions. In the bubble chart below these dimensions are 2 categorical dimensions (the country names (as tooltips) and the region each country belongs to) and 3 numerical dimensions (encoded in the x and y position of the bubbles and their size).
 
-![A bubble chart showing 5 dimensions. When the chart is animated over time, the visualisation even shows 6 dimensions. Source: [gapminder.org/tools](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1)](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/gapminder.png)
+![A bubble chart showing 5 dimensions: income on the x axis, life expectancy on the y axis, region as colour, population as bubble size, and country name in tooltips](Choosing%20the%20right%20chart%20type%20for%20your%20story%20534c70625e194b62ad932d52825d1579/gapminder.png)
 
 A bubble chart showing 5 dimensions. When the chart is animated over time, the visualisation even shows 6 dimensions. Source: [gapminder.org/tools](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1)
 

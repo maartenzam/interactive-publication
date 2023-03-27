@@ -3,7 +3,7 @@ Images are obviously important HTML elements for data visualisation. An image ca
 Images can be of different formats. The most common formats are JPG, PNG and GIF files. All three of these formats are <span class='internal-link'>[bitmap images](bitmap-images)</span>, which means that the content of the images is stored as a two dimensional grid of square pixels, each with its associated colour value.
 
 <p class='center'>
-<img src='HTML%20101%20669091b94f10444db4b140f91662a708/942px-Rgb-raster-image.svg.png' alt='' class='max-600' />
+<img src='HTML%20101%20669091b94f10444db4b140f91662a708/942px-Rgb-raster-image.svg.png' alt=' ' class='max-600' />
 </p>
 
 An enlarged view on a bitmap image, showing the colour values stored in 3 pixels. Source: [Gringer](https://commons.wikimedia.org/wiki/File:Rgb-raster-image.svg), CC0

@@ -11,7 +11,7 @@ Consider the following data table:
 
 This data set (which is a <span class='internal-link'>[tidy data set](intro-to-tidy-data)</span>) can be visualised as follows:
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20Tableau%2075769011e12544f993c61105e5caa3e8/gapminder_basic.png)
+![A bubble plot of countries, with GDP/capita on the x axis and life expectation on the y axis](Grammar%20of%20Graphics%20in%20practice%20Tableau%2075769011e12544f993c61105e5caa3e8/gapminder_basic.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -28,7 +28,7 @@ So shape, `x`, `y`, `size` and `fill` colour are all aesthetics of the point geo
 
 In this example, the `shape` aesthetic is fixed, and no data is mapped to it. The `shape` aesthetic can be used to map categorical data on the point geometry. In the chart below, the continent variable is mapped to the `shape` aesthetic instead of to the `fill` colour aesthetic.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Aesthetics%20in%20detail%208b116c4f111e4dfc916bb4ebbd00f00e/gapminder_shapes.png)
+![The same bubble plot as above, but with symbols used to indicate the regions instead of colours](Aesthetics%20in%20detail%208b116c4f111e4dfc916bb4ebbd00f00e/gapminder_shapes.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -36,7 +36,7 @@ You’ll notice that processing and understanding this chart is a bit harder tha
 
 But nothing prevents us from mapping a single variable in the data to multiple aesthetics. In the next plot, the continent variable is mapped to both the `shape` and the `fill` colour aesthetics of the point geometry.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Aesthetics%20in%20detail%208b116c4f111e4dfc916bb4ebbd00f00e/gapminder_shapes_colours.png)
+![The same plot as above, but with the continent varbiable mapped to both the colour and shape aesthetics](Aesthetics%20in%20detail%208b116c4f111e4dfc916bb4ebbd00f00e/gapminder_shapes_colours.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 

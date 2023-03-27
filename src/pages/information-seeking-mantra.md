@@ -11,25 +11,25 @@ According to the mantra, **overview should be provided first**. In a story drive
 
 Then come **zoom and filter**. The view on the data is changed so that items of interest in the data come into focus and uninteresting items are filtered out. Outliers are highlighted, correlations are shown,  smaller interesting patterns are annotated, the total sum is broken down into its components, ... 
 
-![The opening of a series of graphics in a scrollytelling module in [How Hong Kong’s National Security Law Is Changing Everything](https://www.bloomberg.com/graphics/2021-hong-kong-national-security-law-arrests/), by Bloomberg, is a clear example of an overview: it introduces the topic and the data set of 150 people, which is fully displayed.](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/bloomberg-hongkong-overview.png)
+![ ](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/bloomberg-hongkong-overview.png)
 
 The opening of a series of graphics in a scrollytelling module in [How Hong Kong’s National Security Law Is Changing Everything](https://www.bloomberg.com/graphics/2021-hong-kong-national-security-law-arrests/), by Bloomberg, is a clear example of an overview: it introduces the topic and the data set of 150 people, which is fully displayed.
 
-![After the overview, the story uses zoom: specific groups of people are highlighted. Source: [How Hong Kong’s National Security Law Is Changing Everything](https://www.bloomberg.com/graphics/2021-hong-kong-national-security-law-arrests/), bloomberg.com](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/bloomberg-hongkong-zoom-1.png)
+![ ](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/bloomberg-hongkong-zoom-1.png)
 
 After the overview, the story uses zoom: specific groups of people are highlighted. Source: [How Hong Kong’s National Security Law Is Changing Everything](https://www.bloomberg.com/graphics/2021-hong-kong-national-security-law-arrests/), bloomberg.com
 
-![In the next step, individual persons are highlighted. Source:  [How Hong Kong’s National Security Law Is Changing Everything](https://www.bloomberg.com/graphics/2021-hong-kong-national-security-law-arrests/), bloomberg.com](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/bloomberg-hongkong-zoom-2.png)
+![ ](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/bloomberg-hongkong-zoom-2.png)
 
 In the next step, individual persons are highlighted. Source:  [How Hong Kong’s National Security Law Is Changing Everything](https://www.bloomberg.com/graphics/2021-hong-kong-national-security-law-arrests/), bloomberg.com
 
 Nathan Yau, author of [flowingdata.com](https://flowingdata.com/), also uses “Overview first, then zoom” in [How Much Americans Make](https://flowingdata.com/2022/01/26/how-much-americans-make/). He first shows the overall distribution of income, after which he zooms in on age classes:
 
-![Source: [How Much Americans Make](https://flowingdata.com/2022/01/26/how-much-americans-make/), flowingdata.com](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/flowingdata-income-overview.png)
+![A beeswarm plot of the income distribution of Americans](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/flowingdata-income-overview.png)
 
 Source: [How Much Americans Make](https://flowingdata.com/2022/01/26/how-much-americans-make/), flowingdata.com
 
-![Source: [How Much Americans Make](https://flowingdata.com/2022/01/26/how-much-americans-make/), flowingdata.com](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/flowingata-income-zoom.png)
+![Small multiple beeswarms of income distributions by age class](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/flowingata-income-zoom.png)
 
 Source: [How Much Americans Make](https://flowingdata.com/2022/01/26/how-much-americans-make/), flowingdata.com
 

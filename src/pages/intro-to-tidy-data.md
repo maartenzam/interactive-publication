@@ -1,6 +1,6 @@
 Data can be organised in many different ways. But making visualisations based on the Grammar of Graphics requires your data to be in a certain format called **tidy data**. It is worth spending some time learning about tidy data, because tidy data is not only the starting point for Grammar of Graphics based visualisations, it is also a good base for data analysis, and a very good guide for how to handle, store, transform and exchange data.
 
-![Source: [Alison Horst](https://github.com/allisonhorst/stats-illustrations), CC BY 4.0](Tidy%20data%208b1465b3f83a442f97d1d33ce400dbe7/tidydata_7.jpg)
+![A comic of 2 fluffy creatures licking an ice cream side by side with a cute data table](Tidy%20data%208b1465b3f83a442f97d1d33ce400dbe7/tidydata_7.jpg)
 
 Source: [Alison Horst](https://github.com/allisonhorst/stats-illustrations), CC BY 4.0
 
@@ -29,7 +29,7 @@ The table above is in the tidy data format, because it respects the 3 rules of t
 2. Every row is an observation.
 3. Every cell is a single value.
 
-![Source: [Alison Horst](https://github.com/allisonhorst/stats-illustrations), CC BY 4.0](Tidy%20data%208b1465b3f83a442f97d1d33ce400dbe7/tidydata_1.jpg)
+![An image showing a quote by Hadley Wickham: 'Tidy data is a standard way of mapping the meaning of a dataset to its structure'](Tidy%20data%208b1465b3f83a442f97d1d33ce400dbe7/tidydata_1.jpg)
 
 Source: [Alison Horst](https://github.com/allisonhorst/stats-illustrations), CC BY 4.0
 
@@ -104,7 +104,7 @@ Another representation of the same data is this combo of a “Cases” table and
 
 Both small tables are untidy, because the `2020` and `2021` column names are actually values of the `year` variable. Both tables could be turned into tidy data, but each observation would have a row in both tables, and so the “1 row = 1 observation” rule would not be respected when considering the two tables together.
 
-![Source: [Alison Horst](https://github.com/allisonhorst/stats-illustrations), CC BY 4.0](Tidy%20data%208b1465b3f83a442f97d1d33ce400dbe7/tidydata_2.jpg)
+![An illustration of happy tidy data sets and sad untidy data sets, with a Hadley Wickham quote: 'The standard structure of tiday data means that tidy datasets are all alike, but every messy dataset is messy in its own way.'](Tidy%20data%208b1465b3f83a442f97d1d33ce400dbe7/tidydata_2.jpg)
 
 Source: [Alison Horst](https://github.com/allisonhorst/stats-illustrations), CC BY 4.0
 
