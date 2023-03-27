@@ -9,18 +9,18 @@ For people with other visual impairments than blindness, the perceptibility of a
 
 ![Source: Maarten Lambrechts, CC BY 4.0](Colours,%20colour%20blindness%20and%20data%20visualisation%201bdcaf7fa57b4d92a9804910f3066592/viz-palette-1.png)
 
-![The colours of the palette above as [perceived through eyes with protanopia](https://projects.susielu.com/viz-palette?colors=[%22#60f070%22,%22#f0c960%22,%22#6080f0%22,%22#f06085%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22protanopia%22) (red colour blindness)](Colours,%20colour%20blindness%20and%20data%20visualisation%201bdcaf7fa57b4d92a9804910f3066592/protanopia.png)
+![ ](Colours,%20colour%20blindness%20and%20data%20visualisation%201bdcaf7fa57b4d92a9804910f3066592/protanopia.png)
 
-The colours of the palette above as [perceived through eyes with protanopia](https://projects.susielu.com/viz-palette?colors=[%22#60f070%22,%22#f0c960%22,%22#6080f0%22,%22#f06085%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22protanopia%22) (red colour blindness). Source: Maarten Lambrechts, CC BY 4.0
+A colour palette with green, orange, blue and red applied to a stacked bar, a line chart and a scatter plot. In the visualisations at the bottom the colours are [seen through eyes with protanopia](https://projects.susielu.com/viz-palette?colors=[%22#60f070%22,%22#f0c960%22,%22#6080f0%22,%22#f06085%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22protanopia%22) (red colour blindness). Source: Maarten Lambrechts, CC BY 4.0
 
 - to go beyond colour blind safety and to make visualisations perceivable in greyscale, the colour encoding should be complemented with encodings by other visual channels.  A great example of this is a technique called <span class='internal-link'>[direct labelling](direct-labelling)</span>: instead of a separate legend that fully relies on colour to identify features of a visualisation, the position of text elements can be used to identify features more clearly. In the visualisations below, the 3 thicker lines are directly labelled in the chart on the right, and can be identified without any problem by people who can not perceive any colour at all.
 
 <p class='center'>
-<img src='Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/separate-legend2x-100.jpg' alt='' class='max-400' />
+<img src='Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/separate-legend2x-100.jpg' alt='A line chart with a separate colour legend' class='max-400' />
 </p>
 
 <p class='center'>
-<img src='Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/direct-labels_12x-100.jpg' alt='' class='max-400' />
+<img src='Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/direct-labels_12x-100.jpg' alt='The same chart as above, but directly labelled and without a separate colour legend' class='max-400' />
 </p>
 
 A separate colour legend vs directly labelled lines. Source: Maarten Lambrechts, CC-BY 4.0
@@ -43,7 +43,7 @@ On this chart, the lines and dots are too thin, and are hard to perceive. Source
 - to help the perception of neighbouring elements in visualisation, elements should be separated from each other using white space.
 
 <p class='center'>
-<img src='Colours,%20colour%20blindness%20and%20data%20visualisation%201bdcaf7fa57b4d92a9804910f3066592/stacked-bars-no-outlines.png' alt='' class='max-400' />
+<img src='Colours,%20colour%20blindness%20and%20data%20visualisation%201bdcaf7fa57b4d92a9804910f3066592/stacked-bars-no-outlines.png' alt='A stacked bar chart with green, red and brown coloured bars' class='max-400' />
 </p>
 
 Especially on bright screens, the boundaries of the stacked bars in this visualisation are hard to perceive. Source: Maarten Lambrechts, CC BY SA 4.0

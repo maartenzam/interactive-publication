@@ -9,13 +9,13 @@ The operable principle of accessibility deals with user interaction, and as such
 
 - Interactive elements should be big enough to be interacted with easily with a mouse or by touch. If by the nature of the data and the chart type elements are rendered too small, an alternative presentation of the data, like a table should be presented.
 
-![In the visualisation on the left, hovering over a dot reveals its data in the table next to it. But the interaction is two way: you can also navigate the table and hover over a row to highlight the dot in the visualisation. Source: [projects.fivethirtyeight.com/435-representatives](https://projects.fivethirtyeight.com/435-representatives/)](Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/small-marks-table-fivethirtyeight.png)
+![A scatter plot of US states on the left, with a table showing the data on the right](Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/small-marks-table-fivethirtyeight.png)
 
 In the visualisation on the left, hovering over a dot reveals its data in the table next to it. But the interaction is two way: you can also navigate the table and hover over a row to highlight the dot in the visualisation. Source: [projects.fivethirtyeight.com/435-representatives](https://projects.fivethirtyeight.com/435-representatives/)
 
 - The interactive functionalities should be recognisable as such, and the interactivity should be explained to the user.
 
-![The buttons at the top of this interactive visualisation not only have a title, but also a description of what will happen when they are clicked. Source: [projects.fivethirtyeight.com/435-representatives](https://projects.fivethirtyeight.com/435-representatives/)](Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/five-thirty-eight-button-explanation.png)
+![The same scatter plot and table as above, with an additional number slider and 3 buttons explaining a possible scenario](Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/five-thirty-eight-button-explanation.png)
 
 The buttons at the top of this interactive visualisation not only have a title, but also a description of what will happen when they are clicked. Source: [projects.fivethirtyeight.com/435-representatives](https://projects.fivethirtyeight.com/435-representatives/)
 

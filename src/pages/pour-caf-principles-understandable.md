@@ -3,24 +3,24 @@ A visualisation makes no sense if it is only perceived but not understood. Makin
 - Make it clear and explicit why a visualisation is shown to the viewer, and how it should be read, used and interpreted.
 - The units the data is expressed in should be provided and should be unambiguous, and axes should be clearly labelled.
 
-![A chart without units is meaningless. Source: Maarten Lambrechts, CC BY SA 4.0](Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/no-units2x.png)
+![A line chart titled 'Renewables used for heating and cooling, 2020' without units specified for the y axis](Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/no-units2x.png)
 
 A chart without units is meaningless. Source: Maarten Lambrechts, CC BY SA 4.0
 
 - The chart title should contain the take away message of the chart. Compare the “understandability” of the two charts below.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Making%20data%20visualisations%20understandable%20648d0f70b68446a19ed8c94e7ef74fc2/chart-title-generic2x.png)
+![A line chart with title 'Renewables used for heating and cooling, 2020'](Making%20data%20visualisations%20understandable%20648d0f70b68446a19ed8c94e7ef74fc2/chart-title-generic2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Making%20data%20visualisations%20understandable%20648d0f70b68446a19ed8c94e7ef74fc2/chart-title2x.png)
+![A line chart with title 'European Union slowly on its way to greener heating and cooling' and subtitle 'Renewables used for heating and cooling, 2020'](Making%20data%20visualisations%20understandable%20648d0f70b68446a19ed8c94e7ef74fc2/chart-title2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
 - The used text should be clear, and free from jargon and acronyms.
 - Charts should not be overloaded. The number of data points and the number of different categories shouldn’t be too high.
 
-![Using too many colours makes the design of a chart overloaded. Source: Maarten Lambrechts, CC BY SA 4.0](Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/overloaded2x.png)
+![The same line chart as above, with the line for every EU member state in a different colour, creating a visually cluttered chart](Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/overloaded2x.png)
 
 Using too many colours makes the design of a chart overloaded. Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -36,7 +36,7 @@ An unusual visualisation is accompanied by a little “how to read” section at
 
 <video src='Accessibility%20and%20data%20visualisation%207101c5b263ca49408232c0775b9223a3/animation-798x.mov' width='100%' height='450px' controls/>
 
-The transition from a map representation of EU regions to a dot plot is animated to help the user understand. Source: Why Budapest, Warsaw, and Lithuania split themselves in two, [pudding.cool](https://pudding.cool/2019/04/eu-regions/)
+_The transition from a map representation of EU regions to a dot plot is animated to help the user understand. Source: Why Budapest, Warsaw, and Lithuania split themselves in two, [pudding.cool](https://pudding.cool/2019/04/eu-regions/)_
 
 - When there is uncertainty in the data, this should be clearly presented visually and explained in text. See <span class='internal-link'>[Visualising uncertainty](tag/visualising-uncertainty)</span>
 

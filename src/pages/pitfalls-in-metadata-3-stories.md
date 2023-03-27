@@ -4,7 +4,7 @@ Metadata, “data about the data”, is crucial to interpret data correctly and 
 
 “62 percent of people in Brussels not born in Belgium” is a pretty spectacular statistic. It deserves its place in the headline of a newspaper article.
 
-![Source: [62 procent Brusselaars niet hier geboren](https://www.tijd.be/nieuws/archief/62_procent_Brusselaars_niet_hier_geboren/9692893.html), tijd.be](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/tijd-metadata-ml.png)
+![A web browser displaying an article called '62 procent Brusselaars niet hier geboren' ('62 percent of people in Brussels not born here') on the website tijd.be](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/tijd-metadata-ml.png)
 
 Source: [62 procent Brusselaars niet hier geboren](https://www.tijd.be/nieuws/archief/62_procent_Brusselaars_niet_hier_geboren/9692893.html), tijd.be
 
@@ -12,7 +12,7 @@ According to the article, Brussels is the city with the second highest percentag
 
 The author of the article (me, Maarten Lambrechts, your trainer) found the statistic in a very trusted source: the [World Migration Report 2015](https://publications.iom.int/books/world-migration-report-2015-migrants-and-cities-new-partnerships-manage-mobility), published by the International Organisation for Migration from the UN. The report contains the following chart:
 
-![Source: [World Migration Report 2015](https://publications.iom.int/system/files/pdf/wmr2015_en.pdf), iom.int](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/pop_brussels-worldmigrationreport2015.png)
+![A vertical bar chart titled 'Foreign-born population in major cities, with Brussels as the second highest value (62%) only behind Dubai'](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/pop_brussels-worldmigrationreport2015.png)
 
 Source: [World Migration Report 2015](https://publications.iom.int/system/files/pdf/wmr2015_en.pdf), iom.int
 
@@ -33,13 +33,13 @@ The authors of the World Migration Report didn’t read the metadata of the sour
 
 In April 2014, 276 school girls were kidnapped from a school in Chibok in eastern Nigeria by terrorist group Boko Haram. US based data journalism medium FiveThirtyEight tried to put this horrific event in a historical context, and took a look at the bigger picture.
 
-![Source: [Kidnapping of Girls in Nigeria Is Part of a Worsening Problem](https://fivethirtyeight.com/features/nigeria-kidnapping/), fivethirtyeight.com](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/fivethirtyeight-kidnappings-edited.png)
+![A web browser displaying the article 'Kidnapping of Girls in Nigeria Is Part of a Worsening Problem' on fivethirtyeight.com](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/fivethirtyeight-kidnappings-edited.png)
 
 Source: [Kidnapping of Girls in Nigeria Is Part of a Worsening Problem](https://fivethirtyeight.com/features/nigeria-kidnapping/), fivethirtyeight.com
 
 The worsening trend mentioned in the headline of the article is illustrated with the following chart:
 
-![Source: [Kidnapping of Girls in Nigeria Is Part of a Worsening Problem](https://fivethirtyeight.com/features/nigeria-kidnapping/), fivethirtyeight.com](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/chalabi-datalab-kidnap.webp)
+![A bar chart with title 'Abduction Trends' and subtitle 'Daily kidnappings in Nigeria, 1982-2014](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/chalabi-datalab-kidnap.webp)
 
 Source: [Kidnapping of Girls in Nigeria Is Part of a Worsening Problem](https://fivethirtyeight.com/features/nigeria-kidnapping/), fivethirtyeight.com
 
@@ -51,7 +51,7 @@ And even more problematic is the assumption that one event or location in the da
 
 As a result, the article needed to be updated, mentioning “This post should refer to media reports of kidnappings, not kidnappings.”
 
-![Source: [Kidnapping of Girls in Nigeria Is Part of a Worsening Problem](https://fivethirtyeight.com/features/nigeria-kidnapping/), fivethirtyeight.com](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/fivethirtyeight-gdelt-original.png)
+![A web browser displaying the article 'Kidnapping of Girls in Nigeria Is Part of a Worsening Problem' on fivethirtyeight.com](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/fivethirtyeight-gdelt-original.png)
 
 Source: [Kidnapping of Girls in Nigeria Is Part of a Worsening Problem](https://fivethirtyeight.com/features/nigeria-kidnapping/), fivethirtyeight.com
 
@@ -63,7 +63,7 @@ So the journalist of FiveThirtyEight took the records in the GDELT database at f
 
 On September 23 1999, and after a 283 day journey through space,  NASA’s Mars Climate Orbiter, worth 125 million dollars, performed a maneuver high in orbit of the red planet, causing it to burn up in the Martian atmosphere. 
 
-![Source: [NASA/JPL](https://commons.wikimedia.org/wiki/File:Mars_Climate_Orbiter_-_artist_depiction_-_climate-orbiter-browse.jpg), public domain](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/Mars_Climate_Orbiter_-_artist_depiction_-_climate-orbiter-browse.jpg)
+![Rendering of the Mars Climate Orbiter above a white and orange planet](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/Mars_Climate_Orbiter_-_artist_depiction_-_climate-orbiter-browse.jpg)
 
 Source: [NASA/JPL](https://commons.wikimedia.org/wiki/File:Mars_Climate_Orbiter_-_artist_depiction_-_climate-orbiter-browse.jpg), public domain
 

@@ -1,10 +1,10 @@
 Outliers are data points with extreme high or low values. They can point to errors in the data, and they can also skew analysis results (they can have a big effect on the average value, for example, see the <span class='internal-link'>[mean versus the median](the-mean-versus-the-median)</span> page). In visualisations, outliers can hide the finer details in the other values.
 
-![An outlier in the data is squeezing the other data points all to the left of the chart. Source: [Why Budapest, Warsaw, and Lithuania split themselves in two](https://pudding.cool/2019/04/eu-regions/), pudding.cool](Pitfalls%20in%20data%20eb8fedacd9fb46a98a3c448baaa69495/outlier-eu-regions.png)
+![A dot plot in which dots represent the regions in the EU. An arrow is pointing to the Inner London - West region, wich is  a clear outlier with a value much higher than the other regions](Pitfalls%20in%20data%20eb8fedacd9fb46a98a3c448baaa69495/outlier-eu-regions.png)
 
 An outlier in the data is squeezing the other data points all to the left of the chart. Source: [Why Budapest, Warsaw, and Lithuania split themselves in two](https://pudding.cool/2019/04/eu-regions/), pudding.cool
 
-![Removing the outlier gives more space to the other data points. Source: [Why Budapest, Warsaw, and Lithuania split themselves in two](https://pudding.cool/2019/04/eu-regions/), pudding.cool](Pitfalls%20in%20data%20eb8fedacd9fb46a98a3c448baaa69495/eu-regions-outlier-removed.png)
+![The same plot as above, but with the outlier removed](Pitfalls%20in%20data%20eb8fedacd9fb46a98a3c448baaa69495/eu-regions-outlier-removed.png)
 
 Removing the outlier gives more space to the other data points. Source: [Why Budapest, Warsaw, and Lithuania split themselves in two](https://pudding.cool/2019/04/eu-regions/), pudding.cool
 

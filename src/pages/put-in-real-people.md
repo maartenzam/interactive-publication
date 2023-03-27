@@ -2,17 +2,17 @@ Research has shown that the role of anthropographics in provoking empathy [might
 
 An excellent example of putting in real people is [Dollar Street](https://www.gapminder.org/dollar-street). Dollar Street visited 264 families in 50 countries and collected 30.000 photographs to show these families and how their income relates to their living conditions. The project manages to humanise dry statistics by putting a face to the families, it makes the experience of consuming the numbers much more visceral.
 
-![Source: [gapminder.org/dollar-street](https://www.gapminder.org/dollar-street)](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/dollar-street-overview.png)
+![A web browser showing the Dollar Street project, with pictures of 8 families](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/dollar-street-overview.png)
 
 Source: [gapminder.org/dollar-street](https://www.gapminder.org/dollar-street)
 
-![Source: [gapminder.org/dollar-street](https://www.gapminder.org/dollar-street)](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/dollar-street-detail.png)
+![A web browser showing the pictures of the inside of the home of a family in Jordann](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/dollar-street-detail.png)
 
 Source: [gapminder.org/dollar-street](https://www.gapminder.org/dollar-street)
 
 In [The Last Person You’d Expect to Die in Childbirth](https://www.propublica.org/article/die-in-childbirth-maternal-death-rate-health-care-system), the issue of maternal deaths in the United States is introduced by telling the story of neonatal intensive car nurse Laura Bloomstein. Laura died soon after giving birth to a baby girl in 2011.
 
-![Source: [The Last Person You’d Expect to Die in Childbirth](https://www.propublica.org/article/die-in-childbirth-maternal-death-rate-health-care-system), propublica.org](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/maternal-mortality-lead-pro-publica.jpg)
+![A collage of picutres of woman on the beach, with a newborn and on a party](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/maternal-mortality-lead-pro-publica.jpg)
 
 Source: [The Last Person You’d Expect to Die in Childbirth](https://www.propublica.org/article/die-in-childbirth-maternal-death-rate-health-care-system), propublica.org
 
@@ -20,7 +20,7 @@ Laura’s story is a gripping story, and it is impossible not to go through many
 
 Only after Laura’s story, the statistics showing this problem are presented through data visualisation.
 
-![Source: [The Last Person You’d Expect to Die in Childbirth](https://www.propublica.org/article/die-in-childbirth-maternal-death-rate-health-care-system), propublica.org](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/propublica-maternal-deaths.png)
+![A line chart showing increasing maternal mortality in the US, while the lines for other countries are going down](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/propublica-maternal-deaths.png)
 
 Source: [The Last Person You’d Expect to Die in Childbirth](https://www.propublica.org/article/die-in-childbirth-maternal-death-rate-health-care-system), propublica.org
 
