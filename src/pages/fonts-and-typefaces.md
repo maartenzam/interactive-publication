@@ -3,7 +3,7 @@ The words "font" and "typeface" used to mean different things, but today the two
 Google Fonts calls variants “styles”. Below are the 12 available styles of the Roboto font.
 
 <p class='center'>
-<img src='Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/roboto.png' alt='Source: [fonts.google.com/specimen/Roboto](http://fonts.google.com/specimen/Roboto)' class='max-600' />
+<img src='Typography%20and%20the%20design%20of%20text%20elements%203d739b7b83f2405290637ce3d7a4a814/roboto.png' alt='The text "Almost before we knew it, we had left the ground" in the Roboto font with increasing font weights' class='max-600' />
 </p>
 
 Source: [fonts.google.com/specimen/Roboto](http://fonts.google.com/specimen/Roboto)

@@ -10,7 +10,7 @@ Consider the following data table, containing some data about 4 types of cars.
 
 Almost all visualisation software will have some way of creating a scatter plot from this data. In many cases, it will be as simple selecting the data in a spreadsheet and hitting the scatterplot button. 
 
-![A scatterplot generated from the dataset about cars. Source: Maarten Lambrechts, CC BY SA 4.0](Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/scatterplot-cars.png)
+![A scatterplot generated from the dataset about cars, with horsepower on the y axis and engine displacement on the x axis. The colours of the dots represent the number of cylinders. The Honda Civic, the Fiat 128, the Mazda RX4 and the Pontiac Firebird are labelled on the chart](Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/scatterplot-cars.png)
 
 A scatterplot generated from the dataset about cars. Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -40,13 +40,13 @@ But for now, the dots are still living in an abstract space, with position coord
 
 With this calculated data, the software can finally render the scatter plot: dots are positioned and coloured based on the calculated values.
 
-![Source: Maarten Lambrechts](Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/bare-scatterplot-cars.png)
+![A set of coloured dots, without axes or labels](Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/bare-scatterplot-cars.png)
 
 Source: Maarten Lambrechts
 
 In a final step, other elements are added to the chart to make the scatter plot more readable and understandable, like a chart title, grid lines and axis labels.
 
-![A scatterplot generated from the dataset about cars. Source: Maarten Lambrechts, CC BY SA 4.0](Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/scatterplot-cars.png)
+![The same scatterplot as in the beginning of the page](Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/scatterplot-cars.png)
 
 A scatterplot generated from the dataset about cars. Source: Maarten Lambrechts, CC BY SA 4.0
 

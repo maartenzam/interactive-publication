@@ -3,14 +3,14 @@ Apart from ensuring <span class='internal-link'>[contrast](colour-contrast)</spa
 But in some graphics, the figure-ground is metastable, which means that it can be seen in multiple ways: some people might see the background as the figure and vice versa. The most famous example of this is the vase/faces image: depending on what you focus on in the image, you either see 2 black faces or a white vase.
 
 <p class='center'>
-<img src='Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/Cup_or_faces_paradox.svg.png' alt='Source: [Bryan Derksen](), CC BY-SA 3.0' class='max-600' />
+<img src='Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/Cup_or_faces_paradox.svg.png' alt='A silhouette of 2 black faces that could also be seen as the silhouette of a vase between them in white' class='max-600' />
 </p>
 
 Source: [Bryan Derksen](https://commons.wikimedia.org/wiki/File:Cup_or_faces_paradox.svg), CC BY-SA 3.0
 
 The elements in the image have more than enough contrast, but they are competing visually to get in front of one and other. In data visualisation, a similar effect can occur, especially in visualisations with non-white backgrounds and with crammed designs.
 
-![Source: [https://twitter.com/IMDb/status/1468600009285320707](https://twitter.com/IMDb/status/1468600009285320707)](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/imdb-figure-ground.jpg)
+![A horizontal bar chart titled 'Top 10 movies of 2021', with bars with pink-orange gradient running from right to left representing the movies' IMDb rating. Because of the black background of the chart, you could also see black bars running from left to right](Colour%20the%20basics%20a90e331756d2497aa8b2b3ce26b9e3de/imdb-figure-ground.jpg)
 
 Source: [https://twitter.com/IMDb/status/1468600009285320707](https://twitter.com/IMDb/status/1468600009285320707)
 

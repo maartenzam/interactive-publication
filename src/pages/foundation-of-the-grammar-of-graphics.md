@@ -1,13 +1,13 @@
 A scatter plot is a relatively simple chart type, and <span class='internal-link'>[describing it](describing-visualisations)</span> is not a very difficult task. But would it be possible to come up with a good description of a <span class='internal-link'>[raincloud plot](density-violin-and-raincloud-plots)</span>, for example? How would a description for this chart look like?
 
-![A raincloud plot shows distributions by combining a density plot with a dot plot. See more about rain cloud plots and other charts for visualising distributions in the ‣ module of the Deep dive into chart types training. Source: Maarten Lambrechts, CC BY SA 4.0](Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/penguin-rainclouds.png)
+![Three raincloud plots showing the distribution of the bill length of 3 species of penguins](Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/penguin-rainclouds.png)
 
 A raincloud plot shows distributions by combining a density plot with a dot plot. Source: Maarten Lambrechts, CC BY SA 4.0
 
 So the question is: would it be possible to come up with a set of concepts to describe all visualisation types? That is exactly the question that Leland Wilkinson set out to answer when he wrote The Grammar of Graphics.
 
 <p class='center'>
-<img src='Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/cover-grammar-of-graphics-springer.jpg' alt='' class='max-400' />
+<img src='Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/cover-grammar-of-graphics-springer.jpg' alt='Cover of the book The Grammar of Graphics by Leland Wilkinson' class='max-400' />
 </p>
 
 Cover of the second edition of the Grammar of Graphics. The first edition was published in 1999. Source: [springer.com](https://link.springer.com/book/10.1007/0-387-28695-0)
@@ -26,6 +26,6 @@ In linguistics, the study of language, the term “grammar” refers to a set of
 
 The Grammar of Graphics is a big book, and it is not an easy read: it introduces a lot of abstract concepts and contains abstract pseudo code to explain how data visualisations are constructed.
 
-![An excerpt from the Grammar of Graphics, showing how a pie chart can be described (a description of a visualisation is called a “specification”). Using the Grammar of Graphics, you’ll understand that a pie chart is just a stacked bar chart using polar coordinates instead of cartesian coordinates. Source: [Grammar of Graphics](https://link.springer.com/book/10.1007/0-387-28695-0)](Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/GoG-pie-chart-specification.png)
+![Some pseudo-code, and a schematic drawing explaining how a pie chart is constructed from data](Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/GoG-pie-chart-specification.png)
 
 An excerpt from the Grammar of Graphics, showing how a pie chart can be described (a description of a visualisation is called a “specification”). Using the Grammar of Graphics, you’ll understand that a pie chart is just a stacked bar chart using polar coordinates instead of cartesian coordinates. Source: [Grammar of Graphics](https://link.springer.com/book/10.1007/0-387-28695-0)

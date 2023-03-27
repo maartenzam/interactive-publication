@@ -3,7 +3,7 @@ One advantage of bitmap images, like jpg or png files, have over vector file for
 In contrast, text in vector graphics is accessible. But  when a vector file is viewed on a computer that does not have the font of the text installed, the text will be rendered using a default font, different from the intended one. This is common when graphic files like Adobe Illustrator files are exchanged: when a used font is missing on the computer used to open the file, Illustrator will show a warning.
 
 <p class='center'>
-<img src='Data%20visualisation%20design%20in%20practice%201%20design%20tri%201d0d3c62419c4546846d9a92f783836c/illustrator-missing-fonts.png' alt='' class='max-600' />
+<img src='Data%20visualisation%20design%20in%20practice%201%20design%20tri%201d0d3c62419c4546846d9a92f783836c/illustrator-missing-fonts.png' alt='A software programme dialogue from Adobe Illustrator with the message "The document uses fonts that are currently not available on your computer", and lists 3 missing fonts' class='max-600' />
 </p>
 
 Source: [astutegraphics.com](https://astutegraphics.com/)
@@ -12,7 +12,7 @@ When a missing font is open and freely available, the solution is as easy as dow
 
 Embedding fonts is common in PDF files and Adobe software files, but fonts can also be embedded in Word and Powerpoint files, for example.
 
-![The options for embedding fonts when saving a Microsoft Word document. Source: [support.microsoft.com](https://support.microsoft.com/en-us/office/benefits-of-embedding-custom-fonts-cb3982aa-ea76-4323-b008-86670f222dbc#OfficeVersion=Windows)](Data%20visualisation%20design%20in%20practice%201%20design%20tri%201d0d3c62419c4546846d9a92f783836c/embed-fonts-word.png)
+![A software dialogue offering the option to Embed fonts in a Word document](Data%20visualisation%20design%20in%20practice%201%20design%20tri%201d0d3c62419c4546846d9a92f783836c/embed-fonts-word.png)
 
 The options for embedding fonts when saving a Microsoft Word document. Source: [support.microsoft.com](https://support.microsoft.com/en-us/office/benefits-of-embedding-custom-fonts-cb3982aa-ea76-4323-b008-86670f222dbc#OfficeVersion=Windows)
 
