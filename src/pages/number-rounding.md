@@ -7,7 +7,7 @@ Rounding numbers in your visualisations will improve legibility: rounded numbers
 An easy rule to follow in the formatting of numbers is simply to remove leading and trailing zeroes. “1,5” means the same as “1,500” and it is easier to read, so the trailing zeroes should be removed and the number should be displayed as “1,5”.
 
 <p class='center'>
-<img src='Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3/axis-too-much-precision2x.png' alt='The y axis labels have too much precision, and the trailing zeroes should be removed. Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />
+<img src='Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3/axis-too-much-precision2x.png' alt='A line chart with the labels on the y axis having too much precision' class='max-600' />
 </p>
 
 The y axis labels have too much precision, and the trailing zeroes should be removed. Source: Maarten Lambrechts, CC BY 4.0
@@ -22,7 +22,7 @@ Note that writing “1.501 meters” or “1,501 kilometer” is meaningless whe
 
 This rule is often disrespected when numbers have a certain degree of uncertainty. If numbers are reported with a confidence interval, it is not meaningful, or even misleading to label values with too many significant digits. For example, if a value is reported with a confidence interval with limits of 137 and 162 it is not really meaningful to write the point estimate to be 149,5. This number might have significant digits that are too precise for the measurement (the boundaries of the confidence intervals are reported as integers in this case, so the measurement might only have an accuracy of 1). An on top of that, the number is just an estimate, and not a precise number.
 
-![A visualisation showing confidence intervals. The central estimate should probably be less stressed visually, and the labels should be left out, or suggest less precision. Source: [Ruimterapport Vlaanderen](https://omgeving.vlaanderen.be/ruimterapport)](Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3/confidence-intervals.jpg)
+![ ](Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3/confidence-intervals.jpg)
 
 A visualisation showing confidence intervals. The central estimate should probably be less stressed visually, and the labels should be left out, or suggest less precision. Source: [Ruimterapport Vlaanderen](https://omgeving.vlaanderen.be/ruimterapport)
 
@@ -45,7 +45,7 @@ A pie chart totalling 99%. Source: Maarten Lambrechts, CC BY 4.0
 In that case, rounding to 1 decimal might be appropriate (but values still might total to values like 99,9 or 100,1%).
 
 <p class='center'>
-<img src='Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3/pie-numbers-1002x.png' alt='Adding an additional significant number solves the rounding issue. Source: Maarten Lambrechts, CC BY 4.0' class='max-600' />
+<img src='Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3/pie-numbers-1002x.png' alt='A pie chart totalling 100%, with data labels with an additional significant number' class='max-600' />
 </p>
 
 Adding an additional significant number solves the rounding issue. Source: Maarten Lambrechts, CC BY 4.0

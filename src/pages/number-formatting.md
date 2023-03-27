@@ -6,7 +6,7 @@
 
 In most but not all European countries, the comma is used as the decimal sign. So the decimal sign is localised, and formatting of numbers should be taken into account when translating visualisations, and when making visualisations for a wider audience.
 
-![The use of decimal signs worldwide. Green = comma, blue = point, blue-green is both and red = Arabic decimal separator. Source: [NuclearVacuum](https://commons.wikimedia.org/wiki/File:DecimalSeparator.svg), CC BY-SA 3.0](Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3/DecimalSeparator.svg.png)
+![A world map showing what decimal sign is used where](Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3/DecimalSeparator.svg.png)
 
 The use of decimal signs worldwide. Green = comma, blue = point, blue-green is both and red = Arabic decimal separator. Source: [NuclearVacuum](https://commons.wikimedia.org/wiki/File:DecimalSeparator.svg), CC BY-SA 3.0
 
@@ -40,7 +40,7 @@ Recently, the Financial Times stopped using “m” for millions for another rea
 Visualisation tools can have built in number formatting, which means that they will pick a default formatting (and rounding) for the numbers displayed on a visualisation, based on the settings of your computer or browser, the amount displayed and role the number plays on a visualisation (axis label, number in a tooltip, ...). Good tools will give you the option to choose a different formatting, or even customise the formatting yourself.
 
 <p class='center'>
-<img src='Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3/number-formatting-datawrapper.png' alt='Number formatting options in Datawrapper' class='max-400' />
+<img src='Numbers%20and%20number%20formatting%2038f6da07bd394d2db4c79e3b8c2a53e3/number-formatting-datawrapper.png' alt='Number formatting options available in Datawrapper' class='max-400' />
 </p>
 
 Number formatting options in Datawrapper

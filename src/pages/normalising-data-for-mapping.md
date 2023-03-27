@@ -2,13 +2,13 @@ The <span class='internal-link'>[normalising data](normalising-data)</span> desc
 
 Weighing by population is very important in choropleth maps (maps that show numerical values associated with administrative areas, using different shades of colours). Below is a choropleth map of the number of soldiers by country. Can you see how the most populous countries (China, India, United States) have the most soldiers, and why the map is more of a population map than a map about army sizes?
 
-![Source: [Danalm000](https://commons.wikimedia.org/wiki/File:Countries_by_soldier_count.svg), CC-BY-SA 3.0](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/1280px-Countries_by_soldier_count.svg.png)
+![A choropleth map of the number of soldiers in each country's army](Ethics%20in%20data%20visualisation%201a9252053a714191a1f8cc31071467fa/1280px-Countries_by_soldier_count.svg.png)
 
 Source: [Danalm000](https://commons.wikimedia.org/wiki/File:Countries_by_soldier_count.svg), CC-BY-SA 3.0
 
 The map below shows the 2016 election results at the county level.
 
-![Source: [@TreyYingst](https://twitter.com/TreyYingst/status/862669407868391424)](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/trump-choropleth-map.jpg)
+![A choropleth map in blue and red titled '2016' Presidential Election Results](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/trump-choropleth-map.jpg)
 
 Source: [@TreyYingst](https://twitter.com/TreyYingst/status/862669407868391424)
 
@@ -24,7 +24,7 @@ Source: [Karim Douieb](https://observablehq.com/@karimdouieb/try-to-impeach-this
 
 The animation in the video above shows an alternative mapping technique for choropleth maps. It uses circles to represent counties, with the size of the circle proportional to the population in each county.
 
-![Source: [Karim Douieb](https://observablehq.com/@karimdouieb/try-to-impeach-this-challenge-accepted)](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/dorling-map-karim.png)
+![A bubble map showing blue and red counties](Pitfalls%20in%20mapping%20d062d31d59714b4183eff65fe1492566/dorling-map-karim.png)
 
 Source: [Karim Douieb](https://observablehq.com/@karimdouieb/try-to-impeach-this-challenge-accepted)
 
