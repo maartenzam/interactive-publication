@@ -16,7 +16,7 @@ When selecting a template from the chart template gallery, a visualisation with 
 
 Some tools have built in themes that you can use to move away from the default theme.
 
-![Changing colours and chart design in Microsoft Excel. Source: Maarten Lambrechts, CC BY SA 4.0](Reproducing%20and%20reusing%20visualisations%20f0a47303bda6460eb93956910177ad23/Excel-theming.png)
+![A screenshot of the Microsoft Excel interface to change the colours used on a bar chart](Reproducing%20and%20reusing%20visualisations%20f0a47303bda6460eb93956910177ad23/Excel-theming.png)
 
 Changing colours and chart design in Microsoft Excel. Source: Maarten Lambrechts, CC BY SA 4.0
 

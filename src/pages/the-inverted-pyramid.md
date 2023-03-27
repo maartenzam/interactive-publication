@@ -1,6 +1,6 @@
 In journalism, the “inverted pyramid” refers to a metaphor used to structure the content of news articles. According to the inverted pyramid, the most important and interesting information in an article should already be contained in the first few sentences. Details can follow later in the text, and additional background information should be mentioned last.
 
-![Source: [Makeemlighter](https://commons.wikimedia.org/wiki/File:Inverted_pyramid_2.svg), public domain](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/Inverted_pyramid_2.svg.png)
+![An inverted pyramid, with 'Most Newsworthy Info' on top, 'Important Details' below it, and 'Other General Info, Background Info' at the bottom](Journalistic%20techniques%20for%20data%20storytelling%208bdd09bf88074238b1fe53b3a2116e1e/Inverted_pyramid_2.svg.png)
 
 Source: [Makeemlighter](https://commons.wikimedia.org/wiki/File:Inverted_pyramid_2.svg), public domain
 

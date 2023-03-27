@@ -12,7 +12,7 @@ Reading this article, you have already seen this pattern at work: just scroll ba
 
 Here is another example, this time from Hungary:
 
-![Source: [atlatszo.hu](https://atlatszo.hu/kozugy/2022/01/27/magyarorszag-az-eu-masodik-legkorruptabb-orszaga-egyre-lejjebb-csuszunk-a-transparency-international-rangsoran/)](Visual%20hierarchy%2032d60a2016ea4334ae0d7e2395559439/atlatszo-color.png)
+![A line chart with Hungarian text. The chart is in greyscale except for the line and the name of Hungary](Visual%20hierarchy%2032d60a2016ea4334ae0d7e2395559439/atlatszo-color.png)
 
 Source: [atlatszo.hu](https://atlatszo.hu/kozugy/2022/01/27/magyarorszag-az-eu-masodik-legkorruptabb-orszaga-egyre-lejjebb-csuszunk-a-transparency-international-rangsoran/)
 

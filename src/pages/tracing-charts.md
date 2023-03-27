@@ -15,9 +15,8 @@ A tool to get the data out of a visualisation is [WebPlotDigitizer](https://auto
 - you trace the lines or bars on the visualisation
 - you download the dataset with the data values you traced
     
-![The WebPlotDigitizer interface. Source: Maarten Lambrechts, CC BY SA 4.0](Reproducing%20and%20reusing%20visualisations%20f0a47303bda6460eb93956910177ad23/webplotdigitizer.png)
+![ ](Reproducing%20and%20reusing%20visualisations%20f0a47303bda6460eb93956910177ad23/webplotdigitizer.png)
     
     The WebPlotDigitizer interface. Source: Maarten Lambrechts, CC BY SA 4.0
     
-
 WebPlotDigitizer can be handy if it is impossible to obtain the source data of a visualisation you would like to reproduce. Because it results in a dataset you can work with, it is preferred over tracing a chart. But it still better to try to obtain the source data the chart author used to produce the original visualisation, and only resort to WebPlotDigitizer if this is not possible.

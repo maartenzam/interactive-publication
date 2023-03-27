@@ -1,6 +1,10 @@
+<script>
+    import Reveal from '$lib/components/Reveal.svelte'
+</script>
+
 Consider the chart below.
 
-![Source: [reddit.com](https://www.reddit.com/r/dataisbeautiful/comments/2o1rfe/heart_rate_bpm_during_marriage_proposal_oc/)](Text%20annotations%204d77570c409249378ca558ae45eb0d67/no-text4x.png)
+![A line chart with dots representing measurements and fitted line between them. The title of the y axis is Heart rate (bmp) and the title of the x axis is Time axis (about 40 minutes)](Text%20annotations%204d77570c409249378ca558ae45eb0d67/no-text4x.png)
 
 Source: [reddit.com](https://www.reddit.com/r/dataisbeautiful/comments/2o1rfe/heart_rate_bpm_during_marriage_proposal_oc/)
 
@@ -8,13 +12,13 @@ From the annotations in the bottom, you can read that the chart shows the heart 
 
 The importance of chart titles is explained on the <span class='internal-link'>[importance of chart titles](the-importance-of-chart-titles)</span> page. Adding the original title to the chart confirms that this can help enourmously in understanding and interpreting a visualisation.
 
-![Source: [reddit.com](https://www.reddit.com/r/dataisbeautiful/comments/2o1rfe/heart_rate_bpm_during_marriage_proposal_oc/)](Text%20annotations%204d77570c409249378ca558ae45eb0d67/title-only4x.png)
+![The same chart as above, but with the title 'Heart rate (bpm) during marriage proposal'](Text%20annotations%204d77570c409249378ca558ae45eb0d67/title-only4x.png)
 
 Source: [reddit.com](https://www.reddit.com/r/dataisbeautiful/comments/2o1rfe/heart_rate_bpm_during_marriage_proposal_oc/)
 
 Now you might suspect at what moment this man proposed to his partner. But a lot more can happen over a 40 minute time period. Let’s add the annotations that were part of the original visualisation:
 
-![Source: [reddit.com](https://www.reddit.com/r/dataisbeautiful/comments/2o1rfe/heart_rate_bpm_during_marriage_proposal_oc/)](Text%20annotations%204d77570c409249378ca558ae45eb0d67/all-text4x.png)
+![The same chart as above, but with annotations explaining what happened before, during and after the proposal](Text%20annotations%204d77570c409249378ca558ae45eb0d67/all-text4x.png)
 
 Source: [reddit.com](https://www.reddit.com/r/dataisbeautiful/comments/2o1rfe/heart_rate_bpm_during_marriage_proposal_oc/)
 
@@ -24,7 +28,7 @@ This example shows the power of annotations: they provide an additional layer of
 
 Annotations also work great in photography, as the following example about a much less happy topic shows.
 
-![Source: [Lauren Tierney](https://twitter.com/tierneyl/status/1503729507668312065), washingtonpost.com](Text%20annotations%204d77570c409249378ca558ae45eb0d67/annotated-picture.jpg)
+![An annotated satellite image of the Ukraine city of Mariupol](Text%20annotations%204d77570c409249378ca558ae45eb0d67/annotated-picture.jpg)
 
 Source: [Lauren Tierney](https://twitter.com/tierneyl/status/1503729507668312065), washingtonpost.com
 
@@ -34,8 +38,7 @@ But media have demonstrated that annotations are a powerful mechanism to communi
 
 Here is another illustration: look at the chart below, and then click on the toggle below it to see the chart with annotations added.
 
-![ruble-no-annotations@2x.png](Text%20annotations%204d77570c409249378ca558ae45eb0d67/ruble-no-annotations2x.png)
+![A chart titled 'Rouble tumbles to record low', showing the devaluation of the Russian rouble over the 2000 - 2022 period](Text%20annotations%204d77570c409249378ca558ae45eb0d67/ruble-no-annotations2x.png)
 
-- Click here to reveal the chart with annotations
-    
-    ![ft-rouble-annotations.png](Text%20annotations%204d77570c409249378ca558ae45eb0d67/ft-rouble-annotations.png)
+<Reveal label="Click here to reveal the chart with annotations" content="<p>
+<img src='Text%20annotations%204d77570c409249378ca558ae45eb0d67/ft-rouble-annotations.png' alt='The same chart as above but with annotations showing the timing of events in the recent history of Russia' /></p>"></Reveal>

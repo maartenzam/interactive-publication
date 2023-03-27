@@ -1,6 +1,6 @@
 Most Americans believe that there is such a thing as a soulmate, as you can see from the chart below:
 
-![Source: [Do Americans believe in the idea of soulmates?](https://today.yougov.com/topics/lifestyle/articles-reports/2021/02/10/soulmates-poll-survey-data), yougov.com](Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/yougov-soulmates-2021.png)
+![A stacked bar chart showing the proportion of different demographics that believe in soulmates](Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/yougov-soulmates-2021.png)
 
 Source: [Do Americans believe in the idea of soulmates?](https://today.yougov.com/topics/lifestyle/articles-reports/2021/02/10/soulmates-poll-survey-data), yougov.com
 
@@ -8,7 +8,7 @@ We know this because YouGov, a survey and research company, polls around 15.000 
 
 In 2015, the share of Americans believing in soulmates was a bit higher: 68 percent instead of 60 percent in 2021. But the most striking conclusion from the 2015 survey was that when the people believing in soulmates were asked the question “How many soulmates do you think a person can have?”, the average answer was... 3.741.057!
 
-![Source: [YouGov](http://cdn.yougov.com/cumulus_uploads/document/210ti0sx4y/tabs_OPI_soulmates_20150330.pdf)](Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/yougov-soulmates-mean.png)
+![A table showing the average number of soulmates that people answered someone can have for males and females and by age class](Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/yougov-soulmates-mean.png)
 
 Source: [YouGov](http://cdn.yougov.com/cumulus_uploads/document/210ti0sx4y/tabs_OPI_soulmates_20150330.pdf)
 
@@ -20,7 +20,7 @@ A better metric to summarise how many soulmates Americans think you can have (or
 
 We can see that from the median of the answers to the soulmates question:
 
-![Source: [YouGov](http://cdn.yougov.com/cumulus_uploads/document/210ti0sx4y/tabs_OPI_soulmates_20150330.pdf)](Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/yougov-soulmates-medians.png)
+![The same table as above, but with a row added with the medians. For all demographics, the median is 1 or 2](Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/yougov-soulmates-medians.png)
 
 Source: [YouGov](http://cdn.yougov.com/cumulus_uploads/document/210ti0sx4y/tabs_OPI_soulmates_20150330.pdf)
 
@@ -28,7 +28,7 @@ Looking at the median of the number of soul mates one can have, all demographic 
 
 The full results for this survey question below show that the average value for the “Northeast” region is even negative! The median value is still 1.
 
-![Source: [YouGov](http://cdn.yougov.com/cumulus_uploads/document/210ti0sx4y/tabs_OPI_soulmates_20150330.pdf)](Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/yougov-soulmates-allresults.png)
+![A table showing more demographics, like white, black and hispanic, and a breakdown by region](Pitfalls%20in%20statistics%20averages,%20medians%20and%20distr%20cf84343854f04c8ebb618b372c38843e/yougov-soulmates-allresults.png)
 
 Source: [YouGov](http://cdn.yougov.com/cumulus_uploads/document/210ti0sx4y/tabs_OPI_soulmates_20150330.pdf)
 
@@ -38,4 +38,4 @@ An often heard argument against the median, is that many people don’t know wha
 
 <iframe src='https://graphics.axios.com/2019-04-06-occupation-demographics/index.html' width='100%' height='700px' style='border: none;'></iframe>
 
-Source: [The millennials who are making it](https://www.axios.com/the-oldest-and-youngest-jobs-in-the-us-millennials-d9738704-4c84-4208-8f15-8d997db170ac.html), axios.com
+_Source: [The millennials who are making it](https://www.axios.com/the-oldest-and-youngest-jobs-in-the-us-millennials-d9738704-4c84-4208-8f15-8d997db170ac.html), axios.com_

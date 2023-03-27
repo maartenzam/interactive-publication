@@ -1,6 +1,6 @@
 Looking at the visualisation below, we can also note that some elements in the chart are giving more weight by being enclosed.
 
-![Source: [atlatszo.hu](https://atlatszo.hu/kozugy/2022/01/27/magyarorszag-az-eu-masodik-legkorruptabb-orszaga-egyre-lejjebb-csuszunk-a-transparency-international-rangsoran/)](Visual%20hierarchy%2032d60a2016ea4334ae0d7e2395559439/atlatszo-color.png)
+![A line chart with Hungarian text, showing trends for the 1995 - 2021 period](Visual%20hierarchy%2032d60a2016ea4334ae0d7e2395559439/atlatszo-color.png)
 
 Source: [atlatszo.hu](https://atlatszo.hu/kozugy/2022/01/27/magyarorszag-az-eu-masodik-legkorruptabb-orszaga-egyre-lejjebb-csuszunk-a-transparency-international-rangsoran/)
 
@@ -14,6 +14,6 @@ Therefore, borders and boxes should be applied consciously, and not be put onto 
 🔎 Can you identify and name the visual channels (<span class="internal-link"><a href="visual-hierarchy-sizing">size</a></span>, <span class="internal-link"><a href="visual-hierarchy-colour">colour</a></span>, <span class="internal-link"><a href="visual-hierarchy-z-positioning">layering</a></span>, enclosure) used to create visual hierarchy in the chart below? What are the most important elements in the chart? Would you change anything in the design of the charts to optimise their visual hierarchy?
 </aside>
 
-![Source: [Why Covid Death Rates Are Rising for Some Groups](https://www.nytimes.com/interactive/2021/12/28/us/covid-deaths.html), nytimes.com](Visual%20hierarchy%2032d60a2016ea4334ae0d7e2395559439/hierarchy-exercise.png)
+![A series of small multiple slope charts titled 'Covid-19 deaths before and after universal adult vaccine eligibility'](Visual%20hierarchy%2032d60a2016ea4334ae0d7e2395559439/hierarchy-exercise.png)
 
 Source: [Why Covid Death Rates Are Rising for Some Groups](https://www.nytimes.com/interactive/2021/12/28/us/covid-deaths.html), nytimes.com

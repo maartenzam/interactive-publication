@@ -2,13 +2,13 @@ What do 1.3 billion plastic bottles (the global amount of bottles sold daily) lo
 
 A strategy to put these very big numbers into perspective is to compare them to other things that people are more familiar with. Like for example the Eiffel Tower:
 
-![Source: [Drowning in Plastic](https://graphics.reuters.com/ENVIRONMENT-PLASTIC/0100B275155/index.html), Reuters](Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/plastic-bottles-reuters1.png)
+![A mountain of plastic compared to the size of the Eiffel tower](Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/plastic-bottles-reuters1.png)
 
 Source: [Drowning in Plastic](https://graphics.reuters.com/ENVIRONMENT-PLASTIC/0100B275155/index.html), Reuters
 
 Not everyone in the world has seen the Eiffel Tower in Paris with their own eyes. But many people will have a mental model of the Tower and its size, and they probably know it is a pretty big structure. Seeing a simulated mountain of plastic bottles next to it gives a sense of scale.
 
-![A mountain of plastic bottles representing the total production of plastic bottles during the last 10 years, placed next to Manhattan, New York. Source: [Drowning in Plastic](https://graphics.reuters.com/ENVIRONMENT-PLASTIC/0100B275155/index.html), Reuters](Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/plastic-bottles-reuters2.png)
+![A mountain of plastic compared to the size of Manhattan](Can%20a%20chart%20tell%20a%20story%20942e60e2613a4b43af485e6fa3dbb23c/plastic-bottles-reuters2.png)
 
 A mountain of plastic bottles representing the total production of plastic bottles during the last 10 years, placed next to Manhattan, New York. Source: [Drowning in Plastic](https://graphics.reuters.com/ENVIRONMENT-PLASTIC/0100B275155/index.html), Reuters
 
@@ -18,4 +18,4 @@ To make big numbers like this relatable, they can be converted into units that p
 
 <iframe src="https://www.ons.gov.uk/visualisations/dvc685/calculator/index.html" width="100%" height="650px" style="border:none;"></iframe>
 
-Source: [The UK contribution to the EU budge](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/articles/theukcontributiontotheeubudget/2017-10-31)t, ONS
+_Source: [The UK contribution to the EU budge](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/articles/theukcontributiontotheeubudget/2017-10-31)t, ONS_

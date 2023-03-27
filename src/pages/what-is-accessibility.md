@@ -9,7 +9,7 @@ A more modern look on accessibility goes beyond the aspect of impairments, and t
 Microsoft’s [Inclusive Design](https://www.microsoft.com/design/inclusive/) methodology embraces this wider approach to disabilities and accessibility. The following diagram illustrates perfectly how disabilities are not personal attributes, but can also be temporary and situational.
 
 <p class='center'>
-<img src='a11y%208dc3351bebd74fdcbe0d2dd06f4d4024/persona-spectrum-microsoft.png' alt='' class='max-600' />
+<img src='a11y%208dc3351bebd74fdcbe0d2dd06f4d4024/persona-spectrum-microsoft.png' alt='Line drawings of different kinds of disabilities' class='max-600' />
 </p>
 
 Source: [Microsoft Inclusive Design Toolkit](https://download.microsoft.com/download/b/0/d/b0d4bf87-09ce-4417-8f28-d60703d672ed/inclusive_toolkit_manual_final.pdf)

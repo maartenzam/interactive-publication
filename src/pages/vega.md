@@ -24,7 +24,7 @@ Vega and its smaller and simpler sister Vega-Lite are languages to specify how a
 ```
 
 <p class='center'>
-<img src='Data%20visualisation%20design%20in%20practice%202%20tools%20208f06b06b0f4b21ad8ecf3047f02ce0/vega-bar.png' alt='' class='max-600' />
+<img src='Data%20visualisation%20design%20in%20practice%202%20tools%20208f06b06b0f4b21ad8ecf3047f02ce0/vega-bar.png' alt='The resulting vertical bar chart of the Vega-Lite specification above' class='max-600' />
 </p>
 
 Source: [vega.github.io/editor](https://vega.github.io/editor/#/)

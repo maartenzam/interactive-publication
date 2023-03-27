@@ -1,12 +1,12 @@
 A table containing numbers is closely related to a heatmap, in which each cell in the table is coloured according to the values it contains.
 
-![Source: Datawrapper](Table%20design%20fc020c95cbd840efb61aa1fdc6f6cb09/heatmap.png)
+![A heatmap of monthly unemployment rates in 11 countries](Table%20design%20fc020c95cbd840efb61aa1fdc6f6cb09/heatmap.png)
 
 Source: Datawrapper
 
 This heatmap technique of colouring cells depending on their numerical value, can also be applied to individual columns in a table. This can help find the lower and higher values in columns with (unsorted) numbers or help in signalling the proportions between the numbers.
 
-![heatmap-single-column.png](Table%20design%20fc020c95cbd840efb61aa1fdc6f6cb09/heatmap-single-column.png)
+![A list of the most visited museums in the world, with the column with the number of visitors coloured according the the values](Table%20design%20fc020c95cbd840efb61aa1fdc6f6cb09/heatmap-single-column.png)
 
 Another interesting technique for fusing visualisations and tables is to integrate bars into a column in which the bar length of the bar in a cell is proportional to the number it contains.
 

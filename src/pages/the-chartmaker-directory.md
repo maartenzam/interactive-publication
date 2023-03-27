@@ -1,3 +1,5 @@
 The [Chartmaker Directory](https://chartmaker.visualisingdata.com/) is a collection of 38 visualisation tools, cross linked with the types of visualisations they are able to produce. In the Chartmaker Directory’s matrix, you will find links to charts produced with the different tools, as well as links to tutorials that explain how to produce them.
 
-![chartmaker_directory.png](Data%20visualisation%20design%20in%20practice%202%20tools%20208f06b06b0f4b21ad8ecf3047f02ce0/chartmaker_directory.png)
+![A browser window displaying the Chartmaker Directory](Data%20visualisation%20design%20in%20practice%202%20tools%20208f06b06b0f4b21ad8ecf3047f02ce0/chartmaker_directory.png)
+
+Source: Maarten Lambrechts, CC-BY-SA 4.0

@@ -34,7 +34,7 @@ As a result, one of the conclusions of the study was the following:
 
 The researchers also studied what elements on a chart participants in the study were able to recall and describe from the visualisations shown to them. Here text elements were shown to be the chart elements that participants mentioned the most to describe the chart. And out of all text elements, the chart title proved to be the most important one.
 
-![Source: [Beyond Memorability: Visualization Recognition and Recall](https://vcg.seas.harvard.edu/files/pfister/files/infovis_submission251-camera.pdf), Borkin et al](Chart%20titles%20a7626097449d49709422757bf4a8c724/importance-of-title-borkin.png)
+![A vertical bar chart titled 'Textual elements are mentioned most often in descriptions. The title is mentioned the most of all'](Chart%20titles%20a7626097449d49709422757bf4a8c724/importance-of-title-borkin.png)
 
 Source: [Beyond Memorability: Visualization Recognition and Recall](https://vcg.seas.harvard.edu/files/pfister/files/infovis_submission251-camera.pdf), Borkin et al
 

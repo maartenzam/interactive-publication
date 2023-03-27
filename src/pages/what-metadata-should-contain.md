@@ -2,9 +2,9 @@ The 3 storis in the <span class='internal-link'>[pitfalls in metadata: 3 stories
 
 As a consequence, whenever data is published in any way, it should be accompanied by metadata. Good metadata will determine the validity of conclusions drawn from the data, will describe limitations on the use of the data and will determine the comparability of the data with other datasets and systems.
 
-![Links to the metadata in Eurostat’s Data Browser. Source: [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/migr_imm12prv/default/table?lang=en)](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/eurostat-metadata.png)
+![ ](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/eurostat-metadata.png)
 
-Links to the metadata in Eurostat’s Data Browser. Source: [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/migr_imm12prv/default/table?lang=en)
+Links to the metadata in Eurostat’s Data Browser highlighted on a Eurostat data set page. Source: [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/migr_imm12prv/default/table?lang=en)
 
 So what should good and complete metadata contain?
 
@@ -44,7 +44,7 @@ Data is always collected with a certain purpose. In the case of the FiveThirtyEi
 
 So understanding for what purpose the data was collected is very important for understanding its usage limits. Special attention should go to data collected by private entities. Take for example this headline taking from cnbc.com:
 
-![Source: [Owning cryptocurrency may make you more desirable on the dating scene, study finds](https://www.cnbc.com/2022/02/03/owning-crypto-may-make-you-more-desirable-on-the-dating-scene-study-finds.html), cnbc.com](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/cnbc-crypto.png)
+![Screenshot of an article titled 'Owning cryptocurrency may make you more desirable on teh dating scene, study finds' on cnbc.com](Pitfalls%20in%20metadata%203877fd81800c4080bf3c917e31a308a9/cnbc-crypto.png)
 
 Source: [Owning cryptocurrency may make you more desirable on the dating scene, study finds](https://www.cnbc.com/2022/02/03/owning-crypto-may-make-you-more-desirable-on-the-dating-scene-study-finds.html), cnbc.com
 

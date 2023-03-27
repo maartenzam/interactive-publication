@@ -10,7 +10,7 @@ Source: forked from [Scatterplot of Text Labels](https://observablehq.com/@abebr
 
 Instead of using circles, 2 or 3 letter country codes can be used to visualise the same data.
 
-![Source: forked from [Scatterplot of Text Labels](https://observablehq.com/@abebrath/scatterplot-of-text-labels), by Richard Brath](Visualising%20text%2073ea05fcce1b4ee5939cd29821ddd468/scatterplot-country-codes-brath.png)
+![A scatter plot of countries with birth rate on the x axis and death rate on the y axis. 2 letter country codes are used to mark each country, instead of circles](Visualising%20text%2073ea05fcce1b4ee5939cd29821ddd468/scatterplot-country-codes-brath.png)
 
 Source: forked from [Scatterplot of Text Labels](https://observablehq.com/@abebrath/scatterplot-of-text-labels), by Richard Brath
 

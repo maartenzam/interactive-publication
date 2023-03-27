@@ -2,10 +2,10 @@ Research has shown that the title of a visualisation is very important in commun
 
 So the title of a visualisation should not be a generic one, like “Share of renewables in energy used for heating and cooling”, but should instead communicate what the user should look for in the visualisation and what to take away from it, like “European Union slowly on its way to greener heating and cooling”.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Making%20data%20visualisations%20understandable%20648d0f70b68446a19ed8c94e7ef74fc2/chart-title-generic2x.png)
+![A line chart titled 'Share of renewables in energy used for heating and cooling'](Making%20data%20visualisations%20understandable%20648d0f70b68446a19ed8c94e7ef74fc2/chart-title-generic2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Making%20data%20visualisations%20understandable%20648d0f70b68446a19ed8c94e7ef74fc2/chart-title2x.png)
+![A line chart titled 'European Union slowly on its way to greener heating and cooling'](Making%20data%20visualisations%20understandable%20648d0f70b68446a19ed8c94e7ef74fc2/chart-title2x.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0

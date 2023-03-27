@@ -7,7 +7,7 @@ The most basic representation of a graph is the matrix (also called adjacency ma
 Consider this simple graph, with 6 nodes:
 
 <p class='center'>
-<img src='Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/simple-graph.png' alt='' class='max-400' />
+<img src='Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/simple-graph.png' alt='A network of 6 nodes, labelled with the letters A to F' class='max-400' />
 </p>
 
 Source: Maarten Lambrechts, CC BY SA 4.0
@@ -41,20 +41,20 @@ When the edges have a numerical property, like the distance between nodes, the m
 
 The numbers in a distance matrix can be used to size and/or colour shapes, which is sometimes called a **matrix plot**.
 
-![Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0](Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/distance-matrix.svg)
+![A matrix plot of distances between European cities](Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/distance-matrix.svg)
 
 Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0
 
 In the matrix plot above, the cities are sorted alphabetically. The way a matrix plot looks depends heavily on the sorting of the rows and columns. You can see that when comparing the matrix above with the one below, which is sorted according to the sums of the driving distances for every city.
 
-![Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0](Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/distance-matrix-sorted.svg)
+![A sorted matrix plot of distances between European cities](Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/distance-matrix-sorted.svg)
 
 Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0
 
 Another way of presenting a distance matrix (which can contain other numerical properties than physical distances between nodes), is an **arc diagram**. In an arc diagram the nodes are laid out next to each other, and the edges are represented as arcs of which the width is scaled according to the value of their numerical properties.
 
 <p class='center'>
-<img src='Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/distances-arcs.png' alt='' class='max-600' />
+<img src='Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/distances-arcs.png' alt='An arc diagram of distances between European cities' class='max-600' />
 </p>
 
 Source: Maarten Lambrechts, CC BY SA 4.0
@@ -64,13 +64,13 @@ As you can see from the example above, arc diagrams do not scale very well for l
 Arc diagrams work better for graphs in which the number of nodes are limited. If we go back to the simple graph from the beginning of this section, we can turn it into an arc diagram too.
 
 <p class='center'>
-<img src='Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/simple-graph.png' alt='' class='max-400' />
+<img src='Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/simple-graph.png' alt='A 6 node network, with the nodes labelled with the letters A to F' class='max-400' />
 </p>
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
 <p class='center'>
-<img src='Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/simple-arc-diagram.png' alt='' class='max-400' />
+<img src='Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/simple-arc-diagram.png' alt='An arc diagram of the same A to F network' class='max-400' />
 </p>
 
 Source: Maarten Lambrechts, CC BY SA 4.0

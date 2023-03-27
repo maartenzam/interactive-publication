@@ -4,18 +4,18 @@ An example of a hierarchical network is the taxonomy system used in biology. The
 
 A classical way to visualise taxonomical hierarchies is by using a **dendrogram**.
 
-![A dendrogram showing the taxonomy of the Felidae family, or cats. Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0](Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/felidae-dendrogram.svg)
+![ ](Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/felidae-dendrogram.svg)
 
 A dendrogram showing the taxonomy of the Felidae family, or cats. Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0
 
 A dendrogram can also have a circular layout.
 
-![Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0](Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/felidae-circular-dendrogram.svg)
+![A circular dendrogram showing the same data as the dendrogram above](Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/felidae-circular-dendrogram.svg)
 
 Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0
 
 An alternative to dendrograms are **nested circles** (also called **packed circles**), in which each higher level node encircles its children nodes.
 
-![Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0](Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/felidae-packed-circles.svg)
+![A packed circles visualisation of the same data set as used in the dendrograms above](Visualising%20hierarchies%20and%20networks%208bba0c0b346b49f1878fd362f1b4f86c/felidae-packed-circles.svg)
 
 Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0

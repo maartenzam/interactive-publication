@@ -4,7 +4,7 @@ The number of tools that have adopted a Grammar of Graphics-like approach to pro
 <img src='Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/datawrapper-chart-templates.png' alt='' class='max-600' />
 </p>
 
-Chart templates in Datawrapper. Source: Maarten Lambrechts, CC BY SA 4.0
+Chart templates available in Datawrapper. Source: Maarten Lambrechts, CC BY SA 4.0
 
 <p class='center'>
 <img src='Introduction%20and%20the%20origins%20of%20the%20Grammar%20of%20Gra%20750f4e73349846d4910a836da171d66d/numbers-chart-templates.png' alt='' class='max-400' />

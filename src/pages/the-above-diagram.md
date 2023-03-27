@@ -1,4 +1,4 @@
-![Source: [Infographics in the Time of Cholera](https://www.propublica.org/nerds/infographics-in-the-time-of-cholera), propublica.org](How%20to%20introduce%20less%20common%20chart%20types%2054daaa496c1540519f56f72f5ba88962/propublica-cholera-graphic-630.webp)
+![A line chart showing a line for total weekly deaths and weekly deaths by cholera during the summer of 1849 in New York](How%20to%20introduce%20less%20common%20chart%20types%2054daaa496c1540519f56f72f5ba88962/propublica-cholera-graphic-630.webp)
 
 Source: [Infographics in the Time of Cholera](https://www.propublica.org/nerds/infographics-in-the-time-of-cholera), propublica.org
 

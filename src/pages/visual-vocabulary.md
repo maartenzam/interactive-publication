@@ -2,7 +2,7 @@
 
 The Visual Vocabulary is a set of chart types organised by what aspects of your data the chart type can show best.
 
-![Source: [ft.com/vocabulary](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary)](Data%20visualisation%20galleries%2054f97b3d69b04dbe86cbf50ba86ab8c5/visual-vocabulary.png)
+![The full poster of the Visual Vocabulary](Data%20visualisation%20galleries%2054f97b3d69b04dbe86cbf50ba86ab8c5/visual-vocabulary.png)
 
 Source: [ft.com/vocabulary](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary)
 

@@ -3,7 +3,7 @@ In stem-and-leaf plots, a set of numbers is first ordered. Then the leaves are s
 The stem-and-leaf plot below represents the numbers 20, 30, 32, 35, 41, 41, 43, 47, 48, 51, 53, 53, 54, 56, 57, 58, 58, 59, 60, 62, 64, 65, 65, 69, 71, 74, 77, 88 and 102. Notice that the stem “9” is missing, and filled in on the left of the plot, and that the numbers 41, 53, 58 and 65 occur twice in the data as well as in the plot.
 
 <p class='center'>
-<img src='Visualising%20text%2073ea05fcce1b4ee5939cd29821ddd468/stem-leaf-plot.png' alt='' class='max-400' />
+<img src='Visualising%20text%2073ea05fcce1b4ee5939cd29821ddd468/stem-leaf-plot.png' alt='A stem-and-leaf plot' class='max-400' />
 </p>
 
 Source: Maarten Lambrechts, CC BY SA, 4.0
@@ -17,7 +17,7 @@ Stem-and-leaf plots are sometimes used to communicate the schedule of public tra
 In the schedule below, you can clearly see that during the week there are more trains during rush hours, while these additional trains do not run during the weekends.
 
 <p class='center'>
-<img src='Visualising%20text%2073ea05fcce1b4ee5939cd29821ddd468/seattle-train-departure-times-stem-and-leaf-plot.jpg' alt='' class='max-600' />
+<img src='Visualising%20text%2073ea05fcce1b4ee5939cd29821ddd468/seattle-train-departure-times-stem-and-leaf-plot.jpg' alt='A train schedule in the form of a stem-and-leaf plot' class='max-600' />
 </p>
 
 Source: [ylgarris.wordpress.com](https://ylgarris.wordpress.com/2013/07/03/stem-and-leaf-plots-in-the-primary-grades-article-response/)

@@ -4,17 +4,17 @@ Highlighting can be done by differentiating the visual properties between the da
 
 Colour is an obvious visual property to use in highlighting. 
 
-![Source: [Americans Say High Prices Are Hitting the Things They Need to Get By](https://www.nytimes.com/interactive/2022/03/09/upshot/where-americans-have-noticed-inflation.html), nytimes.com](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/highlighting-nytimes.png)
+![A word cloud showing the products that contribute to inflation, with food items highlighted in red](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/highlighting-nytimes.png)
 
 Source: [Americans Say High Prices Are Hitting the Things They Need to Get By](https://www.nytimes.com/interactive/2022/03/09/upshot/where-americans-have-noticed-inflation.html), nytimes.com
 
 Other visual properties that can be used to highlight data marks are the stroke of visual elements (presence or absence of stroke, stroke colour, stroke widths).
 
-![The above charts highlights the bars representing the share of Russia in global exports by adding a black stroke to these bars. The bars are also highlighted with colour: the red stands out from the blues and greys used for other countries. Source: [How Russia’s war is reverberating through global goods markets](https://www.economist.com/graphic-detail/2022/03/16/how-russias-war-is-reverberating-through-global-goods-markets), economist.com](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/stroke-highlighting-economist.png)
+![A series of stacked bars showing the share of different countries in global exports](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/stroke-highlighting-economist.png)
 
-The above charts highlights the bars representing the share of Russia in global exports by adding a black stroke to these bars. The bars are also highlighted with colour: the red stands out from the blues and greys used for other countries. Source: [How Russia’s war is reverberating through global goods markets](https://www.economist.com/graphic-detail/2022/03/16/how-russias-war-is-reverberating-through-global-goods-markets), economist.com
+The above chart highlights the bars representing the share of Russia in global exports by adding a black stroke to these bars. The bars are also highlighted with colour: the red stands out from the blues and greys used for other countries. Source: [How Russia’s war is reverberating through global goods markets](https://www.economist.com/graphic-detail/2022/03/16/how-russias-war-is-reverberating-through-global-goods-markets), economist.com
 
-![Colour and the stroke width work together to highlight the line for Canada in this chart. Source: [Do vaccine mandates actually work?](https://www.economist.com/graphic-detail/2022/01/22/do-vaccine-mandates-actually-work), The Economist](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/outline-economist.png)
+![A line chart with 4 lines showing the change in first doses of covid-19 vaccine administered in 2021](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/outline-economist.png)
 
 Colour and the stroke width work together to highlight the line for Canada in this chart. Source: [Do vaccine mandates actually work?](https://www.economist.com/graphic-detail/2022/01/22/do-vaccine-mandates-actually-work), The Economist
 
@@ -22,7 +22,7 @@ In some cases size can also be used as a property for highlighting. But when siz
 
 When data marks are labelled (with data values, with names or with other text elements), the visual property used to highlight data marks can be copied into the styling of the labels: labels can copy the color and opacity of the data marks they belong to, for example. To make these labels highlighted, they can have bold styling or a bigger font size.
 
-![Source: [What impact has the Russian invasion of Ukraine had on European attitudes to NATO?](https://yougov.co.uk/topics/international/articles-reports/2022/03/16/what-impact-has-russian-invasion-ukraine-had-europ), yougov.co.uk](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/colour-highlighting-yougov.png)
+![An arrow chart showing trends in how people in different countries think about defending other nations against Russia. The colours are dependent on the trend direction and are repeated in the data labels](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/colour-highlighting-yougov.png)
 
 Source: [What impact has the Russian invasion of Ukraine had on European attitudes to NATO?](https://yougov.co.uk/topics/international/articles-reports/2022/03/16/what-impact-has-russian-invasion-ukraine-had-europ), yougov.co.uk
 
@@ -32,7 +32,7 @@ The chart embedded below is interactive and uses highlighting on hover. When you
 
 <iframe title="Higher Risk of Job Automation in Lower Paying Jobs" aria-label="Scatter Plot" id="datawrapper-chart-6LGaa" src="https://datawrapper.dwcdn.net/6LGaa/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="647" data-external="1"></iframe>
 
-Source: [datawrapper.de](https://academy.datawrapper.de/article/148-examples-of-datawrapper-scatter-plots)
+_Source: [datawrapper.de](https://academy.datawrapper.de/article/148-examples-of-datawrapper-scatter-plots)_
 
 The data marks to apply the highlighting to (the “highlighting targets”) depend on the message you want the visualisation to convey. These can be
 
@@ -47,48 +47,48 @@ Rectangles, ellipses, circles and irregular polygons or shapes can be used as an
 
 Often these enclosing shapes are accompanied by explanatory text annotations.
 
-![Source: [Why the oldest person in the world keeps dying](https://fivethirtyeight.com/features/why-the-oldest-person-in-the-world-keeps-dying/), fivethirtyeight.com](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/goldenburg-oldest-person-enclosure-rectangle.webp)
+![A line chart titled 'The Oldest Persons In The World', with an annotation explaining the most recent part of the chart](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/goldenburg-oldest-person-enclosure-rectangle.webp)
 
 Source: [Why the oldest person in the world keeps dying](https://fivethirtyeight.com/features/why-the-oldest-person-in-the-world-keeps-dying/), fivethirtyeight.com
 
 Triangle like shapes highlight part of the main line in the chart below. Also notice the use of 3 different strokewidths for the lines, the use of colour, and the white outline for the line of the year 2018.
 
-![Source: [Drenched city: 2018 is now Washington’s wettest year ever recorded](https://www.washingtonpost.com/weather/2018/12/15/drenched-city-is-now-washingtons-wettest-year-ever-recorded/?noredirect=on), washingtonpost.com](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/highlight-trend-parts-wapo.jpeg)
+![A heavily annotated line chart showing record-breaking precipitation in Washington](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/highlight-trend-parts-wapo.jpeg)
 
 Source: [Drenched city: 2018 is now Washington’s wettest year ever recorded](https://www.washingtonpost.com/weather/2018/12/15/drenched-city-is-now-washingtons-wettest-year-ever-recorded/?noredirect=on), washingtonpost.com
 
 Shape annotations can serve other purposes than highlighting data marks too. Lines and curves can **illustrate trends in the underlying data**. These shapes can be illustrative in nature, or their shape can be calculated from the data.
 
-![An example of a trend line derived from underlying data. Source: [How Democrats Won The Georgia Runoffs](https://fivethirtyeight.com/features/how-democrats-won-the-georgia-runoffs/), fivethirtyeight.com](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/538-trendline.png)
+![A scatter plot titled Republican-leaning counties saw lower turnout, with a trend line marked with the word 'Trend'](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/538-trendline.png)
 
 An example of a trend line derived from underlying data. Source: [How Democrats Won The Georgia Runoffs](https://fivethirtyeight.com/features/how-democrats-won-the-georgia-runoffs/), fivethirtyeight.com
 
-![Illustrative curves with arrow heads provide additional information to explain the trends in the data. Notice the added blue dotted lines and annotions to make a comparison between the fatality ratio of covid and influenza. Source: [@jburnmurdoch](https://twitter.com/jburnmurdoch/status/1492138139103768576)](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/arrow-curves-FT.jpg)
+![ ](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/arrow-curves-FT.jpg)
 
-Illustrative curves with arrow heads provide additional information to explain the trends in the data. Notice the added blue dotted lines and annotions to make a comparison between the fatality ratio of covid and influenza. Source: [@jburnmurdoch](https://twitter.com/jburnmurdoch/status/1492138139103768576)
+Illustrative curves with arrow heads provide additional information to explain the trends in this line chart showing Covid-19 infection fatality ratio in England. Notice the added blue dotted lines and annotions to make a comparison between the fatality ratio of covid and influenza. Source: [@jburnmurdoch](https://twitter.com/jburnmurdoch/status/1492138139103768576)
 
 Instead of referring to the data itself, shape annotations can target the axes of a chart. For example, charts with a time axis (usually the x axis) can be visually annotated to indicate **specific moments in time, or the start and end of time intervals** relevant to the chart’s message
 
-![A vertical line highlights a specific moment in time on the x axis. Source: Jen Christiansen, [COVID’s Uneven Toll Captured in Data](https://www.scientificamerican.com/article/covids-uneven-toll-captured-in-data/), Scientific American](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/shadow-outline-scientific-american.webp)
+![A line chart with confidence intervals titled 'Estimated Childhood Vaccination Disruption Patterns'](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/shadow-outline-scientific-american.webp)
 
 A vertical line highlights a specific moment in time on the x axis. Source: Jen Christiansen, [COVID’s Uneven Toll Captured in Data](https://www.scientificamerican.com/article/covids-uneven-toll-captured-in-data/), Scientific American
 
-![Rectangles highlighting time intervals. Source: [Lockdown lifestyles: how has Covid changed lives in the UK?](https://www.theguardian.com/lifeandstyle/ng-interactive/2022/feb/25/lockdown-lifestyles-how-lives-changed-covid-pandemic), theguardian.com](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/guardian-period-highlighting-lockdowns.png)
+![ ](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/guardian-period-highlighting-lockdowns.png)
 
-Rectangles highlighting time intervals. Source: [Lockdown lifestyles: how has Covid changed lives in the UK?](https://www.theguardian.com/lifeandstyle/ng-interactive/2022/feb/25/lockdown-lifestyles-how-lives-changed-covid-pandemic), theguardian.com
+Rectangles highlighting time intervals on this line chart showing the number of flights in the UK. Source: [Lockdown lifestyles: how has Covid changed lives in the UK?](https://www.theguardian.com/lifeandstyle/ng-interactive/2022/feb/25/lockdown-lifestyles-how-lives-changed-covid-pandemic), theguardian.com
 
 Highlighting regions can also be done on charts with other axes than time axes.
 
-![Source: [Ryo Nakagawara](https://twitter.com/R_by_Ryo)](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/highlighted-region-nakagawara.jpg)
+![A chart highlighting the peak age of footballers](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/highlighted-region-nakagawara.jpg)
 
 Source: [Ryo Nakagawara](https://twitter.com/R_by_Ryo)
 
 Stories around numerical values being under or over a certain threshold can benefit from making these **thresholds visually explicit** by adding lines showing the value of these thresholds on an axis. The same is true for targeted values: showing how far data values are still away from reaching a target, or how far values have already overshot a set target or often the crux of the story.
 
-![A classical example of lines showing thresholds. The diagonal lines show how much women in different sectors of the economy earn less then men. Source: [Why Is Her Paycheck Smaller?](https://archive.nytimes.com/screenshots/www.nytimes.com/interactive/2009/03/01/business/20090301_WageGap.jpg), nytimes.com](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/paygap-annotationlines-nytimes.png)
+![A scatter plot of median earnings of different professions in the US, with diagonal lines representing the same gap between men and women accross the chart](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/paygap-annotationlines-nytimes.png)
 
 A classical example of lines showing thresholds. The diagonal lines show how much women in different sectors of the economy earn less then men. Source: [Why Is Her Paycheck Smaller?](https://archive.nytimes.com/screenshots/www.nytimes.com/interactive/2009/03/01/business/20090301_WageGap.jpg), nytimes.com
 
-![A horizontal line showing a threshold. The coloured areas showing the deviation of the values from the threshold reinforce the message of the chart. Source: [There are no 1.7 Earths](https://blog.datawrapper.de/weekly-ecological-overshoot/), datawrapper.de](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/W6y0k--strong-more-than-earth-can-handle-strong-.png)
+![ ](Visual%20annotations%20589ebcc4e0024634956566d2e144385f/W6y0k--strong-more-than-earth-can-handle-strong-.png)
 
 A horizontal line showing a threshold. The coloured areas showing the deviation of the values from the threshold reinforce the message of the chart. Source: [There are no 1.7 Earths](https://blog.datawrapper.de/weekly-ecological-overshoot/), datawrapper.de

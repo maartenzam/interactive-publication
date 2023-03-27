@@ -2,19 +2,19 @@ Just like <span class='internal-link'>[scales](scales)</span> have <span class='
 
 Colours used in scales are specified in the scales themselves. But the **colours of non-data elements** in a plot can be set in the theming. In the plot below, a background colour is applied to an Observable Plot visualisation. The plot is also using a customised **font** family, font size and font colour. 
 
-![Source: [observablehq.com/@observablehq/plot-cheatsheets-layouts](https://observablehq.com/@observablehq/plot-cheatsheets-layouts)](Scales,%20guides,%20facets%20and%20theming%209e76a2b3e0f343a6bdfd6888555b52ca/observable-plot-theming.png)
+![A line chart with 4 lines showing temperatures measured over the year 2021](Scales,%20guides,%20facets%20and%20theming%209e76a2b3e0f343a6bdfd6888555b52ca/observable-plot-theming.png)
 
 Source: [observablehq.com/@observablehq/plot-cheatsheets-layouts](https://observablehq.com/@observablehq/plot-cheatsheets-layouts)
 
 Apart from colours and fonts, the spacing between elements on a plot is an important part of its theming. Below is a schematic representation of the available spacing options in an Observable Plot visualisation.
 
-![Source: [observablehq.com/@observablehq/plot-cheatsheets-layouts](https://observablehq.com/@observablehq/plot-cheatsheets-layouts)](Scales,%20guides,%20facets%20and%20theming%209e76a2b3e0f343a6bdfd6888555b52ca/observable-plot-layout.png)
+![A line chart with 2 lines with a lot of annotations naming all customisable and stylable elements in an Observable Plot](Scales,%20guides,%20facets%20and%20theming%209e76a2b3e0f343a6bdfd6888555b52ca/observable-plot-layout.png)
 
 Source: [observablehq.com/@observablehq/plot-cheatsheets-layouts](https://observablehq.com/@observablehq/plot-cheatsheets-layouts)
 
 Below is a similar schema, illustrating all chart elements that can be themed with the theming system in ggplot2.
 
-![Source: [Henry Wang](https://twitter.com/henrywangnl/status/1259396196713537536)](Scales,%20guides,%20facets%20and%20theming%209e76a2b3e0f343a6bdfd6888555b52ca/ggplot2-theming-theme_elements.png)
+![An annotated faceted ggplot2 naming the themable elements](Scales,%20guides,%20facets%20and%20theming%209e76a2b3e0f343a6bdfd6888555b52ca/ggplot2-theming-theme_elements.png)
 
 Source: [Henry Wang](https://twitter.com/henrywangnl/status/1259396196713537536)
 

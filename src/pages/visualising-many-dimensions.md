@@ -4,7 +4,7 @@ Some specific chart types allow you to plot a lot more dimensions in your data t
 
 The parallel coordinates plot below shows the values for 8 dimensions for a set of 392 types of cars from the well known cars data set. Each car is represented as a line that connects its values for all the dimensions. In this case, colour is used to double encode the last dimension (”OGN”, or the country of origin of the car).
 
-![Source: [Dang Quang](https://observablehq.com/@batshaw/exercise-3-parallel-coordinates#paracoords) on observablehq.com](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/parallel-coordinates-cars.png)
+![A parallel coordinates plot showing 8 dimensions fo 392 types of cars](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/parallel-coordinates-cars.png)
 
 Source: [Dang Quang](https://observablehq.com/@batshaw/exercise-3-parallel-coordinates#paracoords) on observablehq.com
 
@@ -16,7 +16,7 @@ Parallel coordinate plots are the linear version of the **radar chart** (also a 
 
 A final technique to visualise multidimensional data, are **glyphs**. Glyphs are graphical elements, or combinations of graphical elements, of which the visual properties are mapped to multiple dimensions in the data.
 
-![An example of glyphs to visualise multidimensional data. In this case, 11 dimensions are visualised for 10 countries. Source: [Federica Fragapane for Corriere della Sera](https://www.behance.net/gallery/38834217/Social-Progress-Index-Freedom-and-Tolerance)](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/glyphs-fragapane-social-progress-index.png)
+![ ](High%20data%20density%20visualisations%203afe7ec0f8c9410e84385e4de1bb7324/glyphs-fragapane-social-progress-index.png)
 
 An example of glyphs to visualise multidimensional data. In this case, 11 dimensions are visualised for 10 countries. Source: [Federica Fragapane for Corriere della Sera](https://www.behance.net/gallery/38834217/Social-Progress-Index-Freedom-and-Tolerance)
 
