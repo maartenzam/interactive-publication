@@ -5,7 +5,7 @@ Free (for personal use), web app
 Google Sheets is an online spreadsheet editor, with a chart template gallery similar to Microsoft Excel’s gallery.
 
 <p class='center'>
-<img src='Data%20visualisation%20design%20in%20practice%202%20tools%20208f06b06b0f4b21ad8ecf3047f02ce0/google-sheets-charts.png' alt='' class='max-600' />
+<img src='Data%20visualisation%20design%20in%20practice%202%20tools%20208f06b06b0f4b21ad8ecf3047f02ce0/google-sheets-charts.png' alt='The available chart types in Google Sheets. The chart icons are grouped into the categories Line, Area, Column, Bar, Pie, Scatter, Map and Other' class='max-600' />
 </p>
 
 Chart type gallery of Google Sheets. Source: Maarten Lambrechts, CC BY SA 4.0

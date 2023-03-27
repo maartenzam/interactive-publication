@@ -6,7 +6,7 @@ Geometric objects can be divided into 3 main categories, based on their dimensio
 - **path and line geometries** are 1-dimensional. They can be used to connect points belonging to the same group, and they can create straight lines as well as curves
 - **rectangles, other polygons and other shapes** are 2-dimensional geoms
 
-![The geometric objects available in Observable Plot. Source: [observablehq.com/@observablehq/plot](https://observablehq.com/@observablehq/plot)](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/observable-plot-marks.png)
+![A grid of 18 small charts made with Observable Plot](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/observable-plot-marks.png)
 
 The geometric objects available in Observable Plot. Source: [observablehq.com/@observablehq/plot](https://observablehq.com/@observablehq/plot)
 

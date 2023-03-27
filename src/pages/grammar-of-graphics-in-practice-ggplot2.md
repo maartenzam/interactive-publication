@@ -18,13 +18,13 @@ If you can’t or don’t want to install new programs on your computer, you can
 
 Once RStudio is installed and opened, or when you have logged into RStudio Cloud and created a first work space on it, you will see the RStudio interface.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/rstudio-interface.png)
+![Screenshot of the RStudio interface](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/rstudio-interface.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
 The RStudio interface is divided into 4 main panels. The panel in the top left is called the source, and this is where you write and edit R scripts.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/rstudio-interface-source.png)
+![The RStudio interface with the source pane highlighted in red](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/rstudio-interface-source.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -32,7 +32,7 @@ If the source pane is not visible initially, you can click File > New file > R s
 
 In the top right, you will find the environment pane.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/rstudio-interface-environment.png)
+![The RStudio interface with the environment pane highlighted in red](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/rstudio-interface-environment.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -40,7 +40,7 @@ In the environment pane you will find an overview of all the objects currently l
 
 In the bottom left, you will find the console pane.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/rstudio-interface-console.png)
+![The RStudio interface with the console pane highlighted in red](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/rstudio-interface-console.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -48,7 +48,7 @@ In the console you can type in R commands and run them by pressing enter. Any ou
 
 Finally, in the bottom right, you will find the pane to manage your files and R packages.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/rstudio-interface-files.png)
+![The RStudio interface with the pane for files and packages highlighted in red](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/rstudio-interface-files.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -73,7 +73,7 @@ The following instructions are valid for RStudio Cloud. The instructions for RSt
 To make visualisations with ggplot2, you need to install the package first. You can do this by clicking on the “Packages” tab in the pane in the bottom right, then click the “Install” button and search for ggplot2 in the dialog that opens.
 
 <p class='center'>
-<img src='Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/rstudio-install-ggplot2.png' alt='' class='max-400' />
+<img src='Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/rstudio-install-ggplot2.png' alt='The "Install packages" dialogue of RStudio, with the ggplot2 package highlighted in the dropdown to search for packages' class='max-400' />
 </p>
 
 Source: Maarten Lambrechts, CC BY SA 4.0
@@ -90,9 +90,9 @@ into a new R script (you can open a new R script with File > New file > R script
 
 You are almost ready to make plots with ggplot2. The only thing lacking is the data. Download the data file below and save it on your computer.
 
-[bubble-chart-data.csv](Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/bubble-chart-data.csv)
+[The Upload Files dialogue of RStudio](Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/bubble-chart-data.csv)
 
-Next, click the “Upload” button in the Files tab in the bottom right pane, navigate to the file you just downloaded, and upload it (you don’t need to change the default target directory it will be uploaded to).
+Next, click the "Upload" button in the Files tab in the bottom right pane, navigate to the file you just downloaded, and upload it (you don’t need to change the default target directory it will be uploaded to).
 
 <p class='center'>
 <img src='Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/Rstudio-upload-file.png' alt='' class='max-600' />
@@ -104,13 +104,13 @@ After this, the file will be listed in the Files pane. You can now import it by 
 
 In the next step, you don’t have to change anything, and you can just click “Import”.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/Rstudio-import-file.png)
+![The Import Dataset dialogue of RStudio, with a preview of the content of the uploaded csv file](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/Rstudio-import-file.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0Source: Maarten Lambrechts, CC BY SA 4.0
 
 After this, the data will open in a new tab in the source pane, and the imported data is listed in the environment tab.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/Rstudio-imported-data.png)
+![The RStudio interface, with the data of the csv file loaded](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/Rstudio-imported-data.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -136,7 +136,7 @@ ggplot(data = bubble.chart.data, mapping = aes(x = income, y = lifeexp))
 
 If you run this command (by setting the cursor on it and click the “Run” button), a first plot will be generated.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-no-geometry.png)
+![A chart canvas with the variable lifeexp on the y axis and the variable income on the x axis, but without any data shown](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-no-geometry.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -147,7 +147,7 @@ ggplot(data = bubble.chart.data, mapping = aes(x = income, y = lifeexp)) +
   geom_point()
 ```
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-basic-points.png)
+![A scatter plot with black dots, with the variable lifeexp on the y axis and the variable income on the x axis](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-basic-points.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -162,7 +162,7 @@ ggplot(data = bubble.chart.data, mapping = aes(
 geom_point()**
 ```
 
-![Notice the legends for the population and the continent mappings. Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-aesthetics.png)
+![The same scatter plot as above, but with coloured dots of different sizes](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-aesthetics.png)
 
 Notice the legends for the population and the continent mappings. Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -178,7 +178,7 @@ ggplot(data = bubble.chart.data, mapping = aes(
   scale_x_log10()
 ```
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-log-scale.png)
+![The same scatter plot as above, but with a logarithmic x scale](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-log-scale.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -195,7 +195,7 @@ ggplot(data = bubble.chart.data, mapping = aes(
   scale_size_area(max_size = 32, name = "Population")
 ```
 
-![ggplot-size-scale.png](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-size-scale.png)
+![The same plot as above, but with bigger bubbles](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-size-scale.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -205,7 +205,7 @@ To make the legend a bit more readable, we can express the population numbers in
 ggplot(data = bubble.chart.data, mapping = aes(
     x = income,
     y = lifeexp,
-    size = population**/1000000**,
+    size = population/1000000,
     colour = continent)) +
   geom_point() +
   scale_x_log10() +
@@ -215,7 +215,7 @@ ggplot(data = bubble.chart.data, mapping = aes(
     breaks = c(10, 100, 500, 1000))
 ```
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-sizescale-millions.png)
+![The same plot as above, but the legend for the size of the bubbles now has the title 'Population (millions)', and it shows bubble sizes for 10, 100, 500 and 1000](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-sizescale-millions.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -235,7 +235,7 @@ ggplot(data = bubble.chart.data, mapping = aes(
     breaks = c(10, 100, 500, 1000))
 ```
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-filled-circles.png)
+![The same plot as above, but with black outlines bubbles](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-filled-circles.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -258,7 +258,7 @@ ggplot(data = bubble.chart.data, mapping = aes(
     name = "Continent")
 ```
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-colours.png)
+![The same plot as above, but with different colours](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-colours.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -282,7 +282,7 @@ ggplot(data = bubble.chart.data, mapping = aes(
   theme_minimal()
 ```
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot2-theme-minimal.png)
+![The same plot as above, but with the grey background removed](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot2-theme-minimal.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -310,7 +310,7 @@ ggplot(data = bubble.chart.data, mapping = aes(
         legend.position = "top")
 ```
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-theme-custom.png)
+![The same plot as above, but with the legend on top instead of to the right](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-theme-custom.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -341,7 +341,7 @@ ggplot(data = bubble.chart.data, mapping = aes(
   ggtitle("Strong correlation between economic development and life expectancy")
 ```
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-finished.png)
+![The same plot as above, but now with the axis titles being 'Life expectancy (years)' and 'Income (GDP/capita, in thousands of dollars)'](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-finished.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -383,7 +383,7 @@ ggplot(data = bubble.chart.data, mapping = aes(
   facet_wrap(~continent)
 ```
 
-![ggplot-facets.png](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-facets.png)
+![Small multiple bubble charts, with a small chart for each of the continents](Grammar%20of%20Graphics%20in%20practice%20ggplot2%203d76e378b4bf4c6aa5886f4e622358b3/ggplot-facets.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 

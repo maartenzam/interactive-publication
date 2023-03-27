@@ -1,7 +1,7 @@
 The first and easiest pitfall to fall into when it comes to colours, is to just use the default colours the tool you are using to make your visualisation.
 
 <p class='center'>
-<img src='Pitfalls%20in%20dataviz%20colours%2043f748a84c564ae5a1b4d6678b8171d7/default-excel-colours.png' alt='' class='max-400' />
+<img src='Pitfalls%20in%20dataviz%20colours%2043f748a84c564ae5a1b4d6678b8171d7/default-excel-colours.png' alt='A pie chart with dark blue, orange, grey, yellow and lighter blue colours' class='max-400' />
 </p>
 
 The default colour palette in a version of Microsoft Excel. Source: Maarten Lambrechts, CC BY SA 4.0

@@ -4,7 +4,7 @@ Many <span class='internal-link'>[geometries](gog-building-blocks-geometric-obje
 
 ### Point geometries
 
-The common aesthetics for <span class='internal-link'>[point geometries](point-geometries)</span>point geometries over all 3 implementations are:
+The common aesthetics for <span class='internal-link'>[point geometries](point-geometries)</span> over all 3 implementations are:
 
 - `x`
 - `y`
@@ -34,7 +34,7 @@ Observable Plot and Vega-Lite offer some additional aesthetics for point geometr
 
 But text geometries also have some very specific aesthetics. Most importantly, the **`text content`** aesthetic needs to mapped from the data. In the following plot the `country` variable is mapped `text content` of the text geometry. Like in the previous variations of this plot, population is mapped to the `size` aesthetic and the continent is mapped to the `fill` colour aesthetic.
 
-![gapminder_text_colours.png](Aesthetics%20in%20detail%208b116c4f111e4dfc916bb4ebbd00f00e/gapminder_text_colours.png)
+![A scatter plot that uses country names as the text content of a text geometry. The colour of the text represents the region of the countries and its size is proportional to the countries' population](Aesthetics%20in%20detail%208b116c4f111e4dfc916bb4ebbd00f00e/gapminder_text_colours.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
@@ -46,7 +46,7 @@ Other than the text content, the text specific aesthetics are:
 - `horizontal text alignment`: the horizontal alignment of the the text relative to the x and y position of the text
 - `vertical text alignment`
 
-![The same plot as above, but with the `population` variable mapped to the `rotation` aesthetic of the text geometry. As you can see, not all aesthetic mappings are effective or make sense. Source: Maarten Lambrechts, CC BY SA 4.0](Aesthetics%20in%20detail%208b116c4f111e4dfc916bb4ebbd00f00e/gapminder_rotation.png)
+![The same plot as above, but with the `population` variable mapped to the `rotation` aesthetic of the text geometry.](Aesthetics%20in%20detail%208b116c4f111e4dfc916bb4ebbd00f00e/gapminder_rotation.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
@@ -63,7 +63,7 @@ Apart from the required position aesthetics, line geometries can also have the f
 - `opacity`
 - `stroke dash pattern`: a line can be solid (no dash pattern), or can have a specific dash pattern
 
-![A line chart using the stroke dash pattern aesthetic. Source: [vega.github.io/vega-lite/examples/line_strokedash.html](https://vega.github.io/vega-lite/examples/line_strokedash.html)](Aesthetics%20in%20detail%208b116c4f111e4dfc916bb4ebbd00f00e/vega-lite-stroke-dash.png)
+![ ](Aesthetics%20in%20detail%208b116c4f111e4dfc916bb4ebbd00f00e/vega-lite-stroke-dash.png)
 
 A line chart using the stroke dash pattern aesthetic. Source: [vega.github.io/vega-lite/examples/line_strokedash.html](https://vega.github.io/vega-lite/examples/line_strokedash.html)
 

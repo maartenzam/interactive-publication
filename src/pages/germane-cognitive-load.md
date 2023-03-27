@@ -2,7 +2,7 @@
 
 In the same way, using less common chart types can introduce germane load. You might be familiar with scatterplots and how to read them, but your audience might not. If you are not at home in the world of stocks and the stock exchange, you probably need a [guide to candlestick charts](https://www.youtube.com/watch?v=f7O30X2YOG4&ab_channel=TheDataVizCat), sit down and spend some time with the chart below before you can understand it, while a seasoned stock trader will immediately spot the days at which she should have sold or bought stock.
 
-![Source: [datavizcatalogue.com/methods/candlestick_chart.html](https://datavizcatalogue.com/methods/candlestick_chart.html)](Reducing%20the%20cognitive%20load%2070a9cb0c4c8c4f45b66f63a749d9f40e/datavizcatalogue-candlestick.svg)
+![An example of a candlestick chart, with green and red candlesticks. The y axis runs from 0 to 90 dollar, the x axis has labels for March and April](Reducing%20the%20cognitive%20load%2070a9cb0c4c8c4f45b66f63a749d9f40e/datavizcatalogue-candlestick.svg)
 
 Source: [datavizcatalogue.com/methods/candlestick_chart.html](https://datavizcatalogue.com/methods/candlestick_chart.html)
 

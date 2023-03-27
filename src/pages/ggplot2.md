@@ -13,7 +13,7 @@ ggplot(data = mpg, aes(x = displ, y = hwy)) +
   ylab("Miles per gallon on highway")
 ```
 
-![ggplot.png](Data%20visualisation%20design%20in%20practice%202%20tools%20208f06b06b0f4b21ad8ecf3047f02ce0/ggplot.png)
+![A scatterplot representing types of cars and their miles per gallon (y axis) and their engine displacement (x axis)](Data%20visualisation%20design%20in%20practice%202%20tools%20208f06b06b0f4b21ad8ecf3047f02ce0/ggplot.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 

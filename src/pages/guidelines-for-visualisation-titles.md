@@ -6,7 +6,7 @@ Reading the main message of a chart before even start looking at it and interpre
 
 The chart title should not contain metadata and statistical information, like the shown time frame, the geographical area or the units of the data. This information can be provided in other places on the chart, like in the subtitle, the chart itself or in notes below the chart.
 
-![The units of the data and additional notes on it are provided in the subtitle and notes below the chart, while the title is reserved for the main message of the chart. Source: [These are Netflix’s Most Popular Shows (According to Netflix)](https://www.bloomberg.com/news/newsletters/2022-03-13/these-are-netflix-s-most-popular-shows-according-to-netflix?utm_campaign=socialflow-organic&utm_content=graphics&utm_source=twitter&cmpid%3D=socialflow-twitter-graphics&utm_medium=social), bloomberg.xom](Chart%20titles%20a7626097449d49709422757bf4a8c724/bloomberg-squid-game-subtitle.png)
+![A stacked bar chart titled The impact of 'Squid Game'](Chart%20titles%20a7626097449d49709422757bf4a8c724/bloomberg-squid-game-subtitle.png)
 
 The units of the data and additional notes on it are provided in the subtitle and notes below the chart, while the title is reserved for the main message of the chart. Source: [These are Netflix’s Most Popular Shows (According to Netflix)](https://www.bloomberg.com/news/newsletters/2022-03-13/these-are-netflix-s-most-popular-shows-according-to-netflix?utm_campaign=socialflow-organic&utm_content=graphics&utm_source=twitter&cmpid%3D=socialflow-twitter-graphics&utm_medium=social), bloomberg.xom
 
@@ -51,24 +51,24 @@ Titles should not repeat the message of the preceding and surrounding text. Inst
 
 Above all, chart titles **should not contradict the patterns visible on the chart**, or point to secondary patterns when another, more obvious pattern is present.
 
-![An example of a chart title that does not align well with the patterns visible on the chart. Source: [@GoodPoliticGuy](https://twitter.com/GoodPoliticGuy/status/1488193872803074048)](Chart%20titles%20a7626097449d49709422757bf4a8c724/misaligned-chart-title.jpg)
+![A line chart with title 'China's military spending has risen steadily over the past decade, while it is clear the the US military spending is much higher and also rising'](Chart%20titles%20a7626097449d49709422757bf4a8c724/misaligned-chart-title.jpg)
 
 An example of a chart title that does not align well with the patterns visible on the chart. Source: [@GoodPoliticGuy](https://twitter.com/GoodPoliticGuy/status/1488193872803074048)
 
 Finally, as The Economist proves, even a serious medium reporting on serious topics can make use of **humour** in chart titles to engage their audience.
 
-![Source: [America’s global standing plummets under Donald Trump](https://www.economist.com/graphic-detail/2017/06/27/americas-global-standing-plummets-under-donald-trump), Economist.com](Chart%20titles%20a7626097449d49709422757bf4a8c724/economist-humour.jpg)
+![A chart showing the confidence in Donald Trump and Barack Obama in different countries titled 'Backed in the USSR'](Chart%20titles%20a7626097449d49709422757bf4a8c724/economist-humour.jpg)
 
 Source: [America’s global standing plummets under Donald Trump](https://www.economist.com/graphic-detail/2017/06/27/americas-global-standing-plummets-under-donald-trump), Economist.com
 
-![Source: [The irresistible rise of internet dating](https://www.economist.com/graphic-detail/2018/08/17/the-irresistible-rise-of-internet-dating), Economist.com](Chart%20titles%20a7626097449d49709422757bf4a8c724/economist-humour-title-meet-market.webp)
+![A line charts about how couples meet titled 'Meet markets'](Chart%20titles%20a7626097449d49709422757bf4a8c724/economist-humour-title-meet-market.webp)
 
 Source: [The irresistible rise of internet dating](https://www.economist.com/graphic-detail/2018/08/17/the-irresistible-rise-of-internet-dating), Economist.com
 
-![Source: [The message is the medium](https://www.economist.com/business/2015/03/26/the-message-is-the-medium). Economist.com](Chart%20titles%20a7626097449d49709422757bf4a8c724/humour-title-economist-rip-text.png)
+![A line chart about messages sent per day titled 'OMG, RIP txt'](Chart%20titles%20a7626097449d49709422757bf4a8c724/humour-title-economist-rip-text.png)
 
 Source: [The message is the medium](https://www.economist.com/business/2015/03/26/the-message-is-the-medium). Economist.com
 
-![Source: [Tough old birds](https://www.economist.com/science-and-technology/2015/02/11/tough-old-birds), Economist.com](Chart%20titles%20a7626097449d49709422757bf4a8c724/chart-title-economist-rust.png)
+![A chart about old sattelites titled 'Rust in space'](Chart%20titles%20a7626097449d49709422757bf4a8c724/chart-title-economist-rust.png)
 
 Source: [Tough old birds](https://www.economist.com/science-and-technology/2015/02/11/tough-old-birds), Economist.com

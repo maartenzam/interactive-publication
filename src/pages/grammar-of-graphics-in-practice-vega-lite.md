@@ -16,7 +16,7 @@ The main tool to edit Vega-Lite specifications and generate visualisations based
 
 In the Vega-Lite editor, you can view and edit the Vega-Lite JSON specification in the left pane, and the resulting visualisation is shown on the right. This means that on top of Vega-Lite, the Vega-Lite editor is using an additional library to generate the chart from the Vega-Lite specification.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-editor.png)
+![A browser window showing the Vega Editor with the specification and a preview of a vertical bar chart](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-editor.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -74,7 +74,7 @@ The Vega-Lite editor can help you to avoid or spot errors. It uses different fon
 
 Clicking right in the editor pane and selecting “Format Document” will apply indenting and line breaks which makes the JSON you are editing more readable.
 
-![The menu that appears when clicking right in the editor pane. Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-format-document.png)
+![ ](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-format-document.png)
 
 The menu that appears when clicking right in the editor pane. Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -82,7 +82,7 @@ The menu that appears when clicking right in the editor pane. Source: Maarten La
 
 In this module, we are going to create the same visualisation as in <span class='internal-link'>[Grammar of graphics in practice: Tableau](grammar-of-graphics-in-practice-tableau)</span>.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20Tableau%2075769011e12544f993c61105e5caa3e8/gapminder_basic.png)
+![A bubble chart of countries, with life expectancy on the y axis and GDP/capita on the x axis](Grammar%20of%20Graphics%20in%20practice%20Tableau%2075769011e12544f993c61105e5caa3e8/gapminder_basic.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -105,7 +105,7 @@ The JSON snippet below is the “minimum viable specification” to load data in
 
 You can copy/paste the above snippet [in the Vega-Lite editor](https://vega.github.io/editor/#), and inspect the loaded data in the Data Viewer in the bottom right.
 
-![Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-data.png)
+![A browser window showing Vega Editor with the specification to load the data, with the data visible in the Data Viewer](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-data.png)
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -141,7 +141,7 @@ Start by encoding the `lifeexp` field to the `y` property of the marks:
 The result is a first (but still rather unimpressive) visualisation:
 
 <p class='center'>
-<img src='Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-y.png' alt='' class='max-100' />
+<img src='Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-y.png' alt='A chart with a y axis for the lifeexp variable, with blue dots plotted on top of each other' class='max-100' />
 </p>
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
@@ -168,7 +168,7 @@ Let’s add the encoding for the `x` property.
 The result is a little scatter plot:
 
 <p class='center'>
-<img src='Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-x-y.png' alt='' class='max-400' />
+<img src='Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-x-y.png' alt='A scaatter plot with blue dots, with the variable lifeexp on the y axis and the income on the x axis' class='max-400' />
 </p>
 
 Source: Maarten Lambrechts, CC BY SA 4.0
@@ -196,7 +196,7 @@ Note that the order in which properties are added to the Vega-Lite specification
 
 When the expected JSON hierarchy is not respected, the Vega-Lite editor will signal an error.
 
-![The format property should be a child of the data property, and not be a sibling of it. The Vega-Lite editor will show any errors in the editor pane. Source: Maarten Lambrechts, CC BY SA 4.0](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-error.png)
+![The Vega Editor showing some JSON and the warning 'Property format is not allowed'](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-error.png)
 
 The format property should be a child of the data property, and not be a sibling of it. The Vega-Lite editor will show any errors in the editor pane. Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -217,7 +217,7 @@ The continent field is categorical, and we don’t need to set its `type` to be 
 
 The chart now looks like this, with legends for the fill and size encodings added to the plot automatically:
 
-![vega-lite-all-encodings.png](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-all-encodings.png)
+![A bubble chart with coloured and sized circles, with a legend for each](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-all-encodings.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
@@ -246,7 +246,7 @@ Now it’s time to work on the [scales](https://vega.github.io/vega-lite/docs/sc
 
 Setting the `zero` property to false on a scale relieves it from the requirement to start at zero, the start and end value of a scale can be set with the `domain` property. And finally, the number of ticks on an axis can be set with the `tickCount` property:
 
-![vega-lite-scales-axes.png](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-scales-axes.png)
+![The same bubble chart as above, but with a logarithmic x axis](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-scales-axes.png)
 
 Now, let’s also configure the scales and [legends](https://vega.github.io/vega-lite/docs/legend.html) for the size and fill encodings, and move the legends to the top of the plot:
 
@@ -267,24 +267,24 @@ Now, let’s also configure the scales and [legends](https://vega.github.io/vega
     },
     "fill": {
       "field": "continent",
-      **"title": "Continent",**
-      **"legend": {"orient": "top"}**
+      "title": "Continent",
+      "legend": {"orient": "top"}
     },
     "size": {
       "field": "population",
       "type": "quantitative",
-      **"title": "Population",
+      "title": "Population",
       "scale": {"range": [0, 10000]},
       "legend": {
         "values": [10000000, 100000000, 500000000, 1000000000],
         "orient": "top"
-      }**
+      }
     }
   }
 ...
 ```
 
-![vega-lite-all-scales.png](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-all-scales.png)
+![The same bubble plot as above, but with bigger bubbles and with the legend on top instead of to the right](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-all-scales.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
@@ -304,7 +304,7 @@ As a last step, we can configure the visual properties that don’t carry any da
 ...
 ```
 
-![vega-lite-mark-properties.png](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-mark-properties.png)
+![The same bubble chart as above, but with the bubbles having a black outline](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-mark-properties.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
@@ -330,7 +330,7 @@ To facet the plot, the only thing you have to do is to add an additional <code>[
 ...
 ```
 
-![vega-lite-faceted.png](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-faceted.png)
+![5 small multiple bubble charts, one for each continent](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-faceted.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
@@ -350,7 +350,7 @@ Adding tooltips to a Vega-Lite plot can be done by setting the <code>[tooltip](h
 ...
 ```
 
-![vega-lite-tooltip.png](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-tooltip.png)
+![The bubble chart revealing the data for India in a tooltip](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-tooltip.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
@@ -475,7 +475,7 @@ With layers 2 and 3 specified as follows…
 
 …the plot looks like this, with dashed horizontal and vertical lines indicating the median values for life expectancy and income:
 
-![vega-lite-transforms-layers.png](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-transforms-layers.png)
+![The same bubble chart as above, but with dashed black lines indicating the medians for life expectancy and for income](Grammar%20of%20Graphics%20in%20practice%20Vega-Lite%200cbc23e356d84ae3b4d5d1927c695bce/vega-lite-transforms-layers.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 

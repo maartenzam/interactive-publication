@@ -12,7 +12,7 @@ Every mapping of data to an aesthetic property requires a scale. But in all tool
 
 Guides are elements in the plot that help readers read values from a plot. For position scales (x and y), guides are **axes**. For other scales, guides are **legends**.
 
-![This scatter plot has 3 guides: an x axis, a y axis and a colour legend. Source: Maarten Lambrechts, CC BY SA 4.0](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/scatterplot-cars.png)
+![A scatter plot of car types and their horsepower (y axis), their engine displacement (x axis) and their number of cylinders (fill colour of the dots)](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/scatterplot-cars.png)
 
 This scatter plot has 3 guides: an x axis, a y axis and a colour legend. Source: Maarten Lambrechts, CC BY SA 4.0
 

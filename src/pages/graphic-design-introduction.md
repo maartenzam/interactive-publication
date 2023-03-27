@@ -10,7 +10,7 @@ To understand the importance of graphic design for data visualisation, we first 
 
 These are the image results when searching Google for “graphic design:
 
-![Image results for a “graphic design” Google search. Source: [Google](https://www.google.com/search?q=graphic+design&sxsrf=APq-WBuvZ-hDpFmGo6igvOK1SNXNxadhpw:1645531604421&source=lnms&tbm=isch&sa=X&ved=2ahUKEwilxP31opP2AhUIO8AKHbHYAXoQ_AUoAXoECAEQAw&biw=1452&bih=865&dpr=2)](Training%20introduction%20f43560469c7a4178b260c9519d1d1715/Screenshot_2022-02-01_at_10.43.26.png)
+![ ](Training%20introduction%20f43560469c7a4178b260c9519d1d1715/Screenshot_2022-02-01_at_10.43.26.png)
 
 Image results for a “graphic design” Google search. Source: [Google](https://www.google.com/search?q=graphic+design&sxsrf=APq-WBuvZ-hDpFmGo6igvOK1SNXNxadhpw:1645531604421&source=lnms&tbm=isch&sa=X&ved=2ahUKEwilxP31opP2AhUIO8AKHbHYAXoQ_AUoAXoECAEQAw&biw=1452&bih=865&dpr=2)
 

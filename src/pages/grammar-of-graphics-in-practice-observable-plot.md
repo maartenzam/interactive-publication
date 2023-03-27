@@ -8,7 +8,7 @@ Observable is a platform to make interactive notebooks based on JavaScript. It i
 
 Getting started with Observable and Observable Plot is as easy as creating an account on the platform. Click the “Sign up for free” button on the left or the “Sign up” button in the top right of the Observable home page to create an account.
 
-![observable-homepage.png](Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/observable-homepage.png)
+![A web browser showing the Observable homepage](Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/observable-homepage.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
@@ -16,19 +16,19 @@ Before making any visualisations with Observable Plot, you should get used to th
 
 In the dialogue that pops up you can select a template with prefilled content. Leave the blank template selected and click the Create notebook button in the bottom right.
 
-![observable-notebook-templates.png](Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/observable-notebook-templates.png)
+![Screenshot of the Observable notebook templates](Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/observable-notebook-templates.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
 A blank notebook will open, with a single cell with “# Untitled” as content.
 
-![observable-untitled.png](Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/observable-untitled.png)
+![Screenshot of an empty Observable notebook, with 'Untitled as title'](Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/observable-untitled.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
 Change the “Untitled” title to something else (keep the “#” in place) and click the blue arrow on the right of the cell.
 
-![observable-title.png](Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/observable-title.png)
+![Screenshot of an empty Observable notebook ttitled Making visualisations with the Grammar of Graphics](Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/observable-title.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
@@ -59,14 +59,14 @@ Download the file linked below.
 Next click the paper clip icon at the top of the icons on the right side of your notebook, and click the “+” button next to “File attachments”.
 
 <p class='center'>
-<img src='Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/observable-file-attachment.png' alt='' class='max-400' />
+<img src='Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/observable-file-attachment.png' alt='The Data dialogue in Observable, showing the options File attachments, Databases and Cloud files' class='max-400' />
 </p>
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 
 Then upload the CSV file you just downloaded. When the file is uploaded, add a new cell by clicking the title of your notebook and click on the little “+” sign that appears on the left of it. Click “JavaScript” to create a new JavaScript cell.
 
-![observable-new-cell.png](Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/observable-new-cell.png)
+![The Observable dialogue for creating a new cell](Grammar%20of%20Graphics%20in%20practice%20Observable%20Plot%207301fc85520e4ef980fd7561ba2acef6/observable-new-cell.png)
 
 Source: Maarten Lambrechts, CC-BY-SA 4.0
 

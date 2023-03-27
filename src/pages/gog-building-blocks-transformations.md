@@ -8,25 +8,25 @@ Many visualisations require some intermediate calculations on their source data 
 
 - <span class='internal-link'><a href='histograms'>Histograms</a></span> require a numerical dimension to be divided into bins, and the number of values in each bin to be counted. Many other visualisations that summarise the distribution of a dimension require the counting of the number of observations in each bin.
 
-![A histogram showing the time between eruptions of the Old Faithful geyser in Yosemite National Park. The height of the bars represent the number of observatino in each bin. Source: Maarten Lambrechts, CC-BY-SA 4.0](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/oldfaithful-histogram.png)
+![ ](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/oldfaithful-histogram.png)
 
-A histogram showing the time between eruptions of the Old Faithful geyser in Yosemite National Park. The height of the bars represent the number of observatino in each bin. Source: Maarten Lambrechts, CC-BY-SA 4.0
+A histogram showing the time between eruptions of the Old Faithful geyser in Yosemite National Park. The height of the bars represent the number of observatins in each bin. Source: Maarten Lambrechts, CC-BY-SA 4.0
 
 - <span class='internal-link'><a href='box-plots'>Box plots</a></span> show the quintiles in the dimension of the records in a data set. So these quintiles need to be computed from the data before the plot can be constructed.
 
-![3 box plots comparing the distribution of bill lengths of 3 penguin species. Source: adapted from [Allison Horst](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/penguin-boxplots.png)
+![ ](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/penguin-boxplots.png)
 
 3 box plots comparing the distribution of bill lengths of 3 penguin species. Source: adapted from [Allison Horst](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)
 
 - In <span class='internal-link'>[stacked charts](stacked-charts)</span>, like stacked area charts and <span class='internal-link'>[stacked bar charts](stacked-bars)</span>, the shape and position of each stacked element is determined by the underlying stacked elements. So before the plot can be constructed the shape and position of each of the stacked elements needs to be computed.
 
-![A stacked area chart showing unemployment numbers in different sectors stacked on top of each other to show total number of unemployed people over all sectors. Source: [observablehq.com/@observablehq/plot-area](https://observablehq.com/@observablehq/plot-area)](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/observable-stacked-areas.png)
+![ ](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/observable-stacked-areas.png)
 
 A stacked area chart showing unemployment numbers in different sectors stacked on top of each other to show total number of unemployed people over all sectors. Source: [observablehq.com/@observablehq/plot-area](https://observablehq.com/@observablehq/plot-area)
 
 - <span class='internal-link'><a href='density-violin-and-raincloud-plots'>Density plots</a></span> show distributions as curves. The shape of the curve can be calculated with a density transformation, of which the result is then plotted with a line or area geometry.
 
-![Density plots of the bill lengths of 3 species of penguins. Source: Maarten Lambrechts, CC-BY-SA 4.0](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/penguin-slabs.png)
+![ ](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/penguin-slabs.png)
 
 Density plots of the bill lengths of 3 species of penguins. Source: Maarten Lambrechts, CC-BY-SA 4.0
 
@@ -36,7 +36,7 @@ All implementations of the Grammar of Graphics discussed in this training have a
 
 For example, the following plot shows (relative) gdp per capita numbers for the regions of the European Union as dots, while a second layer is overlaid showing the country averages as outlined squares. This can be achieved by a data transformation that aggregates the regional values into an average value for each country.
 
-![Source: Why Budapest, Warsaw, and Lithuania split themselves in two, [pudding.cool/2019/04/eu-regions](https://pudding.cool/2019/04/eu-regions/)](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/pudding-regions.png)
+![A dot plot titled 'EU regions, by economic development'. For each country, coloured dots represent its regions and a black outlined square represents the country average](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/pudding-regions.png)
 
 Source: Why Budapest, Warsaw, and Lithuania split themselves in two, [pudding.cool/2019/04/eu-regions](https://pudding.cool/2019/04/eu-regions/)
 
@@ -48,7 +48,7 @@ Other common transformations which are sometimes needed for plotting the data in
 
 - **sorting**. Some tools require data for line charts to be sorted according to their value on the x axis, so a sort transformation might be needed.
     
-![Unsorted data for line geometries can lead to unwanted results. Source: [observablehq.com/@observablehq/plot-line](https://observablehq.com/@observablehq/plot-line)](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/observable-unsorted.png)
+![A line chart in which the line is chaotically running in the vertical and horizontal direction](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/observable-unsorted.png)
     
 Unsorted data for line geometries can lead to unwanted results. Source: [observablehq.com/@observablehq/plot-line](https://observablehq.com/@observablehq/plot-line)
     

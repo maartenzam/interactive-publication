@@ -13,7 +13,7 @@ So, referring to the dpi of a raster graphic to describe its image quality or re
 Take into account that printers need much more dpi compared to what displays need in pixel density (pixels per inch) because printers only have a limited set of ink colours to mix (see the page about <span class='internal-link'>[CMYK](describing-colours-cmyk)</span>). For each pixel on a digital display, printers need to mix dots of different colours in much finer detail to obtain the same colours, as is shown in the image below:
 
 <p class='center'>
-<img src='File%20formats,%20dimensions%20and%20units%20d1757276a4214716bd793dd0f19ac95c/DPI_and_PPI.png' alt='Source: [Wapcaplet](https://commons.wikimedia.org/wiki/File:DPI_and_PPI.png), CC BY-SA 3.0' class='max-600' />
+<img src='File%20formats,%20dimensions%20and%20units%20d1757276a4214716bd793dd0f19ac95c/DPI_and_PPI.png' alt='A drawing showing the grid of pixels of a blue green circle on a computer screen and the mix of ink droplets for each pixel on printed version of the same circle' class='max-600' />
 </p>
 
 Source: [Wapcaplet](https://commons.wikimedia.org/wiki/File:DPI_and_PPI.png), CC BY-SA 3.0

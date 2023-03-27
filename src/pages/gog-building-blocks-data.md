@@ -1,6 +1,6 @@
 As with any other visualisation tool, making a visualisation with the Grammar of Graphics start with the data. The input data for a visualisation is almost always tabular data, with rows representing the records and columns representing the dimensions (also sometimes called measures, or fields) for each record. In the language of tidy data (see <span class='internal-link'>[Intro to tidy data](intro-to-tidy-data)</span>), rows are called **observations**, and columns are **variables**.
 
-![Example of a data table, with each row representing a type of car and each column representing a variable measured on each car. Source: Maarten Lambrechts, CC BY SY 4.0](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/data-table-cars.png)
+![A screenshot of table viewed in an RStudio window](Building%20blocks%20of%20the%20Grammar%20of%20Graphics%202aa612131ff246cf95f99d6c95fcbe4e/data-table-cars.png)
 
 Example of a data table, with each row representing a type of car and each column representing a variable measured on each car. Source: Maarten Lambrechts, CC BY SY 4.0
 
