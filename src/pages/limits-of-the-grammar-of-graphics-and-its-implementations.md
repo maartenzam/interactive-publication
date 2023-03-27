@@ -4,7 +4,7 @@ Despite the flexibility that the Grammar of Graphics offers with different geome
 
 For example, none of the 3 implementations have simple and out-of-the-box solutions for ternary plots.
 
-![This ternary plot shows the the composition of the sources of household energy consumption in different countries. Values can be read from each of the 3 axes. Source: Maarten Lambrechts, CC BY SA 4.0](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/ternary-plot-4.png)
+![A ternary plot with the division of household energy consumption between solid biofuels, other renewables and non-renewables in different countries](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/ternary-plot-4.png)
 
 This ternary plot shows the the composition of the sources of household energy consumption in different countries. Values can be read from each of the 3 axes. Source: Maarten Lambrechts, CC BY SA 4.0
 
@@ -22,7 +22,7 @@ ggplot(data = mtcars, aes(x = factor(1), fill = factor(cyl))) +
  coord_polar(theta = "y")
 ```
 
-![Source: [ggplot2.tidyverse.org/reference/coord_polar.html](https://ggplot2.tidyverse.org/reference/coord_polar.html)](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/ggplot-pie-chart.png)
+![A pie chart resulting from the ggplot2 code above](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/ggplot-pie-chart.png)
 
 Source: [ggplot2.tidyverse.org/reference/coord_polar.html](https://ggplot2.tidyverse.org/reference/coord_polar.html)
 
@@ -35,7 +35,7 @@ Vega-Lite does not offer a polar coordinate system, but instead offers the [arc 
 
 In this way, the arc geometry makes it possible to produce radial plots like pie and donut charts.
 
-![Source: [vega.github.io/vega-lite/examples/#circular-plots](https://vega.github.io/vega-lite/examples/#circular-plots)](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/circle-plots-vega-lite.png)
+![Pie charts and donut charts made with Vega-Lite](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/circle-plots-vega-lite.png)
 
 Source: [vega.github.io/vega-lite/examples/#circular-plots](https://vega.github.io/vega-lite/examples/#circular-plots)
 
@@ -47,11 +47,11 @@ Network visualisations and visualisations of hierarchical data are not, or only 
 
 Both hierarchical data and network data (also called graph data) consists of **nodes** connected to other nodes in the data through **edges**. When the nodes in a network have strict parent-child edges (so an edge connecting two nodes always means “is a child of” or “is a parent of”), the network is a hierarchy. Visualisation techniques for <span class='internal-link'>[visualising hierarchies](visualising-hierarchies)</span> include dendrograms and <span class='internal-link'>[tree maps](visualising-hierarchies-with-numbers)</span>.
 
-![A dendrogram showing the taxonomy of the Felidae family, or cats. Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/felidae-dendrogram.svg)
+![ ](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/felidae-dendrogram.svg)
 
 A dendrogram showing the taxonomy of the Felidae family, or cats. Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0
 
-![A treemap showing the population of the biggest cities in each continent. Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/treemap-cities.svg)
+![ ](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/treemap-cities.svg)
 
 A treemap showing the population of the biggest cities in each continent. Source: made with [RAWgraphs](https://app.rawgraphs.io/), Maarten Lambrechts CC BY SA 4.0
 
@@ -60,13 +60,13 @@ Only Observable Plot has some support to make dendrograms, but for treemaps the 
 Similarly, networks can be visualised with any of the 3 tools only when the calculations for the positions of the nodes are calculated upfront, external to the implementation.
 
 <p class='center'>
-<img src='Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/simple-graph.png' alt='' class='max-400' />
+<img src='Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/simple-graph.png' alt=' ' class='max-400' />
 </p>
 
 A visualisation of a simple network. Source: Maarten Lambrechts, CC BY SA 4.0
 
 <p><span class='internal-link'><a href='sankey-and-alluvial-diagrams'>Alluvial plots and Sankey diagrams</a></span> are also based on network data, and or not directly supported by the implementations of the Grammar of Graphics. Their layout needs to be calculated first before geometries can be used to show the nodes and edges of these graphs.</p>
 
-![Example of a Sankey diagram showing how energy in the US is converted or transmitted before being consumed or lost. Source: [Mike Bostock](https://observablehq.com/@d3/sankey), observablehq.com](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/sankey-observable.png)
+![ ](Chart%20types%20and%20the%20Grammar%20of%20Graphics%20263c3fb1faf44d64a3e2670baf5bcc26/sankey-observable.png)
 
 Example of a Sankey diagram showing how energy in the US is converted or transmitted before being consumed or lost. Source: [Mike Bostock](https://observablehq.com/@d3/sankey), observablehq.com

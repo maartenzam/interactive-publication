@@ -10,12 +10,12 @@ One chart that is especially sensitive to differences in aspect ratios are line 
 
 A wide layout, with a high width to height ratio, will flatten trends in time series.  A high layout, with a low width to height ratio, will do the reverse and stress or even dramatise trends in the data.
 
-![A wide and flat layout suggest slow trends or even flat lines. Source: Maarten Lambrechts, CC BY 4.0](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/linechart-wide2x.png)
+![A wide and flat line chart showing 3 lines labelled and highlighted with colour](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/linechart-wide2x.png)
 
 A wide and flat layout suggest slow trends or even flat lines. Source: Maarten Lambrechts, CC BY 4.0
 
 <p class='center'>
-<img src='Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/linechart-narrow2x.png' alt='Narrow and high designs exaggerate trends. Source: Maarten Lambrechts, CC BY 4.0' class='max-400' />
+<img src='Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/linechart-narrow2x.png' alt='The same chart as above, but with a narrow and high layout' class='max-400' />
 </p>
 
 Narrow and high designs exaggerate trends. Source: Maarten Lambrechts, CC BY 4.0
@@ -26,7 +26,7 @@ This rule stems from a paper dating back to 1988: But the topic of the paper was
 
 On top of that, the researchers did not include average slopes lower than 45 degrees in their study. A follow up study actually showed that people performed better with lower average slopes.
 
-![Both of these charts show the same data. The more intense the red, the higher the error in comparing the slope of a chat segment compared to other segments. A flatter layout leads to lower errors. Source: [An Empirical Model of Slope Ratio Comparisons](http://vis.stanford.edu/files/2012-SlopeComparison-InfoVis.pdf), Justin Talbot, John Gerth, and Pat Hanrahan](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/slope-errors.png)
+![2 line charts showing the same data, but the second one is compressed in the vertical direction](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/slope-errors.png)
 
 Both of these charts show the same data. The more intense the red, the higher the error in comparing the slope of a chat segment compared to other segments. A flatter layout leads to lower errors. Source: [An Empirical Model of Slope Ratio Comparisons](http://vis.stanford.edu/files/2012-SlopeComparison-InfoVis.pdf), Justin Talbot, John Gerth, and Pat Hanrahan
 
@@ -36,13 +36,13 @@ A study from 2006 illustrated that different aspect ratios can reveal different 
 
 The first chart has a more or less square layout. On this chart, you can see the upward bend in the time series: the increase in CO₂ concentration is accellerating.
 
-![Source: [Multi-Scale Banking to 45º](http://vis.berkeley.edu/papers/banking/2006-Banking-InfoVis.pdf), Jeffrey Heer and Maneesh Agrawala](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/co2-square.png)
+![A line chart showing CO2 concentration in the atmosphere from 1959 to 1990. A yearly cycle is laid over a continually rising trend](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/co2-square.png)
 
 Source: [Multi-Scale Banking to 45º](http://vis.berkeley.edu/papers/banking/2006-Banking-InfoVis.pdf), Jeffrey Heer and Maneesh Agrawala
 
 The second chart has a flat layout. The upward bend is less visible than on the chart above. But something else becomes more visible in this chart: the seasonal decreases in CO₂ concentration have a higher slope (so they happen faster) than the yearly increases. This is less visible in the chart above.
 
-![Source: [Multi-Scale Banking to 45º](http://vis.berkeley.edu/papers/banking/2006-Banking-InfoVis.pdf), Jeffrey Heer and Maneesh Agrawala](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/co2-flat.png)
+![The same chart as above, but compressed strongly in the vertical direction](Size%20and%20aspect%20ratios%204b748df4893b4718a66577e684f03486/co2-flat.png)
 
 Source: [Multi-Scale Banking to 45º](http://vis.berkeley.edu/papers/banking/2006-Banking-InfoVis.pdf), Jeffrey Heer and Maneesh Agrawala
 
