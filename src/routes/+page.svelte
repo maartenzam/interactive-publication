@@ -7,6 +7,7 @@
 	import ForceGraph from '$lib/components/ForceGraph.svelte';
 	import pages from '$lib/data/pages.json';
 	import SunBurst from '$lib/components/SunBurst.svelte';
+	import { base } from '$app/paths';
 
 	$location = { type: 'home' };
 </script>
@@ -32,7 +33,7 @@
 >
 	<div class="block topics">
 		<div class="icon">
-			<img src="icons/topics.svg" alt="Icon representing topics" />
+			<img src={`${base}/icons/topics.svg`} alt="Icon representing topics" />
 		</div>
 		<h2>Suggested topics</h2>
 		<p>
@@ -46,7 +47,7 @@
 	</div>
 	<div class="block search">
 		<div class="icon">
-			<img src="icons/search.svg" alt="Magnifying glass icons representing search" />
+			<img src={`${base}/icons/search.svg`} alt="Magnifying glass icons representing search" />
 		</div>
 		<h2>Search</h2>
 		<p>Find the data visualisation topic you are looking for by using the search bar below.</p>
@@ -58,7 +59,7 @@
 	</div>
 	<div class="block chain">
 		<div class="icon">
-			<img src="icons/chain.svg" alt="Icon representing a sequence of linked pages" />
+			<img src={`${base}/icons/chain.svg`} alt="Icon representing a sequence of linked pages" />
 		</div>
 		<h2>String of pages</h2>
 		<p>
@@ -84,7 +85,7 @@
 					navigate to the overview pages of the topics and subtopics, or click a circle in the outer
 					ring to navigate to a page in the Academy.
 				</p>
-				<div class="legend-container"><img class="legend" src="SVG/legend.svg" alt="Sunburst diagram that shows the structure of the table of content of the Data Visualisation Academy"/></div>
+				<div class="legend-container"><img class="legend" src={`${base}/SVG/legend.svg`} alt="Sunburst diagram that shows the structure of the table of content of the Data Visualisation Academy"/></div>
 				<p>The size of the circles representing the pages is proportional to the length of each page, and the size of the ring sections is proportional to the lenght of pages in each section.</p>
 			</div>
 		</div>
