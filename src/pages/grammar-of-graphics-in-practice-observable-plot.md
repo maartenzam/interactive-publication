@@ -43,7 +43,7 @@ You have just edited a cell and ran it in Observable. Cells are the building blo
 
 In this tutorial, you are going to use JavaScript cells only (accept for the first cell, which contains the title of the notebook as Markdown).
 
-## Making visualisations with Observable Plot
+## Making visualisations with Observable
 
 <aside>
 🔗 You can find an Observable version of this tutorial in <a href='https://observablehq.com/d/15ae37db391bac47'>this notebook</a>. You can edit the cells in this notebook even without an Observable account, but your edits will not be saved. When you do have an Observable account, you can duplicate the notebook. To do so, click the “Fork” button in the top right of the notebook. This will create a copy of the notebook in your own account.
@@ -86,8 +86,6 @@ This snippet
 When you click the blue arrow on the right of the cell, the JavaScript snippet will be run, and you will be able to see the output of the cell right above it. In this case, `countries` is an array of 184 JavaScript objects. Click the little black triangle before “Array(184)” to get a preview of the content of the array.
 
 <iframe src='https://observablehq.com/embed/15ae37db391bac47?cells=countries' width='100%' height='450px' style='border: none;'></iframe>
-
-[https://observablehq.com/embed/15ae37db391bac47?cells=countries]()
 
 <aside>
 ❗ Try running the same cell with the <code>typed</code> option set to <code>false</code>. Can you spot the difference in the output?

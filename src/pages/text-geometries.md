@@ -6,11 +6,15 @@ Source: Maarten Lambrechts, CC BY SA 4.0
 
 All 3 implementations of the Grammar of Graphics have a `text` geometry. ggplot2 offers an alternative geometry called `geom_label`. It produces text with a coloured background.
 
+<div style="overflow-x:auto;">
+
 | Implementation | Geometry name | Required aesthetics | Additional aesthetics |
 | --- | --- | --- | --- |
 | ggplot2 | geom_text, geom_label | x, y, label |  |
 | Vega-Lite | text | x, y, text |  |
 | Observable Plot | text | x, y, text |  |
+
+</div>
 
 ![The same chart as above, but using ggplot2's geom_label instead of geom_text](Geometric%20objects%20in%20detail%20bd1876bee7c94755a7803c7578a39cd9/geom_label.png)
 

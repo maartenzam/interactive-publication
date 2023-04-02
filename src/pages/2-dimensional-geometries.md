@@ -20,11 +20,15 @@ Source: [observablehq.com/@observablehq/plot-bar](https://observablehq.com/@obse
 
 In ggplot2 and in Vega-Lite, stacked bars are produced automatically when an additional categorical variable is mapped to the colour of the bars.
 
+<div style="overflow-x:auto;">
+
 | Implementation | Geometry name | Required aesthetics | Additional aesthetics |
 | --- | --- | --- | --- |
 | ggplot2 | col | x, y | fill (to create stacked bars) |
 | Vega-Lite | bar | x, y | color (to create stacked bars) |
 | Observable Plot | barX, barY | x, y |  |
+
+</div>
 
 All 3 implementations have a `rect` geometry that produces rectangles. A `bar` geometry is also a rectangle, of course, but while the position and the size of a `bar` is determined by one categorical and one numerical variable, the position and size of a `rect` geometry is set by the location of its 4 corners.
 
@@ -34,12 +38,16 @@ The population of countries and their shares living on less than 30 dollars per 
 
 ggplot2 has an alternative to `rect`, called `tile`. It also produces rectangles, but based on the position (x and y) and dimensions (width and height) of the rectangles.
 
+<div style="overflow-x:auto;">
+
 | Implementation | Geometry name | Required aesthetics |
 | --- | --- | --- |
 | ggplot2 | rect | xmin, xmax, ymin, ymax |
 | ggplot2 | tile | x, y, width, height |
 | Vega-Lite | rect | x, y, x2, y2 |
 | Observable Plot | rect | x1, y1, x2, y2 |
+
+</div>
 
 The `rect` geometry can also be used differently in Vega-Lite and Observable Plot. When the variables for the x and y aesthetics are categorical, discrete numerical or binned numerical variables, the `rect` geometry can be used to create heatmaps. 
 
@@ -53,12 +61,16 @@ Similar plots can be created with the `raster` geometry in ggplot2 and the `cell
 
 IMDB ratings of episodes of “The Simpsons” over 28 seasons, visualised as a heatmap using the `cell` geometry of Observable Plot. Source: [observablehq.com/@observablehq/plot-cell](https://observablehq.com/@observablehq/plot-cell)
 
+<div style="overflow-x:auto;">
+
 | Implementation | Geometry name | Required aesthetics |
 | --- | --- | --- |
 | ggplot2 | raster | x, y |
 | Vega-Lite | rect | x, y |
 | Observable Plot | rect | x, y |
 | Observable Plot | cell | x, y |
+
+</div>
 
 `area` geometries are closely related to `line` geometries, and are often used to visualise time series data. They generate a filled area between a top and bottom line.
 
@@ -86,6 +98,8 @@ Source: [observablehq.com/@observablehq/plot-area](https://observablehq.com/@obs
 
 Finally, the connections between the datapoints don’t need to be straight lines. Other interpolations are possible with the `interpolation` parameter in Vega-Lite and the `curve` parameter in Observable Plot.
 
+<div style="overflow-x:auto;">
+
 | Implementation | Geometry name | Required aesthetics | Additional aesthetics |
 | --- | --- | --- | --- |
 | ggplot2 | area | x, y | group or fill (to group observations in multi-series charts) |
@@ -96,3 +110,5 @@ interpolation |
 | Observable Plot | area | x, y (zero baseline)
 y, y1, y2 (non-zero baseline) | z or fill (to group observations in multi-series charts)
 curve |
+
+</div>

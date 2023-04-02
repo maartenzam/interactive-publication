@@ -1,5 +1,7 @@
 Consider the following data table, containing some data about 4 types of cars.
 
+<div style="overflow-x:auto;">
+
 | Car | Cylinders | Engine displacement | Horsepower | Quarter mile time | Origin |
 | --- | --- | --- | --- | --- | --- |
 | Mazda RX4 | 6 | 160 | 110 | 16.46 | Japan |
@@ -7,6 +9,8 @@ Consider the following data table, containing some data about 4 types of cars.
 | Honda Civic | 4 | 75.7 | 52 | 18.52 | Japan |
 | Pontiac Firebird | 8 | 400 | 175 | 17.05 | US |
 | … |  |  |  |  |  |
+
+</div>
 
 Almost all visualisation software will have some way of creating a scatter plot from this data. In many cases, it will be as simple selecting the data in a spreadsheet and hitting the scatterplot button. 
 
@@ -20,6 +24,8 @@ The first thing the software needs to do is to **pick the columns** in the data 
 
 Of course, the software has no idea about what the column names mean and what the values in the column represent in the real world. But what it now knows is **what data to use** for positioning and colouring the dots in the scatter plot.
 
+<div style="overflow-x:auto;">
+
 | Car | Colour | X | Y |
 | --- | --- | --- | --- |
 | Mazda RX4 | 6 | 160 | 110 |
@@ -28,7 +34,11 @@ Of course, the software has no idea about what the column names mean and what th
 | Pontiac Firebird | 8 | 400 | 175 |
 | … |  |  |  |
 
+</div>
+
 But for now, the dots are still living in an abstract space, with position coordinates measured in the units and of the data and colours representing the number of cylinders. To make the dots perceivable, their properties need to be turned into coordinates on the screen (or on paper, in the case of a printed graphic) and actual colour values. The scatter plot uses a cartesian coordinate system and **linear scales** , and with the width and height the plot should have the software can  calculate the position of each dot on screen. With a **colour scale**, the categorical values in the data are mapped to colour values used to fill the dots.
+
+<div style="overflow-x:auto;">
 
 | Car | Colour | X | Y |
 | --- | --- | --- | --- |
@@ -37,6 +47,8 @@ But for now, the dots are still living in an abstract space, with position coord
 | Honda Civic | red | 151 pixels | 156 pixels |
 | Pontiac Firebird | blue | 800 pixels | 525 pixels |
 | … |  |  |  |
+
+</div>
 
 With this calculated data, the software can finally render the scatter plot: dots are positioned and coloured based on the calculated values.
 

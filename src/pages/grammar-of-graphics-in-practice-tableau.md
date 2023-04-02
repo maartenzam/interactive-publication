@@ -190,7 +190,7 @@ Saving a local copy is not possible with Tableau Public, and all Tableau workboo
 
 Source: Maarten Lambrechts, CC BY SA 4.0
 
-The finished Tableau Workbook for this tutorial is located at [public.tableau.com/app/profile/maartenzam/viz/GoGTableaudemo/Sheet1](https://public.tableau.com/app/profile/maartenzam/viz/GoGTableaudemo/Sheet1)
+The finished Tableau Workbook for this tutorial is located here [is located here](https://public.tableau.com/app/profile/maartenzam/viz/GoGTableaudemo/Sheet1)
 
 ## Extras
 

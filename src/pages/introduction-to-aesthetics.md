@@ -1,5 +1,7 @@
 Consider the following data table:
 
+<div style="overflow-x:auto;">
+
 | country | continent | population | life expectancy | income |
 | --- | --- | --- | --- | --- |
 | China | Asia | 1.420.000.000 | 76,9 | 16.000 |
@@ -8,6 +10,8 @@ Consider the following data table:
 | Indonesia | Asia | 267.000.000 | 72 | 11.700 |
 | Brazil | Americas | 211.000.000 | 75.7 | 14.300 |
 | … |  |  |  |  |
+
+</div>
 
 This data set (which is a <span class='internal-link'>[tidy data set](intro-to-tidy-data)</span>) can be visualised as follows:
 
@@ -49,10 +53,14 @@ Mapping the same variable to multiple aesthetics is called <span class='internal
 
 In Vega-Lite, geometries are called “marks”, and their visual properties are called “channels”. This terminology is shared by Observable Plot. ggplot2 on the other hand, sticks to the original terminology used in the Grammar of Graphics book by Leland Wilkinson. In ggplot2, data is “mapped” to the “aesthetics” of “geometries”.
 
+<div style="overflow-x:auto;">
+
 | Vega-Lite and Observable Plot | ggplot2 |
 | --- | --- |
 | Marks | Geometries |
 | Channels | Aesthetics |
 | Encoding | Mapping |
+
+</div>
 
 Here, we use the terms geometries, aesthetics and mapping.

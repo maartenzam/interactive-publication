@@ -6,11 +6,15 @@ The simplest 1-dimensional geometries are vertical and horizontal lines. They on
 
 Example of a `vline` geometry producing a vertical line that intersects the x axis at the value of 5 on a scatterplot made with ggplot2. Source: [ggplot2.tidyverse.org/reference/geom_abline.html](https://ggplot2.tidyverse.org/reference/geom_abline.html)
 
+<div style="overflow-x:auto;">
+
 | Implementation | Geometry name | Required aesthetics |
 | --- | --- | --- |
 | ggplot2 | hline, vline | yintercept, xintercept |
 | Vega-Lite | rule | x, y |
 | Observable Plot | ruleX, ruleY | x, y |
+
+</div>
 
 Other 1-dimensional geometries connect 2 points. These geometries require you to provide the  the coordinates of both the start and end points of the lines.
 
@@ -24,6 +28,8 @@ The connection between 2 points can be a straight line, like in the plot above, 
 
 The same plot as above, but using the `arrow` geometry in Observable Plot instead of the `link` geometry. The `arrow` geometry has a `bend` aesthetic that can be used to make the arrows curved. Source: [observablehq.com/@observablehq/plot-arrow](https://observablehq.com/@observablehq/plot-arrow)
 
+<div style="overflow-x:auto;">
+
 | Implementation | Geometry name | Required aesthetics |
 | --- | --- | --- |
 | ggplot2 | segment | x, y, xend, yend |
@@ -31,6 +37,8 @@ The same plot as above, but using the `arrow` geometry in Observable Plot instea
 | Vega-Lite | rule | x, y, x2, y2 |
 | Observable Plot | link | x1, y1, x2, y2 |
 | Observable Plot | arrow | x1, y1, x2, y2, bend |
+
+</div>
 
 The last type of 1-dimensional geometries connect multiple points. In many cases these geometries will use a time variable for the x aesthetic to produce visualisations of time series. When multiple series are plotted, an aesthetic is needed to specify which points in the data should be connected each other.
 
@@ -62,6 +70,8 @@ Finally, Vega-Lite has the special `trail` geometry. It is very similar to the `
 
 Example of the `trail` geometry in Vega-Lite. Source: [vega.github.io/vega-lite/examples/trail_color.html](https://vega.github.io/vega-lite/examples/trail_color.html)
 
+<div style="overflow-x:auto;">
+
 | Implementation | Geometry name | Required aesthetics | Additional aesthetics |
 | --- | --- | --- | --- |
 | ggplot2 | path (connects observations in the order in the data) | x, y | group or colour (to group observations in multi-series charts) |
@@ -72,3 +82,4 @@ interpolation |
 | Vega-Lite | trail | x, y, width | color (to group observations in multi-line line charts) |
 | Observable Plot | line | x, y | z (to group observations in multi-series charts)
 curve |
+</div>

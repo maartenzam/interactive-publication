@@ -13,6 +13,8 @@ Source: Maarten Lambrechts, CC BY SA 4.0
 
 This plot is based on a data set that looks like this:
 
+<div style="overflow-x:auto;">
+
 | country | continent | population | life expectancy | income |
 | --- | --- | --- | --- | --- |
 | China | Asia | 1.420.000.000 | 76,9 | 16.000 |
@@ -21,6 +23,8 @@ This plot is based on a data set that looks like this:
 | Indonesia | Asia | 267.000.000 | 72 | 11.700 |
 | Brazil | Americas | 211.000.000 | 75.7 | 14.300 |
 | … |  |  |  |  |
+
+</div>
 
 Let’s focus on the `life expectancy` variable first. It is mapped to the `y` aesthetic of the circle geometry. In this data set, the minimum life expectancy is 51,1 years (Lesotho), and the maximum life expectancy is 84,2 (Japan). The range of values a variable has in a data set is often called the **domain** of the variable. So in this case the domain for the y scale ranges from 51,1 years to 84,2 years.
 

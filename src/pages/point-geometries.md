@@ -28,6 +28,8 @@ Example of the vector geometry of Observable Plot. Source: [observablehq.com/@ob
 
 The table below gives an overview of the point geometries and their aesthetics in ggplot2, Vega-Lite and Observable Plot.
 
+<div style="overflow-x:auto;">
+
 | Implementation | Geometry name | Required aesthetics | Additional aesthetics |
 | --- | --- | --- | --- |
 | ggplot2 | geom_point | x, y | shape |
@@ -36,3 +38,5 @@ The table below gives an overview of the point geometries and their aesthetics i
 | Vega-Lite | tick | x, y |  |
 | Observable Plot | dot | x, y |  |
 | Observable Plot | vector | x, y | rotate, length |
+
+</div>
