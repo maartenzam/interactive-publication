@@ -3,6 +3,7 @@
 	import pages from '$lib/data/pages.json';
 
 	export let possibleResults = pages;
+	export let type;
 	let results = [];
 	let searchInput = '';
 	let isFocused = false;
@@ -28,9 +29,9 @@
 </script>
 
 <div class="search-container">
-	<label for="searchfield" class="visuallyhidden">Search</label>
+	<label for={type} class="visuallyhidden">Search</label>
 	<input
-		id="searchfield"
+		id={type}
 		type="text"
 		name="searchfield"
 		placeholder="Search"

@@ -55,7 +55,7 @@
 			Try for example "Line charts", "Fonts", "Tools", "Colours", "Annotations" or any other term
 			related to data visualisation.
 		</p>
-		<p><SearchBar /></p>
+		<p><SearchBar type="search-in-text"/></p>
 	</div>
 	<div class="block chain">
 		<div class="icon">

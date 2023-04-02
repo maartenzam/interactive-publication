@@ -10,7 +10,7 @@
   {/if}
 
   <nav style:width={$isMobile ? '100%' : 'auto'}>
-    <div class="search-bar" style:width={$isMobile ? '100%' : '20rem'}><SearchBar></SearchBar></div>
+    <div class="search-bar" style:width={$isMobile ? '100%' : '20rem'}><SearchBar type="search-in-header" /></div>
   </nav>
 </header>
 
