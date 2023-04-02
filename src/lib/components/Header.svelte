@@ -6,7 +6,12 @@
 
 <header>
   {#if !$isMobile}
+  <div>
+    <div class="icon-container">
+    <a href="{base}/" class="title"><img class="home-icon" src={`${base}/icons/home-filled.svg`} alt="Home icon"/></a>
+  </div>
     <a href="{base}/" class="title">Data Visualisation Guide</a>
+  </div>
   {/if}
 
   <nav style:width={$isMobile ? '100%' : 'auto'}>
@@ -32,5 +37,14 @@
     }
     a.title {
       font-weight: bold;
+    }
+    .home-icon {
+      width: 100%;
+    }
+    .icon-container {
+      height: 18px;
+		  max-width: 18px;
+      float: left;
+      margin-right: 6px;
     }
     </style>
