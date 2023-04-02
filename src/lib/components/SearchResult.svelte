@@ -1,6 +1,5 @@
 <script>
 	import { base } from '$app/paths';
-	import { slugify } from '$lib/utils/slugs.js';
 	import { topicColors } from '$lib/styles/colors.js';
 
 	export let result;
@@ -18,15 +17,16 @@
 		<div class="tags">
 			<span class="tag" style:background-color={topicColors[result.t1]}
 				>{result.t1}</span
-			>
+			> >
 			<span class="tag" style:background-color={topicColors[result.t1]}
 				>{result.m1}</span
 			>
 	
 			{#if result.t2 && result.m2}
+				<br />
 				<span class="tag" style:background-color={topicColors[result.t2]}
 					>{result.t2}</span
-				>
+				> >
 				<span class="tag" style:background-color={topicColors[result.t2]}
 					>{result.m2}</span
 				>

@@ -43,6 +43,9 @@
 		class="typeahead-results-list"
 		style:border={results.length > 0 ? '1px solid #707070' : 'none'}
 	>
+		{#if searchInput.length > 0 && results.length == 0}
+			<li class="no-results">No results found</li>
+		{/if}
 		{#each results as result}
 			<SearchResult {result} bind:searchInput bind:results />
 		{/each}
@@ -96,5 +99,16 @@
   padding: 0;
   position: absolute;
   width: 1px;
+	}
+	li.no-results {
+		list-style: none;
+		border-bottom: 1px solid #d4d4d4;
+		border-left: 1px solid #d4d4d4;
+		border-right: 1px solid #d4d4d4;
+		margin: 0;
+		padding: 4px;
+		background-color: #fff;
+		color: black;
+		font-size: 1rem;
 	}
 </style>
