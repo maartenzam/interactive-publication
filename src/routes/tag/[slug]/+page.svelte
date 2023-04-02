@@ -2,8 +2,8 @@
 	//import Tag from '$lib/components/Tag.svelte';
 	import { base } from '$app/paths';
 	import { location } from '$lib/stores/stores.js';
-	import ForceGraph from '$lib/components/ForceGraph.svelte';
-	import SunBurst from '$lib/components/SunBurst.svelte';
+	//import ForceGraph from '$lib/components/ForceGraph.svelte';
+	//import SunBurst from '$lib/components/SunBurst.svelte';
 
 	export let data;
 
@@ -17,28 +17,9 @@
 	<p>
 		<span class="internal-link"><a href={`${base}/${page.slug}`}>{page.title}</a></span>
 	</p>
-	<!--div class="tag-container">
-<Tag tagType={'t1'} tag={page.t1} root={false}/>
-<Tag tagType={'m1'} tag={page.m1} root={false}/>
 
-{#if page.t2}
-  {#if page.t1 != page.t2}
-  <Tag tagType={'t2'} tag={page.t2} root={false}/>
-  {/if}
-{/if}
-
-{#if page.m2}
-  <Tag tagType={'m2'} tag={page.m2} root={false}/>
-{/if}
-
-{#if page.metatags}
-  {#each page.metatags.split(', ') as tag}
-	<Tag tagType={'meta'} {tag} root={false}/>
-  {/each}
-{/if}
-</div-->
 {/each}
-<h2>{data.title} visualised</h2>
+<!--h2>{data.title} visualised</h2>
 {#if data.crumbs.m1}
 <p>The visualisation below shows the location of the subtopic '{data.title}' in relation to the other subtopics in the main topic of '{data.crumbs.t1}'. The circles in the outer ring represent the pages related to the subtopics, and their size is proportional to the length of each page. Click a circle to navigate to the page it represents.</p>
 {/if}
@@ -51,7 +32,7 @@
 		minLabelValue={data.crumbs.m1 ? 0 : 5000}
 		dots={true}
 	/>
-	<!--SunBurst
+	<SunBurst
 		filter={data.crumbs}
 		maxLabelLevel={1}
 		minLabelValue={data.crumbs.m1 ? 0 : 5000}
@@ -66,7 +47,7 @@
 		root={false}
 		secondaryModules={false}
 		height={700}
-	/-->
+	/>-->
 </main>
 
 <style>

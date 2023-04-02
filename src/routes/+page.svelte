@@ -73,9 +73,8 @@
 		<StartingLinks />
 	</div>
 </div>
-{#if !$isMobile}
+<!--{#if !$isMobile}
 	<div class="knowledge-graph">
-		
 		<div class="viz-intro">
 			<h2>Visual Table of Contents</h2>
 			<div class="viz-intro-text">
@@ -91,7 +90,7 @@
 		</div>
 
 		<SunBurst maxLabelLevel={1} minLabelValue={18000} dots={true} />
-		<!--SunBurst maxLabelLevel={2} minLabelValue={18000} dots={false}></SunBurst>
+		<SunBurst maxLabelLevel={2} minLabelValue={18000} dots={false}></SunBurst>
 	<ForceGraph
 		pagesData={pages}
 		chargeStrength={-100}
@@ -111,9 +110,9 @@
 		root={true}
 		secondaryModules={true}
 		height={800}
-	/-->
+	/>
 	</div>
-{/if}
+{/if}-->
 
 <style>
 	.intro,

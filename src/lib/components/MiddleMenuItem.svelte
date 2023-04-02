@@ -36,19 +36,8 @@
 				href={base + '/' + page.slug}
 				style:color={page.slug == $location.slug ? 'white': topicColor}
 				on:click={() => sidebarOpen = false}
-				>{page.title} <svg
-				style="tran"
-				width="20"
-				height="20"
-				fill="none"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-				stroke-width="3"
-				viewBox="0 0 24 24"
-				style:float={'right'}
-				style:transform={'rotate(0turn)'}
-				stroke={page.slug == $location.slug ? 'white' : topicColor}><path d="M9 5l7 7-7 7" /></svg
-			></a></li>
+				>{page.title}</a>
+			</li>
 		{/each}
 	</ul>
 {/if}
@@ -71,6 +60,8 @@
     }
 	li.page-link a {
 		text-decoration: none;
+		display: block;
+  		width: 100%;
 	}
 	svg {
 		transition: transform 0.2s ease-in;
