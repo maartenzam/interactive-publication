@@ -1,6 +1,7 @@
 <footer>
     <div class="footer-content">
-        (c) 2022, eu | academy
+       <p><a href="https://data.europa.eu/en/contact-us" target="_blank" rel="noreferrer">Contact the data.europa.eu team</a></p>
+       <p>(c) 2023, eu | academy</p>
     </div>
 </footer>
 
@@ -13,5 +14,12 @@
         max-width: 50rem;
         margin: auto;
         padding: 4rem;
+    }
+    a {
+        color: #404040;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
     }
 </style>
