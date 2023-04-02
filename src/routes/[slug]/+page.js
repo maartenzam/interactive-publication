@@ -1,4 +1,5 @@
 import pages from '$lib/data/pages.json';
+import textlengths from '$lib/data/textlengths.json'
 //import internalLinks from '$lib/data/internal_links.json'
 
 const done = 396;
@@ -43,6 +44,8 @@ export async function load({ params }) {
   })
   const relatedPages = pages.filter(d => d.title != currentPage.title).slice(0, 6)
 
+  const textlength = textlengths.find(d => d.slug == currentPage.slug).nchar
+
 	/*const incomingLinks = internalLinks.filter(d => d.to == params.slug).map(d => {
     return {fromSlug: d.from, fromTitle: pages.find(p => p.slug == d.from).title}
   })*/
@@ -62,7 +65,8 @@ export async function load({ params }) {
 		next,
 		nextTitle,
 		nextID,
-    	relatedPages
+    	relatedPages,
+		textlength
 		//incomingLinks
 	};
 }

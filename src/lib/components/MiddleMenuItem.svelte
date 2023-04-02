@@ -10,9 +10,6 @@
 	$: isOpen = module.title == $location.m1;
 	const toggle = () => (isOpen = !isOpen);
 
-	$: console.log($location)
-	$: console.log(module)
-
 </script>
 
 <li

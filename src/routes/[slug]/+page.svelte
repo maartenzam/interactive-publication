@@ -1,7 +1,7 @@
 <script>
 	//import Tag from '$lib/components/Tag.svelte';
 	import PageNavigation from '$lib/components/PageNavigation.svelte';
-	import { base } from '$app/paths';
+	//import { base } from '$app/paths';
 	import { location } from '$lib/stores/stores.js';
 	export let data;
 
@@ -33,6 +33,7 @@
 		{/if}
 	</div-->
 	<h1>{data.title}</h1>
+	<p class="reading-time">{Math.round(data.textlength/5/200) < 1.5 ? "1 minute read" : Math.round(data.textlength/5/200) + " minutes read"}</p>
 
 	<PageNavigation
 		previousSlug={data.previous}
@@ -77,6 +78,11 @@
 	h1 {
 		text-align: center;
 		margin: 3rem 0rem;
+	}
+	.reading-time {
+		text-align: center;
+		font-size: 0.9rem;
+		font-style: italic;
 	}
 	/*.tag-container {
 		margin-bottom: 1rem;
