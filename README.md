@@ -1,8 +1,8 @@
-# Data Visualisation Academy
+# Data Visualisation Guide
 
 ## Intro
 
-This repo contains the code for the Data Visualisation Academy, an online publication, knowledge base and education tool published and managed by the Publications Office of the European Commission.
+This repo contains the code for the Data Visualisation Guide, an online publication, knowledge base and education tool published and managed by the Publications Office of the European Commission.
 
 ## Developing
 
@@ -56,7 +56,7 @@ The Data Visualisation Catalog is a [SvelteKit](https://kit.svelte.dev/) applica
 
 #### TOC
 
-The table of content for the Academy is currently managed in [this Google Sheet](https://docs.google.com/spreadsheets/d/1hP54K7fcr5643k-VlTKBpRx8wU1Mom9I7gNuKhWGtbE/edit?usp=sharing) (tab 'toc'). You can fetch the latest version with 
+The table of content for the Guide is currently managed in [this Google Sheet](https://docs.google.com/spreadsheets/d/1hP54K7fcr5643k-VlTKBpRx8wU1Mom9I7gNuKhWGtbE/edit?usp=sharing) (tab 'toc'). You can fetch the latest version with 
 
 ```bash
 npm run toc

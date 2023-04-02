@@ -6,7 +6,7 @@
 
 <header>
   {#if !$isMobile}
-    <a href="{base}/" class="title">Data Visualisation Academy</a>
+    <a href="{base}/" class="title">Data Visualisation Guide</a>
   {/if}
 
   <nav style:width={$isMobile ? '100%' : 'auto'}>

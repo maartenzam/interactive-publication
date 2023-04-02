@@ -16,7 +16,7 @@
 
 <svelte:head>
     <title>{$location.type == 'home'
-		? 'Data Visualisation Academy'
+		? 'Data Visualisation Guide'
 		: $location.title
 			? $location.title 
 			: $location.m1

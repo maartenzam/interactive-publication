@@ -13,17 +13,17 @@
 </script>
 
 <div class="intro">
-	<h1>Data Visualisation Academy</h1>
+	<h1>Data Visualisation Guide</h1>
 	<h2>Find information and learn about data visualisation</h2>
 	<p>
-		The Data Visualisation Academy is both a knowledge base and an educational tool to learn about
+		The Data Visualisation Guide is both a knowledge base and an educational tool to learn about
 		data visualisation. It contains almost 400 pages about all aspects of data visualisation,
 		organised into 7 broad topics.
 	</p>
 	<p>
 		If you want to learn more about a specific topic, use the links to suggested topics below, or
-		search for a topic of interest. You can explore all pages in the Academy by navigating the table
-		of contents, or by browsing the Academy by following the sequence of pages of the page chain.
+		search for a topic of interest. You can explore all pages in the Guide by navigating the table
+		of contents, or by browsing the Guide by following the sequence of pages of the page chain.
 	</p>
 </div>
 <div
@@ -37,7 +37,7 @@
 		</div>
 		<h2>Suggested topics</h2>
 		<p>
-			Explore the topics and subtopics of the Data Visualisation Academy through the table of
+			Explore the topics and subtopics of the Data Visualisation Guide through the table of
 			content, or get started with some suggested topics.
 		</p>
 		{#if $isMobile}
@@ -63,12 +63,12 @@
 		</div>
 		<h2>String of pages</h2>
 		<p>
-			Use the Academy as a training course, and navigate through its complete content by following
+			Use the Guide as a training course, and navigate through its complete content by following
 			the string of pages.
 		</p>
 		<p>
 			These are the starting pages for the main topics. Click the link the next page on each page to
-			browse the Academy.
+			browse the Guide.
 		</p>
 		<StartingLinks />
 	</div>
@@ -79,12 +79,12 @@
 			<h2>Visual Table of Contents</h2>
 			<div class="viz-intro-text">
 				<p>
-					You can also explore the content of the Data Visualisation Academy by interacting with the
+					You can also explore the content of the Data Visualisation Guide by interacting with the
 					visualisation below. Click the sections of the inner rings of the visualisation to
 					navigate to the overview pages of the topics and subtopics, or click a circle in the outer
-					ring to navigate to a page in the Academy.
+					ring to navigate to a page in the Guide.
 				</p>
-				<div class="legend-container"><img class="legend" src={`${base}/SVG/legend.svg`} alt="Sunburst diagram that shows the structure of the table of content of the Data Visualisation Academy"/></div>
+				<div class="legend-container"><img class="legend" src={`${base}/SVG/legend.svg`} alt="Sunburst diagram that shows the structure of the table of content of the Data Visualisation Guide"/></div>
 				<p>The size of the circles representing the pages is proportional to the length of each page, and the size of the ring sections is proportional to the lenght of pages in each section.</p>
 			</div>
 		</div>
