@@ -20,11 +20,11 @@
 
 </script>
 
+<div class="module-container">
+	<div class="module"><span style:background-color={topicColors[$location.t1]}>{$location.m1}</span></div>
+</div>
 <div class="page-navigation-container" bind:clientWidth={w}>
 	<div class="previous-next-buttons">
-		<div class="module-container">
-			<div class="module"><span style:background-color={topicColors[$location.t1]}>{$location.m1}</span></div>
-		</div>
 	{#if previousSlug}
 		<a
 			href={base + '/' + previousSlug}
@@ -63,59 +63,16 @@
 		</svg>
 		{/if}
 	</div>
-
-	<!--
-	{#if modulePages2}
-	<div class="previous-next-buttons">
-		<div class="module-container">
-			<div class="module"><span style:background-color={topicColors[$location.t2]}>{$location.m2}</span></div>
-		</div>
-	{#if currentPageIndex > 0}
-		<a
-			href={base + '/' + modulePages2[currentPageIndex - 1].id}
-			class="left button"
-			style:color={topicColors[$location.t2]}>← {deslugify(modulePages2[currentPageIndex - 1].id)}</a
-		>{/if}
-	{#if currentPageIndex < modulePages2.length - 1}<a
-			href={base + '/' + modulePages2[currentPageIndex + 1].id}
-			class="right button"
-			style:color={topicColors[$location.t2]}>{deslugify(modulePages2[currentPageIndex + 1].id)} →</a
-		>{/if}
-	</div>
-	<div class="dots">
-		<svg width={w} height={50}>
-			<line
-				x1={margin}
-				x2={w - margin}
-				y1={25}
-				y2={25}
-				style:stroke={topicColors[$location.t2]}
-				stroke-width={2}
-			/>
-			{#each modulePages2 as page, i}
-				<circle
-					cx={margin + i * (w - 2*margin) / (modulePages2.length - 1)}
-					cy={25}
-					r={page.id == $location.slug ? 8 : 6}
-					stroke={page.id == $location.slug ? 'white' : topicColors[$location.t2]}
-					stroke-width={2}
-					fill={page.id == $location.slug ? topicColors[$location.t2] : 'white'}
-				/>
-			{/each}
-		</svg>
-	</div>
-	{/if}
-	-->
 </div>
 
 <style>
 	.previous-next-buttons {
-		height: 50px;
 		position: relative;
+		height: 50px;
 	}
 	.module-container {
 		width: 100%;
-		margin-top: 2rem;
+		margin-bottom: 2rem;
 	}
 	.module {
 		text-align: center;
@@ -140,6 +97,7 @@
 		line-height: 1.25rem;
 		padding: 0rem;
 		min-width: 160px;
+		max-width: 50%;
 	}
 	svg {
 		overflow: visible;

@@ -71,8 +71,8 @@
 		transition: width 1s;
 		height: 36px;
 		overflow: hidden;
-		position: sticky;
-		top: 44px;
+		/*position: sticky;
+		top: 44px;*/
 	}
 	.sidebar-toggle button {
 		width: 100%;
