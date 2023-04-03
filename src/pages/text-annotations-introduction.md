@@ -10,7 +10,7 @@ Source: [reddit.com](https://www.reddit.com/r/dataisbeautiful/comments/2o1rfe/he
 
 From the annotations in the bottom, you can read that the chart shows the heart rate of a man, in beats per minute over a 40 minutes time span. The chart is clearly showing peaks and valleys, but without more information, it is not possible to know what caused these changes in the man’s heart rate.
 
-The importance of chart titles is explained on the <span class='internal-link'>[importance of chart titles](the-importance-of-chart-titles)</span> page. Adding the original title to the chart confirms that this can help enourmously in understanding and interpreting a visualisation.
+The importance of chart titles is explained on the <span class='internal-link'>[importance of visualisation titles](the-importance-of-visualisation-titles)</span> page. Adding the original title to the chart confirms that this can help enourmously in understanding and interpreting a visualisation.
 
 ![The same chart as above, but with the title 'Heart rate (bpm) during marriage proposal'](Text%20annotations%204d77570c409249378ca558ae45eb0d67/title-only4x.png)
 

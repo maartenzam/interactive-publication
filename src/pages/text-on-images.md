@@ -1,4 +1,4 @@
-One very specific aspect of data visualsastion is that it almost always mixes graphic elements with text. In many cases the graphics are published as <span class='internal-link'>[bitmap images](bitmap-images)</span> (JPG or PNG), and the text is “baked into the graphic”: the text characters are part of the image, and are not accessible.
+One very specific aspect of data visualisation is that it almost always mixes graphic elements with text. In many cases the graphics are published as <span class='internal-link'>[bitmap images](bitmap-images)</span> (JPG or PNG), and the text is “baked into the graphic”: the text characters are part of the image, and are not accessible.
 
 All accessibility guides advice against presenting readable text as images. There are multiple arguments for this negative advice:
 

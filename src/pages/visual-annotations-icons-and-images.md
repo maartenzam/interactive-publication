@@ -12,7 +12,7 @@ Source: [Inside Man’s Best Friend, Study Says, May Lurk a Green-Eyed Monster](
 
 This reworked chart is not only more fun to look at, chances are that you will also remember the chart and its message better.
 
-The same [research](https://vcg.seas.harvard.edu/files/pfister/files/infovis_submission251-camera.pdf) that discovered <span class='internal-link'>[how important chart titles are](the-importance-of-chart-titles)</span>, also looked at the effect of adding pictograms to visualisations.
+The same [research](https://vcg.seas.harvard.edu/files/pfister/files/infovis_submission251-camera.pdf) that discovered <span class='internal-link'>[how important visualisation titles are](the-importance-of-visualisation-titles)</span>, also looked at the effect of adding pictograms to visualisations.
 
 This is one of the conclusions of the study:
 

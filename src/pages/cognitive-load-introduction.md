@@ -1,4 +1,4 @@
-In <span class='internal-link'>[Can a chart tell a story?](can-a-chart-tell-a-story)</span> a distinction is made between exploratory data visualisation (visualisations an analyst makes for herself to get a better understanding of data) and explanatory data visualisation. 
+In <span class='internal-link'>[Data communication](data-communication)</span> a distinction is made between exploratory data visualisation (visualisations an analyst makes for herself to get a better understanding of data) and explanatory data visualisation. 
 
 In explanatory data visualisation, visualisation is used as a means to transfer information and knowledge from one person to another. The visualisation creator gained some insights from a data set, and packs that insight into a visualisation so that other people can unpack the message and add the new insight to their mental model they use to make sense of the world.
 
