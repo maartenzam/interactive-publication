@@ -3,6 +3,7 @@
 	import { slugify } from '$lib/utils/slugs.js';
 	import { location, isMobile } from '$lib/stores/stores.js';
 	import { topicColors } from '$lib/styles/colors.js';
+
 </script>
 
 <nav class="breadcrumbs">
@@ -22,7 +23,7 @@
 						<a
 							href={`${base}/tag/` + slugify($location.t1)}
 							style:border-bottom={`2px solid ${topicColors[$location.t1]}`}>{$location.t1}</a
-						> >
+						>
 					</li>
 				{/if}
 			{/if}

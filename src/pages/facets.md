@@ -6,7 +6,7 @@ A small multiple version of the life expectancy versus GDP/capita bubble chart. 
 
 In the language of the Grammar of Graphics, small multiple charts are produced using **faceting**. In the example above, the `continent` variable is used to facet the plot, and as a result a small plot is created for each continent.
 
-Faceting a plot can lead to a cleaner view on the data, and better comparisons between the values of the facet variable. Important for making comparisons between small multiples is that they <span class='internal-link'>[share the same x and y scales](preserve-scales-for-comparisons)</span>share the same x and y scales. When this is not the case, like in the faceted plot below, comparisons are much harder to make.
+Faceting a plot can lead to a cleaner view on the data, and better comparisons between the values of the facet variable. Important for making comparisons between small multiples is that they <span class='internal-link'>[share the same x and y scales](preserving-scales-for-comparisons)</span>share the same x and y scales. When this is not the case, like in the faceted plot below, comparisons are much harder to make.
 
 ![The same small multiple bubble charts as above, but with independent scales for x and y](Scales,%20guides,%20facets%20and%20theming%209e76a2b3e0f343a6bdfd6888555b52ca/gapminder_facets-free.png)
 
