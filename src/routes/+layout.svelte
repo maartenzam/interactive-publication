@@ -16,17 +16,17 @@
 </script>
 
 <svelte:head>
-    <!--title>{$location.type == 'home'
+    <title>{$location.type == 'home'
 		? 'Data Visualisation Guide'
 		: $location.title
 			? $location.title 
 			: $location.m1
 				? $location.m1
-				: $location.t1}</title--> 
+				: $location.t1}</title> 
 </svelte:head>
 
 <Header />
-<!--Breadcrumbs /-->
+<Breadcrumbs />
 
 {#if !($isMobile && $location.type == 'home')}
 <div
