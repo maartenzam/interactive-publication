@@ -23,7 +23,7 @@
     header {
       height: 50px;
       padding: 1rem;
-      background: #004494;
+      background: #0E47CB;
       color: white;
       display: flex;
       flex-wrap: wrap;
