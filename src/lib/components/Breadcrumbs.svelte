@@ -23,7 +23,7 @@
 						<a
 							href={`${base}/tag/` + slugify($location.t1)}
 							style:border-bottom={`2px solid ${topicColors[$location.t1]}`}>{$location.t1}</a
-						>
+						> >
 					</li>
 				{/if}
 			{/if}
