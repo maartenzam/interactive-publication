@@ -3,6 +3,16 @@ import adapter from '@sveltejs/adapter-netlify';
 //import adapter from '@sveltejs/adapter-static';
 import { mdsvex } from 'mdsvex'
 import sveltePreprocess from 'svelte-preprocess';
+import urls from 'rehype-urls'
+
+
+function processUrl(url, node) {
+	if (node.tagName === "a") {
+		if(url.host !== "internal.site"){
+			node.properties.target = "_blank"
+		}
+	}
+}
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -17,7 +27,8 @@ const config = {
 	preprocess: [
 		sveltePreprocess(),
 		mdsvex({
-		  extensions: ['.md']
+		  extensions: ['.md'],
+		  rehypePlugins: [[urls, processUrl]]
 		})
 	  ]
 };

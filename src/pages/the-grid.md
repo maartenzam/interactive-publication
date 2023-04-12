@@ -16,13 +16,13 @@ The use of the grid started off with the layout of printed pages. Hand written b
 
 ![ ](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/Gutenberg_Bible_Lenox_Copy_New_York_Public_Library_2009._Pic_01.jpg)
 
-A Gutenberg Bible on display, Lenox Copy, New York Public Library, 2009. Picture by A GutNYC Wanderer (Kevin Eng), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.02021-12-15)
+A Gutenberg Bible on display, Lenox Copy, New York Public Library, 2009. [Picture by A GutNYC Wanderer (Kevin Eng)](https://commons.wikimedia.org/wiki/File:Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg), CC BY-SA 2.0
 
 The Gutenberg bible uses a two column grid, with consistent margins and spacing between the columns (these are called the **gutters**).
 
 ![ ](Grid%20and%20arrangement%204ba513397bf6413d900e7c2944888770/1280px-Gutenberg_Bible_Proportions.svg.png)
 
-The grid used in the design of the Gutenberg bible. Image by Nik1986, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). The outer and bottom margins are twice the size of the upper and inner margins, putting the text off center and making the pages a little bit dynamic, but well balanced.
+The grid used in the design of the Gutenberg bible. [Image by Nik1986](https://upload.wikimedia.org/wikipedia/commons/archive/d/db/20221231082426%21Gutenberg_Bible_Proportions.svg), CC BY-SA 3.0. The outer and bottom margins are twice the size of the upper and inner margins, putting the text off center and making the pages a little bit dynamic, but well balanced.
 
 In our todays digital world, it is hard to find any publication that is not using a grid in its design. Whole books have been written about the grid.
 
