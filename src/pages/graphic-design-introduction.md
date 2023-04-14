@@ -36,8 +36,7 @@ Many definitions of “graphic design” exist. In an effort to find its relevan
 
 [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/graphic-design):
 
-> The art of designing pictures and text for books, magazines, advertising, etc.
-> 
+> The art of designing pictures and text for books, magazines, advertising, etc.
 
 This is a very narrow definition, focussed on print publications. Graphic design is also a lot more than “designing pictures”.
 

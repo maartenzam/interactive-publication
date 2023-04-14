@@ -15,6 +15,8 @@
 
 </script>
 
+<svelte:window/>
+
 <svelte:head>
     <title>{$location.type == 'home'
 		? 'Data Visualisation Guide'
@@ -28,19 +30,18 @@
 <Header />
 <Breadcrumbs />
 
+<!--Toggle to open and close the sidebar-->
 {#if !($isMobile && $location.type == 'home')}
 <div
 	class={sidebarOpen ? 'sidebar-toggle open' : 'sidebar-toggle closed'}
 	style:width={sidebarOpen && !$isMobile ? '23%' : sidebarOpen && $isMobile ? '100%' : '40px'}>
 	<button on:click={() => toggleSidebar()}>
-		{#if sidebarOpen}
-		  <!--div class="toc" in:fade={{delay: 1000}} style:font-size={sidebarOpen ? '1rem' : 0}>TABLE OF CONTENTS</div-->
-		{/if}
 		<div class="hamburger"><AnimatedHamburger {sidebarOpen}></AnimatedHamburger></div>
 	</button>
 </div>
 {/if}
 
+<!--The sidebar on desktop-->
 {#if !$isMobile}
 <div class="container">
 	<div class={sidebarOpen ? 'sidebar open' : 'sidebar closed'}><AccordionMenu /></div>
@@ -50,13 +51,14 @@
 </div>
 {/if}
 
+<!--The sidebar on mobile-->
 {#if $isMobile}
 <div class="container mobile">
 	<div class={sidebarOpen ? 'content mobile open' : 'content mobile closed'}>
 		<slot />
 	</div>
 	{#if $location.type != 'home'}
-	<div class={sidebarOpen ? 'sidebar mobile open' : 'sidebar mobile closed'}><AccordionMenu bind:sidebarOpen/></div>
+		<div class={sidebarOpen ? 'sidebar mobile open' : 'sidebar mobile closed'}><AccordionMenu bind:sidebarOpen/></div>
 	{/if}
 </div>
 {/if}
@@ -121,14 +123,10 @@
 	.content.closed.mobile {
 		margin-left: 0%;
 	}
-	.toc, .hamburger {
+	.hamburger {
 		align-self: center;
 	}
 	.hamburger {
 		margin-left: 6px;
-	}
-	.toc {
-		transition-delay: 1s;
-		transition: font-size 0.25s;
 	}
 </style>
