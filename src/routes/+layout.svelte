@@ -34,7 +34,7 @@
 {#if !($isMobile && $location.type == 'home')}
 <div
 	class={sidebarOpen ? 'sidebar-toggle open' : 'sidebar-toggle closed'}
-	style:width={sidebarOpen && !$isMobile ? '23%' : sidebarOpen && $isMobile ? '100%' : '40px'}>
+	style:width={sidebarOpen && !$isMobile ? '380px' : sidebarOpen && $isMobile ? '100%' : '40px'}>
 	<button on:click={() => toggleSidebar()}>
 		<div class="hamburger"><AnimatedHamburger {sidebarOpen}></AnimatedHamburger></div>
 	</button>
@@ -87,8 +87,8 @@
 	}
 	.sidebar {
 		position: relative;
-		width: 30%;
 		transition: left 1s;
+		min-width: 380px;
 	}
 	.sidebar.mobile {
 		width: 100%;
@@ -99,7 +99,7 @@
 		display: block;
 	}
 	.sidebar.closed {
-		left: -30%;
+		left: -400px;
 	}
 	.sidebar.mobile.closed {
 		left: -100%;
@@ -115,7 +115,7 @@
 		margin-left: 0%;
 	}
 	.content.closed {
-		margin-left: -30%;
+		margin-left: -400px;
 	}
 	.content.closed.mobile {
 		margin-left: 0%;
