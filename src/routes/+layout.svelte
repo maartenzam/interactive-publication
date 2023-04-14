@@ -44,7 +44,7 @@
 <!--The sidebar on desktop-->
 {#if !$isMobile}
 <div class="container">
-	<div class={sidebarOpen ? 'sidebar open' : 'sidebar closed'}><AccordionMenu /></div>
+	<div class={sidebarOpen ? 'sidebar open' : 'sidebar closed'}><AccordionMenu/></div>
 	<div class={sidebarOpen ? 'content open' : 'content closed'}>
 		<slot />
 	</div>
@@ -73,8 +73,6 @@
 		transition: width 1s;
 		height: 36px;
 		overflow: hidden;
-		/*position: sticky;
-		top: 44px;*/
 	}
 	.sidebar-toggle button {
 		width: 100%;
@@ -91,7 +89,6 @@
 		position: relative;
 		width: 30%;
 		transition: left 1s;
-		background-color: #f5f5f5;
 	}
 	.sidebar.mobile {
 		width: 100%;
