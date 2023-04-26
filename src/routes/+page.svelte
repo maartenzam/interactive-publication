@@ -8,15 +8,19 @@
 
 	$location = { type: 'home' };
 </script>
-
-<div class="intro">
-	<h1>Data Visualisation</h1>
-	<h2>A Comprehensive Guide to Unlocking Your Data’s Potential</h2>
-	<p>This guide leads you through 7 important topics linked to data visualisation and is ordered in growing complexity. It
- starts with five topics for beginner and advanced users, followed by two topics for experienced users.
-	</p>
-	<p>There are 3 ways to explore it: use the thematic links below, search for your topic of interest, or navigate by following the sequence of pages.</p>
-</div>
+	<div class="intro">
+		<h1>Data Visualisation</h1>
+		<h2>A Comprehensive Guide to Unlocking Your Data’s Potential</h2>
+		<p>
+			This guide leads you through 7 important topics linked to data visualisation and is ordered in
+			growing complexity. It starts with five topics for beginner and advanced users, followed by
+			two topics for experienced users.
+		</p>
+		<p>
+			There are 3 ways to explore it: use the thematic links below, search for your topic of
+			interest, or navigate by following the sequence of pages.
+		</p>
+	</div>
 <div
 	class="navigation-blocks"
 	style:flex-direction={$isMobile ? 'column' : 'row'}
@@ -28,8 +32,8 @@
 		</div>
 		<h2>Suggested topics</h2>
 		<p>
-			Explore the topics and subtopics of the Data Visualisation Guide through the table of
-			content, or get started with some suggested topics.
+			Explore the topics and subtopics of the Data Visualisation Guide through the table of content,
+			or get started with some suggested topics.
 		</p>
 		{#if $isMobile}
 			<p><AccordionMenu /></p>
@@ -46,7 +50,7 @@
 			Try for example "Line charts", "Fonts", "Tools", "Colours", "Annotations" or any other term
 			related to data visualisation.
 		</p>
-		<p><SearchBar type="search-in-text"/></p>
+		<p><SearchBar type="search-in-text" /></p>
 	</div>
 	<div class="block chain">
 		<div class="icon">
@@ -54,11 +58,12 @@
 		</div>
 		<h2>Sequence of pages</h2>
 		<p>
-			Use the Guide as a training course, and navigate through its complete content by following
-			the sequence of pages.
+			Use the Guide as a training course, and navigate through its complete content by following the
+			sequence of pages.
 		</p>
 		<p>
-			Below are links to the starting pages for each of the main topics. On each page of the Guide you will find a link to the next one in the sequence.
+			Below are links to the starting pages for each of the main topics. On each page of the Guide
+			you will find a link to the next one in the sequence.
 		</p>
 		<StartingLinks />
 	</div>
@@ -66,9 +71,10 @@
 
 <style>
 	.intro {
-		text-align: center;
 		max-width: 50rem;
+		padding: 0 2rem;
 		margin: auto;
+		text-align: center;
 	}
 	.icon {
 		margin: auto;
