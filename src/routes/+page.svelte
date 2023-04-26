@@ -4,27 +4,18 @@
 	import SearchBar from '$lib/components/SearchBar.svelte';
 	import HighlightedTopics from '$lib/components/HighlightedTopics.svelte';
 	import StartingLinks from '$lib/components/StartingLinks.svelte';
-	import ForceGraph from '$lib/components/ForceGraph.svelte';
-	import pages from '$lib/data/pages.json';
-	import SunBurst from '$lib/components/SunBurst.svelte';
 	import { base } from '$app/paths';
 
 	$location = { type: 'home' };
 </script>
 
 <div class="intro">
-	<h1>Data Visualisation Guide</h1>
-	<h2>Find information and learn about data visualisation</h2>
-	<p>
-		The Data Visualisation Guide is both a knowledge base and an educational tool to learn about
-		data visualisation. It contains almost 400 pages about all aspects of data visualisation,
-		organised into 7 broad topics.
+	<h1>Data Visualisation</h1>
+	<h2>A Comprehensive Guide to Unlocking Your Data’s Potential</h2>
+	<p>This guide leads you through 7 important topics linked to data visualisation and is ordered in growing complexity. It
+ starts with five topics for beginner and advanced users, followed by two topics for experienced users.
 	</p>
-	<p>
-		If you want to learn more about a specific topic, use the links to suggested topics below, or
-		search for a topic of interest. You can explore all pages in the Guide by navigating the table
-		of contents, or by browsing the Guide by following the sequence of pages of the page chain.
-	</p>
+	<p>There are 3 ways to explore it: use the thematic links below, search for your topic of interest, or navigate by following the sequence of pages.</p>
 </div>
 <div
 	class="navigation-blocks"
@@ -61,62 +52,20 @@
 		<div class="icon">
 			<img src={`${base}/icons/chain.svg`} alt="Icon representing a sequence of linked pages" />
 		</div>
-		<h2>String of pages</h2>
+		<h2>Sequence of pages</h2>
 		<p>
 			Use the Guide as a training course, and navigate through its complete content by following
-			the string of pages.
+			the sequence of pages.
 		</p>
 		<p>
-			These are the starting pages for the main topics. Click the link the next page on each page to
-			browse the Guide.
+			Below are links to the starting pages for each of the main topics. On each page of the Guide you will find a link to the next one in the sequence.
 		</p>
 		<StartingLinks />
 	</div>
 </div>
-<!--{#if !$isMobile}
-	<div class="knowledge-graph">
-		<div class="viz-intro">
-			<h2>Visual Table of Contents</h2>
-			<div class="viz-intro-text">
-				<p>
-					You can also explore the content of the Data Visualisation Guide by interacting with the
-					visualisation below. Click the sections of the inner rings of the visualisation to
-					navigate to the overview pages of the topics and subtopics, or click a circle in the outer
-					ring to navigate to a page in the Guide.
-				</p>
-				<div class="legend-container"><img class="legend" src={`${base}/SVG/legend.svg`} alt="Sunburst diagram that shows the structure of the table of content of the Data Visualisation Guide"/></div>
-				<p>The size of the circles representing the pages is proportional to the length of each page, and the size of the ring sections is proportional to the lenght of pages in each section.</p>
-			</div>
-		</div>
-
-		<SunBurst maxLabelLevel={1} minLabelValue={18000} dots={true} />
-		<SunBurst maxLabelLevel={2} minLabelValue={18000} dots={false}></SunBurst>
-	<ForceGraph
-		pagesData={pages}
-		chargeStrength={-100}
-		labelLevel={1}
-		nodeScaling={2}
-		depth={2}
-		root={true}
-		secondaryModules={true}
-		height={800}
-	/>
-	<ForceGraph
-		pagesData={pages}
-		chargeStrength={-10}
-		labelLevel={1}
-		nodeScaling={2}
-		depth={3}
-		root={true}
-		secondaryModules={true}
-		height={800}
-	/>
-	</div>
-{/if}-->
 
 <style>
-	.intro,
-	.viz-intro-text {
+	.intro {
 		text-align: center;
 		max-width: 50rem;
 		margin: auto;
@@ -139,18 +88,5 @@
 	}
 	.block h2 {
 		text-align: center;
-	}
-	.knowledge-graph {
-		text-align: center;
-		max-width: 100rem;
-		margin: auto;
-	}
-	.legend-container {
-		width: 100%;
-	}
-	img.legend {
-		width: 300px;
-		height: 300px;
-		margin: auto;
 	}
 </style>
