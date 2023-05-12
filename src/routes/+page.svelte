@@ -8,7 +8,8 @@
 
 	$location = { type: 'home' };
 </script>
-	<div class="intro">
+	<div class={$isMobile ? "intro" : "intro desktop"}>
+		<div class="intro-text">
 		<h1>Data Visualisation</h1>
 		<h2>A Comprehensive Guide to Unlocking Your Data’s Potential</h2>
 		<p>
@@ -20,6 +21,7 @@
 			There are 3 ways to explore it: use the thematic links below, search for your topic of
 			interest, or navigate by following the sequence of pages.
 		</p>
+		</div>
 	</div>
 <div
 	class="navigation-blocks"
@@ -71,10 +73,21 @@
 
 <style>
 	.intro {
-		max-width: 50rem;
-		padding: 0 2rem;
+		min-height: 316px;
+		padding: 10px 2rem;
 		margin: auto;
 		text-align: center;
+    	background-image: url($lib/headers/header_1351x563_flipped.jpg);
+		color: white;
+		text-align: center;
+		background-size: cover;
+	}
+	.intro.desktop {
+		margin-top: -36px;
+		text-align: left;
+	}
+	.intro.desktop .intro-text {
+		max-width: 50rem;
 	}
 	.icon {
 		margin: auto;

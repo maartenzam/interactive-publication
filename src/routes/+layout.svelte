@@ -33,7 +33,11 @@
 <!--Toggle to open and close the sidebar-->
 {#if !($isMobile && $location.type == 'home')}
 <div
-	class={sidebarOpen ? 'sidebar-toggle open' : 'sidebar-toggle closed'}
+	class={sidebarOpen && !$location.type == 'home'
+		? 'sidebar-toggle open'
+			: !sidebarOpen && $location.type == 'home'
+				? 'sidebar-toggle closed home' 
+				: 'sidebar-toggle closed'}
 	style:width={sidebarOpen && !$isMobile ? '380px' : sidebarOpen && $isMobile ? '100%' : '40px'}>
 	<button on:click={() => toggleSidebar()}>
 		<div class="hamburger"><AnimatedHamburger {sidebarOpen}></AnimatedHamburger></div>
@@ -45,6 +49,9 @@
 {#if !$isMobile}
 <div class="container">
 	<div class={sidebarOpen ? 'sidebar open' : 'sidebar closed'}><AccordionMenu/></div>
+	{#if $location.type == 'home'}
+	<div class={sidebarOpen ? 'filler open' : 'filler closed'}></div>
+	{/if}
 	<div class={sidebarOpen ? 'content open' : 'content closed'}>
 		<slot />
 	</div>
@@ -80,10 +87,16 @@
 		border: none;
 		text-align: right;
 		padding: 0.5rem;
-		background-color: #f5f5f5;
+		transition: background-color 1s;
 		display: flex;
 		justify-content: flex-end;
 		flex-wrap: wrap;
+	}
+	.sidebar-toggle.open button{
+		background-color: #f5f5f5;
+	}
+	.sidebar-toggle.closed.home button {
+		background-color: #0C1F7C;
 	}
 	.sidebar {
 		position: relative;
@@ -107,6 +120,22 @@
 	.sidebar.mobile.open {
 		left: 0%;
 	}
+	.filler {
+		position: absolute;
+		transition: opacity 1s, left 1s;
+		top: 127px;
+		width: 40px;
+		height: 280px;
+		background-color: #0C1F7C;
+	}
+	.filler.open {
+		opacity: 0;
+		left: -40px;
+	}
+	.filler.closed {
+		opacity: 1;
+		left: 0px;
+	}
 	.content {
 		width: 100%;
 		transition: margin-left 1s;
@@ -115,7 +144,7 @@
 		margin-left: 0%;
 	}
 	.content.closed {
-		margin-left: -400px;
+		margin-left: -340px;
 	}
 	.content.closed.mobile {
 		margin-left: 0%;
